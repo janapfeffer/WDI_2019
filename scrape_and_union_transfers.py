@@ -33,7 +33,7 @@ for url in urls:
     else:
         transfers = pd.concat([transfers, df])
 
-transfers.drop(transfers['year'] == 'Liga Nos')
+transfers = transfers[transfers['year'] != 'Liga Nos']
 transfers = transfers[['club_name', 'player_name', 'age', 'position', 'club_involved_name',
        'fee', 'transfer_movement', 'fee_cleaned', 'league_name', 'year',
        'season']]
