@@ -1,0 +1,78 @@
+{
+  "$schema": "http://json-schema.org/draft-04/schema#",
+  "type": "array",
+  "items": {
+    "$ref": "#/definitions/object_01"
+  },
+  "definitions": {
+    "object_01": {
+      "type": "object",
+      "required": [
+        "code",
+        "message",
+        "data"
+      ],
+      "additionalProperties": false,
+      "properties": {
+        "code": {
+          "type": "number"
+        },
+        "message": {
+          "type": "string"
+        },
+        "data": {
+          "type": "array",
+          "title": "data",
+          "items": {
+            "type": "object",
+            "required": [
+              "recordId",
+              "playerId",
+              "transferTime",
+              "fromTeam",
+              "fromTeamId",
+              "toTeam",
+              "toTeamId",
+              "money",
+              "season",
+              "type"
+            ],
+            "additionalProperties": false,
+            "properties": {
+              "recordId": {
+                "type": "string"
+              },
+              "playerId": {
+                "type": "string"
+              },
+              "transferTime": {
+                "type": "number"
+              },
+              "fromTeam": {
+                "type": "string"
+              },
+              "fromTeamId": {
+                "type": "string"
+              },
+              "toTeam": {
+                "type": "string"
+              },
+              "toTeamId": {
+                "type": "string"
+              },
+              "money": {
+                "type": "number"
+              },
+              "season": {
+                "type": "string"
+              },
+              "type": {
+                "type": "string"
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,72 @@
+{
+  "$schema": "http://json-schema.org/draft-04/schema#",
+  "type": "array",
+  "items": {
+    "type": "object",
+    "required": [
+      "recordId",
+      "playerId",
+      "name",
+      "birthday",
+      "height",
+      "country",
+      "feet",
+      "weight",
+      "photo",
+      "value",
+      "teamId",
+      "position",
+      "number",
+      "introduce",
+      "contractEndDate"
+    ],
+    "additionalProperties": false,
+    "properties": {
+      "recordId": {
+        "type": "string"
+      },
+      "playerId": {
+        "type": "string"
+      },
+      "name": {
+        "type": "string"
+      },
+      "birthday": {
+        "type": "string"
+      },
+      "height": {
+        "type": "number"
+      },
+      "country": {
+        "type": "string"
+      },
+      "feet": {
+        "type": "string"
+      },
+      "weight": {
+        "type": "number"
+      },
+      "photo": {
+        "type": "string"
+      },
+      "value": {
+        "type": "number"
+      },
+      "teamId": {
+        "type": "string"
+      },
+      "position": {
+        "type": "string"
+      },
+      "number": {
+        "type": "number"
+      },
+      "introduce": {
+        "type": "string"
+      },
+      "contractEndDate": {
+        "type": "string"
+      }
+    }
+  }
+}
