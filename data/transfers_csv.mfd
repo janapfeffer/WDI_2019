@@ -16,7 +16,7 @@
 						<datapoint pos="0" key="3"/>
 						<datapoint pos="1" key="4"/>
 					</targets>
-					<view ltx="750" lty="235" rbx="868" rby="289"/>
+					<view ltx="750" lty="235" rbx="856" rby="287"/>
 				</component>
 				<component name="Rows" library="core" uid="10" kind="3">
 					<properties/>
@@ -28,7 +28,7 @@
 						<datapoint pos="0" key="8"/>
 						<datapoint/>
 					</targets>
-					<view ltx="521" lty="236" rbx="634" rby="290"/>
+					<view ltx="521" lty="236" rbx="621" rby="288"/>
 				</component>
 				<component name="logical-and" library="core" uid="31" kind="5" growable="1" growablebasename="value">
 					<properties/>
@@ -39,7 +39,7 @@
 					<targets>
 						<datapoint pos="0" key="41"/>
 					</targets>
-					<view ltx="396" lty="234" rbx="481" rby="290"/>
+					<view ltx="396" lty="234" rbx="473" rby="288"/>
 				</component>
 				<component name="not-equal" library="core" uid="33" kind="5">
 					<properties/>
@@ -50,14 +50,14 @@
 					<targets>
 						<datapoint pos="0" key="38"/>
 					</targets>
-					<view ltx="275" lty="237" rbx="353" rby="291"/>
+					<view ltx="275" lty="237" rbx="345" rby="289"/>
 				</component>
 				<component name="constant" library="core" uid="26" kind="2">
 					<properties/>
 					<targets>
 						<datapoint pos="0" key="35"/>
 					</targets>
-					<view ltx="192" lty="272" rbx="234" rby="289"/>
+					<view ltx="192" lty="272" rbx="232" rby="288"/>
 					<data>
 						<constant datatype="string"/>
 					</data>
@@ -71,14 +71,14 @@
 					<targets>
 						<datapoint pos="0" key="11"/>
 					</targets>
-					<view ltx="275" lty="319" rbx="331" rby="373"/>
+					<view ltx="275" lty="319" rbx="326" rby="371"/>
 				</component>
 				<component name="constant" library="core" uid="15" kind="2">
 					<properties/>
 					<targets>
 						<datapoint pos="0" key="5"/>
 					</targets>
-					<view ltx="175" lty="301" rbx="227" rby="318"/>
+					<view ltx="175" lty="301" rbx="223" rby="317"/>
 					<data>
 						<constant value="in" datatype="string"/>
 					</data>
@@ -87,7 +87,7 @@
 					<properties XSLTTargetEncoding="UTF-8" XSLTDefaultOutput="1"/>
 					<view ltx="1052" lty="224" rbx="1359" rby="631"/>
 					<data>
-						<root scrollposition="1">
+						<root>
 							<header>
 								<namespaces>
 									<namespace/>
@@ -125,7 +125,7 @@
 					<properties/>
 					<view ltx="20" lty="334" rbx="195" rby="551"/>
 					<data>
-						<root scrollposition="1">
+						<root>
 							<header>
 								<namespaces>
 									<namespace/>
@@ -168,17 +168,17 @@
 					<properties/>
 					<sources>
 						<datapoint/>
-						<datapoint/>
+						<datapoint pos="1" key="75"/>
 						<datapoint/>
 						<datapoint/>
 					</sources>
 					<targets>
 						<datapoint pos="0" key="70"/>
 					</targets>
-					<view ltx="861" lty="136" rbx="1003" rby="222"/>
+					<view ltx="861" lty="136" rbx="988" rby="220"/>
 				</component>
 				<component name="Calculate Date of Birth" library="user" uid="75" kind="19" visible="0" blackbox="0">
-					<view ltx="292" lty="469" rbx="424" rby="503"/>
+					<view ltx="292" lty="469" rbx="419" rby="502"/>
 					<data>
 						<root>
 							<header>
@@ -198,6 +198,16 @@
 							<entry name="dateOfBirth" outkey="73" componentid="74"/>
 							<entry name="Year" outkey="74" componentid="73"/>
 						</root>
+					</data>
+				</component>
+				<component name="constant" library="core" uid="76" kind="2">
+					<properties/>
+					<targets>
+						<datapoint pos="0" key="76"/>
+					</targets>
+					<view ltx="702" lty="127" rbx="773" rby="143"/>
+					<data>
+						<constant value="4000000" datatype="decimal"/>
 					</data>
 				</component>
 			</children>
@@ -296,13 +306,17 @@
 							<edge vertexkey="72"/>
 						</edges>
 					</vertex>
+					<vertex vertexkey="76">
+						<edges>
+							<edge vertexkey="75"/>
+						</edges>
+					</vertex>
 				</vertices>
 			</graph>
 		</structure>
 	</component>
 	<component name="Calculate Date of Birth" library="user" uid="59" inline="1" editable="1" blackbox="0">
 		<properties/>
-		<description/>
 		<structure>
 			<children>
 				<component name="constant" library="core" uid="60" kind="2">
