@@ -74,7 +74,7 @@
 						<datapoint pos="0" key="27"/>
 						<datapoint/>
 					</targets>
-					<view ltx="1171" lty="340" rbx="1269" rby="390"/>
+					<view ltx="1171" lty="340" rbx="1275" rby="393"/>
 				</component>
 				<component name="equal" library="core" uid="12" kind="5">
 					<properties/>
@@ -85,7 +85,7 @@
 					<targets>
 						<datapoint pos="0" key="30"/>
 					</targets>
-					<view ltx="993" lty="363" rbx="1043" rby="413"/>
+					<view ltx="993" lty="363" rbx="1045" rby="416"/>
 				</component>
 				<component name="auto-number" library="core" uid="19" kind="5">
 					<properties/>
@@ -98,154 +98,17 @@
 					<targets>
 						<datapoint pos="0" key="43"/>
 					</targets>
-					<view ltx="768" lty="-16" rbx="892" rby="64"/>
+					<view ltx="768" lty="-16" rbx="898" rby="69"/>
 				</component>
 				<component name="constant" library="core" uid="23" kind="2">
 					<properties/>
 					<targets>
 						<datapoint pos="0" key="44"/>
 					</targets>
-					<view ltx="590" lty="-15" rbx="660" rby="1"/>
+					<view ltx="590" lty="-15" rbx="663" rby="2"/>
 					<data>
 						<constant value="3000000" datatype="decimal"/>
 					</data>
-				</component>
-				<component name="divide" library="core" uid="30" kind="5">
-					<properties/>
-					<sources>
-						<datapoint pos="0" key="52"/>
-						<datapoint pos="1" key="53"/>
-					</sources>
-					<targets>
-						<datapoint pos="0" key="57"/>
-					</targets>
-					<view ltx="883" lty="540" rbx="953" rby="590"/>
-				</component>
-				<component name="constant" library="core" uid="31" kind="2">
-					<properties/>
-					<targets>
-						<datapoint pos="0" key="54"/>
-					</targets>
-					<view ltx="787" lty="635" rbx="829" rby="651"/>
-					<data>
-						<constant value="60" datatype="decimal"/>
-					</data>
-				</component>
-				<component name="divide" library="core" uid="32" kind="5">
-					<properties/>
-					<sources>
-						<datapoint pos="0" key="55"/>
-						<datapoint pos="1" key="56"/>
-					</sources>
-					<targets>
-						<datapoint pos="0" key="60"/>
-					</targets>
-					<view ltx="1006" lty="576" rbx="1076" rby="626"/>
-				</component>
-				<component name="constant" library="core" uid="34" kind="2">
-					<properties/>
-					<targets>
-						<datapoint pos="0" key="61"/>
-					</targets>
-					<view ltx="1046" lty="660" rbx="1088" rby="676"/>
-					<data>
-						<constant value="24" datatype="decimal"/>
-					</data>
-				</component>
-				<component name="constant" library="core" uid="40" kind="2">
-					<properties/>
-					<targets>
-						<datapoint pos="0" key="67"/>
-					</targets>
-					<view ltx="1236" lty="611" rbx="1281" rby="627"/>
-					<data>
-						<constant value="P" datatype="string"/>
-					</data>
-				</component>
-				<component name="constant" library="core" uid="43" kind="2">
-					<properties/>
-					<targets>
-						<datapoint pos="0" key="68"/>
-					</targets>
-					<view ltx="1320" lty="660" rbx="1366" rby="676"/>
-					<data>
-						<constant value="D" datatype="string"/>
-					</data>
-				</component>
-				<component name="constant" library="core" uid="37" kind="2">
-					<properties/>
-					<targets>
-						<datapoint pos="0" key="63"/>
-					</targets>
-					<view ltx="1111" lty="560" rbx="1196" rby="576"/>
-					<data>
-						<constant value="1970-01-01" datatype="anySimpleType"/>
-					</data>
-				</component>
-				<component name="parse-date" library="core" uid="48" kind="5">
-					<properties/>
-					<sources>
-						<datapoint pos="0" key="80"/>
-						<datapoint pos="1" key="81"/>
-					</sources>
-					<targets>
-						<datapoint pos="0" key="82"/>
-					</targets>
-					<view ltx="1320" lty="500" rbx="1395" rby="550"/>
-				</component>
-				<component name="concat" library="core" uid="45" kind="5" growable="1" growablebasename="value">
-					<properties/>
-					<sources>
-						<datapoint pos="0" key="69"/>
-						<datapoint/>
-						<datapoint pos="2" key="71"/>
-					</sources>
-					<targets>
-						<datapoint/>
-					</targets>
-					<view ltx="1403" lty="610" rbx="1481" rby="675"/>
-				</component>
-				<component name="divide" library="core" uid="33" kind="5">
-					<properties/>
-					<sources>
-						<datapoint pos="0" key="59"/>
-						<datapoint pos="1" key="58"/>
-					</sources>
-					<targets>
-						<datapoint pos="0" key="62"/>
-					</targets>
-					<view ltx="1111" lty="588" rbx="1181" rby="638"/>
-				</component>
-				<component name="constant" library="core" uid="49" kind="2">
-					<properties/>
-					<targets>
-						<datapoint pos="0" key="79"/>
-					</targets>
-					<view ltx="1144" lty="501" rbx="1268" rby="517"/>
-					<data>
-						<constant value="[YYYY]-[MM]-[DD]" datatype="string"/>
-					</data>
-				</component>
-				<component name="number" library="core" uid="28" kind="5">
-					<properties/>
-					<sources>
-						<datapoint/>
-					</sources>
-					<targets>
-						<datapoint pos="0" key="51"/>
-					</targets>
-					<view ltx="715" lty="576" rbx="775" rby="611"/>
-				</component>
-				<component name="datetime-add" library="lang" uid="42" kind="5" growable="1" growablebasename="duration">
-					<properties/>
-					<sources>
-						<datapoint pos="0" key="73"/>
-						<datapoint pos="1" key="74"/>
-					</sources>
-					<targets>
-						<datapoint/>
-					</targets>
-					<view ltx="1470" lty="501" rbx="1558" rby="551"/>
 				</component>
 				<component name="TargetPlayer" library="xml" uid="3" kind="14">
 					<properties XSLTTargetEncoding="UTF-8" XSLTDefaultOutput="1"/>
@@ -277,7 +140,9 @@
 													<entry name="ClubOut" expanded="1">
 														<entry name="name" inpkey="19"/>
 													</entry>
-													<entry name="ClubIn" expanded="1"/>
+													<entry name="ClubIn" expanded="1">
+														<entry name="name" inpkey="95"/>
+													</entry>
 													<entry name="Year" inpkey="31"/>
 												</entry>
 											</entry>
@@ -289,9 +154,72 @@
 						<document schema="TargetPlayer.xsd" outputinstance="TargetPlayer.xml" instanceroot="{}Players"/>
 					</data>
 				</component>
-				<component name="TransferAPI" library="json" uid="14" kind="31">
+				<component name="add" library="core" uid="59" kind="5" growable="1" growablebasename="value">
 					<properties/>
-					<view ltx="407" lty="390" rbx="601" rby="590"/>
+					<sources>
+						<datapoint pos="0" key="83"/>
+						<datapoint pos="1" key="90"/>
+					</sources>
+					<targets>
+						<datapoint pos="0" key="84"/>
+					</targets>
+					<view ltx="1118" lty="517" rbx="1194" rby="570"/>
+				</component>
+				<component name="constant" library="core" uid="64" kind="2">
+					<properties/>
+					<targets>
+						<datapoint pos="0" key="85"/>
+					</targets>
+					<view ltx="1208" lty="574" rbx="1246" rby="591"/>
+					<data>
+						<constant value="0" datatype="decimal"/>
+					</data>
+				</component>
+				<component name="round-precision" library="core" uid="63" kind="5">
+					<properties/>
+					<sources>
+						<datapoint pos="0" key="86"/>
+						<datapoint pos="1" key="87"/>
+					</sources>
+					<targets>
+						<datapoint pos="0" key="88"/>
+					</targets>
+					<view ltx="1294" lty="516" rbx="1395" rby="569"/>
+				</component>
+				<component name="constant" library="core" uid="57" kind="2">
+					<properties/>
+					<targets>
+						<datapoint pos="0" key="89"/>
+					</targets>
+					<view ltx="1034" lty="537" rbx="1090" rby="554"/>
+					<data>
+						<constant value="1970" datatype="decimal"/>
+					</data>
+				</component>
+				<component name="constant" library="core" uid="65" kind="2">
+					<properties/>
+					<targets>
+						<datapoint pos="0" key="91"/>
+					</targets>
+					<view ltx="629" lty="574" rbx="707" rby="591"/>
+					<data>
+						<constant value="31536000" datatype="decimal"/>
+					</data>
+				</component>
+				<component name="divide" library="core" uid="67" kind="5">
+					<properties/>
+					<sources>
+						<datapoint pos="0" key="92"/>
+						<datapoint pos="1" key="93"/>
+					</sources>
+					<targets>
+						<datapoint pos="0" key="94"/>
+					</targets>
+					<view ltx="753" lty="537" rbx="829" rby="590"/>
+				</component>
+				<component name="TransferAPI" library="json" uid="14" kind="31">
+					<properties XSLTTargetEncoding="UTF-8"/>
+					<view ltx="407" lty="390" rbx="618" rby="658"/>
 					<data>
 						<root>
 							<header>
@@ -317,7 +245,9 @@
 														<entry name="string" outkey="34"/>
 													</entry>
 													<entry name="fromTeamId" type="json-property" expanded="1"/>
-													<entry name="toTeam" type="json-property" expanded="1"/>
+													<entry name="toTeam" type="json-property" expanded="1">
+														<entry name="string" outkey="96"/>
+													</entry>
 													<entry name="toTeamId" type="json-property" expanded="1"/>
 													<entry name="money" type="json-property" expanded="1"/>
 													<entry name="season" type="json-property" expanded="1"/>
@@ -406,7 +336,7 @@
 							<edge vertexkey="29"/>
 						</edges>
 					</vertex>
-					<vertex vertexkey="45">
+					<vertex vertexkey="88">
 						<edges>
 							<edge vertexkey="31"/>
 						</edges>
@@ -421,60 +351,39 @@
 							<edge vertexkey="42"/>
 						</edges>
 					</vertex>
-					<vertex vertexkey="51">
+					<vertex vertexkey="89">
 						<edges>
-							<edge vertexkey="52"/>
+							<edge vertexkey="83"/>
 						</edges>
 					</vertex>
-					<vertex vertexkey="54">
+					<vertex vertexkey="84">
 						<edges>
-							<edge vertexkey="53"/>
-							<edge vertexkey="56"/>
+							<edge vertexkey="86"/>
 						</edges>
 					</vertex>
-					<vertex vertexkey="57">
+					<vertex vertexkey="85">
 						<edges>
-							<edge vertexkey="55"/>
+							<edge vertexkey="87"/>
 						</edges>
 					</vertex>
-					<vertex vertexkey="61">
+					<vertex vertexkey="94">
 						<edges>
-							<edge vertexkey="58"/>
+							<edge vertexkey="90"/>
 						</edges>
 					</vertex>
-					<vertex vertexkey="60">
+					<vertex vertexkey="45">
 						<edges>
-							<edge vertexkey="59"/>
+							<edge vertexkey="92"/>
 						</edges>
 					</vertex>
-					<vertex vertexkey="67">
+					<vertex vertexkey="91">
 						<edges>
-							<edge vertexkey="69"/>
+							<edge vertexkey="93"/>
 						</edges>
 					</vertex>
-					<vertex vertexkey="68">
+					<vertex vertexkey="96">
 						<edges>
-							<edge vertexkey="71"/>
-						</edges>
-					</vertex>
-					<vertex vertexkey="82">
-						<edges>
-							<edge vertexkey="73"/>
-						</edges>
-					</vertex>
-					<vertex vertexkey="62">
-						<edges>
-							<edge vertexkey="74"/>
-						</edges>
-					</vertex>
-					<vertex vertexkey="63">
-						<edges>
-							<edge vertexkey="80"/>
-						</edges>
-					</vertex>
-					<vertex vertexkey="79">
-						<edges>
-							<edge vertexkey="81"/>
+							<edge vertexkey="95"/>
 						</edges>
 					</vertex>
 				</vertices>
