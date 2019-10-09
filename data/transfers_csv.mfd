@@ -16,7 +16,7 @@
 						<datapoint pos="0" key="3"/>
 						<datapoint pos="1" key="4"/>
 					</targets>
-					<view ltx="750" lty="235" rbx="856" rby="287"/>
+					<view ltx="750" lty="235" rbx="850" rby="285"/>
 				</component>
 				<component name="Rows" library="core" uid="10" kind="3">
 					<properties/>
@@ -28,7 +28,7 @@
 						<datapoint pos="0" key="8"/>
 						<datapoint/>
 					</targets>
-					<view ltx="521" lty="236" rbx="621" rby="288"/>
+					<view ltx="521" lty="236" rbx="619" rby="286"/>
 				</component>
 				<component name="logical-and" library="core" uid="31" kind="5" growable="1" growablebasename="value">
 					<properties/>
@@ -39,7 +39,7 @@
 					<targets>
 						<datapoint pos="0" key="41"/>
 					</targets>
-					<view ltx="396" lty="234" rbx="473" rby="288"/>
+					<view ltx="396" lty="234" rbx="471" rby="284"/>
 				</component>
 				<component name="not-equal" library="core" uid="33" kind="5">
 					<properties/>
@@ -50,7 +50,7 @@
 					<targets>
 						<datapoint pos="0" key="38"/>
 					</targets>
-					<view ltx="275" lty="237" rbx="345" rby="289"/>
+					<view ltx="275" lty="237" rbx="344" rby="287"/>
 				</component>
 				<component name="constant" library="core" uid="26" kind="2">
 					<properties/>
@@ -71,7 +71,7 @@
 					<targets>
 						<datapoint pos="0" key="11"/>
 					</targets>
-					<view ltx="275" lty="319" rbx="326" rby="371"/>
+					<view ltx="275" lty="319" rbx="325" rby="369"/>
 				</component>
 				<component name="constant" library="core" uid="15" kind="2">
 					<properties/>
@@ -175,10 +175,20 @@
 					<targets>
 						<datapoint pos="0" key="70"/>
 					</targets>
-					<view ltx="861" lty="136" rbx="988" rby="220"/>
+					<view ltx="861" lty="136" rbx="985" rby="216"/>
+				</component>
+				<component name="constant" library="core" uid="76" kind="2">
+					<properties/>
+					<targets>
+						<datapoint pos="0" key="76"/>
+					</targets>
+					<view ltx="702" lty="127" rbx="772" rby="143"/>
+					<data>
+						<constant value="4000000" datatype="decimal"/>
+					</data>
 				</component>
 				<component name="Calculate Date of Birth" library="user" uid="75" kind="19" visible="0" blackbox="0">
-					<view ltx="292" lty="469" rbx="419" rby="502"/>
+					<view ltx="292" lty="469" rbx="418" rby="502"/>
 					<data>
 						<root>
 							<header>
@@ -195,19 +205,9 @@
 									<namespace/>
 								</namespaces>
 							</header>
-							<entry name="dateOfBirth" outkey="73" componentid="74"/>
 							<entry name="Year" outkey="74" componentid="73"/>
+							<entry name="dateOfBirth" outkey="73" componentid="74"/>
 						</root>
-					</data>
-				</component>
-				<component name="constant" library="core" uid="76" kind="2">
-					<properties/>
-					<targets>
-						<datapoint pos="0" key="76"/>
-					</targets>
-					<view ltx="702" lty="127" rbx="773" rby="143"/>
-					<data>
-						<constant value="4000000" datatype="decimal"/>
 					</data>
 				</component>
 			</children>
@@ -319,121 +319,6 @@
 		<properties/>
 		<structure>
 			<children>
-				<component name="constant" library="core" uid="60" kind="2">
-					<properties/>
-					<targets>
-						<datapoint pos="0" key="17"/>
-					</targets>
-					<view ltx="623" lty="10" rbx="695" rby="27"/>
-					<data>
-						<constant value="01.01." datatype="string"/>
-					</data>
-				</component>
-				<component name="concat" library="core" uid="61" kind="5" growable="1" growablebasename="value">
-					<properties/>
-					<sources>
-						<datapoint pos="0" key="18"/>
-						<datapoint pos="1" key="14"/>
-					</sources>
-					<targets>
-						<datapoint pos="0" key="19"/>
-					</targets>
-					<view ltx="733" rbx="815" rby="56"/>
-				</component>
-				<component name="constant" library="core" uid="62" kind="2">
-					<properties/>
-					<targets>
-						<datapoint pos="0" key="10"/>
-					</targets>
-					<view ltx="732" lty="79" rbx="854" rby="96"/>
-					<data>
-						<constant value="[DD].[MM].[YYYY]" datatype="string"/>
-					</data>
-				</component>
-				<component name="parse-date" library="core" uid="63" kind="5">
-					<properties/>
-					<sources>
-						<datapoint pos="0" key="20"/>
-						<datapoint pos="1" key="11"/>
-					</sources>
-					<targets>
-						<datapoint pos="0" key="22"/>
-					</targets>
-					<view ltx="831" rbx="914" rby="54"/>
-				</component>
-				<component name="constant" library="core" uid="64" kind="2">
-					<properties/>
-					<targets>
-						<datapoint pos="0" key="2"/>
-					</targets>
-					<view ltx="300" lty="168" rbx="357" rby="185"/>
-					<data>
-						<constant value="NA" datatype="string"/>
-					</data>
-				</component>
-				<component name="constant" library="core" uid="65" kind="2">
-					<properties/>
-					<targets>
-						<datapoint pos="0" key="4"/>
-					</targets>
-					<view ltx="300" lty="207" rbx="348" rby="224"/>
-					<data>
-						<constant value="0" datatype="string"/>
-					</data>
-				</component>
-				<component name="distinct-values" library="core" uid="66" kind="5">
-					<properties/>
-					<sources>
-						<datapoint pos="0" key="23"/>
-					</sources>
-					<targets>
-						<datapoint pos="0" key="21"/>
-					</targets>
-					<view ltx="941" lty="10" rbx="1042" rby="48"/>
-				</component>
-				<component name="translate" library="core" uid="67" kind="5">
-					<properties/>
-					<sources>
-						<datapoint pos="0" key="1"/>
-						<datapoint pos="1" key="3"/>
-						<datapoint pos="2" key="5"/>
-					</sources>
-					<targets>
-						<datapoint pos="0" key="6"/>
-					</targets>
-					<view ltx="412" lty="141" rbx="497" rby="211"/>
-				</component>
-				<component name="number" library="core" uid="68" kind="5">
-					<properties/>
-					<sources>
-						<datapoint pos="0" key="12"/>
-					</sources>
-					<targets>
-						<datapoint pos="0" key="8"/>
-					</targets>
-					<view ltx="413" lty="79" rbx="480" rby="117"/>
-				</component>
-				<component name="subtract" library="core" uid="69" kind="5" growable="1" growablebasename="value">
-					<properties/>
-					<sources>
-						<datapoint pos="0" key="9"/>
-						<datapoint pos="1" key="16"/>
-					</sources>
-					<targets>
-						<datapoint pos="0" key="13"/>
-					</targets>
-					<view ltx="529" lty="10" rbx="611" rby="66"/>
-				</component>
-				<component name="number" library="core" uid="70" kind="5">
-					<properties/>
-					<sources>
-						<datapoint pos="0" key="7"/>
-					</sources>
-					<targets>
-						<datapoint pos="0" key="15"/>
-					</targets>
-					<view ltx="412" lty="5" rbx="479" rby="43"/>
-				</component>
 				<component name="arg" library="core" uid="71" kind="6">
 					<properties/>
 					<sources>
@@ -442,7 +327,7 @@
 					<targets>
 						<datapoint pos="0" key="24"/>
 					</targets>
-					<view rbx="74" rby="38"/>
+					<view rbx="62" rby="35"/>
 					<data>
 						<input datatype="string"/>
 						<parameter usageKind="input" name="arg"/>
@@ -456,29 +341,144 @@
 					<targets>
 						<datapoint pos="0" key="25"/>
 					</targets>
-					<view lty="50" rbx="84" rby="88"/>
+					<view lty="50" rbx="72" rby="85"/>
 					<data>
 						<input datatype="string"/>
 						<parameter usageKind="input" name="value"/>
 					</data>
+				</component>
+				<component name="translate" library="core" uid="67" kind="5">
+					<properties/>
+					<sources>
+						<datapoint pos="0" key="1"/>
+						<datapoint pos="1" key="3"/>
+						<datapoint pos="2" key="5"/>
+					</sources>
+					<targets>
+						<datapoint pos="0" key="6"/>
+					</targets>
+					<view ltx="260" lty="105" rbx="332" rby="170"/>
+				</component>
+				<component name="constant" library="core" uid="64" kind="2">
+					<properties/>
+					<targets>
+						<datapoint pos="0" key="2"/>
+					</targets>
+					<view ltx="138" lty="135" rbx="192" rby="151"/>
+					<data>
+						<constant value="NA" datatype="string"/>
+					</data>
+				</component>
+				<component name="constant" library="core" uid="65" kind="2">
+					<properties/>
+					<targets>
+						<datapoint pos="0" key="4"/>
+					</targets>
+					<view ltx="138" lty="154" rbx="183" rby="170"/>
+					<data>
+						<constant value="0" datatype="string"/>
+					</data>
+				</component>
+				<component name="number" library="core" uid="70" kind="5">
+					<properties/>
+					<sources>
+						<datapoint pos="0" key="7"/>
+					</sources>
+					<targets>
+						<datapoint pos="0" key="15"/>
+					</targets>
+					<view ltx="399" lty="115" rbx="459" rby="150"/>
+				</component>
+				<component name="number" library="core" uid="68" kind="5">
+					<properties/>
+					<sources>
+						<datapoint pos="0" key="12"/>
+					</sources>
+					<targets>
+						<datapoint pos="0" key="8"/>
+					</targets>
+					<view ltx="261" lty="1" rbx="321" rby="36"/>
 				</component>
 				<component name="Year" library="core" uid="73" kind="7">
 					<properties/>
 					<sources>
 						<datapoint pos="0" key="26"/>
 					</sources>
-					<view ltx="1142" lty="50" rbx="1190" rby="88"/>
+					<view ltx="473" lty="1" rbx="518" rby="36"/>
 					<data>
 						<output datatype="decimal"/>
 						<parameter usageKind="output" name="Year"/>
 					</data>
+				</component>
+				<component name="concat" library="core" uid="61" kind="5" growable="1" growablebasename="value">
+					<properties/>
+					<sources>
+						<datapoint pos="0" key="18"/>
+						<datapoint pos="1" key="14"/>
+					</sources>
+					<targets>
+						<datapoint pos="0" key="19"/>
+					</targets>
+					<view ltx="732" lty="104" rbx="802" rby="154"/>
+				</component>
+				<component name="subtract" library="core" uid="69" kind="5" growable="1" growablebasename="value">
+					<properties/>
+					<sources>
+						<datapoint pos="0" key="9"/>
+						<datapoint pos="1" key="16"/>
+					</sources>
+					<targets>
+						<datapoint pos="0" key="13"/>
+					</targets>
+					<view ltx="528" lty="105" rbx="598" rby="155"/>
+				</component>
+				<component name="constant" library="core" uid="60" kind="2">
+					<properties/>
+					<targets>
+						<datapoint pos="0" key="17"/>
+					</targets>
+					<view ltx="636" lty="79" rbx="703" rby="95"/>
+					<data>
+						<constant value="01.01." datatype="string"/>
+					</data>
+				</component>
+				<component name="constant" library="core" uid="62" kind="2">
+					<properties/>
+					<targets>
+						<datapoint pos="0" key="10"/>
+					</targets>
+					<view ltx="732" lty="205" rbx="852" rby="221"/>
+					<data>
+						<constant value="[DD].[MM].[YYYY]" datatype="string"/>
+					</data>
+				</component>
+				<component name="parse-date" library="core" uid="63" kind="5">
+					<properties/>
+					<sources>
+						<datapoint pos="0" key="20"/>
+						<datapoint pos="1" key="11"/>
+					</sources>
+					<targets>
+						<datapoint pos="0" key="22"/>
+					</targets>
+					<view ltx="883" lty="104" rbx="958" rby="154"/>
+				</component>
+				<component name="distinct-values" library="core" uid="66" kind="5">
+					<properties/>
+					<sources>
+						<datapoint pos="0" key="23"/>
+					</sources>
+					<targets>
+						<datapoint pos="0" key="21"/>
+					</targets>
+					<view ltx="999" lty="115" rbx="1089" rby="150"/>
 				</component>
 				<component name="dateOfBirth" library="core" uid="74" kind="7">
 					<properties/>
 					<sources>
 						<datapoint pos="0" key="27"/>
 					</sources>
-					<view ltx="1142" rbx="1231" rby="38"/>
+					<view ltx="1134" lty="114" rbx="1212" rby="149"/>
 					<data>
 						<output datatype="string"/>
 						<parameter usageKind="output" name="dateOfBirth"/>
