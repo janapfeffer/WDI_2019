@@ -11,7 +11,7 @@ import de.uni_mannheim.informatik.dws.winter.utils.WinterLogManager;
 import identityresolution_models.Player;
 import identityresolution_models.PlayerXMLReader;
 
-public class IR_FIFA_ESD {
+public class IR_FIFA_API {
 	
 	private static final Logger logger = WinterLogManager.activateLogger("default");
 	
@@ -21,9 +21,9 @@ public class IR_FIFA_ESD {
 			HashedDataSet<Player, Attribute> dataFIFA = new HashedDataSet<>();
 			new PlayerXMLReader().loadFromXML(new File("data/input/FIFA19 target schema.xml"), "/Players/Player", 
 					dataFIFA);
-			HashedDataSet<Player, Attribute> dataESD = new HashedDataSet<>();
-			new PlayerXMLReader().loadFromXML(new File("data/input/EuropeanSoccerDB target schema.xml"), "/Players/Player", 
-					dataESD);
+			HashedDataSet<Player, Attribute> dataAPI = new HashedDataSet<>();
+			new PlayerXMLReader().loadFromXML(new File("data/input/PlayerAndTransfersAPI target schema.xml"), "/Players/Player", 
+					dataAPI);
 
 			// load the gold standard (test set)
 			System.out.println("*\n*\tLoading gold standard\n*");
