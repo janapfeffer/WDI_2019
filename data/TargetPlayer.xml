@@ -10,32 +10,26 @@
         <CurrentPosition>BK</CurrentPosition>
         <CurrentNumber>10</CurrentNumber>
         <WageInEuro>560000</WageInEuro>
-        <PlayerCharacteristics>
-            <Weight>80.10</Weight>
-            <Height>170.50</Height>
-            <Foot>right</Foot>
-            <Speed>86</Speed>
+        <Weight>80.10</Weight>
+        <Height>170.50</Height>
+        <Foot>right</Foot>
+        <Speed>86</Speed>
             <Developments>
-	    <Year>2015</Year>
-            <Rating>98</Rating>
-            <Potential>76</Potential>
-            <DefensiveWorkRate>medium</DefensiveWorkRate>
-            <AttackingWorkRate>high</AttackingWorkRate>  
+	    	<Year>2015</Year>
+            	<Rating>98</Rating>
+            	<Potential>76</Potential>
+            	<DefensiveWorkRate>medium</DefensiveWorkRate>
+            	<AttackingWorkRate>high</AttackingWorkRate>  
             </Developments>
-        </PlayerCharacteristics>
         <Transfers>
             <Transfer>
-                <ClubOut>
-                <name>Manchester City</name>
-                </ClubOut>
-                <ClubIn>
-                <name>Barcelona</name>
-                </ClubIn>
+                <ClubOut>Manchester City</ClubOut>
+                <ClubIn>Barcelona</ClubIn>
                 <Year>2005</Year>
             </Transfer>
         </Transfers>
     </Player>
-    <Player>
+       <Player>
         <id>1000</id>
         <Name>Leo Messi</Name>
         <dateOfBirth>01.01.1980</dateOfBirth>
@@ -45,27 +39,21 @@
         <CurrentPosition>BK</CurrentPosition>
         <CurrentNumber>10</CurrentNumber>
         <WageInEuro>560000</WageInEuro>
-        <PlayerCharacteristics>
-            <Weight>80.10</Weight>
-            <Height>170.50</Height>
-            <Foot>right</Foot>
-            <Speed>86</Speed>
+        <Weight>80.10</Weight>
+        <Height>170.50</Height>
+        <Foot>right</Foot>
+        <Speed>86</Speed>
             <Developments>
-	    <Year>2015</Year>
-            <Rating>98</Rating>
-            <Potential>76</Potential>
-            <DefensiveWorkRate>medium</DefensiveWorkRate>
-            <AttackingWorkRate>high</AttackingWorkRate>  
+	    	<Year>2015</Year>
+            	<Rating>98</Rating>
+            	<Potential>76</Potential>
+            	<DefensiveWorkRate>medium</DefensiveWorkRate>
+            	<AttackingWorkRate>high</AttackingWorkRate>  
             </Developments>
-        </PlayerCharacteristics>
         <Transfers>
             <Transfer>
-                <ClubOut>
-                <name>Manchester City</name>
-                </ClubOut>
-                <ClubIn>
-                <name>Barcelona</name>
-                </ClubIn>
+                <ClubOut>Manchester City</ClubOut>
+                <ClubIn>Barcelona</ClubIn>
                 <Year>2005</Year>
             </Transfer>
         </Transfers>
