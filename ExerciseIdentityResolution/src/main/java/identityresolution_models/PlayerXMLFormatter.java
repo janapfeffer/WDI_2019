@@ -14,8 +14,6 @@ import de.uni_mannheim.informatik.dws.winter.model.io.XMLFormatter;
  * 
  */
 public class PlayerXMLFormatter extends XMLFormatter<Player> {
-	
-	CharacteristicXMLFormatter characteristicsFormatter = new CharacteristicXMLFormatter();
 
 	@Override
 	public Element createRootElement(Document doc) {
@@ -34,19 +32,12 @@ public class PlayerXMLFormatter extends XMLFormatter<Player> {
 		Player.appendChild(createTextElement("CurrentPosition", record.getCurrentPosition(), doc));
 		Player.appendChild(createTextElement("CurrentNumber", String.valueOf(record.getCurrentNumber()), doc));
 		Player.appendChild(createTextElement("WageInEuro", String.valueOf(record.getWage()), doc));
+		Player.appendChild(createTextElement("Weight", String.valueOf(record.getWeight()), doc));
+		Player.appendChild(createTextElement("Height", String.valueOf(record.getHeight()), doc));
+		Player.appendChild(createTextElement("Foot", String.valueOf(record.getFoot()), doc));
+		Player.appendChild(createTextElement("Speed", String.valueOf(record.getSpeed()), doc));
 
 		return Player;
 	}
 	
-	protected Element createCharacteristicsElement(Player record, Document doc) {
-		Element characteristicRoot = characteristicsFormatter.createRootElement(doc);
-
-		for (Characteristic a : record.getCharacteristics()) {
-			characteristicRoot.appendChild(characteristicsFormatter
-					.createElementFromRecord(a, doc));
-		}
-
-		return characteristicRoot;
-	}
-
 }

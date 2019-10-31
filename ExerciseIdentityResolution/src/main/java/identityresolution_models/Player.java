@@ -5,7 +5,6 @@ import java.io.Serializable;
 import java.time.LocalDateTime;
 import java.util.List;
 
-import de.uni_mannheim.informatik.dws.wdi.ExerciseIdentityResolution.model.Actor;
 import de.uni_mannheim.informatik.dws.winter.model.AbstractRecord;
 import de.uni_mannheim.informatik.dws.winter.model.defaultmodel.Attribute;
 
@@ -28,8 +27,12 @@ public class Player extends AbstractRecord<Attribute> implements Serializable {
 	private String currentPosition;
 	private Float wage;
 	private int currentNumber;
+	private Float height;
+	private Float weight;
+	private String foot;
+	private int speed;
 	private List<Transfer> transfers;
-	private List<Characteristic> characteristics;
+	private List<Development> developments;
 	
 
 	public Player(String identifier, String provenance) {
@@ -108,12 +111,36 @@ public class Player extends AbstractRecord<Attribute> implements Serializable {
 		return transfers;
 	}
 	
-	public void setCharacteristics(List<Characteristic> characteristics){
-		this.characteristics = characteristics;
+	public Float getHeight() {
+		return height;
 	}
-	
-	public List<Characteristic> getCharacteristics(){
-		return characteristics;
+
+	public void setHeight(Float height) {
+		this.height = height;
+	}
+
+	public Float getWeight() {
+		return weight;
+	}
+
+	public void setWeight(Float weight) {
+		this.weight = weight;
+	}
+
+	public List<Development> getDevelopments() {
+		return developments;
+	}
+
+	public void setDevelopments(List<Development> developments) {
+		this.developments = developments;
+	}
+
+	public String getFoot() {
+		return foot;
+	}
+
+	public void setFoot(String foot) {
+		this.foot = foot;
 	}
 
 	/*
@@ -166,4 +193,13 @@ public class Player extends AbstractRecord<Attribute> implements Serializable {
 			return HEIGHT!=null;
 		return false;
 	}
+
+	public int getSpeed() {
+		return speed;
+	}
+
+	public void setSpeed(int speed) {
+		this.speed = speed;
+	}
+
 }
