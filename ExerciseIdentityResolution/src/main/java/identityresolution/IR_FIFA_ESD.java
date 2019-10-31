@@ -4,8 +4,6 @@ import java.io.File;
 
 import org.slf4j.Logger;
 
-import de.uni_mannheim.informatik.dws.wdi.ExerciseIdentityResolution.model.Movie;
-import de.uni_mannheim.informatik.dws.wdi.ExerciseIdentityResolution.model.MovieXMLReader;
 import de.uni_mannheim.informatik.dws.winter.model.HashedDataSet;
 import de.uni_mannheim.informatik.dws.winter.model.MatchingGoldStandard;
 import de.uni_mannheim.informatik.dws.winter.model.defaultmodel.Attribute;
@@ -21,12 +19,17 @@ public class IR_FIFA_ESD {
 		// loading data
 			System.out.println("*\n*\tLoading datasets\n*");
 			HashedDataSet<Player, Attribute> dataFIFA = new HashedDataSet<>();
-			new PlayerXMLReader().loadFromXML(new File("data/input/EuropeanSoccerDBtargetschema.xml"), "/Players/Player", 
+			new PlayerXMLReader().loadFromXML(new File("data/input/FIFA19 target schema.xml"), "/Players/Player", 
 					dataFIFA);
-			System.out.println("*\n*\tLoaded data\n*");
-			System.out.println(dataFIFA.getRecord("2006714"));
-			/*HashedDataSet<Movie, Attribute> dataActors = new HashedDataSet<>();
-			new MovieXMLReader().loadFromXML(new File("data/input/actors.xml"), "/movies/movie", dataActors);
+			HashedDataSet<Player, Attribute> dataESD = new HashedDataSet<>();
+			new PlayerXMLReader().loadFromXML(new File("data/input/EuropeanSoccerDB target schema.xml"), "/Players/Player", 
+					dataESD);
+			HashedDataSet<Player, Attribute> dataTransfer = new HashedDataSet<>();
+			new PlayerXMLReader().loadFromXML(new File("data/input/transfer_csv.xml"), "/Players/Player", 
+					dataTransfer);
+			HashedDataSet<Player, Attribute> dataAPI = new HashedDataSet<>();
+			new PlayerXMLReader().loadFromXML(new File("data/input/PlayerAndTransfersAPI target schema.xml"), "/Players/Player", 
+					dataAPI);
 
 			// load the gold standard (test set)
 			System.out.println("*\n*\tLoading gold standard\n*");

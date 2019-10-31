@@ -17,6 +17,8 @@ public class TransferXMLFormatter extends XMLFormatter<Transfer> {
 		Element transfers = doc.createElement("Transfers");
 		
 		transfers.appendChild(createTextElement("Year", String.valueOf(record.getYear()), doc));
+		transfers.appendChild(createTextElement("ClubOut", String.valueOf(record.getClubOutName()), doc));
+		transfers.appendChild(createTextElement("ClubIn", String.valueOf(record.getClubInName()), doc));
 		
 		return transfers;
 	}

@@ -12,8 +12,6 @@ import org.w3c.dom.Node;
 import org.w3c.dom.Document;
 import org.w3c.dom.Element;
 
-import de.uni_mannheim.informatik.dws.wdi.ExerciseIdentityResolution.model.Actor;
-import de.uni_mannheim.informatik.dws.wdi.ExerciseIdentityResolution.model.ActorXMLReader;
 import de.uni_mannheim.informatik.dws.winter.model.defaultmodel.Attribute;
 import de.uni_mannheim.informatik.dws.winter.model.io.XMLMatchableReader;
 
@@ -40,16 +38,65 @@ public class PlayerXMLReader extends XMLMatchableReader<Player, Attribute> {
 
 		// fill the attributes
 		player.setName(getValueFromChildElement(node, "Name"));
-		player.setCurrentClub(getValueFromChildElement(node, "CurrentClub"));
-		//List<Characteristic> characteristics = getListFromChildElement(node, "PlayerCharacteristics");
-		//(node, "PlayerCharacteristics",
-			//	"Height", new CharacteristicXMLFormatter(), provenanceInfo);
-		//player.setCharacteristics(characteristics);
+		try {
+			player.setCurrentClub(getValueFromChildElement(node, "CurrentClub"));
+		} catch (Exception e) {
+			// TODO: nothing
+		}
+		try {
+			player.setCurrentNumber(Integer.valueOf(getValueFromChildElement(node, "CurrentNumber")));
+		} catch (Exception e) {
+			// TODO: handle exception
+		}
+		
+		try {
+			player.setCurrentPosition(getValueFromChildElement(node, "CurrentPosition"));
+		} catch (Exception e) {
+			// TODO: handle exception
+		}
+		try {
+			player.setHeight(Float.valueOf(getValueFromChildElement(node, "Height")));
+		} catch (Exception e) {
+			// TODO: handle exception
+		}
+		try {
+			player.setWage(Float.valueOf(getValueFromChildElement(node, "Wage")));
+		} catch (Exception e) {
+			// TODO: handle exception
+		}
+		try {
+			player.setWeight(Float.valueOf(getValueFromChildElement(node, "Weight")));
+		} catch (Exception e) {
+			// TODO: handle exception
+		}
+		try {
+			player.setSpeed(Integer.valueOf(getValueFromChildElement(node, "Speed")));
+		} catch (Exception e) {
+			// TODO: handle exception
+		}
+		try {
+			player.setFoot(getValueFromChildElement(node, "Foot"));
+		} catch (Exception e) {
+			// TODO: handle exception
+		}
+		try {
+			player.setPhoto(getValueFromChildElement(node, "Photo"));
+		} catch (Exception e) {
+			// TODO: handle exception
+		}
+		try {
+			player.setNationality(getValueFromChildElement(node, "Nationality"));
 
+		} catch (Exception e) {
+			// TODO: handle exception
+		}
+		
+		// TODO add list attributes: transfers and developments (see MovieXMLReader)
+		
 		// convert the date string into a DateTime object
 		try {
-			String date = getValueFromChildElement(node, "dateofBirth");
-			if (date != null) {
+			String date = getValueFromChildElement(node, "dateOfBirth");
+			if (date != null && date != "") {
 				DateTimeFormatter formatter = new DateTimeFormatterBuilder()
 				        .appendPattern("yyyy-MM-dd")
 				        .parseDefaulting(ChronoField.CLOCK_HOUR_OF_DAY, 0)

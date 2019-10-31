@@ -15,24 +15,18 @@
 							<xs:element name="CurrentPosition" type="xs:string"/>
 							<xs:element name="CurrentNumber" type="xs:byte"/>
 							<xs:element name="WageInEuro" type="xs:int"/>
-							<xs:element name="PlayerCharacteristics">
+							<xs:element name="Weight" type="xs:decimal"/>
+							<xs:element name="Height" type="xs:decimal"/>
+							<xs:element name="Foot" type="xs:string"/>
+							<xs:element name="Speed" type="xs:byte"/>
+							<xs:element name="Developments">
 								<xs:complexType>
 									<xs:sequence>
-										<xs:element name="Weight" type="xs:decimal"/>
-										<xs:element name="Height" type="xs:decimal"/>
-										<xs:element name="Foot" type="xs:string"/>
-										<xs:element name="Speed" type="xs:byte"/>
-										<xs:element name="Developments">
-											<xs:complexType>
-												<xs:sequence>
-													<xs:element name="Year" type="xs:short"/>
-													<xs:element name="Rating" type="xs:byte"/>
-													<xs:element name="Potential" type="xs:byte"/>
-													<xs:element name="DefensiveWorkRate" type="xs:string"/>
-													<xs:element name="AttackingWorkRate" type="xs:string"/>
-												</xs:sequence>
-											</xs:complexType>
-										</xs:element>
+										<xs:element name="Year" type="xs:short"/>
+										<xs:element name="Rating" type="xs:byte"/>
+										<xs:element name="Potential" type="xs:byte"/>
+										<xs:element name="DefensiveWorkRate" type="xs:string"/>
+										<xs:element name="AttackingWorkRate" type="xs:string"/>
 									</xs:sequence>
 								</xs:complexType>
 							</xs:element>
@@ -42,20 +36,8 @@
 										<xs:element name="Transfer">
 											<xs:complexType>
 												<xs:sequence>
-													<xs:element name="ClubOut">
-														<xs:complexType>
-															<xs:sequence>
-																<xs:element name="name" type="xs:string"/>
-															</xs:sequence>
-														</xs:complexType>
-													</xs:element>
-													<xs:element name="ClubIn">
-														<xs:complexType>
-															<xs:sequence>
-																<xs:element name="name" type="xs:string"/>
-															</xs:sequence>
-														</xs:complexType>
-													</xs:element>
+													<xs:element name="ClubOut" type="xs:string"/>
+													<xs:element name="ClubIn" type="xs:string"/>
 													<xs:element name="Year" type="xs:short"/>
 												</xs:sequence>
 											</xs:complexType>
