@@ -16,7 +16,7 @@
 						<datapoint pos="0" key="3"/>
 						<datapoint pos="1" key="4"/>
 					</targets>
-					<view ltx="750" lty="235" rbx="850" rby="285"/>
+					<view ltx="750" lty="235" rbx="856" rby="288"/>
 				</component>
 				<component name="Rows" library="core" uid="10" kind="3">
 					<properties/>
@@ -28,7 +28,7 @@
 						<datapoint pos="0" key="8"/>
 						<datapoint/>
 					</targets>
-					<view ltx="521" lty="236" rbx="619" rby="286"/>
+					<view ltx="521" lty="236" rbx="622" rby="289"/>
 				</component>
 				<component name="logical-and" library="core" uid="31" kind="5" growable="1" growablebasename="value">
 					<properties/>
@@ -39,7 +39,7 @@
 					<targets>
 						<datapoint pos="0" key="41"/>
 					</targets>
-					<view ltx="396" lty="234" rbx="471" rby="284"/>
+					<view ltx="396" lty="234" rbx="473" rby="288"/>
 				</component>
 				<component name="not-equal" library="core" uid="33" kind="5">
 					<properties/>
@@ -50,7 +50,7 @@
 					<targets>
 						<datapoint pos="0" key="38"/>
 					</targets>
-					<view ltx="275" lty="237" rbx="344" rby="287"/>
+					<view ltx="275" lty="237" rbx="345" rby="290"/>
 				</component>
 				<component name="constant" library="core" uid="26" kind="2">
 					<properties/>
@@ -71,16 +71,62 @@
 					<targets>
 						<datapoint pos="0" key="11"/>
 					</targets>
-					<view ltx="275" lty="319" rbx="325" rby="369"/>
+					<view ltx="275" lty="319" rbx="326" rby="372"/>
 				</component>
 				<component name="constant" library="core" uid="15" kind="2">
 					<properties/>
 					<targets>
 						<datapoint pos="0" key="5"/>
 					</targets>
-					<view ltx="175" lty="301" rbx="223" rby="317"/>
+					<view ltx="175" lty="301" rbx="224" rby="317"/>
 					<data>
 						<constant value="in" datatype="string"/>
+					</data>
+				</component>
+				<component name="auto-number" library="core" uid="56" kind="5">
+					<properties/>
+					<sources>
+						<datapoint/>
+						<datapoint pos="1" key="75"/>
+						<datapoint/>
+						<datapoint/>
+					</sources>
+					<targets>
+						<datapoint pos="0" key="70"/>
+					</targets>
+					<view ltx="861" lty="136" rbx="989" rby="221"/>
+				</component>
+				<component name="constant" library="core" uid="76" kind="2">
+					<properties/>
+					<targets>
+						<datapoint pos="0" key="76"/>
+					</targets>
+					<view ltx="702" lty="127" rbx="776" rby="143"/>
+					<data>
+						<constant value="4000000" datatype="decimal"/>
+					</data>
+				</component>
+				<component name="Calculate Date of Birth" library="user" uid="75" kind="19" visible="0" blackbox="0">
+					<view ltx="292" lty="469" rbx="422" rby="502"/>
+					<data>
+						<root>
+							<header>
+								<namespaces>
+									<namespace/>
+								</namespaces>
+							</header>
+							<entry name="arg" inpkey="71" componentid="71"/>
+							<entry name="value" inpkey="72" componentid="72"/>
+						</root>
+						<root>
+							<header>
+								<namespaces>
+									<namespace/>
+								</namespaces>
+							</header>
+							<entry name="Year" outkey="74" componentid="73"/>
+							<entry name="dateOfBirth" outkey="73" componentid="74"/>
+						</root>
 					</data>
 				</component>
 				<component name="TargetPlayer" library="xml" uid="2" kind="14">
@@ -101,15 +147,10 @@
 											<entry name="id" inpkey="69"/>
 											<entry name="Name" inpkey="13"/>
 											<entry name="dateOfBirth" inpkey="14"/>
-											<entry name="PlayerCharacteristics" expanded="1"/>
 											<entry name="Transfers" inpkey="15" expanded="1">
 												<entry name="Transfer" expanded="1">
-													<entry name="ClubOut" expanded="1">
-														<entry name="name" inpkey="16"/>
-													</entry>
-													<entry name="ClubIn" expanded="1">
-														<entry name="name" inpkey="17"/>
-													</entry>
+													<entry name="ClubOut" inpkey="77" expanded="1"/>
+													<entry name="ClubIn" inpkey="78" expanded="1"/>
 													<entry name="Year" inpkey="18"/>
 												</entry>
 											</entry>
@@ -164,52 +205,6 @@
 						</text>
 					</data>
 				</component>
-				<component name="auto-number" library="core" uid="56" kind="5">
-					<properties/>
-					<sources>
-						<datapoint/>
-						<datapoint pos="1" key="75"/>
-						<datapoint/>
-						<datapoint/>
-					</sources>
-					<targets>
-						<datapoint pos="0" key="70"/>
-					</targets>
-					<view ltx="861" lty="136" rbx="985" rby="216"/>
-				</component>
-				<component name="constant" library="core" uid="76" kind="2">
-					<properties/>
-					<targets>
-						<datapoint pos="0" key="76"/>
-					</targets>
-					<view ltx="702" lty="127" rbx="772" rby="143"/>
-					<data>
-						<constant value="4000000" datatype="decimal"/>
-					</data>
-				</component>
-				<component name="Calculate Date of Birth" library="user" uid="75" kind="19" visible="0" blackbox="0">
-					<view ltx="292" lty="469" rbx="418" rby="502"/>
-					<data>
-						<root>
-							<header>
-								<namespaces>
-									<namespace/>
-								</namespaces>
-							</header>
-							<entry name="arg" inpkey="71" componentid="71"/>
-							<entry name="value" inpkey="72" componentid="72"/>
-						</root>
-						<root>
-							<header>
-								<namespaces>
-									<namespace/>
-								</namespaces>
-							</header>
-							<entry name="Year" outkey="74" componentid="73"/>
-							<entry name="dateOfBirth" outkey="73" componentid="74"/>
-						</root>
-					</data>
-				</component>
 			</children>
 			<graph directed="1">
 				<edges/>
@@ -261,16 +256,6 @@
 							<edge vertexkey="14"/>
 						</edges>
 					</vertex>
-					<vertex vertexkey="60">
-						<edges>
-							<edge vertexkey="16"/>
-						</edges>
-					</vertex>
-					<vertex vertexkey="57">
-						<edges>
-							<edge vertexkey="17"/>
-						</edges>
-					</vertex>
 					<vertex vertexkey="74">
 						<edges>
 							<edge vertexkey="18"/>
@@ -309,6 +294,16 @@
 					<vertex vertexkey="76">
 						<edges>
 							<edge vertexkey="75"/>
+						</edges>
+					</vertex>
+					<vertex vertexkey="60">
+						<edges>
+							<edge vertexkey="77"/>
+						</edges>
+					</vertex>
+					<vertex vertexkey="57">
+						<edges>
+							<edge vertexkey="78"/>
 						</edges>
 					</vertex>
 				</vertices>
