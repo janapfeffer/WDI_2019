@@ -62,17 +62,6 @@
 						<constant datatype="string"/>
 					</data>
 				</component>
-				<component name="equal" library="core" uid="14" kind="5">
-					<properties/>
-					<sources>
-						<datapoint pos="0" key="9"/>
-						<datapoint pos="1" key="10"/>
-					</sources>
-					<targets>
-						<datapoint pos="0" key="11"/>
-					</targets>
-					<view ltx="275" lty="319" rbx="326" rby="372"/>
-				</component>
 				<component name="constant" library="core" uid="15" kind="2">
 					<properties/>
 					<targets>
@@ -104,62 +93,6 @@
 					<view ltx="702" lty="127" rbx="776" rby="143"/>
 					<data>
 						<constant value="4000000" datatype="decimal"/>
-					</data>
-				</component>
-				<component name="Calculate Date of Birth" library="user" uid="75" kind="19" visible="0" blackbox="0">
-					<view ltx="292" lty="469" rbx="422" rby="502"/>
-					<data>
-						<root>
-							<header>
-								<namespaces>
-									<namespace/>
-								</namespaces>
-							</header>
-							<entry name="arg" inpkey="71" componentid="71"/>
-							<entry name="value" inpkey="72" componentid="72"/>
-						</root>
-						<root>
-							<header>
-								<namespaces>
-									<namespace/>
-								</namespaces>
-							</header>
-							<entry name="Year" outkey="74" componentid="73"/>
-							<entry name="dateOfBirth" outkey="73" componentid="74"/>
-						</root>
-					</data>
-				</component>
-				<component name="TargetPlayer" library="xml" uid="2" kind="14">
-					<properties XSLTTargetEncoding="UTF-8" XSLTDefaultOutput="1"/>
-					<view ltx="1052" lty="224" rbx="1359" rby="631"/>
-					<data>
-						<root>
-							<header>
-								<namespaces>
-									<namespace/>
-									<namespace uid="http://www.altova.com/mapforce"/>
-								</namespaces>
-							</header>
-							<entry name="FileInstance" ns="1" expanded="1">
-								<entry name="document" ns="1" expanded="1" casttotargettypemode="cast-in-subtree">
-									<entry name="Players" expanded="1">
-										<entry name="Player" inpkey="12" expanded="1">
-											<entry name="id" inpkey="69"/>
-											<entry name="Name" inpkey="13"/>
-											<entry name="dateOfBirth" inpkey="14"/>
-											<entry name="Transfers" inpkey="15" expanded="1">
-												<entry name="Transfer" expanded="1">
-													<entry name="ClubOut" inpkey="77" expanded="1"/>
-													<entry name="ClubIn" inpkey="78" expanded="1"/>
-													<entry name="Year" inpkey="18"/>
-												</entry>
-											</entry>
-										</entry>
-									</entry>
-								</entry>
-							</entry>
-						</root>
-						<document schema="TargetPlayer.xsd" inputinstance="TargetPlayer.xml" outputinstance="TargetPlayer.xml" instanceroot="{}Players"/>
 					</data>
 				</component>
 				<component name="Transfers" library="text" uid="47" kind="16">
@@ -203,6 +136,73 @@
 								</names>
 							</settings>
 						</text>
+					</data>
+				</component>
+				<component name="equal" library="core" uid="14" kind="5">
+					<properties/>
+					<sources>
+						<datapoint pos="0" key="9"/>
+						<datapoint pos="1" key="10"/>
+					</sources>
+					<targets>
+						<datapoint pos="0" key="11"/>
+					</targets>
+					<view ltx="308" lty="321" rbx="359" rby="374"/>
+				</component>
+				<component name="TargetPlayer" library="xml" uid="2" kind="14">
+					<properties XSLTTargetEncoding="UTF-8" XSLTDefaultOutput="1"/>
+					<view ltx="1052" lty="224" rbx="1359" rby="631"/>
+					<data>
+						<root>
+							<header>
+								<namespaces>
+									<namespace/>
+									<namespace uid="http://www.altova.com/mapforce"/>
+								</namespaces>
+							</header>
+							<entry name="FileInstance" ns="1" expanded="1">
+								<entry name="document" ns="1" expanded="1" casttotargettypemode="cast-in-subtree">
+									<entry name="Players" expanded="1">
+										<entry name="Player" inpkey="12" expanded="1">
+											<entry name="id" inpkey="69"/>
+											<entry name="Name" inpkey="13"/>
+											<entry name="dateOfBirth" inpkey="14"/>
+											<entry name="Transfers" inpkey="15" expanded="1">
+												<entry name="Transfer" expanded="1">
+													<entry name="ClubOut" inpkey="77" expanded="1"/>
+													<entry name="ClubIn" inpkey="78" expanded="1"/>
+													<entry name="Year" inpkey="18"/>
+												</entry>
+											</entry>
+										</entry>
+									</entry>
+								</entry>
+							</entry>
+						</root>
+						<document schema="TargetPlayer.xsd" inputinstance="TargetPlayer.xml" outputinstance="TargetPlayer.xml" instanceroot="{}Players"/>
+					</data>
+				</component>
+				<component name="Calculate Date of Birth" library="user" uid="75" kind="19" visible="0" blackbox="0">
+					<view ltx="292" lty="469" rbx="422" rby="502"/>
+					<data>
+						<root>
+							<header>
+								<namespaces>
+									<namespace/>
+								</namespaces>
+							</header>
+							<entry name="arg" inpkey="71" componentid="71"/>
+							<entry name="value" inpkey="72" componentid="72"/>
+						</root>
+						<root>
+							<header>
+								<namespaces>
+									<namespace/>
+								</namespaces>
+							</header>
+							<entry name="Year" outkey="74" componentid="73"/>
+							<entry name="dateOfBirth" outkey="73" componentid="74"/>
+						</root>
 					</data>
 				</component>
 			</children>
@@ -322,7 +322,7 @@
 					<targets>
 						<datapoint pos="0" key="24"/>
 					</targets>
-					<view rbx="62" rby="35"/>
+					<view rbx="66" rby="37"/>
 					<data>
 						<input datatype="string"/>
 						<parameter usageKind="input" name="arg"/>
@@ -336,7 +336,7 @@
 					<targets>
 						<datapoint pos="0" key="25"/>
 					</targets>
-					<view lty="50" rbx="72" rby="85"/>
+					<view lty="50" rbx="75" rby="87"/>
 					<data>
 						<input datatype="string"/>
 						<parameter usageKind="input" name="value"/>
@@ -352,14 +352,14 @@
 					<targets>
 						<datapoint pos="0" key="6"/>
 					</targets>
-					<view ltx="260" lty="105" rbx="332" rby="170"/>
+					<view ltx="260" lty="105" rbx="337" rby="174"/>
 				</component>
 				<component name="constant" library="core" uid="64" kind="2">
 					<properties/>
 					<targets>
 						<datapoint pos="0" key="2"/>
 					</targets>
-					<view ltx="138" lty="135" rbx="192" rby="151"/>
+					<view ltx="138" lty="135" rbx="193" rby="151"/>
 					<data>
 						<constant value="NA" datatype="string"/>
 					</data>
@@ -369,7 +369,7 @@
 					<targets>
 						<datapoint pos="0" key="4"/>
 					</targets>
-					<view ltx="138" lty="154" rbx="183" rby="170"/>
+					<view ltx="138" lty="154" rbx="184" rby="170"/>
 					<data>
 						<constant value="0" datatype="string"/>
 					</data>
@@ -382,7 +382,7 @@
 					<targets>
 						<datapoint pos="0" key="15"/>
 					</targets>
-					<view ltx="399" lty="115" rbx="459" rby="150"/>
+					<view ltx="399" lty="115" rbx="461" rby="152"/>
 				</component>
 				<component name="number" library="core" uid="68" kind="5">
 					<properties/>
@@ -392,47 +392,25 @@
 					<targets>
 						<datapoint pos="0" key="8"/>
 					</targets>
-					<view ltx="261" lty="1" rbx="321" rby="36"/>
+					<view ltx="261" lty="1" rbx="323" rby="38"/>
 				</component>
 				<component name="Year" library="core" uid="73" kind="7">
 					<properties/>
 					<sources>
 						<datapoint pos="0" key="26"/>
 					</sources>
-					<view ltx="473" lty="1" rbx="518" rby="36"/>
+					<view ltx="473" lty="1" rbx="519" rby="38"/>
 					<data>
 						<output datatype="decimal"/>
 						<parameter usageKind="output" name="Year"/>
 					</data>
-				</component>
-				<component name="concat" library="core" uid="61" kind="5" growable="1" growablebasename="value">
-					<properties/>
-					<sources>
-						<datapoint pos="0" key="18"/>
-						<datapoint pos="1" key="14"/>
-					</sources>
-					<targets>
-						<datapoint pos="0" key="19"/>
-					</targets>
-					<view ltx="732" lty="104" rbx="802" rby="154"/>
-				</component>
-				<component name="subtract" library="core" uid="69" kind="5" growable="1" growablebasename="value">
-					<properties/>
-					<sources>
-						<datapoint pos="0" key="9"/>
-						<datapoint pos="1" key="16"/>
-					</sources>
-					<targets>
-						<datapoint pos="0" key="13"/>
-					</targets>
-					<view ltx="528" lty="105" rbx="598" rby="155"/>
 				</component>
 				<component name="constant" library="core" uid="60" kind="2">
 					<properties/>
 					<targets>
 						<datapoint pos="0" key="17"/>
 					</targets>
-					<view ltx="636" lty="79" rbx="703" rby="95"/>
+					<view ltx="636" lty="79" rbx="704" rby="95"/>
 					<data>
 						<constant value="01.01." datatype="string"/>
 					</data>
@@ -442,7 +420,7 @@
 					<targets>
 						<datapoint pos="0" key="10"/>
 					</targets>
-					<view ltx="732" lty="205" rbx="852" rby="221"/>
+					<view ltx="732" lty="205" rbx="854" rby="221"/>
 					<data>
 						<constant value="[DD].[MM].[YYYY]" datatype="string"/>
 					</data>
@@ -456,7 +434,7 @@
 					<targets>
 						<datapoint pos="0" key="22"/>
 					</targets>
-					<view ltx="883" lty="104" rbx="958" rby="154"/>
+					<view ltx="883" lty="104" rbx="959" rby="157"/>
 				</component>
 				<component name="distinct-values" library="core" uid="66" kind="5">
 					<properties/>
@@ -466,18 +444,51 @@
 					<targets>
 						<datapoint pos="0" key="21"/>
 					</targets>
-					<view ltx="999" lty="115" rbx="1089" rby="150"/>
+					<view ltx="999" lty="115" rbx="1091" rby="152"/>
 				</component>
 				<component name="dateOfBirth" library="core" uid="74" kind="7">
 					<properties/>
 					<sources>
 						<datapoint pos="0" key="27"/>
 					</sources>
-					<view ltx="1134" lty="114" rbx="1212" rby="149"/>
+					<view ltx="1134" lty="114" rbx="1214" rby="151"/>
 					<data>
 						<output datatype="string"/>
 						<parameter usageKind="output" name="dateOfBirth"/>
 					</data>
+				</component>
+				<component name="subtract" library="core" uid="69" kind="5" growable="1" growablebasename="value">
+					<properties/>
+					<sources>
+						<datapoint pos="0" key="9"/>
+						<datapoint pos="1" key="16"/>
+					</sources>
+					<targets>
+						<datapoint pos="0" key="13"/>
+					</targets>
+					<view ltx="528" lty="105" rbx="603" rby="159"/>
+				</component>
+				<component name="concat" library="core" uid="61" kind="5" growable="1" growablebasename="value">
+					<properties/>
+					<sources>
+						<datapoint pos="0" key="18"/>
+						<datapoint pos="1" key="14"/>
+					</sources>
+					<targets>
+						<datapoint pos="0" key="19"/>
+					</targets>
+					<view ltx="732" lty="104" rbx="807" rby="158"/>
+				</component>
+				<component name="min" library="core" uid="84" kind="5">
+					<properties/>
+					<sources>
+						<datapoint/>
+						<datapoint pos="1" key="28"/>
+					</sources>
+					<targets>
+						<datapoint pos="0" key="29"/>
+					</targets>
+					<view ltx="570" lty="197" rbx="682" rby="250"/>
 				</component>
 			</children>
 			<graph directed="1">
@@ -519,7 +530,7 @@
 							<edge vertexkey="12"/>
 						</edges>
 					</vertex>
-					<vertex vertexkey="13">
+					<vertex vertexkey="29">
 						<edges>
 							<edge vertexkey="14"/>
 						</edges>
@@ -547,6 +558,11 @@
 					<vertex vertexkey="21">
 						<edges>
 							<edge vertexkey="27"/>
+						</edges>
+					</vertex>
+					<vertex vertexkey="13">
+						<edges>
+							<edge vertexkey="28"/>
 						</edges>
 					</vertex>
 				</vertices>
