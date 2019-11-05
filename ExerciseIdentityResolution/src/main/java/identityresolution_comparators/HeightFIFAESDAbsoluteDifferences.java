@@ -23,20 +23,38 @@ public class HeightFIFAESDAbsoluteDifferences implements Comparator<Player, Attr
 		// FIFA weight format: XXX.XX
 		// ESD weight format: XXX.XX
 		// the height difference range in 2 datasets - +/- 4 cm
+		
+		//get height values
+		double fifa_height;
+		double esd_height;
+		try {
+			fifa_height = fifaplayer.getHeight();
+		} catch (Exception e) {
+			fifa_height = 0;
+		}
+		try {
+			esd_height = esdplayer.getHeight();
+		} catch (Exception e) {
+			esd_height = 0;
+		}
+		
+		 
 
 		// save names and class name to logger
 		if(this.comparisonLog != null){
 			this.comparisonLog.setComparatorName(getClass().getName());
-			this.comparisonLog.setRecord1Value(Float.toString(fifaplayer.getHeight()));
-			this.comparisonLog.setRecord2Value(Float.toString(esdplayer.getHeight()));
+			this.comparisonLog.setRecord1Value(String.valueOf(fifa_height));
+			this.comparisonLog.setRecord2Value(String.valueOf(esd_height));
 		}
 
-		//get height values
-		double fifa_height = fifaplayer.getHeight();
-		double esd_height = esdplayer.getHeight();
 		
 	    // calculate similarity
-		double similarity = sim.calculate(fifa_height, esd_height);
+		double similarity;
+		try {
+			similarity = sim.calculate(fifa_height, esd_height);
+		} catch (Exception e) { // set similarity to zero in case it is missing in one of the datasets
+			similarity = 0;
+		}
 
 		if(this.comparisonLog != null){
 			this.comparisonLog.setRecord1PreprocessedValue(Double.toString(fifa_height));

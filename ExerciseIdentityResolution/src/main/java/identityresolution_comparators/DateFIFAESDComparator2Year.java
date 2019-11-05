@@ -44,9 +44,15 @@ public class DateFIFAESDComparator2Year implements Comparator<Player, Attribute>
 		LocalDateTime fifa_birth = fifa_player.getDateOfBirth();
 		LocalDateTime esd_birth =  esd_player.getDateOfBirth();
 		double similarity; 
-		
-		if (fifa_birth.isAfter(esd_birth)) {
-			similarity = sim.calculate(fifa_birth, esd_birth);
+
+		if (fifa_birth.getYear() >= esd_birth.getYear()) {
+			try {
+				similarity = sim.calculate(fifa_birth, esd_birth);
+			} catch (Exception e) {
+				System.out.println("fifabirth: " + Integer.valueOf(fifa_birth.getYear()) + " esdbirth: " + Integer.valueOf(esd_birth.getYear()));
+				similarity = 0;
+			}
+
 		} else {
 			similarity = 0.0;
 		}
@@ -61,5 +67,14 @@ public class DateFIFAESDComparator2Year implements Comparator<Player, Attribute>
 		}
 
 		return similarity;
+	}
+	
+	@Override
+	public ComparatorLogger getComparisonLog() {
+		return this.comparisonLog;
+	}
+	@Override
+	public void setComparisonLog(ComparatorLogger comparatorLog) {
+		this.comparisonLog = comparatorLog;
 	}
 }
