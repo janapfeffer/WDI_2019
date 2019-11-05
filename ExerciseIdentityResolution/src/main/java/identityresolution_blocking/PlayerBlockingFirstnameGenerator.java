@@ -24,7 +24,7 @@ public class PlayerBlockingFirstnameGenerator extends RecordBlockingKeyGenerator
 		String name = Normalizer.normalize(StringEscapeUtils.unescapeHtml4(record.getName()), Normalizer.Form.NFD).
 				replaceAll("[^\\p{ASCII}]", "").replace("'", "").replace(".", "").toLowerCase().replaceAll("\\s+", " ").trim();
 		// extract first letter of firstname
-		String firstname = name.substring(0, 1);
+		String firstname = name.substring(0, 1);		
 
 		// create pair
 		resultCollector.next(new Pair<>(firstname, record));
