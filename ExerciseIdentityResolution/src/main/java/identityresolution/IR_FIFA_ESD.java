@@ -19,6 +19,7 @@ import de.uni_mannheim.informatik.dws.winter.model.defaultmodel.Attribute;
 import de.uni_mannheim.informatik.dws.winter.model.io.CSVCorrespondenceFormatter;
 import de.uni_mannheim.informatik.dws.winter.processing.Processable;
 import de.uni_mannheim.informatik.dws.winter.utils.WinterLogManager;
+import identityresolution_blocking.PlayerBlockingFirstnameGenerator;
 import identityresolution_blocking.PlayerBlockingKeyByHeightGenerator;
 import identityresolution_blocking.PlayerBlockingKeyByYearGenerator;
 import identityresolution_comparators.DateFIFAESDComparator2Year;
@@ -63,7 +64,8 @@ public class IR_FIFA_ESD {
 		// create a blocker
 		//NoBlocker<Player, Attribute> blocker = new NoBlocker<>(); // noBlocker should not be used, it raises a java.lang.OutOfMemoryError: Java heap space
 		//StandardRecordBlocker<Player, Attribute> blocker = new StandardRecordBlocker<Player, Attribute>(new PlayerBlockingKeyByYearGenerator());
-		SortedNeighbourhoodBlocker<Player, Attribute, Attribute> blocker = new SortedNeighbourhoodBlocker<>(new PlayerBlockingKeyByYearGenerator(), 50);
+		//SortedNeighbourhoodBlocker<Player, Attribute, Attribute> blocker = new SortedNeighbourhoodBlocker<>(new PlayerBlockingKeyByYearGenerator(), 50);
+		StandardRecordBlocker<Player, Attribute> blocker = new StandardRecordBlocker<Player, Attribute>(new PlayerBlockingFirstnameGenerator());
 		blocker.setMeasureBlockSizes(true);
 		blocker.collectBlockSizeData("data/output/debugResultsBlocking.csv", 100);
 

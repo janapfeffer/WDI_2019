@@ -17,6 +17,8 @@ import de.uni_mannheim.informatik.dws.winter.model.io.CSVCorrespondenceFormatter
 import de.uni_mannheim.informatik.dws.winter.processing.Processable;
 import de.uni_mannheim.informatik.dws.winter.utils.WinterLogManager;
 import identityresolution_blocking.PlayerBlockingKeyByYearGenerator;
+import identityresolution_comparators.DateFIFAESDComparator2Year;
+import identityresolution_comparators.HeightFIFAESDAbsoluteDifferences;
 import identityresolution_comparators.PlayerNameFIFAAPIComparatorJaccard;
 import identityresolution_comparators.PlayerNameFIFAESDComparatorLevenshtein;
 import identityresolution_comparators.PlayerNameFIFAESDComparatorMaximumTokenContainment;
@@ -41,7 +43,7 @@ public class IR_FIFA_API {
 		System.out.println("*\n*\tLoading gold standard\n*");
 		MatchingGoldStandard gsTest = new MatchingGoldStandard();
 		gsTest.loadFromCSVFile(new File(
-				"data/goldstandard/gs-fifa-api_tabea.csv"));
+				"data/goldstandard/gs_fifa_api.csv"));
 
 		// create a matching rule
 		LinearCombinationMatchingRule<Player, Attribute> matchingRule = new LinearCombinationMatchingRule<>(
@@ -49,9 +51,9 @@ public class IR_FIFA_API {
 		matchingRule.activateDebugReport("data/output/debugResultsMatchingRule.csv", 1000, gsTest);
 
 		// add comparators
-		matchingRule.addComparator(new PlayerNameFIFAAPIComparatorJaccard(), 0.7);
-		//matchingRule.addComparator(new HeightFIFAAPIComparatorJaccard(), 0.7);
-		//matchingRule.addComparator(new DateNameFIFAAPIComparatorJaccard(), 0.7);
+		matchingRule.addComparator(new PlayerNameFIFAAPIComparatorJaccard(), 0.5);
+		matchingRule.addComparator(new HeightFIFAESDAbsoluteDifferences(), 0.1);
+		matchingRule.addComparator(new DateFIFAESDComparator2Year(), 0.4);
 
 		// create a blocker
 		//NoBlocker<Player, Attribute> blocker = new NoBlocker<>(); // noBlocker should not be used, it raises a java.lang.OutOfMemoryError: Java heap space
