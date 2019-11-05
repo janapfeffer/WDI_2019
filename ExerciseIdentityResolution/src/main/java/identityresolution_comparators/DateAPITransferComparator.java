@@ -14,7 +14,7 @@ import de.uni_mannheim.informatik.dws.winter.similarity.date.YearSimilarity;
 import identityresolution_models.Player;
 
 
-public class DateFIFAESDComparator2Year implements Comparator<Player, Attribute> {
+public class DateAPITransferComparator implements Comparator<Player, Attribute> {
 
 	/*similarity measure test
 	public static void main( String[] args ) throws Exception{
@@ -31,30 +31,30 @@ public class DateFIFAESDComparator2Year implements Comparator<Player, Attribute>
 	}*/
 
 	private static final long serialVersionUID = 1L;
-	public static YearSimilarity sim = new YearSimilarity(4);
+	public static YearSimilarity sim = new YearSimilarity(2);
 
 	private ComparatorLogger comparisonLog;
 
 	@Override
 	public double compare(
 			Player fifa_player,
-			Player esd_player,
+			Player api_player,
 			Correspondence<Attribute, Matchable> schemaCorrespondences) {
 
 		LocalDateTime fifa_birth = fifa_player.getDateOfBirth();
-		LocalDateTime esd_birth =  esd_player.getDateOfBirth();
+		LocalDateTime api_birth =  api_player.getDateOfBirth();
 
 		double similarity; 
 		
-		if(esd_birth == null){
+		if(api_birth == null){
 			DateTimeFormatter formatter = DateTimeFormatter.ofPattern("yyyy-MM-dd HH:mm");
-			esd_birth =  LocalDateTime.parse("2090-01-01 00:00", formatter);
+			api_birth =  LocalDateTime.parse("2090-01-01 00:00", formatter);
 		}
-		if (fifa_birth.getYear() >= esd_birth.getYear()) {
+		if (fifa_birth.getYear() >= api_birth.getYear()) {
 			try {
-				similarity = sim.calculate(fifa_birth, esd_birth);
+				similarity = sim.calculate(fifa_birth, api_birth);
 			} catch (Exception e) {
-				System.out.println("fifabirth: " + Integer.valueOf(fifa_birth.getYear()) + " esdbirth: " + Integer.valueOf(esd_birth.getYear()));
+				System.out.println("fifabirth: " + Integer.valueOf(fifa_birth.getYear()) + " apibirth: " + Integer.valueOf(api_birth.getYear()));
 				similarity = 0;
 			}
 
@@ -66,7 +66,7 @@ public class DateFIFAESDComparator2Year implements Comparator<Player, Attribute>
 			this.comparisonLog.setComparatorName(getClass().getName());
 
 			this.comparisonLog.setRecord1Value(fifa_birth.toString());
-			this.comparisonLog.setRecord2Value(esd_birth.toString());
+			this.comparisonLog.setRecord2Value(api_birth.toString());
 
 			this.comparisonLog.setSimilarity(Double.toString(similarity));
 		}

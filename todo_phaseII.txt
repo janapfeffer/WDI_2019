@@ -1,15 +1,20 @@
 (parallel) recreate and fuse gold standard for transfers
 
 1 identity resolution: different approaches for similarity measures (name, dob, height)
-implemented: height, name FIFA-ESD, API-transfer and FIFA-API
+implemented: height, name FIFA-ESD, API-transfer and FIFA-API, dob FIFA-ESD and FIFA-API
+todo: dob API-transfer
 
 2 blocking: different approaches
--> wait for Annas and Ralphs answer
+implemented: based on first letter
+todo: try different ones (even though they are worse) for report
 
 3 quality evaluation using different methods (KPIs) 
 implemented: Precision, Recall, F1
+todo: record results in report
 
-4 experiment with different similarity measures and record the results (-> report)
+4 [todo] experiment with different similarity measures and record the results (-> report)
 
-5 include transfers and developments in formatters and readers (for fusion)
+5 [todo] implement machine learning
+
+6 [todo] include transfers and developments in formatters and readers (for fusion)
 
