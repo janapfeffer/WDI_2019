@@ -3,6 +3,8 @@ package identityresolution_blocking;
 
 import java.text.Normalizer;
 
+import org.apache.commons.lang3.StringEscapeUtils;
+
 import de.uni_mannheim.informatik.dws.winter.matching.blockers.generators.RecordBlockingKeyGenerator;
 import de.uni_mannheim.informatik.dws.winter.model.Correspondence;
 import de.uni_mannheim.informatik.dws.winter.model.Matchable;
@@ -19,8 +21,8 @@ public class PlayerBlockingFirstnameGenerator extends RecordBlockingKeyGenerator
 			DataIterator<Pair<String, Player>> resultCollector) {
 
 		// normalize name
-		String name = Normalizer.normalize(record.getName(), Normalizer.Form.NFD).
-				replaceAll("[^\\p{ASCII}]", "").replace(",", "").replace("'", "").replace(".", "").toLowerCase().replaceAll("\\s+", " ").trim();
+		String name = Normalizer.normalize(StringEscapeUtils.unescapeHtml4(record.getName()), Normalizer.Form.NFD).
+				replaceAll("[^\\p{ASCII}]", "").replace("'", "").replace(".", "").toLowerCase().replaceAll("\\s+", " ").trim();
 		// extract first letter of firstname
 		String firstname = name.substring(0, 1);
 
