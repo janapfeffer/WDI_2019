@@ -2,60 +2,56 @@ package identityresolution_comparators;
 
 import java.text.Normalizer;
 
+import org.apache.commons.lang3.StringEscapeUtils;
+
 import de.uni_mannheim.informatik.dws.winter.matching.rules.Comparator;
 import de.uni_mannheim.informatik.dws.winter.matching.rules.ComparatorLogger;
 import de.uni_mannheim.informatik.dws.winter.model.Correspondence;
 import de.uni_mannheim.informatik.dws.winter.model.Matchable;
 import de.uni_mannheim.informatik.dws.winter.model.defaultmodel.Attribute;
+import de.uni_mannheim.informatik.dws.winter.similarity.string.MaximumOfTokenContainment;
 import de.uni_mannheim.informatik.dws.winter.similarity.string.TokenizingJaccardSimilarity;
 import identityresolution_models.Player;
 
-public class PlayerNameFIFAESDComparatorJaccard implements Comparator<Player, Attribute>{
-
+public class PlayerNameFIFAAPIComparatorJaccard implements Comparator<Player, Attribute>{
 	
-	private static TokenizingJaccardSimilarity sim = new TokenizingJaccardSimilarity();
+	private static final long serialVersionUID = 1L;
+	/*similarity measure test
+	 public static void main( String[] args ) throws Exception{
+		System.out.println(sim.calculate("Naldo", "Naldo, Ronaldo Aparecido Rodrigues"));
+	}*/
+	
+	private static MaximumOfTokenContainment sim = new MaximumOfTokenContainment();
 	private ComparatorLogger comparisonLog;
 
 	@Override
-	public double compare(Player fifaplayer, Player esdplayer, Correspondence<Attribute, Matchable> schemaCorrespondence) {
+	public double compare(Player fifaplayer, Player apiplayer, Correspondence<Attribute, Matchable> schemaCorrespondence) {
 		// FIFA name format: F. Lastname
-		// ESD name format: Firstname Lastname
+		// API name format: &#193;lvaro Garc&#237;a Zudaire
 
 		// save names and class name to logger
 		if(this.comparisonLog != null){
 			this.comparisonLog.setComparatorName(getClass().getName());
 			this.comparisonLog.setRecord1Value(fifaplayer.getName());
-			this.comparisonLog.setRecord2Value(esdplayer.getName());
+			this.comparisonLog.setRecord2Value(apiplayer.getName());
 		}
 
-		// preprocessing:
-		// normalize names: normalize special letters, ', lower case
+		/* preprocessing
+		 * normalize names: 
+		 * 		convert html4symbols in apiplayer name to string, 
+		 * 		normalize special letters, ', lower case
+		 */
 		String fifa_name = Normalizer.normalize(fifaplayer.getName(), Normalizer.Form.NFD).
 				replaceAll("[^\\p{ASCII}]", "").replace("'", "").replace(".", "").toLowerCase().replaceAll("\\s+", " ").trim();
-		String esd_name = Normalizer.normalize(esdplayer.getName(), Normalizer.Form.NFD).
+		String api_name = Normalizer.normalize(StringEscapeUtils.unescapeHtml4(apiplayer.getName()), Normalizer.Form.NFD).
 				replaceAll("[^\\p{ASCII}]", "").replace("'", "").replace(".", "").toLowerCase().replaceAll("\\s+", " ").trim();
 
-		// tokenize names
-		String[] fifa_name_list = fifa_name.split("\\s");
-		String[] esd_name_list = esd_name.split("\\s");
-
-		// convert first name in ESD to the same format as in FIFA (abbreviate)
-		if(fifa_name_list[0].length() == 1){
-			if(esd_name_list.length > 1){
-				esd_name_list[0] = esd_name_list[0].substring(0, 1);
-			}
-		}
-
-		// turn back to single string
-		fifa_name = String.join(" ", fifa_name_list);
-		esd_name = String.join(" ", esd_name_list);
-
 		// calculate similarity
-		double similarity = sim.calculate(fifa_name, esd_name);
+		double similarity = sim.calculate(fifa_name, api_name);
 
 		if(this.comparisonLog != null){
 			this.comparisonLog.setRecord1PreprocessedValue(fifa_name);
-			this.comparisonLog.setRecord2PreprocessedValue(esd_name);
+			this.comparisonLog.setRecord2PreprocessedValue(api_name);
 
 			this.comparisonLog.setSimilarity(Double.toString(similarity));
 			//this.comparisonLog.setPostprocessedSimilarity(Double.toString(postSimilarity));
@@ -73,5 +69,6 @@ public class PlayerNameFIFAESDComparatorJaccard implements Comparator<Player, At
 	public void setComparisonLog(ComparatorLogger comparatorLog) {
 		this.comparisonLog = comparatorLog;
 	}
+
 
 }

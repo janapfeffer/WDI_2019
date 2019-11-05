@@ -111,7 +111,7 @@ public class Player extends AbstractRecord<Attribute> implements Serializable {
 		return transfers;
 	}
 	
-	public Float getHeight() {
+	public float getHeight() {
 		return height;
 	}
 
