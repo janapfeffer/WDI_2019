@@ -1,4 +1,6 @@
 (parallel) recreate and fuse gold standard for transfers
+done: find matches and so on
+todo: fuse golden standards
 
 1 identity resolution: different approaches for similarity measures (name, dob, height)
 implemented: height, name FIFA-ESD, API-transfer and FIFA-API, dob FIFA-ESD and FIFA-API
