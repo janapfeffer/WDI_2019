@@ -41,7 +41,7 @@ public class IR_FIFA_ESD {
 		System.out.println("*\n*\tLoading gold standard\n*");
 		MatchingGoldStandard gsTest = new MatchingGoldStandard();
 		gsTest.loadFromCSVFile(new File(
-				"data/goldstandard/gs-fifa-api_tabea.csv"));
+				"data/goldstandard/gs_fifa_eu.csv"));
 
 		// create a matching rule
 		LinearCombinationMatchingRule<Player, Attribute> matchingRule = new LinearCombinationMatchingRule<>(
