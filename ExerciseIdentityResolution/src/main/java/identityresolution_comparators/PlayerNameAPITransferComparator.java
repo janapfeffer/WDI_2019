@@ -12,28 +12,11 @@ import de.uni_mannheim.informatik.dws.winter.similarity.string.MaximumOfTokenCon
 import de.uni_mannheim.informatik.dws.winter.similarity.string.TokenizingJaccardSimilarity;
 import identityresolution_models.Player;
 
-public class PlayerNameAPITransfersComparatorLevenshtein implements Comparator<Player, Attribute>{
+public class PlayerNameAPITransferComparator implements Comparator<Player, Attribute>{
 
-	private static LevenshteinSimilarity sim = new LevenshteinSimilarity();
+	private static LevenshteinSimilarity levenshtein_sim = new LevenshteinSimilarity();
+	private static MaximumOfTokenContainment maxtoken_sim = new MaximumOfTokenContainment();
 	private ComparatorLogger comparisonLog;
-
-	public static void main( String[] args ) {
-		String[] myList;
-		myList = Normalizer.normalize("nospace, pls", Normalizer.Form.NFD).
-				replaceAll("[^\\p{ASCII}]", "").replace("'", "").replace(".", "").toLowerCase().replaceAll("\\s+", " ").trim().split("\\s");
-		//myList[0] = myList[0].substring(0, 1);
-
-		MaximumOfTokenContainment sim = new MaximumOfTokenContainment();
-		LevenshteinSimilarity sim2 = new LevenshteinSimilarity();
-
-		System.out.println(sim.calculate("Naldo Ronaldo Aparecido Rodrigues", "Naldo Apareceido Rodriges"));
-		for(int i = 0; i < myList.length; i++){
-			System.out.println(myList[i]);
-		}
-		
-
-
-	}
 
 	@Override
 	public double compare(Player apiplayer, Player transferplayer, Correspondence<Attribute, Matchable> schemaCorrespondence) {
@@ -55,17 +38,26 @@ public class PlayerNameAPITransfersComparatorLevenshtein implements Comparator<P
 				replaceAll("[^\\p{ASCII}]", "").replace(",", "").replace("'", "").replace(".", "").toLowerCase().replaceAll("\\s+", " ").trim();
 
 		// calculate similarity
-		double similarity = sim.calculate(api_name, transfer_name);
+		double levenshtein_similarity = levenshtein_sim.calculate(api_name, transfer_name);
+		double maxtoken_similarity = maxtoken_sim.calculate(api_name, transfer_name);
+
+		double similarity = Math.max(levenshtein_similarity, maxtoken_similarity);
+		double postSimilarity;
+		if(similarity <= 0.3){
+			postSimilarity = 0;
+		} else {
+			postSimilarity = similarity;
+		}
 
 		if(this.comparisonLog != null){
 			this.comparisonLog.setRecord1PreprocessedValue(api_name);
 			this.comparisonLog.setRecord2PreprocessedValue(transfer_name);
 
 			this.comparisonLog.setSimilarity(Double.toString(similarity));
-			//this.comparisonLog.setPostprocessedSimilarity(Double.toString(postSimilarity));
+			this.comparisonLog.setPostprocessedSimilarity(Double.toString(postSimilarity));
 		}
 
-		return similarity;
+		return postSimilarity;
 	}
 
 	@Override
