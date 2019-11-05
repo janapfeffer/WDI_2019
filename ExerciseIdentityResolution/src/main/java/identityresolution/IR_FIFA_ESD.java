@@ -1,36 +1,74 @@
 package identityresolution;
 
 import java.io.File;
+import java.text.Normalizer;
 
 import org.slf4j.Logger;
 
+import de.uni_mannheim.informatik.dws.wdi.ExerciseIdentityResolution.Comparators.MovieDateComparator2Years;
+import de.uni_mannheim.informatik.dws.wdi.ExerciseIdentityResolution.Comparators.MovieTitleComparatorJaccard;
+import de.uni_mannheim.informatik.dws.wdi.ExerciseIdentityResolution.model.Movie;
+import de.uni_mannheim.informatik.dws.winter.matching.MatchingEngine;
+import de.uni_mannheim.informatik.dws.winter.matching.blockers.NoBlocker;
+import de.uni_mannheim.informatik.dws.winter.matching.rules.LinearCombinationMatchingRule;
+import de.uni_mannheim.informatik.dws.winter.model.Correspondence;
 import de.uni_mannheim.informatik.dws.winter.model.HashedDataSet;
 import de.uni_mannheim.informatik.dws.winter.model.MatchingGoldStandard;
 import de.uni_mannheim.informatik.dws.winter.model.defaultmodel.Attribute;
+import de.uni_mannheim.informatik.dws.winter.model.io.CSVCorrespondenceFormatter;
+import de.uni_mannheim.informatik.dws.winter.processing.Processable;
 import de.uni_mannheim.informatik.dws.winter.utils.WinterLogManager;
+import identityresolution_comparators.PlayerNameFIFAESDComparatorLevenshtein;
+import identityresolution_comparators.PlayerNameFIFAESDComparatorMaximumTokenContainment;
 import identityresolution_models.Player;
 import identityresolution_models.PlayerXMLReader;
 
 public class IR_FIFA_ESD {
-	
-	private static final Logger logger = WinterLogManager.activateLogger("default");
-	
-	 public static void main( String[] args ) throws Exception{
-		// loading data
-			System.out.println("*\n*\tLoading datasets\n*");
-			HashedDataSet<Player, Attribute> dataFIFA = new HashedDataSet<>();
-			new PlayerXMLReader().loadFromXML(new File("data/input/FIFA19 target schema.xml"), "/Players/Player", 
-					dataFIFA);
-			HashedDataSet<Player, Attribute> dataESD = new HashedDataSet<>();
-			new PlayerXMLReader().loadFromXML(new File("data/input/EuropeanSoccerDB target schema.xml"), "/Players/Player", 
-					dataESD);
 
-			// load the gold standard (test set)
-			System.out.println("*\n*\tLoading gold standard\n*");
-			MatchingGoldStandard gsTest = new MatchingGoldStandard();
-			gsTest.loadFromCSVFile(new File(
-					"data/goldstandard/gs-fifa-api_tabea.csv"));
-			
-	 }
+	private static final Logger logger = WinterLogManager.activateLogger("default");
+
+	public static void main( String[] args ) throws Exception{
+		// loading data
+		System.out.println("*\n*\tLoading datasets\n*");
+		HashedDataSet<Player, Attribute> dataFIFA = new HashedDataSet<>();
+		new PlayerXMLReader().loadFromXML(new File("data/input/FIFA19 target schema.xml"), "/Players/Player", 
+				dataFIFA);
+		HashedDataSet<Player, Attribute> dataESD = new HashedDataSet<>();
+		new PlayerXMLReader().loadFromXML(new File("data/input/EuropeanSoccerDB target schema.xml"), "/Players/Player", 
+				dataESD);
+
+		// load the gold standard (test set)
+		System.out.println("*\n*\tLoading gold standard\n*");
+		MatchingGoldStandard gsTest = new MatchingGoldStandard();
+		gsTest.loadFromCSVFile(new File(
+				"data/goldstandard/gs-fifa-api_tabea.csv"));
+
+		// create a matching rule
+		LinearCombinationMatchingRule<Player, Attribute> matchingRule = new LinearCombinationMatchingRule<>(
+				0.7);
+		matchingRule.activateDebugReport("data/output/debugResultsMatchingRule.csv", 1000, gsTest);
+
+		// add comparators
+		matchingRule.addComparator(new PlayerNameFIFAESDComparatorLevenshtein(), 0.7);
+		matchingRule.addComparator(new PlayerNameFIFAESDComparatorMaximumTokenContainment(), 0.3);
+
+		// create a blocker
+		NoBlocker<Player, Attribute> blocker = new NoBlocker<>();
+		blocker.setMeasureBlockSizes(true);
+		blocker.collectBlockSizeData("data/output/debugResultsBlocking.csv", 100);
+
+		// Initialize Matching Engine
+		MatchingEngine<Player, Attribute> engine = new MatchingEngine<>();
+
+		// Execute the matching
+		System.out.println("*\n*\tRunning identity resolution\n*");
+		Processable<Correspondence<Player, Attribute>> correspondences = engine.runIdentityResolution(
+				dataFIFA, dataESD, null, matchingRule,
+				blocker);
+		
+		System.out.println("*\n*\tSaving correspondences to output\n*");
+		// write the correspondences to the output file
+		new CSVCorrespondenceFormatter().writeCSV(new File("data/output/FIFA19_2_ESD_correspondences.csv"), correspondences);		
+	}
 
 }
