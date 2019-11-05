@@ -4,11 +4,11 @@ todo: fuse golden standards
 
 1 identity resolution: different approaches for similarity measures (name, dob, height)
 implemented: height, name FIFA-ESD, API-transfer and FIFA-API, dob FIFA-ESD and FIFA-API
-todo: dob API-transfer
+todo: more dob and height comparators
 
 2 blocking: different approaches
-implemented: based on first letter
-todo: try different ones (even though they are worse) for report
+implemented: based on first letter, one year, 5 years, height 
+todo: try different ones (even though they are worse) for report 
 
 3 quality evaluation using different methods (KPIs) 
 implemented: Precision, Recall, F1
