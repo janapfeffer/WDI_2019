@@ -21,6 +21,8 @@ import de.uni_mannheim.informatik.dws.winter.processing.Processable;
 import de.uni_mannheim.informatik.dws.winter.utils.WinterLogManager;
 import identityresolution_blocking.PlayerBlockingKeyByHeightGenerator;
 import identityresolution_blocking.PlayerBlockingKeyByYearGenerator;
+import identityresolution_comparators.DateFIFAESDComparator2Year;
+import identityresolution_comparators.HeightFIFAESDAbsoluteDifferences;
 import identityresolution_comparators.PlayerNameFIFAESDComparatorLevenshtein;
 import identityresolution_comparators.PlayerNameFIFAESDComparatorMaximumTokenContainment;
 import identityresolution_models.Player;
@@ -52,13 +54,16 @@ public class IR_FIFA_ESD {
 		matchingRule.activateDebugReport("data/output/debugResultsMatchingRule.csv", 1000, gsTest);
 
 		// add comparators
-		matchingRule.addComparator(new PlayerNameFIFAESDComparatorLevenshtein(), 0.7);
-		matchingRule.addComparator(new PlayerNameFIFAESDComparatorMaximumTokenContainment(), 0.3);
+		matchingRule.addComparator(new PlayerNameFIFAESDComparatorLevenshtein(), 0.3);
+		matchingRule.addComparator(new PlayerNameFIFAESDComparatorMaximumTokenContainment(), 0.2);
+		matchingRule.addComparator(new HeightFIFAESDAbsoluteDifferences(), 0.25);
+		matchingRule.addComparator(new DateFIFAESDComparator2Year(), 0.25);
+
 
 		// create a blocker
 		//NoBlocker<Player, Attribute> blocker = new NoBlocker<>(); // noBlocker should not be used, it raises a java.lang.OutOfMemoryError: Java heap space
-		StandardRecordBlocker<Player, Attribute> blocker = new StandardRecordBlocker<Player, Attribute>(new PlayerBlockingKeyByYearGenerator());
-		//SortedNeighbourhoodBlocker<Player, Attribute, Attribute> blocker = new SortedNeighbourhoodBlocker<>(new PlayerBlockingKeyByYearGenerator(), 2000);
+		//StandardRecordBlocker<Player, Attribute> blocker = new StandardRecordBlocker<Player, Attribute>(new PlayerBlockingKeyByYearGenerator());
+		SortedNeighbourhoodBlocker<Player, Attribute, Attribute> blocker = new SortedNeighbourhoodBlocker<>(new PlayerBlockingKeyByYearGenerator(), 2000);
 		blocker.setMeasureBlockSizes(true);
 		blocker.collectBlockSizeData("data/output/debugResultsBlocking.csv", 100);
 
