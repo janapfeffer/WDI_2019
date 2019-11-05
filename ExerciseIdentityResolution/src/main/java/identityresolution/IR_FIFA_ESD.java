@@ -1,23 +1,25 @@
 package identityresolution;
 
 import java.io.File;
-import java.text.Normalizer;
 
 import org.slf4j.Logger;
 
-import de.uni_mannheim.informatik.dws.wdi.ExerciseIdentityResolution.Comparators.MovieDateComparator2Years;
-import de.uni_mannheim.informatik.dws.wdi.ExerciseIdentityResolution.Comparators.MovieTitleComparatorJaccard;
 import de.uni_mannheim.informatik.dws.wdi.ExerciseIdentityResolution.model.Movie;
 import de.uni_mannheim.informatik.dws.winter.matching.MatchingEngine;
+import de.uni_mannheim.informatik.dws.winter.matching.MatchingEvaluator;
 import de.uni_mannheim.informatik.dws.winter.matching.blockers.NoBlocker;
+import de.uni_mannheim.informatik.dws.winter.matching.blockers.SortedNeighbourhoodBlocker;
+import de.uni_mannheim.informatik.dws.winter.matching.blockers.StandardRecordBlocker;
 import de.uni_mannheim.informatik.dws.winter.matching.rules.LinearCombinationMatchingRule;
 import de.uni_mannheim.informatik.dws.winter.model.Correspondence;
 import de.uni_mannheim.informatik.dws.winter.model.HashedDataSet;
 import de.uni_mannheim.informatik.dws.winter.model.MatchingGoldStandard;
+import de.uni_mannheim.informatik.dws.winter.model.Performance;
 import de.uni_mannheim.informatik.dws.winter.model.defaultmodel.Attribute;
 import de.uni_mannheim.informatik.dws.winter.model.io.CSVCorrespondenceFormatter;
 import de.uni_mannheim.informatik.dws.winter.processing.Processable;
 import de.uni_mannheim.informatik.dws.winter.utils.WinterLogManager;
+import identityresolution_blocking.PlayerBlockingKeyByYearGenerator;
 import identityresolution_comparators.PlayerNameFIFAESDComparatorLevenshtein;
 import identityresolution_comparators.PlayerNameFIFAESDComparatorMaximumTokenContainment;
 import identityresolution_models.Player;
@@ -53,7 +55,10 @@ public class IR_FIFA_ESD {
 		matchingRule.addComparator(new PlayerNameFIFAESDComparatorMaximumTokenContainment(), 0.3);
 
 		// create a blocker
-		NoBlocker<Player, Attribute> blocker = new NoBlocker<>();
+		// noBlocker cannot be used, it raises a java.lang.OutOfMemoryError: Java heap space
+		//NoBlocker<Player, Attribute> blocker = new NoBlocker<>();
+		StandardRecordBlocker<Player, Attribute> blocker = new StandardRecordBlocker<Player, Attribute>(new PlayerBlockingKeyByYearGenerator());
+		//SortedNeighbourhoodBlocker<Player, Attribute, Player> blocker = new SortedNeighbourhoodBlocker<>(blockingFunction, windowSize);
 		blocker.setMeasureBlockSizes(true);
 		blocker.collectBlockSizeData("data/output/debugResultsBlocking.csv", 100);
 
@@ -65,10 +70,25 @@ public class IR_FIFA_ESD {
 		Processable<Correspondence<Player, Attribute>> correspondences = engine.runIdentityResolution(
 				dataFIFA, dataESD, null, matchingRule,
 				blocker);
-		
+
 		System.out.println("*\n*\tSaving correspondences to output\n*");
 		// write the correspondences to the output file
 		new CSVCorrespondenceFormatter().writeCSV(new File("data/output/FIFA19_2_ESD_correspondences.csv"), correspondences);		
+
+		System.out.println("*\n*\tEvaluating result\n*");
+		// evaluate your result
+		MatchingEvaluator<Player, Attribute> evaluator = new MatchingEvaluator<Player, Attribute>();
+		Performance perfTest = evaluator.evaluateMatching(correspondences,
+				gsTest);
+
+		// print the evaluation result
+		System.out.println("FIFA 19 <-> ESD");
+		System.out.println(String.format(
+				"Precision: %.4f",perfTest.getPrecision()));
+		System.out.println(String.format(
+				"Recall: %.4f",	perfTest.getRecall()));
+		System.out.println(String.format(
+				"F1: %.4f",perfTest.getF1()));
 	}
 
 }
