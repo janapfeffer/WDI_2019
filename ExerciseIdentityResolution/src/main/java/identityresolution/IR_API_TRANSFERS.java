@@ -18,6 +18,7 @@ import de.uni_mannheim.informatik.dws.winter.processing.Processable;
 import de.uni_mannheim.informatik.dws.winter.utils.WinterLogManager;
 import identityresolution_blocking.PlayerBlockingFirstnameGenerator;
 import identityresolution_blocking.PlayerBlockingKeyByYearGenerator;
+import identityresolution_comparators.DateAPITransferComparator;
 import identityresolution_comparators.PlayerNameAPITransferComparator;
 import identityresolution_models.Player;
 import identityresolution_models.PlayerXMLReader;
@@ -49,6 +50,7 @@ public class IR_API_TRANSFERS {
 
 		// add comparators
 		matchingRule.addComparator(new PlayerNameAPITransferComparator(), 0.7);
+		matchingRule.addComparator(new DateAPITransferComparator(), 0.3);
 
 		// create a blocker
 		//NoBlocker<Player, Attribute> blocker = new NoBlocker<>(); // noBlocker should not be used, it raises a java.lang.OutOfMemoryError: Java heap space
