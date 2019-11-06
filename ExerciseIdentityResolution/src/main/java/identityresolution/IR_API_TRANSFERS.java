@@ -41,7 +41,7 @@ public class IR_API_TRANSFERS {
 		System.out.println("*\n*\tLoading gold standard\n*");
 		MatchingGoldStandard gsTest = new MatchingGoldStandard();
 		gsTest.loadFromCSVFile(new File(
-				"data/goldstandard/gs_api_transfer.csv"));
+				"data/goldstandard/gs_api_transfers.csv"));
 
 		// create a matching rule
 		LinearCombinationMatchingRule<Player, Attribute> matchingRule = new LinearCombinationMatchingRule<>(
