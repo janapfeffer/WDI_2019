@@ -6,15 +6,17 @@ import de.uni_mannheim.informatik.dws.winter.model.Correspondence;
 import de.uni_mannheim.informatik.dws.winter.model.Matchable;
 import de.uni_mannheim.informatik.dws.winter.model.defaultmodel.Attribute;
 import de.uni_mannheim.informatik.dws.winter.similarity.numeric.AbsoluteDifferenceSimilarity;
+import de.uni_mannheim.informatik.dws.winter.similarity.numeric.DeviationSimilarity;
+import de.uni_mannheim.informatik.dws.winter.similarity.numeric.PercentageSimilarity;
 import identityresolution_models.Player;
 
-public class HeightFIFAESDAbsoluteDifferences implements Comparator<Player, Attribute>{
+public class HeightFIFAESDDeviationSimilarity implements Comparator<Player, Attribute>{
 	
 	//similarity measure test
-	 public static void main( String[] args ) throws Exception{
-		System.out.println(sim.calculate(170.76, 165.98));
+	public static void main( String[] args ) throws Exception{
+	System.out.println(sim.calculate(170.76, 165.98));
 	}
-	private static AbsoluteDifferenceSimilarity sim = new AbsoluteDifferenceSimilarity(8);
+	private static DeviationSimilarity sim = new DeviationSimilarity();
 	
 	private ComparatorLogger comparisonLog;
 
