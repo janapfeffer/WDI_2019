@@ -79,7 +79,7 @@ public class IR_API_TRANSFERS {
 				gsTest);
 
 		// print the evaluation result
-		System.out.println("FIFA 19 <-> ESD");
+		System.out.println("API <-> Transfer");
 		System.out.println(String.format(
 				"Precision: %.4f",perfTest.getPrecision()));
 		System.out.println(String.format(
