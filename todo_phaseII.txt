@@ -21,3 +21,7 @@ todo: record results in report
 
 6 [todo] include transfers and developments in formatters and readers (for fusion)
 
+7 refactor code
+
+Report: include data set profiling (lecture 5, slide 12, slide 13: rapidminer data set stait´statistics)
+
