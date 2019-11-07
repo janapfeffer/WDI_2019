@@ -3,4 +3,5 @@ SELECT * WHERE {
   ?player <http://dbpedia.org/ontology/birthDate> ?birthDate .
   ?player <http://dbpedia.org/ontology/Person/height> ?height .
   ?player <http://dbpedia.org/ontology/position> ?position .
+  ?player <http://dbpedia.org/ontology/number> ?number .
 }
