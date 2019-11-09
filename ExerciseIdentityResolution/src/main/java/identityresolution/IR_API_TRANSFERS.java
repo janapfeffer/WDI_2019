@@ -41,7 +41,7 @@ public class IR_API_TRANSFERS {
 		System.out.println("*\n*\tLoading gold standard\n*");
 		MatchingGoldStandard gsTest = new MatchingGoldStandard();
 		gsTest.loadFromCSVFile(new File(
-				"data/goldstandard/gs_api_transfer.csv"));
+				"data/goldstandard/gs_api_transfers.csv"));
 
 		// create a matching rule
 		LinearCombinationMatchingRule<Player, Attribute> matchingRule = new LinearCombinationMatchingRule<>(
@@ -79,7 +79,7 @@ public class IR_API_TRANSFERS {
 				gsTest);
 
 		// print the evaluation result
-		System.out.println("FIFA 19 <-> ESD");
+		System.out.println("API <-> Transfer");
 		System.out.println(String.format(
 				"Precision: %.4f",perfTest.getPrecision()));
 		System.out.println(String.format(
