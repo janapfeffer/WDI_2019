@@ -14,15 +14,15 @@
         <Height>170.50</Height>
         <Foot>right</Foot>
         <Speed>86</Speed>
-            <Developments>
- 		<Development>
-	    		<Year>2015</Year>
-            		<Rating>98</Rating>
+        <Developments>
+ 		        <Development>
+	    		      <Year>2015</Year>
+                <Rating>98</Rating>
             		<Potential>76</Potential>
-            		<DefensiveWorkRate>medium</DefensiveWorkRate>
-            		<AttackingWorkRate>high</AttackingWorkRate> 
-		</Development> 
-            </Developments>
+                <DefensiveWorkRate>medium</DefensiveWorkRate>
+                <AttackingWorkRate>high</AttackingWorkRate> 
+		        </Development> 
+        </Developments>
         <Transfers>
             <Transfer>
                 <ClubOut>Manchester City</ClubOut>

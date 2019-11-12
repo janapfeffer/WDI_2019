@@ -13,6 +13,10 @@ import identityresolution_models.Player;
 public class PlayerNameFIFAESDComparatorJaccard implements Comparator<Player, Attribute>{
 
 	
+	/**
+	 * 
+	 */
+	private static final long serialVersionUID = 1L;
 	private static TokenizingJaccardSimilarity sim = new TokenizingJaccardSimilarity();
 	private ComparatorLogger comparisonLog;
 
