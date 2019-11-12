@@ -6,6 +6,7 @@ import org.slf4j.Logger;
 
 import de.uni_mannheim.informatik.dws.winter.matching.MatchingEngine;
 import de.uni_mannheim.informatik.dws.winter.matching.MatchingEvaluator;
+import de.uni_mannheim.informatik.dws.winter.matching.blockers.SortedNeighbourhoodBlocker;
 import de.uni_mannheim.informatik.dws.winter.matching.blockers.StandardRecordBlocker;
 import de.uni_mannheim.informatik.dws.winter.matching.rules.LinearCombinationMatchingRule;
 import de.uni_mannheim.informatik.dws.winter.model.Correspondence;
@@ -17,9 +18,11 @@ import de.uni_mannheim.informatik.dws.winter.model.io.CSVCorrespondenceFormatter
 import de.uni_mannheim.informatik.dws.winter.processing.Processable;
 import de.uni_mannheim.informatik.dws.winter.utils.WinterLogManager;
 import identityresolution_blocking.PlayerBlockingFirstnameGenerator;
+import identityresolution_blocking.PlayerBlockingKeyByHeightGenerator;
 import identityresolution_blocking.PlayerBlockingKeyByYearGenerator;
 import identityresolution_comparators.DateFIFAESDComparator2Year;
 import identityresolution_comparators.HeightFIFAESDAbsoluteDifferences;
+import identityresolution_comparators.HeightFIFAESDPercentageSimilarity;
 import identityresolution_comparators.PlayerNameFIFAAPIComparator;
 import identityresolution_comparators.PlayerNameFIFAAPIComparatorJaccard;
 import identityresolution_comparators.PlayerNameFIFAESDComparatorLevenshtein;
@@ -53,13 +56,14 @@ public class IR_FIFA_API {
 		matchingRule.activateDebugReport("data/output/debugResultsMatchingRule.csv", 1000, gsTest);
 
 		// add comparators
-		matchingRule.addComparator(new PlayerNameFIFAAPIComparator(), 0.4);
-		matchingRule.addComparator(new HeightFIFAESDAbsoluteDifferences(), 0.2);
-		matchingRule.addComparator(new DateFIFAESDComparator2Year(), 0.3);
+		matchingRule.addComparator(new PlayerNameFIFAAPIComparatorJaccard(), 0.4);
+		matchingRule.addComparator(new HeightFIFAESDPercentageSimilarity(), 0.4);
+		matchingRule.addComparator(new DateFIFAESDComparator2Year(), 0.2);
 
 		// create a blocker
 		//NoBlocker<Player, Attribute> blocker = new NoBlocker<>(); // noBlocker should not be used, it raises a java.lang.OutOfMemoryError: Java heap space
-		StandardRecordBlocker<Player, Attribute> blocker = new StandardRecordBlocker<Player, Attribute>(new PlayerBlockingFirstnameGenerator());
+		//StandardRecordBlocker<Player, Attribute> blocker = new StandardRecordBlocker<Player, Attribute>(new PlayerBlockingKeyByYearGenerator());
+		StandardRecordBlocker<Player, Attribute> blocker = new StandardRecordBlocker<Player, Attribute>(new PlayerBlockingKeyByHeightGenerator());
 		//SortedNeighbourhoodBlocker<Player, Attribute, Attribute> blocker = new SortedNeighbourhoodBlocker<>(new PlayerBlockingKeyByYearGenerator(), 2000);
 		blocker.setMeasureBlockSizes(true);
 		blocker.collectBlockSizeData("data/output/debugResultsBlocking.csv", 100);
@@ -84,7 +88,7 @@ public class IR_FIFA_API {
 				gsTest);
 
 		// print the evaluation result
-		System.out.println("FIFA 19 <-> ESD");
+		System.out.println("FIFA 19 <-> API");
 		System.out.println(String.format(
 				"Precision: %.4f",perfTest.getPrecision()));
 		System.out.println(String.format(

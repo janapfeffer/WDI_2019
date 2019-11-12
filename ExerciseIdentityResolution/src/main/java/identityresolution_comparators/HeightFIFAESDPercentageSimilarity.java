@@ -39,8 +39,6 @@ public class HeightFIFAESDPercentageSimilarity implements Comparator<Player, Att
 			esd_height = 0;
 		}
 		
-		 
-
 		// save names and class name to logger
 		if(this.comparisonLog != null){
 			this.comparisonLog.setComparatorName(getClass().getName());
