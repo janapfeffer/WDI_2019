@@ -18,7 +18,7 @@ RecordBlockingKeyGenerator<Player, Attribute>{
 			DataIterator<Pair<String, Player>> resultCollector) {
 		try {
 			if(record.getHeight() > 0){
-				resultCollector.next(new Pair<>(Integer.toString(Math.round(record.getHeight()) / 10), record));
+				resultCollector.next(new Pair<>(Integer.toString(Math.round(record.getHeight()) / 2), record));
 			} 
 		} catch (Exception e) {
 			// the player doesn't have a height and therefore will not be put into a block

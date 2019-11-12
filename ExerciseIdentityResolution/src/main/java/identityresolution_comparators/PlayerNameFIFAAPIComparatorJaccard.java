@@ -9,19 +9,19 @@ import de.uni_mannheim.informatik.dws.winter.matching.rules.ComparatorLogger;
 import de.uni_mannheim.informatik.dws.winter.model.Correspondence;
 import de.uni_mannheim.informatik.dws.winter.model.Matchable;
 import de.uni_mannheim.informatik.dws.winter.model.defaultmodel.Attribute;
-import de.uni_mannheim.informatik.dws.winter.similarity.string.MaximumOfTokenContainment;
+
 import de.uni_mannheim.informatik.dws.winter.similarity.string.TokenizingJaccardSimilarity;
 import identityresolution_models.Player;
 
 public class PlayerNameFIFAAPIComparatorJaccard implements Comparator<Player, Attribute>{
 	
 	private static final long serialVersionUID = 1L;
-	/*similarity measure test
+	/*similarity measure test*/
 	 public static void main( String[] args ) throws Exception{
-		System.out.println(sim.calculate("Naldo", "Naldo, Ronaldo Aparecido Rodrigues"));
-	}*/
+		System.out.println(sim.calculate("", ""));
+	}
 	
-	private static MaximumOfTokenContainment sim = new MaximumOfTokenContainment();
+	private static TokenizingJaccardSimilarity sim = new TokenizingJaccardSimilarity();
 	private ComparatorLogger comparisonLog;
 
 	@Override

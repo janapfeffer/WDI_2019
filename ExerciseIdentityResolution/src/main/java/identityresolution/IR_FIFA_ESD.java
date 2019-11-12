@@ -24,6 +24,8 @@ import identityresolution_blocking.PlayerBlockingKeyByHeightGenerator;
 import identityresolution_blocking.PlayerBlockingKeyByYearGenerator;
 import identityresolution_comparators.DateFIFAESDComparator2Year;
 import identityresolution_comparators.HeightFIFAESDAbsoluteDifferences;
+import identityresolution_comparators.PlayerNameFIFAESDComparatorJaccard;
+import identityresolution_comparators.PlayerNameFIFAESDComparatorJaccardOnNGram;
 import identityresolution_comparators.PlayerNameFIFAESDComparatorLevenshtein;
 import identityresolution_comparators.PlayerNameFIFAESDComparatorMaximumTokenContainment;
 import identityresolution_models.Player;
@@ -64,8 +66,9 @@ public class IR_FIFA_ESD {
 		// create a blocker
 		//NoBlocker<Player, Attribute> blocker = new NoBlocker<>(); // noBlocker should not be used, it raises a java.lang.OutOfMemoryError: Java heap space
 		//StandardRecordBlocker<Player, Attribute> blocker = new StandardRecordBlocker<Player, Attribute>(new PlayerBlockingKeyByYearGenerator());
-		//SortedNeighbourhoodBlocker<Player, Attribute, Attribute> blocker = new SortedNeighbourhoodBlocker<>(new PlayerBlockingKeyByYearGenerator(), 50);
-		StandardRecordBlocker<Player, Attribute> blocker = new StandardRecordBlocker<Player, Attribute>(new PlayerBlockingFirstnameGenerator());
+		StandardRecordBlocker<Player, Attribute> blocker = new StandardRecordBlocker<Player, Attribute>(new PlayerBlockingKeyByHeightGenerator());
+		//SortedNeighbourhoodBlocker<Player, Attribute, Attribute> blocker = new SortedNeighbourhoodBlocker<>(new PlayerBlockingKeyByYearGenerator(), 100);
+		//StandardRecordBlocker<Player, Attribute> blocker = new StandardRecordBlocker<Player, Attribute>(new PlayerBlockingFirstnameGenerator());
 		blocker.setMeasureBlockSizes(true);
 		blocker.collectBlockSizeData("data/output/debugResultsBlocking.csv", 100);
 
