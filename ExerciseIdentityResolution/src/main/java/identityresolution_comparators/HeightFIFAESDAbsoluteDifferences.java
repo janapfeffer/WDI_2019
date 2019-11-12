@@ -10,10 +10,10 @@ import identityresolution_models.Player;
 
 public class HeightFIFAESDAbsoluteDifferences implements Comparator<Player, Attribute>{
 	
-	/*similarity measure test
-	 * public static void main( String[] args ) throws Exception{
+	//similarity measure test
+	 public static void main( String[] args ) throws Exception{
 		System.out.println(sim.calculate(170.76, 165.98));
-	}*/
+	}
 	private static AbsoluteDifferenceSimilarity sim = new AbsoluteDifferenceSimilarity(8);
 	
 	private ComparatorLogger comparisonLog;

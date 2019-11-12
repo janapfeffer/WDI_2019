@@ -6,6 +6,7 @@ import org.slf4j.Logger;
 
 import de.uni_mannheim.informatik.dws.winter.matching.MatchingEngine;
 import de.uni_mannheim.informatik.dws.winter.matching.MatchingEvaluator;
+import de.uni_mannheim.informatik.dws.winter.matching.blockers.SortedNeighbourhoodBlocker;
 import de.uni_mannheim.informatik.dws.winter.matching.blockers.StandardRecordBlocker;
 import de.uni_mannheim.informatik.dws.winter.matching.rules.LinearCombinationMatchingRule;
 import de.uni_mannheim.informatik.dws.winter.model.Correspondence;
@@ -54,8 +55,8 @@ public class IR_API_TRANSFERS {
 
 		// create a blocker
 		//NoBlocker<Player, Attribute> blocker = new NoBlocker<>(); // noBlocker should not be used, it raises a java.lang.OutOfMemoryError: Java heap space
-		StandardRecordBlocker<Player, Attribute> blocker = new StandardRecordBlocker<Player, Attribute>(new PlayerBlockingFirstnameGenerator());
-		//SortedNeighbourhoodBlocker<Player, Attribute, Attribute> blocker = new SortedNeighbourhoodBlocker<>(new PlayerBlockingKeyByYearGenerator(), 2000);
+		//StandardRecordBlocker<Player, Attribute> blocker = new StandardRecordBlocker<Player, Attribute>(new PlayerBlockingFirstnameGenerator());
+		SortedNeighbourhoodBlocker<Player, Attribute, Attribute> blocker = new SortedNeighbourhoodBlocker<>(new PlayerBlockingKeyByYearGenerator(), 2000);
 		blocker.setMeasureBlockSizes(true);
 		blocker.collectBlockSizeData("data/output/debugResultsBlocking.csv", 100);
 
