@@ -6,22 +6,23 @@ import de.uni_mannheim.informatik.dws.winter.model.Correspondence;
 import de.uni_mannheim.informatik.dws.winter.model.Matchable;
 import de.uni_mannheim.informatik.dws.winter.model.defaultmodel.Attribute;
 import de.uni_mannheim.informatik.dws.winter.similarity.numeric.AbsoluteDifferenceSimilarity;
+import de.uni_mannheim.informatik.dws.winter.similarity.numeric.PercentageSimilarity;
 import identityresolution_models.Player;
 
-public class HeightFIFAAPIAbsoluteDifferences implements Comparator<Player, Attribute>{
+public class HeightFIFAAPIPercentageSimilarity implements Comparator<Player, Attribute>{
 	
 	//similarity measure test
-	 public static void main( String[] args ) throws Exception{
-		System.out.println(sim.calculate(170.76, 165.98));
+	public static void main( String[] args ) throws Exception{
+	System.out.println(sim.calculate(170.76, 165.98));
 	}
-	private static AbsoluteDifferenceSimilarity sim = new AbsoluteDifferenceSimilarity(8);
+	private static PercentageSimilarity sim = new PercentageSimilarity(20);
 	
 	private ComparatorLogger comparisonLog;
 
 	@Override
 	public double compare(Player fifaplayer, Player apiplayer, Correspondence<Attribute, Matchable> schemaCorrespondence) {
 		// FIFA weight format: XXX.XX
-		// ESD weight format: XXX.XX
+		// api weight format: XXX.XX
 		// the height difference range in 2 datasets - +/- 4 cm
 		
 		//get height values
@@ -38,8 +39,6 @@ public class HeightFIFAAPIAbsoluteDifferences implements Comparator<Player, Attr
 			api_height = 0;
 		}
 		
-		 
-
 		// save names and class name to logger
 		if(this.comparisonLog != null){
 			this.comparisonLog.setComparatorName(getClass().getName());
