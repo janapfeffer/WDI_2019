@@ -1,6 +1,7 @@
 package identityresolution;
 
 import java.io.File;
+import java.io.PrintWriter;
 
 import org.slf4j.Logger;
 import de.uni_mannheim.informatik.dws.wdi.ExerciseIdentityResolution.Blocking.MovieBlockingKeyByDecadeGenerator;
@@ -95,8 +96,11 @@ public class IR_FIFA_ESD_machine_learning {
 		System.out.println("*\n*\tLearning matching rule\n*");
 		RuleLearner<Player, Attribute> learner = new RuleLearner<>();
 		learner.learnMatchingRule(dataFIFA, dataESD, null, matchingRule, gsTraining);
-		System.out.println(String.format("Matching rule is:\n%s", matchingRule.getModelDescription()));
-		
+		//System.out.println(String.format("Matching rule is:\n%s", matchingRule.getModelDescription()));
+		PrintWriter writer = new PrintWriter("data/output/MatchingRuleFIFA_ESD.txt", "UTF-8");
+		writer.println(String.format("Matching rule is:\n%s", matchingRule.getModelDescription()));
+		writer.close();
+
 		// create a blocker (blocking strategy)
 		StandardRecordBlocker<Player, Attribute> blocker = new StandardRecordBlocker<Player, Attribute>(new PlayerBlockingFirstnameGenerator());
 //		SortedNeighbourhoodBlocker<Movie, Attribute, Attribute> blocker = new SortedNeighbourhoodBlocker<>(new MovieBlockingKeyByDecadeGenerator(), 1);
