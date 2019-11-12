@@ -39,7 +39,6 @@ public class HeightFIFAESDDeviationSimilarity implements Comparator<Player, Attr
 		} catch (Exception e) {
 			esd_height = 0;
 		}
-		
 		 
 
 		// save names and class name to logger
