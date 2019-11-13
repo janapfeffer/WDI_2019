@@ -39,6 +39,7 @@ import identityresolution_comparators.HeightFIFAESDPercentageSimilarity;
 import identityresolution_comparators.PlayerNameFIFAESDComparatorJaccard;
 import identityresolution_comparators.PlayerNameFIFAESDComparatorJaccardOnNGram;
 import identityresolution_comparators.PlayerNameFIFAESDComparatorLevenshtein;
+import identityresolution_comparators.PlayerNameFIFAESDComparatorLevenshteinEditDistance;
 import identityresolution_comparators.PlayerNameFIFAESDComparatorMaximumTokenContainment;
 import identityresolution_models.Player;
 import identityresolution_models.PlayerXMLReader;
@@ -76,20 +77,21 @@ public class IR_FIFA_ESD_machine_learning {
 		gsTraining.loadFromCSVFile(new File("data/goldstandard/gs_fifa_eu_train.csv"));
 		
 		// create a matching rule
-		String options[] = new String[] { "-S" };
-		String modelType = "SimpleLogistic"; // use a logistic regression
-		WekaMatchingRule<Player, Attribute> matchingRule = new WekaMatchingRule<>(0.7, modelType, options);
+		String options[] = new String[] { };
+		String modelType = "RandomForest"; // use a linear regression
+		WekaMatchingRule<Player, Attribute> matchingRule = new WekaMatchingRule<>(0.9, modelType, options);
 		matchingRule.activateDebugReport("data/output/debugResultsMatchingRule.csv", 1000, gsTraining);
 		
 		// add comparators
 		matchingRule.addComparator(new PlayerNameFIFAESDComparatorLevenshtein());
 		matchingRule.addComparator(new PlayerNameFIFAESDComparatorJaccard());
-		matchingRule.addComparator(new PlayerNameFIFAESDComparatorJaccardOnNGram());
+		//matchingRule.addComparator(new PlayerNameFIFAESDComparatorJaccardOnNGram());
+		matchingRule.addComparator(new PlayerNameFIFAESDComparatorLevenshteinEditDistance());
 		matchingRule.addComparator(new PlayerNameFIFAESDComparatorMaximumTokenContainment());
 		matchingRule.addComparator(new DateFIFAESDComparator2Year());
 		matchingRule.addComparator(new HeightFIFAESDAbsoluteDifferences());
-		matchingRule.addComparator(new HeightFIFAESDDeviationSimilarity());
-		matchingRule.addComparator(new HeightFIFAESDPercentageSimilarity());
+		//matchingRule.addComparator(new HeightFIFAESDDeviationSimilarity());
+		//matchingRule.addComparator(new HeightFIFAESDPercentageSimilarity());
 		
 		
 		// train the matching rule's model
