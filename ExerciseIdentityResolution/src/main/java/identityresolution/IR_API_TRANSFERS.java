@@ -21,6 +21,8 @@ import identityresolution_blocking.PlayerBlockingFirstnameGenerator;
 import identityresolution_blocking.PlayerBlockingKeyByYearGenerator;
 import identityresolution_comparators.DateAPITransferComparator;
 import identityresolution_comparators.PlayerNameAPITransferComparator;
+import identityresolution_comparators.PlayerNameAPITransfersComparatorLevenshtein;
+import identityresolution_comparators.PlayerNameDateAPITransferComparator;
 import identityresolution_models.Player;
 import identityresolution_models.PlayerXMLReader;
 
@@ -46,17 +48,19 @@ public class IR_API_TRANSFERS {
 
 		// create a matching rule
 		LinearCombinationMatchingRule<Player, Attribute> matchingRule = new LinearCombinationMatchingRule<>(
-				0.7);
+				0.79);
 		matchingRule.activateDebugReport("data/output/debugResultsMatchingRule.csv", 1000, gsTest);
 
 		// add comparators
-		matchingRule.addComparator(new PlayerNameAPITransferComparator(), 0.7);
-		matchingRule.addComparator(new DateAPITransferComparator(), 0.3);
+		//matchingRule.addComparator(new PlayerNameAPITransferComparator(), 0.7);
+		//matchingRule.addComparator(new PlayerNameAPITransfersComparatorLevenshtein(), 0.7);
+		//matchingRule.addComparator(new DateAPITransferComparator(), 0.3);
+		matchingRule.addComparator(new PlayerNameDateAPITransferComparator(), 1);
 
 		// create a blocker
 		//NoBlocker<Player, Attribute> blocker = new NoBlocker<>(); // noBlocker should not be used, it raises a java.lang.OutOfMemoryError: Java heap space
 		//StandardRecordBlocker<Player, Attribute> blocker = new StandardRecordBlocker<Player, Attribute>(new PlayerBlockingFirstnameGenerator());
-		SortedNeighbourhoodBlocker<Player, Attribute, Attribute> blocker = new SortedNeighbourhoodBlocker<>(new PlayerBlockingKeyByYearGenerator(), 2000);
+		StandardRecordBlocker<Player, Attribute> blocker = new StandardRecordBlocker<Player, Attribute>(new PlayerBlockingFirstnameGenerator());
 		blocker.setMeasureBlockSizes(true);
 		blocker.collectBlockSizeData("data/output/debugResultsBlocking.csv", 100);
 
