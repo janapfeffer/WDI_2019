@@ -1,6 +1,7 @@
 package identityresolution;
 
 import java.io.File;
+import java.io.PrintWriter;
 
 import org.slf4j.Logger;
 import de.uni_mannheim.informatik.dws.wdi.ExerciseIdentityResolution.Blocking.MovieBlockingKeyByDecadeGenerator;
@@ -38,6 +39,7 @@ import identityresolution_comparators.HeightFIFAESDPercentageSimilarity;
 import identityresolution_comparators.PlayerNameFIFAESDComparatorJaccard;
 import identityresolution_comparators.PlayerNameFIFAESDComparatorJaccardOnNGram;
 import identityresolution_comparators.PlayerNameFIFAESDComparatorLevenshtein;
+import identityresolution_comparators.PlayerNameFIFAESDComparatorLevenshteinEditDistance;
 import identityresolution_comparators.PlayerNameFIFAESDComparatorMaximumTokenContainment;
 import identityresolution_models.Player;
 import identityresolution_models.PlayerXMLReader;
@@ -76,27 +78,31 @@ public class IR_FIFA_ESD_machine_learning {
 		
 		// create a matching rule
 		String options[] = new String[] { };
-		String modelType = "RandomForest"; // use a logistic regression
-		WekaMatchingRule<Player, Attribute> matchingRule = new WekaMatchingRule<>(0.7, modelType, options);
+		String modelType = "RandomForest"; // use a linear regression
+		WekaMatchingRule<Player, Attribute> matchingRule = new WekaMatchingRule<>(0.9, modelType, options);
 		matchingRule.activateDebugReport("data/output/debugResultsMatchingRule.csv", 1000, gsTraining);
 		
 		// add comparators
 		matchingRule.addComparator(new PlayerNameFIFAESDComparatorLevenshtein());
 		matchingRule.addComparator(new PlayerNameFIFAESDComparatorJaccard());
-		matchingRule.addComparator(new PlayerNameFIFAESDComparatorJaccardOnNGram());
+		//matchingRule.addComparator(new PlayerNameFIFAESDComparatorJaccardOnNGram());
+		matchingRule.addComparator(new PlayerNameFIFAESDComparatorLevenshteinEditDistance());
 		matchingRule.addComparator(new PlayerNameFIFAESDComparatorMaximumTokenContainment());
 		matchingRule.addComparator(new DateFIFAESDComparator2Year());
 		matchingRule.addComparator(new HeightFIFAESDAbsoluteDifferences());
-		matchingRule.addComparator(new HeightFIFAESDDeviationSimilarity());
-		matchingRule.addComparator(new HeightFIFAESDPercentageSimilarity());
+		//matchingRule.addComparator(new HeightFIFAESDDeviationSimilarity());
+		//matchingRule.addComparator(new HeightFIFAESDPercentageSimilarity());
 		
 		
 		// train the matching rule's model
 		System.out.println("*\n*\tLearning matching rule\n*");
 		RuleLearner<Player, Attribute> learner = new RuleLearner<>();
 		learner.learnMatchingRule(dataFIFA, dataESD, null, matchingRule, gsTraining);
-		System.out.println(String.format("Matching rule is:\n%s", matchingRule.getModelDescription()));
-		
+		//System.out.println(String.format("Matching rule is:\n%s", matchingRule.getModelDescription()));
+		PrintWriter writer = new PrintWriter("data/output/MatchingRuleFIFA_ESD.txt", "UTF-8");
+		writer.println(String.format("Matching rule is:\n%s", matchingRule.getModelDescription()));
+		writer.close();
+
 		// create a blocker (blocking strategy)
 		StandardRecordBlocker<Player, Attribute> blocker = new StandardRecordBlocker<Player, Attribute>(new PlayerBlockingFirstnameGenerator());
 //		SortedNeighbourhoodBlocker<Movie, Attribute, Attribute> blocker = new SortedNeighbourhoodBlocker<>(new MovieBlockingKeyByDecadeGenerator(), 1);

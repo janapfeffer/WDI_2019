@@ -53,12 +53,12 @@ public class IR_FIFA_ESD {
 
 		// create a matching rule
 		LinearCombinationMatchingRule<Player, Attribute> matchingRule = new LinearCombinationMatchingRule<>(
-				0.7);
+				0.8);
 		matchingRule.activateDebugReport("data/output/debugResultsMatchingRule.csv", 1000, gsTest);
 
 		// add comparators
-		matchingRule.addComparator(new PlayerNameFIFAESDComparatorLevenshtein(), 0.3);
-		matchingRule.addComparator(new PlayerNameFIFAESDComparatorMaximumTokenContainment(), 0.2);
+		matchingRule.addComparator(new PlayerNameFIFAESDComparatorLevenshtein(), 0.25);
+		matchingRule.addComparator(new PlayerNameFIFAESDComparatorMaximumTokenContainment(), 0.25);
 		matchingRule.addComparator(new HeightFIFAESDAbsoluteDifferences(), 0.25);
 		matchingRule.addComparator(new DateFIFAESDComparator2Year(), 0.25);
 
@@ -66,9 +66,9 @@ public class IR_FIFA_ESD {
 		// create a blocker
 		//NoBlocker<Player, Attribute> blocker = new NoBlocker<>(); // noBlocker should not be used, it raises a java.lang.OutOfMemoryError: Java heap space
 		//StandardRecordBlocker<Player, Attribute> blocker = new StandardRecordBlocker<Player, Attribute>(new PlayerBlockingKeyByYearGenerator());
-		StandardRecordBlocker<Player, Attribute> blocker = new StandardRecordBlocker<Player, Attribute>(new PlayerBlockingKeyByHeightGenerator());
+		//StandardRecordBlocker<Player, Attribute> blocker = new StandardRecordBlocker<Player, Attribute>(new PlayerBlockingKeyByHeightGenerator());
 		//SortedNeighbourhoodBlocker<Player, Attribute, Attribute> blocker = new SortedNeighbourhoodBlocker<>(new PlayerBlockingKeyByYearGenerator(), 100);
-		//StandardRecordBlocker<Player, Attribute> blocker = new StandardRecordBlocker<Player, Attribute>(new PlayerBlockingFirstnameGenerator());
+		StandardRecordBlocker<Player, Attribute> blocker = new StandardRecordBlocker<Player, Attribute>(new PlayerBlockingFirstnameGenerator());
 		blocker.setMeasureBlockSizes(true);
 		blocker.collectBlockSizeData("data/output/debugResultsBlocking.csv", 100);
 
