@@ -49,6 +49,11 @@ public class DateAPITransferComparator implements Comparator<Player, Attribute> 
 			// use dummy year if no date of birth is given
 			api_birth =  LocalDateTime.parse("2090-01-01 00:00", formatter);
 		}
+		if(transfer_birth == null){
+			DateTimeFormatter formatter = DateTimeFormatter.ofPattern("yyyy-MM-dd HH:mm");
+			// use dummy year if no date of birth is given
+			transfer_birth =  LocalDateTime.parse("2090-01-01 00:00", formatter);
+		}
 		if (api_birth.getYear() >= transfer_birth.getYear()) {
 			try {
 				similarity = sim.calculate(transfer_birth, api_birth);

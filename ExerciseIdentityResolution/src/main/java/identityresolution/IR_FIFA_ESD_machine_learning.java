@@ -75,8 +75,8 @@ public class IR_FIFA_ESD_machine_learning {
 		gsTraining.loadFromCSVFile(new File("data/goldstandard/gs_fifa_eu_train.csv"));
 		
 		// create a matching rule
-		String options[] = new String[] { "-S" };
-		String modelType = "SimpleLogistic"; // use a logistic regression
+		String options[] = new String[] { };
+		String modelType = "RandomForest"; // use a logistic regression
 		WekaMatchingRule<Player, Attribute> matchingRule = new WekaMatchingRule<>(0.7, modelType, options);
 		matchingRule.activateDebugReport("data/output/debugResultsMatchingRule.csv", 1000, gsTraining);
 		

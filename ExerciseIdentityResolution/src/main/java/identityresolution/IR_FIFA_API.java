@@ -57,15 +57,16 @@ public class IR_FIFA_API {
 		matchingRule.activateDebugReport("data/output/debugResultsMatchingRule.csv", 1000, gsTest);
 
 		// add comparators
-		matchingRule.addComparator(new PlayerNameFIFAAPIComparatorJaccard(), 0.3);
-		matchingRule.addComparator(new HeightFIFAAPIAbsoluteDifferences(), 0.5);
+		matchingRule.addComparator(new PlayerNameFIFAAPIComparatorJaccard(), 0.5);
+		matchingRule.addComparator(new HeightFIFAAPIAbsoluteDifferences(), 0.3);
 		matchingRule.addComparator(new DateFIFAESDComparator2Year(), 0.2);
 
 		// create a blocker
 		//NoBlocker<Player, Attribute> blocker = new NoBlocker<>(); // noBlocker should not be used, it raises a java.lang.OutOfMemoryError: Java heap space
-		//StandardRecordBlocker<Player, Attribute> blocker = new StandardRecordBlocker<Player, Attribute>(new PlayerBlockingKeyByYearGenerator());
+		StandardRecordBlocker<Player, Attribute> blocker = new StandardRecordBlocker<Player, Attribute>(new PlayerBlockingKeyByYearGenerator());
+		//StandardRecordBlocker<Player, Attribute> blocker = new StandardRecordBlocker<Player, Attribute>(new PlayerBlockingFirstnameGenerator());
 		//StandardRecordBlocker<Player, Attribute> blocker = new StandardRecordBlocker<Player, Attribute>(new PlayerBlockingKeyByHeightGenerator());
-		SortedNeighbourhoodBlocker<Player, Attribute, Attribute> blocker = new SortedNeighbourhoodBlocker<Player, Attribute, Attribute>(new PlayerBlockingKeyByHeightGenerator(), 170);
+		//SortedNeighbourhoodBlocker<Player, Attribute, Attribute> blocker = new SortedNeighbourhoodBlocker<Player, Attribute, Attribute>(new PlayerBlockingKeyByHeightGenerator(), 170);
 		//SortedNeighbourhoodBlocker<Player, Attribute, Attribute> blocker = new SortedNeighbourhoodBlocker<>(new PlayerBlockingKeyByYearGenerator(), 2000);
 		blocker.setMeasureBlockSizes(true);
 		blocker.collectBlockSizeData("data/output/debugResultsBlocking.csv", 100);
