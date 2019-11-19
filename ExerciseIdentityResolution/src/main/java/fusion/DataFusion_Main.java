@@ -19,10 +19,12 @@ import de.uni_mannheim.informatik.dws.winter.model.FusibleHashedDataSet;
 import de.uni_mannheim.informatik.dws.winter.model.RecordGroupFactory;
 import de.uni_mannheim.informatik.dws.winter.model.defaultmodel.Attribute;
 import de.uni_mannheim.informatik.dws.winter.utils.WinterLogManager;
+import fusion_evaluation.CurrentClubEvaluationRule;
 import fusion_evaluation.DateOfBirthEvaluationRule;
 import fusion_evaluation.NameEvaluationRule;
 import fusion_evaluation.NationalityEvaluationRule;
 import fusion_evaluation.PhotoEvaluationRule;
+import fusion_fusers.CurrentClubFavourSourceFuser;
 import fusion_fusers.DateOfBirthFuserFavourSource;
 import fusion_fusers.NameLongestString;
 import fusion_fusers.NationalityFavourSource;
@@ -121,6 +123,7 @@ public class DataFusion_Main {
 		dataFIFA.setScore(1.0);
 		dataTransfer.setScore(2.0);
 		strategy.addAttributeFuser(Player.DATEOFBIRTH, new DateOfBirthFuserFavourSource(), new DateOfBirthEvaluationRule());
+		strategy.addAttributeFuser(Player.CURRENTCLUB, new CurrentClubFavourSourceFuser(), new CurrentClubEvaluationRule());
 
 		// create the fusion engine
 		DataFusionEngine<Player, Attribute> engine = new DataFusionEngine<>(strategy);
