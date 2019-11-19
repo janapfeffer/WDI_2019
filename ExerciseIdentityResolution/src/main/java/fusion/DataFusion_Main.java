@@ -107,9 +107,9 @@ public class DataFusion_Main {
 		strategy.activateDebugReport("data/output/debugResultsDatafusion.csv", -1, gs);
 
 		// add attribute fusers
-		// TODO: currentposition, currentnumber, weight, height, foot, speed, developments, transfers
+		// TODO: currentposition, currentnumber, height, foot, speed, developments, transfers
 		strategy.addAttributeFuser(Player.NAME, new NameLongestString(), new NameEvaluationRule());
-		// fuse photos
+		// fuse photos, we prefer the API photos becuase they have a higher resolution
 		dataAPI.setScore(4.0);
 		dataESD.setScore(2.0);
 		dataFIFA.setScore(3.0);
@@ -121,12 +121,13 @@ public class DataFusion_Main {
 		dataFIFA.setScore(1.0);
 		dataTransfer.setScore(4.0);
 		strategy.addAttributeFuser(Player.NATIONALITY, new NationalityFavourSource(), new NationalityEvaluationRule());
-		// fuse date of birth
+		// fuse date of birth, we prefer data sources that contain the accurate date of birth
 		dataAPI.setScore(4.0);
 		dataESD.setScore(3.0);
 		dataFIFA.setScore(1.0);
 		dataTransfer.setScore(2.0);
 		strategy.addAttributeFuser(Player.DATEOFBIRTH, new DateOfBirthFuserFavourSource(), new DateOfBirthEvaluationRule());
+		// only FIFAS contains the current club & wages
 		dataFIFA.setScore(4.0);
 		dataAPI.setScore(1.0);
 		strategy.addAttributeFuser(Player.CURRENTCLUB, new CurrentClubFavourSourceFuser(), new CurrentClubEvaluationRule());
