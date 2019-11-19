@@ -20,8 +20,10 @@ import de.uni_mannheim.informatik.dws.winter.model.RecordGroupFactory;
 import de.uni_mannheim.informatik.dws.winter.model.defaultmodel.Attribute;
 import de.uni_mannheim.informatik.dws.winter.utils.WinterLogManager;
 import fusion_evaluation.NameEvaluationRule;
+import fusion_evaluation.NationalityEvaluationRule;
 import fusion_evaluation.PhotoEvaluationRule;
 import fusion_fusers.NameLongestString;
+import fusion_fusers.NationalityFavourSource;
 import fusion_fusers.PhotoFuserFavourSource;
 import fusion_models.PlayerXMLReader_Fusion;
 import identityresolution_models.Player;
@@ -105,6 +107,11 @@ public class DataFusion_Main {
 		dataFIFA.setScore(2.0);
 		dataTransfer.setScore(4.0);
 		strategy.addAttributeFuser(Player.PHOTO, new PhotoFuserFavourSource(), new PhotoEvaluationRule());
+		dataAPI.setScore(2.0);
+		dataESD.setScore(3.0);
+		dataFIFA.setScore(1.0);
+		dataTransfer.setScore(4.0);
+		strategy.addAttributeFuser(Player.NATIONALITY, new NationalityFavourSource(), new NationalityEvaluationRule());
 
 		// create the fusion engine
 		DataFusionEngine<Player, Attribute> engine = new DataFusionEngine<>(strategy);
