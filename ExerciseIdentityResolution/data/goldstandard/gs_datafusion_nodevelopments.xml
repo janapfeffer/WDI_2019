@@ -5,7 +5,7 @@
         <Name>Allan Saint-Maximin</Name>
         <dateOfBirth>1997-03-12</dateOfBirth>
         <Nationality>France</Nationality>
-        <Photo></Photo>
+
         <CurrentClub>Newcastle United</CurrentClub>
         <CurrentPosition>Midfielder</CurrentPosition>
         <CurrentNumber>10</CurrentNumber>
@@ -13,16 +13,7 @@
         <Weight>67</Weight>
         <Height>173</Height>
         <Foot>right</Foot>
-        <Speed></Speed>
-        <Developments>
-            <Development>
-                <Year></Year>
-                <Rating></Rating>
-                <Potential></Potential>
-                <DefensiveWorkRate></DefensiveWorkRate>
-                <AttackingWorkRate></AttackingWorkRate>
-            </Development>
-        </Developments>
+
         <Transfers>
             <Transfer>
                 <ClubOut>OGC Nizza</ClubOut>
@@ -66,7 +57,7 @@
         <Name>Niklas Moisander</Name>
         <dateOfBirth>1985-09-29</dateOfBirth>
         <Nationality>Finland</Nationality>
-        <Photo></Photo>
+
         <CurrentClub>Werder Bremen</CurrentClub>
         <CurrentPosition>Defender</CurrentPosition>
         <CurrentNumber>18</CurrentNumber>
@@ -74,16 +65,7 @@
         <Weight>75</Weight>
         <Height>183</Height>
         <Foot>left</Foot>
-        <Speed></Speed>
-        <Developments>
-            <Development>
-                <Year></Year>
-                <Rating></Rating>
-                <Potential></Potential>
-                <DefensiveWorkRate></DefensiveWorkRate>
-                <AttackingWorkRate></AttackingWorkRate>
-            </Development>
-        </Developments>
+
         <Transfers>
             <Transfer>
                 <ClubOut>Sampdoria</ClubOut>
@@ -107,7 +89,7 @@
         <Name>Aaron Cresswell</Name>
         <dateOfBirth>1989-12-15</dateOfBirth>
         <Nationality>England</Nationality>
-        <Photo></Photo>
+
         <CurrentClub>West Ham United</CurrentClub>
         <CurrentPosition>Defender</CurrentPosition>
         <CurrentNumber>3</CurrentNumber>
@@ -115,16 +97,7 @@
         <Weight>66</Weight>
         <Height>170</Height>
         <Foot>left</Foot>
-        <Speed></Speed>
-        <Developments>
-            <Development>
-                <Year></Year>
-                <Rating></Rating>
-                <Potential></Potential>
-                <DefensiveWorkRate></DefensiveWorkRate>
-                <AttackingWorkRate></AttackingWorkRate>
-            </Development>
-        </Developments>
+
         <Transfers>
             <Transfer>
                 <ClubOut>Ipswich Town</ClubOut>
@@ -138,7 +111,7 @@
         <Name>Julian Baumgartlinger</Name>
         <dateOfBirth>1988-01-02</dateOfBirth>
         <Nationality>Austria</Nationality>
-        <Photo></Photo>
+
         <CurrentClub>Bayer 04 Leverkusen</CurrentClub>
         <CurrentPosition>Midfielder</CurrentPosition>
         <CurrentNumber>15</CurrentNumber>
@@ -146,16 +119,7 @@
         <Weight>86</Weight>
         <Height>184</Height>
         <Foot>right</Foot>
-        <Speed></Speed>
-        <Developments>
-            <Development>
-                <Year></Year>
-                <Rating></Rating>
-                <Potential></Potential>
-                <DefensiveWorkRate></DefensiveWorkRate>
-                <AttackingWorkRate></AttackingWorkRate>
-            </Development>
-        </Developments>
+
         <Transfers>
             <Transfer>
                 <ClubOut>1.FSV Mainz 05</ClubOut>
@@ -169,7 +133,7 @@
         <Name>Juan Cuadrado</Name>
         <dateOfBirth>1988-05-26</dateOfBirth>
         <Nationality>Colombia</Nationality>
-        <Photo></Photo>
+
         <CurrentClub>Juventus Turin</CurrentClub>
         <CurrentPosition>Right Wing</CurrentPosition>
         <CurrentNumber>16</CurrentNumber>
@@ -177,16 +141,7 @@
         <Weight>72</Weight>
         <Height>179</Height>
         <Foot>right</Foot>
-        <Speed></Speed>
-        <Developments>
-            <Development>
-                <Year></Year>
-                <Rating></Rating>
-                <Potential></Potential>
-                <DefensiveWorkRate></DefensiveWorkRate>
-                <AttackingWorkRate></AttackingWorkRate>
-            </Development>
-        </Developments>
+
         <Transfers>
             <Transfer>
                 <ClubOut>FC Chelsea</ClubOut>
@@ -225,7 +180,7 @@
         <Name>Joshua Brillante</Name>
         <dateOfBirth>1993-03-25</dateOfBirth>
         <Nationality>Australia</Nationality>
-        <Photo></Photo>
+
         <CurrentClub>Melbourne City</CurrentClub>
         <CurrentPosition>Midfielder</CurrentPosition>
         <CurrentNumber>6</CurrentNumber>
@@ -233,16 +188,7 @@
         <Weight>73</Weight>
         <Height>177</Height>
         <Foot>right</Foot>
-        <Speed></Speed>
-        <Developments>
-            <Development>
-                <Year></Year>
-                <Rating></Rating>
-                <Potential></Potential>
-                <DefensiveWorkRate></DefensiveWorkRate>
-                <AttackingWorkRate></AttackingWorkRate>
-            </Development>
-        </Developments>
+
         <Transfers>
             <Transfer>
                 <ClubOut>Sydney FC</ClubOut>
@@ -286,7 +232,7 @@
         <Name>Piotr Tomasik</Name>
         <dateOfBirth>1987-10-31</dateOfBirth>
         <Nationality>Poland</Nationality>
-        <Photo></Photo>
+
         <CurrentClub>Wisła Płock SA</CurrentClub>
         <CurrentPosition>Defender</CurrentPosition>
         <CurrentNumber>7</CurrentNumber>
@@ -294,16 +240,7 @@
         <Weight>72</Weight>
         <Height>177</Height>
         <Foot>left</Foot>
-        <Speed></Speed>
-        <Developments>
-            <Development>
-                <Year></Year>
-                <Rating></Rating>
-                <Potential></Potential>
-                <DefensiveWorkRate></DefensiveWorkRate>
-                <AttackingWorkRate></AttackingWorkRate>
-            </Development>
-        </Developments>
+
         <Transfers>
             <Transfer>
                 <ClubOut>KKS Lech Poznań</ClubOut>
@@ -317,54 +254,20 @@
         <Name>Jordan Rolly Botaka</Name>
         <dateOfBirth>1993-06-24</dateOfBirth>
         <Nationality>Congo DR</Nationality>
-        <Photo></Photo>
-        <CurrentClub>Sint-Truiden VV</CurrentClub>
+
+        <CurrentClub>Sint-Truidense VV</CurrentClub>
         <CurrentPosition>Midfielder</CurrentPosition>
-        <CurrentNumber></CurrentNumber>
+        <CurrentNumber>7</CurrentNumber>
         <WageInEuro></WageInEuro>
         <Weight>73</Weight>
         <Height>183</Height>
         <Foot>right</Foot>
-        <Speed></Speed>
-        <Developments>
-            <Development>
-                <Year></Year>
-                <Rating></Rating>
-                <Potential></Potential>
-                <DefensiveWorkRate></DefensiveWorkRate>
-                <AttackingWorkRate></AttackingWorkRate>
-            </Development>
-        </Developments>
+
         <Transfers>
             <Transfer>
                 <ClubOut></ClubOut>
                 <ClubIn></ClubIn>
-                <Year>2017</Year>
-            </Transfer>
-            <Transfer>
-                <ClubOut></ClubOut>
-                <ClubIn></ClubIn>
-                <Year>2017</Year>
-            </Transfer>
-            <Transfer>
-                <ClubOut></ClubOut>
-                <ClubIn></ClubIn>
-                <Year>2016</Year>
-            </Transfer>
-            <Transfer>
-                <ClubOut></ClubOut>
-                <ClubIn></ClubIn>
-                <Year>2015/Year>
-            </Transfer>
-            <Transfer>
-                <ClubOut></ClubOut>
-                <ClubIn></ClubIn>
-                <Year>2013</Year>
-            </Transfer>
-            <Transfer>
-                <ClubOut></ClubOut>
-                <ClubIn></ClubIn>
-                <Year>2013</Year>
+                <Year></Year>
             </Transfer>
         </Transfers>
     </Player>
@@ -373,7 +276,7 @@
         <Name>Jonas Svensson</Name>
         <dateOfBirth></dateOfBirth>
         <Nationality></Nationality>
-        <Photo></Photo>
+
         <CurrentClub></CurrentClub>
         <CurrentPosition></CurrentPosition>
         <CurrentNumber></CurrentNumber>
@@ -381,16 +284,7 @@
         <Weight></Weight>
         <Height></Height>
         <Foot></Foot>
-        <Speed></Speed>
-        <Developments>
-            <Development>
-                <Year></Year>
-                <Rating></Rating>
-                <Potential></Potential>
-                <DefensiveWorkRate></DefensiveWorkRate>
-                <AttackingWorkRate></AttackingWorkRate>
-            </Development>
-        </Developments>
+
         <Transfers>
             <Transfer>
                 <ClubOut></ClubOut>
@@ -404,7 +298,7 @@
         <Name>Oumar Sissoko</Name>
         <dateOfBirth></dateOfBirth>
         <Nationality></Nationality>
-        <Photo></Photo>
+
         <CurrentClub></CurrentClub>
         <CurrentPosition></CurrentPosition>
         <CurrentNumber></CurrentNumber>
@@ -412,16 +306,7 @@
         <Weight></Weight>
         <Height></Height>
         <Foot></Foot>
-        <Speed></Speed>
-        <Developments>
-            <Development>
-                <Year></Year>
-                <Rating></Rating>
-                <Potential></Potential>
-                <DefensiveWorkRate></DefensiveWorkRate>
-                <AttackingWorkRate></AttackingWorkRate>
-            </Development>
-        </Developments>
+
         <Transfers>
             <Transfer>
                 <ClubOut></ClubOut>
