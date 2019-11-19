@@ -25,12 +25,14 @@ import fusion_evaluation.NameEvaluationRule;
 import fusion_evaluation.NationalityEvaluationRule;
 import fusion_evaluation.PhotoEvaluationRule;
 import fusion_evaluation.WageEvaluationRule;
+import fusion_evaluation.WeightEvaluationRule;
 import fusion_fusers.CurrentClubFavourSourceFuser;
 import fusion_fusers.DateOfBirthFuserFavourSource;
 import fusion_fusers.NameLongestString;
 import fusion_fusers.NationalityFavourSource;
 import fusion_fusers.PhotoFuserFavourSource;
 import fusion_fusers.WageInEuroFavourSourceFuser;
+import fusion_fusers.WeightFuserFavourSource;
 import fusion_models.PlayerXMLReader_Fusion;
 import identityresolution_models.Player;
 import identityresolution_models.PlayerXMLFormatter;
@@ -129,6 +131,10 @@ public class DataFusion_Main {
 		dataAPI.setScore(1.0);
 		strategy.addAttributeFuser(Player.CURRENTCLUB, new CurrentClubFavourSourceFuser(), new CurrentClubEvaluationRule());
 		strategy.addAttributeFuser(Player.WAGE, new WageInEuroFavourSourceFuser(), new WageEvaluationRule());
+		// for weight we prefer the API values since they are the most recent
+		dataFIFA.setScore(1.0);
+		dataAPI.setScore(4.0);
+		strategy.addAttributeFuser(Player.WEIGHT, new WeightFuserFavourSource(), new WeightEvaluationRule());
 
 		// create the fusion engine
 		DataFusionEngine<Player, Attribute> engine = new DataFusionEngine<>(strategy);
