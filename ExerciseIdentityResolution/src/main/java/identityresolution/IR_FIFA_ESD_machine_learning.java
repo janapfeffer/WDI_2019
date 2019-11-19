@@ -78,15 +78,15 @@ public class IR_FIFA_ESD_machine_learning {
 		
 		// create a matching rule
 		String options[] = new String[] { };
-		String modelType = "RandomForest"; // use a linear regression
+		String modelType = "RandomForest"; // use a random forest
 		WekaMatchingRule<Player, Attribute> matchingRule = new WekaMatchingRule<>(0.9, modelType, options);
-		matchingRule.activateDebugReport("data/output/debugResultsMatchingRule.csv", 1000, gsTraining);
+		matchingRule.activateDebugReport("data/output/debugResultsMatchingRuleFIFA_ESD_ML.csv", 1000, gsTraining);
 		
 		// add comparators
 		matchingRule.addComparator(new PlayerNameFIFAESDComparatorLevenshtein());
-		matchingRule.addComparator(new PlayerNameFIFAESDComparatorJaccard());
+		//matchingRule.addComparator(new PlayerNameFIFAESDComparatorJaccard());
 		//matchingRule.addComparator(new PlayerNameFIFAESDComparatorJaccardOnNGram());
-		matchingRule.addComparator(new PlayerNameFIFAESDComparatorLevenshteinEditDistance());
+		//matchingRule.addComparator(new PlayerNameFIFAESDComparatorLevenshteinEditDistance());
 		matchingRule.addComparator(new PlayerNameFIFAESDComparatorMaximumTokenContainment());
 		matchingRule.addComparator(new DateFIFAESDComparator2Year());
 		matchingRule.addComparator(new HeightFIFAESDAbsoluteDifferences());
@@ -106,7 +106,7 @@ public class IR_FIFA_ESD_machine_learning {
 		// create a blocker (blocking strategy)
 		StandardRecordBlocker<Player, Attribute> blocker = new StandardRecordBlocker<Player, Attribute>(new PlayerBlockingFirstnameGenerator());
 //		SortedNeighbourhoodBlocker<Movie, Attribute, Attribute> blocker = new SortedNeighbourhoodBlocker<>(new MovieBlockingKeyByDecadeGenerator(), 1);
-		blocker.collectBlockSizeData("data/output/debugResultsBlocking.csv", 100);
+		blocker.collectBlockSizeData("data/output/debugResultsBlockingFIFA_ESD_ML.csv", 100);
 		
 		// Initialize Matching Engine
 		MatchingEngine<Player, Attribute> engine = new MatchingEngine<>();
@@ -118,7 +118,7 @@ public class IR_FIFA_ESD_machine_learning {
 				blocker);
 
 		// write the correspondences to the output file
-		new CSVCorrespondenceFormatter().writeCSV(new File("data/output/fifa_esd_player_correspondences.csv"), correspondences);
+		new CSVCorrespondenceFormatter().writeCSV(new File("data/output/ML_FIFA19_2_ESD_correspondences.csv"), correspondences);
 
 		// load the gold standard (test set)
 		System.out.println("*\n*\tLoading gold standard\n*");

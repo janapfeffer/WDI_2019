@@ -4,6 +4,10 @@ package identityresolution_models;
 import java.io.Serializable;
 import java.time.LocalDateTime;
 import java.util.List;
+import java.util.Collection;
+import org.apache.commons.lang3.StringUtils;
+import java.util.Map;
+import java.util.HashMap;
 
 import de.uni_mannheim.informatik.dws.winter.model.AbstractRecord;
 import de.uni_mannheim.informatik.dws.winter.model.defaultmodel.Attribute;
@@ -111,7 +115,7 @@ public class Player extends AbstractRecord<Attribute> implements Serializable {
 		return transfers;
 	}
 	
-	public Float getHeight() {
+	public float getHeight() {
 		return height;
 	}
 
@@ -204,7 +208,7 @@ public class Player extends AbstractRecord<Attribute> implements Serializable {
 		else if(attribute==DATEOFBIRTH) 
 			return getDateOfBirth()!=null;
 		else if(attribute==HEIGHT)
-			return getHeight()!=null && getHeight()!=0;
+			return getHeight()!=0.0f && getHeight()!=0;
 		else if(attribute==WEIGHT)
 			return getWeight()!=null && getWeight()!=0;
 		else if(attribute==CURRENTCLUB)
@@ -241,5 +245,35 @@ public class Player extends AbstractRecord<Attribute> implements Serializable {
 	@Override
 	public String toString() {
 		return String.format("[Player: %s]", getName());
+	}
+	private Map<Attribute, Collection<String>> provenance = new HashMap<>();
+	private Collection<String> recordProvenance;
+
+	public void setRecordProvenance(Collection<String> provenance) {
+		recordProvenance = provenance;
+	}
+
+	public Collection<String> getRecordProvenance() {
+		return recordProvenance;
+	}
+
+	
+	public void setAttributeProvenance(Attribute attribute,
+			Collection<String> provenance) {
+		this.provenance.put(attribute, provenance);
+	}
+
+	public Collection<String> getAttributeProvenance(String attribute) {
+		return provenance.get(attribute);
+	}
+
+	public String getMergedAttributeProvenance(Attribute attribute) {
+		Collection<String> prov = provenance.get(attribute);
+
+		if (prov != null) {
+			return StringUtils.join(prov, "+");
+		} else {
+			return "";
+		}
 	}
 }
