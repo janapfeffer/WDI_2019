@@ -111,7 +111,7 @@ public class Player extends AbstractRecord<Attribute> implements Serializable {
 		return transfers;
 	}
 	
-	public float getHeight() {
+	public Float getHeight() {
 		return height;
 	}
 
@@ -179,6 +179,20 @@ public class Player extends AbstractRecord<Attribute> implements Serializable {
 	public static final Attribute NAME = new Attribute("Name");
 	public static final Attribute DATEOFBIRTH = new Attribute("DateOfBirth");
 	public static final Attribute HEIGHT = new Attribute("Height");
+	public static final Attribute NATIONALITY = new Attribute("Nationality");
+	public static final Attribute PHOTO = new Attribute("Photo");
+	public static final Attribute CURRENTCLUB = new Attribute("CurrentClub");
+	public static final Attribute CURRENTPOSITION = new Attribute("CurrentPosition");
+	public static final Attribute WAGE = new Attribute("WageInEuro");
+	public static final Attribute CURRENTNUMBER = new Attribute("CurrentNumber");
+	public static final Attribute WEIGHT = new Attribute("Weight");
+	public static final Attribute FOOT = new Attribute("Foot");
+	public static final Attribute SPEED = new Attribute("Speed");
+	public static final Attribute TRANSFERS = new Attribute("Transfers");
+	public static final Attribute DEVELOPMENTS = new Attribute("Developments");
+
+	
+	
 	
 	/* (non-Javadoc)
 	 * @see de.uni_mannheim.informatik.wdi.model.Record#hasValue(java.lang.Object)
@@ -186,11 +200,33 @@ public class Player extends AbstractRecord<Attribute> implements Serializable {
 	@Override
 	public boolean hasValue(Attribute attribute) {
 		if(attribute==NAME)
-			return name!=null;
+			return getName()!=null && !getName().isEmpty();
 		else if(attribute==DATEOFBIRTH) 
-			return DATEOFBIRTH!=null;
+			return getDateOfBirth()!=null;
 		else if(attribute==HEIGHT)
-			return HEIGHT!=null;
+			return getHeight()!=null && getHeight()!=0;
+		else if(attribute==WEIGHT)
+			return getWeight()!=null && getWeight()!=0;
+		else if(attribute==CURRENTCLUB)
+			return getCurrentClub()!=null;
+		else if(attribute==CURRENTNUMBER)
+			return getCurrentNumber()!=0;
+		else if(attribute==CURRENTPOSITION)
+			return getCurrentPosition()!=null;
+		else if(attribute==DEVELOPMENTS)
+			return getDevelopments()!=null;
+		else if(attribute==FOOT)
+			return getFoot()!=null;
+		else if(attribute==NATIONALITY)
+			return getNationality()!=null;
+		else if(attribute==PHOTO)
+			return getPhoto()!=null;
+		else if(attribute==SPEED)
+			return getSpeed()!=0;
+		else if(attribute==TRANSFERS)
+			return getTransfers()!=null;
+		else if(attribute==WAGE)
+			return getWage()!=null && getWage()!=0;
 		return false;
 	}
 
@@ -202,4 +238,8 @@ public class Player extends AbstractRecord<Attribute> implements Serializable {
 		this.speed = speed;
 	}
 
+	@Override
+	public String toString() {
+		return String.format("[Player: %s]", getName());
+	}
 }
