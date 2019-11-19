@@ -24,6 +24,7 @@ import fusion_evaluation.DateOfBirthEvaluationRule;
 import fusion_evaluation.NameEvaluationRule;
 import fusion_evaluation.NationalityEvaluationRule;
 import fusion_evaluation.PhotoEvaluationRule;
+import fusion_evaluation.TransfersEvaluationRule;
 import fusion_evaluation.WageEvaluationRule;
 import fusion_evaluation.WeightEvaluationRule;
 import fusion_fusers.CurrentClubFavourSourceFuser;
@@ -31,6 +32,7 @@ import fusion_fusers.DateOfBirthFuserFavourSource;
 import fusion_fusers.NameLongestString;
 import fusion_fusers.NationalityFavourSource;
 import fusion_fusers.PhotoFuserFavourSource;
+import fusion_fusers.TransfersFuserUnion;
 import fusion_fusers.WageInEuroFavourSourceFuser;
 import fusion_fusers.WeightFuserFavourSource;
 import fusion_models.PlayerXMLReader_Fusion;
@@ -107,7 +109,7 @@ public class DataFusion_Main {
 		strategy.activateDebugReport("data/output/debugResultsDatafusion.csv", -1, gs);
 
 		// add attribute fusers
-		// TODO: currentposition, currentnumber, height, foot, speed, developments, transfers
+		// TODO: currentposition, currentnumber, height, foot, speed, developments
 		strategy.addAttributeFuser(Player.NAME, new NameLongestString(), new NameEvaluationRule());
 		// fuse photos, we prefer the API photos becuase they have a higher resolution
 		dataAPI.setScore(4.0);
@@ -136,6 +138,10 @@ public class DataFusion_Main {
 		dataFIFA.setScore(1.0);
 		dataAPI.setScore(4.0);
 		strategy.addAttributeFuser(Player.WEIGHT, new WeightFuserFavourSource(), new WeightEvaluationRule());
+		//fuse transfers
+		dataAPI.setScore(2.0);
+		dataTransfer.setScore(4.0);
+		strategy.addAttributeFuser(Player.TRANSFERS, new TransfersFuserUnion(), new TransfersEvaluationRule());
 
 		// create the fusion engine
 		DataFusionEngine<Player, Attribute> engine = new DataFusionEngine<>(strategy);
