@@ -19,9 +19,11 @@ import de.uni_mannheim.informatik.dws.winter.model.FusibleHashedDataSet;
 import de.uni_mannheim.informatik.dws.winter.model.RecordGroupFactory;
 import de.uni_mannheim.informatik.dws.winter.model.defaultmodel.Attribute;
 import de.uni_mannheim.informatik.dws.winter.utils.WinterLogManager;
+import fusion_evaluation.DateOfBirthEvaluationRule;
 import fusion_evaluation.NameEvaluationRule;
 import fusion_evaluation.NationalityEvaluationRule;
 import fusion_evaluation.PhotoEvaluationRule;
+import fusion_fusers.DateOfBirthFuserFavourSource;
 import fusion_fusers.NameLongestString;
 import fusion_fusers.NationalityFavourSource;
 import fusion_fusers.PhotoFuserFavourSource;
@@ -101,17 +103,24 @@ public class DataFusion_Main {
 		// add attribute fusers
 		// TODO
 		strategy.addAttributeFuser(Player.NAME, new NameLongestString(), new NameEvaluationRule());
-		// change scores for photo fusion
-		dataAPI.setScore(1.0);
-		dataESD.setScore(3.0);
-		dataFIFA.setScore(2.0);
-		dataTransfer.setScore(4.0);
+		// fuse photos
+		dataAPI.setScore(4.0);
+		dataESD.setScore(2.0);
+		dataFIFA.setScore(3.0);
+		dataTransfer.setScore(1.0);
 		strategy.addAttributeFuser(Player.PHOTO, new PhotoFuserFavourSource(), new PhotoEvaluationRule());
+		// fuse nationality
 		dataAPI.setScore(2.0);
 		dataESD.setScore(3.0);
 		dataFIFA.setScore(1.0);
 		dataTransfer.setScore(4.0);
 		strategy.addAttributeFuser(Player.NATIONALITY, new NationalityFavourSource(), new NationalityEvaluationRule());
+		// fuse date of birth
+		dataAPI.setScore(4.0);
+		dataESD.setScore(3.0);
+		dataFIFA.setScore(1.0);
+		dataTransfer.setScore(2.0);
+		strategy.addAttributeFuser(Player.DATEOFBIRTH, new DateOfBirthFuserFavourSource(), new DateOfBirthEvaluationRule());
 
 		// create the fusion engine
 		DataFusionEngine<Player, Attribute> engine = new DataFusionEngine<>(strategy);
