@@ -21,6 +21,7 @@ import de.uni_mannheim.informatik.dws.winter.model.defaultmodel.Attribute;
 import de.uni_mannheim.informatik.dws.winter.utils.WinterLogManager;
 import fusion_models.PlayerXMLReader_Fusion;
 import identityresolution_models.Player;
+import identityresolution_models.PlayerXMLFormatter;
 import identityresolution_models.PlayerXMLReader;
 
 public class DataFusion_Main {
@@ -54,6 +55,68 @@ public class DataFusion_Main {
 		dataFIFA.setScore(3.0);
 		dataTransfer.setScore(4.0);
 
+		// Date (e.g. last update)
+		DateTimeFormatter formatter = new DateTimeFormatterBuilder()
+				.appendPattern("yyyy-MM-dd")
+				.parseDefaulting(ChronoField.CLOCK_HOUR_OF_DAY, 0)
+				.parseDefaulting(ChronoField.MINUTE_OF_HOUR, 0)
+				.parseDefaulting(ChronoField.SECOND_OF_MINUTE, 0)
+				.toFormatter(Locale.ENGLISH);
+
+		dataAPI.setDate(LocalDateTime.parse("2019-09-29", formatter));
+		dataESD.setDate(LocalDateTime.parse("2016-10-24", formatter));
+		dataFIFA.setDate(LocalDateTime.parse("2018-12-21", formatter));
+		dataTransfer.setDate(LocalDateTime.parse("2019-01-01", formatter));
+
+		// load correspondences
+		System.out.println("*\n*\tLoading correspondences\n*");
+		CorrespondenceSet<Player, Attribute> correspondences = new CorrespondenceSet<>();
+		correspondences.loadCorrespondences(new File("data/output/API_2_Transfer_correspondences.csv"),dataAPI, dataTransfer);
+		correspondences.loadCorrespondences(new File("data/output/FIFA19_2_API_correspondences.csv"),dataFIFA, dataAPI);
+		correspondences.loadCorrespondences(new File("data/output/FIFA19_2_ESD_correspondences.csv"),dataFIFA, dataESD);
+
+		// write group size distribution
+		correspondences.printGroupSizeDistribution();
+
+		// load the gold standard
+		System.out.println("*\n*\tEvaluating results\n*");
+		DataSet<Player, Attribute> gs = new FusibleHashedDataSet<>();
+		new PlayerXMLReader_Fusion().loadFromXML(new File("data/goldstandard/gs_datafusion.xml"), "/Players/Player", gs);
+
+		for(Player m : gs.get()) {
+			System.out.println(String.format("gs: %s", m.getIdentifier()));
+		}
+
+		// define the fusion strategy
+		DataFusionStrategy<Player, Attribute> strategy = new DataFusionStrategy<>(new PlayerXMLReader_Fusion());
+		// write debug results to file
+		strategy.activateDebugReport("data/output/debugResultsDatafusion.csv", -1, gs);
+
+		// add attribute fusers
+		// TODO
+
+		// create the fusion engine
+		DataFusionEngine<Player, Attribute> engine = new DataFusionEngine<>(strategy);
+
+		// print consistency report
+		engine.printClusterConsistencyReport(correspondences, null);
+
+		// print record groups sorted by consistency
+		engine.writeRecordGroupsByConsistency(new File("data/output/recordGroupConsistencies.csv"), correspondences, null);
+
+		// run the fusion
+		System.out.println("*\n*\tRunning data fusion\n*");
+		FusibleDataSet<Player, Attribute> fusedDataSet = engine.run(correspondences, null);
+
+		// write the result
+		new PlayerXMLFormatter().writeXML(new File("data/output/fused.xml"), fusedDataSet);
+
+		// evaluate
+		DataFusionEvaluator<Player, Attribute> evaluator = new DataFusionEvaluator<>(strategy, new RecordGroupFactory<Player, Attribute>());
+
+		double accuracy = evaluator.evaluate(fusedDataSet, gs, null);
+
+		System.out.println(String.format("Accuracy: %.2f", accuracy));
 	}
 
 }
