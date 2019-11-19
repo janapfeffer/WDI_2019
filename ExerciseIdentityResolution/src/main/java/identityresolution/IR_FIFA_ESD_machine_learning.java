@@ -84,9 +84,9 @@ public class IR_FIFA_ESD_machine_learning {
 		
 		// add comparators
 		matchingRule.addComparator(new PlayerNameFIFAESDComparatorLevenshtein());
-		//matchingRule.addComparator(new PlayerNameFIFAESDComparatorJaccard());
+		matchingRule.addComparator(new PlayerNameFIFAESDComparatorJaccard());
 		//matchingRule.addComparator(new PlayerNameFIFAESDComparatorJaccardOnNGram());
-		//matchingRule.addComparator(new PlayerNameFIFAESDComparatorLevenshteinEditDistance());
+		matchingRule.addComparator(new PlayerNameFIFAESDComparatorLevenshteinEditDistance());
 		matchingRule.addComparator(new PlayerNameFIFAESDComparatorMaximumTokenContainment());
 		matchingRule.addComparator(new DateFIFAESDComparator2Year());
 		matchingRule.addComparator(new HeightFIFAESDAbsoluteDifferences());
