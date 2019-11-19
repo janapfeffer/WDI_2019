@@ -98,7 +98,7 @@ public class DataFusion_Main {
 
 		// add attribute fusers
 		// TODO
-		//strategy.addAttributeFuser(Player.NAME, new NameLongestString(), new NameEvaluationRule());
+		strategy.addAttributeFuser(Player.NAME, new NameLongestString(), new NameEvaluationRule());
 		// change scores for photo fusion
 		dataAPI.setScore(1.0);
 		dataESD.setScore(3.0);
