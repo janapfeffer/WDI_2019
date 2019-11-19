@@ -14,13 +14,13 @@ public class TransferXMLFormatter extends XMLFormatter<Transfer> {
 
 	@Override
 	public Element createElementFromRecord(Transfer record, Document doc) {
-		Element transfers = doc.createElement("Transfers");
+		Element transfer = doc.createElement("Transfer");
 		
-		transfers.appendChild(createTextElement("Year", String.valueOf(record.getYear()), doc));
-		transfers.appendChild(createTextElement("ClubOut", String.valueOf(record.getClubOutName()), doc));
-		transfers.appendChild(createTextElement("ClubIn", String.valueOf(record.getClubInName()), doc));
+		transfer.appendChild(createTextElement("Year", String.valueOf(record.getYear()), doc));
+		transfer.appendChild(createTextElement("ClubOut", String.valueOf(record.getClubOutName()), doc));
+		transfer.appendChild(createTextElement("ClubIn", String.valueOf(record.getClubInName()), doc));
 		
-		return transfers;
+		return transfer;
 	}
 
 }
