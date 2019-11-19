@@ -24,6 +24,7 @@ public class PlayerXMLFormatter extends XMLFormatter<Player> {
 	public Element createElementFromRecord(Player record, Document doc) {
 		Element Player = doc.createElement("Player");
 
+		Player.appendChild(createTextElement("id", record.getIdentifier(), doc));
 		Player.appendChild(createTextElement("Name", record.getName(), doc));
 		Player.appendChild(createTextElement("dateOfBirth", String.valueOf(record.getDateOfBirth()), doc));
 		Player.appendChild(createTextElement("Nationality", record.getNationality(), doc));
@@ -39,5 +40,12 @@ public class PlayerXMLFormatter extends XMLFormatter<Player> {
 
 		return Player;
 	}
-	
+
+	protected Element createTextElementWithProvenance(String name,
+			String value, String provenance, Document doc) {
+		Element elem = createTextElement(name, value, doc);
+		elem.setAttribute("provenance", provenance);
+		return elem;
+	}
+
 }
