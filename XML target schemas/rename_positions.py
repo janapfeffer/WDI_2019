@@ -36,23 +36,23 @@ positions = {
 
 prefix_find = r"(Position>)"
 suffix_find = r"(</)"
-prefix_replace = r"/1"
+prefix_replace = r"\1"
 suffix_replace = r"\2"
-re.sub(r'(Position>)ST(</)', r'\1Striker\2', <CurrentNumber>15</CurrentNumber>)
+# re.sub(r'(Position>)ST(</)', r'\1Striker\2', <CurrentNumber>15</CurrentNumber>)
 
-fifa = "Documents/Uni/Master/1. Semester/Web Data Integration/WDI_2019/XML target schemas/FIFA19 target schema.xml."
+fifa = "Documents/Uni/Master/1. Semester/Web Data Integration/WDI_2019/XML target schemas/FIFA19 target schema.xml"
 tmp_fifa = "Documents/Uni/Master/1. Semester/Web Data Integration/WDI_2019/XML target schemas/FIFA19 target schema temp.xml"
 
 
-with codecs.open(fifa, 'r', encoding='utf-16') as fi,\ 
-     codecs.open(tmp_fifa, 'w', encoding='utf-16') as fo:
+with codecs.open(fifa, 'r', encoding='utf-16') as fi: 
+    with codecs.open(tmp_fifa, 'w', encoding='utf-16') as fo:
 
-    for line in fi:
-        for k, v in positions.items():
-            find = prefix_find + k + suffix_find
-            replace = prefix_replace + v + suffix_replace
-            line = re.sub(prefix_find, prefix_replace, line)
-        fo.write(line)
+        for line in fi:
+            for k, v in positions.items():
+                find = prefix_find + k + suffix_find
+                replace = prefix_replace + v + suffix_replace
+                line = re.sub(find, replace, line)
+            fo.write(line)
 
 os.remove(fifa) # remove original
 os.rename(tmp_fifa, fifa) # rename temp to original name
