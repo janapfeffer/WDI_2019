@@ -60,7 +60,7 @@ public class PlayerXMLReader extends XMLMatchableReader<Player, Attribute> {
 			// TODO: handle exception
 		}
 		try {
-			player.setWage(Float.valueOf(getValueFromChildElement(node, "Wage")));
+			player.setWage(Float.valueOf(getValueFromChildElement(node, "WageInEuro")));
 		} catch (Exception e) {
 			// TODO: handle exception
 		}
