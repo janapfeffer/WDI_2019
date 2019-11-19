@@ -14,34 +14,32 @@ import identityresolution_models.Player;
 public class NameLongestString extends
 AttributeValueFuser<String, Player, Attribute>{
 
-	public NameLongestString(ConflictResolutionFunction<String, Player, Attribute> conflictResolution) {
+	public NameLongestString() {
 		super(new LongestString<Player, Attribute>());
 	}
 
 	@Override
 	public String getValue(Player record, Correspondence<Attribute, Matchable> correspondence) {
-		// TODO Auto-generated method stub
-		return null;
+		return record.getName();
 	}
 
 	@Override
 	public void fuse(RecordGroup<Player, Attribute> group, Player fusedRecord,
 			Processable<Correspondence<Attribute, Matchable>> schemaCorrespondences, Attribute schemaElement) {
 		// get the fused value
-				FusedValue<String, Player, Attribute> fused = getFusedValue(group, schemaCorrespondences, schemaElement);
+		FusedValue<String, Player, Attribute> fused = getFusedValue(group, schemaCorrespondences, schemaElement);
 
-				// set the value for the fused record
-				fusedRecord.setName(fused.getValue());
+		// set the value for the fused record
+		fusedRecord.setName(fused.getValue());
 
-				// add provenance info
-				fusedRecord.setAttributeProvenance(Player.NAME, fused.getOriginalIds());
-		
+		// add provenance info
+		fusedRecord.setAttributeProvenance(Player.NAME, fused.getOriginalIds());
+
 	}
 
 	@Override
 	public boolean hasValue(Player record, Correspondence<Attribute, Matchable> correspondence) {
-		// TODO Auto-generated method stub
-		return false;
+		return record.hasValue(Player.NAME);
 	}
 
 }

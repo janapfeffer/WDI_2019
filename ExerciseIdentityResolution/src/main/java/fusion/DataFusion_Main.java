@@ -19,6 +19,8 @@ import de.uni_mannheim.informatik.dws.winter.model.FusibleHashedDataSet;
 import de.uni_mannheim.informatik.dws.winter.model.RecordGroupFactory;
 import de.uni_mannheim.informatik.dws.winter.model.defaultmodel.Attribute;
 import de.uni_mannheim.informatik.dws.winter.utils.WinterLogManager;
+import fusion_evaluation.NameEvaluationRule;
+import fusion_fusers.NameLongestString;
 import fusion_models.PlayerXMLReader_Fusion;
 import identityresolution_models.Player;
 import identityresolution_models.PlayerXMLFormatter;
@@ -94,6 +96,7 @@ public class DataFusion_Main {
 
 		// add attribute fusers
 		// TODO
+		strategy.addAttributeFuser(Player.NAME, new NameLongestString(), new NameEvaluationRule());
 
 		// create the fusion engine
 		DataFusionEngine<Player, Attribute> engine = new DataFusionEngine<>(strategy);
