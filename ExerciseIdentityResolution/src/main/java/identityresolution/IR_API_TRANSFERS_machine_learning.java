@@ -14,8 +14,6 @@ import de.uni_mannheim.informatik.dws.wdi.ExerciseIdentityResolution.Comparators
 import de.uni_mannheim.informatik.dws.wdi.ExerciseIdentityResolution.Comparators.MovieTitleComparatorEqual;
 import de.uni_mannheim.informatik.dws.wdi.ExerciseIdentityResolution.Comparators.MovieTitleComparatorJaccard;
 import de.uni_mannheim.informatik.dws.wdi.ExerciseIdentityResolution.Comparators.MovieTitleComparatorLevenshtein;
-import de.uni_mannheim.informatik.dws.wdi.ExerciseIdentityResolution.model.Movie;
-import de.uni_mannheim.informatik.dws.wdi.ExerciseIdentityResolution.model.MovieXMLReader;
 import de.uni_mannheim.informatik.dws.winter.matching.MatchingEngine;
 import de.uni_mannheim.informatik.dws.winter.matching.MatchingEvaluator;
 import de.uni_mannheim.informatik.dws.winter.matching.algorithms.RuleLearner;
