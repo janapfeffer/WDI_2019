@@ -54,7 +54,7 @@ public class IR_FIFA_ESD {
 		// create a matching rule
 		LinearCombinationMatchingRule<Player, Attribute> matchingRule = new LinearCombinationMatchingRule<>(
 				0.8);
-		matchingRule.activateDebugReport("data/output/debugResultsMatchingRule.csv", 1000, gsTest);
+		matchingRule.activateDebugReport("data/output/debugResultsMatchingRuleFIFA_ESD.csv", 1000, gsTest);
 
 		// add comparators
 		matchingRule.addComparator(new PlayerNameFIFAESDComparatorLevenshtein(), 0.25);
@@ -70,7 +70,7 @@ public class IR_FIFA_ESD {
 		//SortedNeighbourhoodBlocker<Player, Attribute, Attribute> blocker = new SortedNeighbourhoodBlocker<>(new PlayerBlockingKeyByYearGenerator(), 100);
 		StandardRecordBlocker<Player, Attribute> blocker = new StandardRecordBlocker<Player, Attribute>(new PlayerBlockingFirstnameGenerator());
 		blocker.setMeasureBlockSizes(true);
-		blocker.collectBlockSizeData("data/output/debugResultsBlocking.csv", 100);
+		blocker.collectBlockSizeData("data/output/debugResultsBlockingFIFA_ESD.csv", 100);
 
 		// Initialize Matching Engine
 		MatchingEngine<Player, Attribute> engine = new MatchingEngine<>();
