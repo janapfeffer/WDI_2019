@@ -22,6 +22,7 @@ import identityresolution_blocking.PlayerBlockingKeyByHeightGenerator;
 import identityresolution_blocking.PlayerBlockingKeyByYearGenerator;
 import identityresolution_comparators.DateFIFAESDComparator2Year;
 import identityresolution_comparators.HeightFIFAAPIAbsoluteDifferences;
+import identityresolution_comparators.HeightFIFAAPIPercentageSimilarity;
 import identityresolution_comparators.HeightFIFAESDAbsoluteDifferences;
 import identityresolution_comparators.HeightFIFAESDPercentageSimilarity;
 import identityresolution_comparators.PlayerNameFIFAAPIComparator;
@@ -58,13 +59,13 @@ public class IR_FIFA_API {
 
 		// add comparators
 		matchingRule.addComparator(new PlayerNameFIFAAPIComparatorJaccard(), 0.5);
-		matchingRule.addComparator(new HeightFIFAAPIAbsoluteDifferences(), 0.3);
+		matchingRule.addComparator(new HeightFIFAAPIPercentageSimilarity(), 0.3);
 		matchingRule.addComparator(new DateFIFAESDComparator2Year(), 0.2);
 
 		// create a blocker
 		//NoBlocker<Player, Attribute> blocker = new NoBlocker<>(); // noBlocker should not be used, it raises a java.lang.OutOfMemoryError: Java heap space
-		StandardRecordBlocker<Player, Attribute> blocker = new StandardRecordBlocker<Player, Attribute>(new PlayerBlockingKeyByYearGenerator());
-		//StandardRecordBlocker<Player, Attribute> blocker = new StandardRecordBlocker<Player, Attribute>(new PlayerBlockingFirstnameGenerator());
+		//StandardRecordBlocker<Player, Attribute> blocker = new StandardRecordBlocker<Player, Attribute>(new PlayerBlockingKeyByYearGenerator());
+		StandardRecordBlocker<Player, Attribute> blocker = new StandardRecordBlocker<Player, Attribute>(new PlayerBlockingFirstnameGenerator());
 		//StandardRecordBlocker<Player, Attribute> blocker = new StandardRecordBlocker<Player, Attribute>(new PlayerBlockingKeyByHeightGenerator());
 		//SortedNeighbourhoodBlocker<Player, Attribute, Attribute> blocker = new SortedNeighbourhoodBlocker<Player, Attribute, Attribute>(new PlayerBlockingKeyByHeightGenerator(), 170);
 		//SortedNeighbourhoodBlocker<Player, Attribute, Attribute> blocker = new SortedNeighbourhoodBlocker<>(new PlayerBlockingKeyByYearGenerator(), 2000);
