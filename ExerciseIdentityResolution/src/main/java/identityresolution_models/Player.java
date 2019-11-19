@@ -115,7 +115,7 @@ public class Player extends AbstractRecord<Attribute> implements Serializable {
 		return transfers;
 	}
 	
-	public Float getHeight() {
+	public float getHeight() {
 		return height;
 	}
 
@@ -208,7 +208,7 @@ public class Player extends AbstractRecord<Attribute> implements Serializable {
 		else if(attribute==DATEOFBIRTH) 
 			return getDateOfBirth()!=null;
 		else if(attribute==HEIGHT)
-			return getHeight()!=null && getHeight()!=0;
+			return getHeight()!=0.0f && getHeight()!=0;
 		else if(attribute==WEIGHT)
 			return getWeight()!=null && getWeight()!=0;
 		else if(attribute==CURRENTCLUB)
