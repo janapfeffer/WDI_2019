@@ -1,6 +1,11 @@
 package identityresolution_models;
 
-public class Development {
+import java.io.Serializable;
+
+import de.uni_mannheim.informatik.dws.winter.model.AbstractRecord;
+import de.uni_mannheim.informatik.dws.winter.model.defaultmodel.Attribute;
+
+public class Development extends AbstractRecord<Attribute> implements Serializable{
 	
 	private int year;
 	private int rating;
@@ -57,6 +62,32 @@ public class Development {
 	public void setAttackingWorkRate(String attackingWorkRate) {
 		this.attackingWorkRate = attackingWorkRate;
 		
+	}
+	
+	public static final Attribute RATING = new Attribute("rating");
+	public static final Attribute POTENTIAL = new Attribute("potential");
+	public static final Attribute DEFENSIVEWORKRATE = new Attribute("defensiveWorkRate");
+	public static final Attribute ATTACKINGWORKRATE = new Attribute("attackingWorkRate");
+	public static final Attribute YEAR = new Attribute("year");
+	
+
+	public boolean hasValue(Attribute attribute) {
+		if(attribute==RATING)
+			return rating!=0;
+		else if(attribute==POTENTIAL)
+			return potential!=0;
+		else if(attribute==DEFENSIVEWORKRATE)
+			return defensiveWorkRate!=null;
+		else if(attribute==ATTACKINGWORKRATE)
+			return attackingWorkRate!=null;
+		else if(attribute==YEAR)
+			return year!=0;
+		return false;
+	}
+	
+	@Override
+	public String toString() {
+		return String.format("[Development: %s]", getYear(), getRating(), getPotential(), getDefensiveWorkRate(), getAttackingWorkRate() );
 	}
 
 }

@@ -12,21 +12,21 @@ public class DevelopmentXMLReader extends XMLMatchableReader<Development, Attrib
 		String id = getValueFromChildElement(node, "id");
 
 		// create the object with id and provenance information
-		Development developments = new Development(id, provenanceInfo);
+		Development development = new Development(id, provenanceInfo);
 
 		// fill the attributes
-		developments.setPotential(Integer.valueOf(getValueFromChildElement(node, "Potential")));
-		developments.setRating(Integer.valueOf(getValueFromChildElement(node, "Rating")));
-		developments.setDefensiveWorkRate(getValueFromChildElement(node,"Defensive Work Rate"));
-		developments.setAttackingWorkRate(getValueFromChildElement(node,"Attacking Work Rate"));
+		development.setPotential(Integer.valueOf(getValueFromChildElement(node, "Potential")));
+		development.setRating(Integer.valueOf(getValueFromChildElement(node, "Rating")));
+		development.setDefensiveWorkRate(getValueFromChildElement(node,"DefensiveWorkRate"));
+		development.setAttackingWorkRate(getValueFromChildElement(node,"AttackingWorkRate"));
 		try {
-			developments.setYear(Integer.valueOf(getValueFromChildElement(node, "Year")));
+			development.setYear(Integer.valueOf(getValueFromChildElement(node, "Year")));
 		} catch (Exception e) {
 		}
 		
 		
 
-		return developments;
+		return development;
 	}
 
 }

@@ -1,6 +1,8 @@
 package fusion_models;
 
 import de.uni_mannheim.informatik.dws.winter.model.io.XMLMatchableReader;
+import identityresolution_models.Development;
+import identityresolution_models.DevelopmentXMLReader;
 import identityresolution_models.Player;
 import identityresolution_models.Transfer;
 import identityresolution_models.TransferXMLReader;
@@ -111,6 +113,10 @@ FusibleFactory<Player, Attribute>{
 				List<Transfer> transfers = getObjectListFromChildElement(node, "Transfers",
 						"Transfer", new TransferXMLReader(), provenanceInfo);
 				player.setTransfers(transfers);
+				
+				List<Development> developments = getObjectListFromChildElement(node, "Developments",
+						"Development", new DevelopmentXMLReader(), provenanceInfo);
+				player.setDevelopments(developments);
 				
 				// convert the date string into a DateTime object
 				try {

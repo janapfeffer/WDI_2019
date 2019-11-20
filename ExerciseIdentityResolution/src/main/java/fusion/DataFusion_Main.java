@@ -51,7 +51,6 @@ public class DataFusion_Main {
 		new PlayerXMLReader_Fusion().loadFromXML(new File("data/input/transfer_csv.xml"), "/Players/Player", dataTransfer);
 		dataTransfer.printDataSetDensityReport();
 
-
 		FusibleDataSet<Player, Attribute> dataAPI = new FusibleHashedDataSet<>();
 		new PlayerXMLReader_Fusion().loadFromXML(new File("data/input/PlayerAndTransfersAPI target schema.xml"), "/Players/Player", dataAPI);
 		dataAPI.printDataSetDensityReport();
