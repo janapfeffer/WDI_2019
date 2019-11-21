@@ -18,13 +18,13 @@ public class Transfer extends AbstractRecord<Attribute> implements Serializable{
 	public Transfer(String identifier, String provenance) {
 		super(identifier, provenance);
 	}
-	
+/*	
 	public Transfer(String clubInName, String clubOutName, int year){
 		this.setClubInName(clubInName);
 		this.setClubOutName(clubOutName);
 		this.setYear(year);
 	}
-	
+*/	
 	/*
 	 * (non-Javadoc)
 	 * 

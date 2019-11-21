@@ -1,7 +1,11 @@
 package fusion_models;
 
 import de.uni_mannheim.informatik.dws.winter.model.io.XMLMatchableReader;
+import identityresolution_models.Development;
+import identityresolution_models.DevelopmentXMLReader;
 import identityresolution_models.Player;
+import identityresolution_models.Transfer;
+import identityresolution_models.TransferXMLReader;
 
 import java.time.LocalDateTime;
 import java.time.format.DateTimeFormatter;
@@ -73,7 +77,7 @@ FusibleFactory<Player, Attribute>{
 					
 				}
 				try {
-					player.setWage(Float.valueOf(getValueFromChildElement(node, "Wage")));
+					player.setWage(Float.valueOf(getValueFromChildElement(node, "WageInEuro")));
 				} catch (Exception e) {
 					// TODO: handle exception
 				}
@@ -105,6 +109,14 @@ FusibleFactory<Player, Attribute>{
 				}
 				
 				// TODO add list attributes: transfers and developments (see MovieXMLReader)
+				
+				List<Transfer> transfers = getObjectListFromChildElement(node, "Transfers",
+						"Transfer", new TransferXMLReader(), provenanceInfo);
+				player.setTransfers(transfers);
+				
+				List<Development> developments = getObjectListFromChildElement(node, "Developments",
+						"Development", new DevelopmentXMLReader(), provenanceInfo);
+				player.setDevelopments(developments);
 				
 				// convert the date string into a DateTime object
 				try {

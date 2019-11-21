@@ -371,7 +371,7 @@
     <Player>
         <id>9</id>
         <Name>Jonas Svensson</Name>
-        <dateOfBirth></dateOfBirth>
+        <dateOfBirth>1993-03-06</dateOfBirth>
         <Nationality></Nationality>
         <Photo></Photo>
         <CurrentClub></CurrentClub>
@@ -402,7 +402,7 @@
     <Player>
         <id>10</id>
         <Name>Oumar Sissoko</Name>
-        <dateOfBirth></dateOfBirth>
+        <dateOfBirth>1987-09-13</dateOfBirth>
         <Nationality></Nationality>
         <Photo></Photo>
         <CurrentClub></CurrentClub>
