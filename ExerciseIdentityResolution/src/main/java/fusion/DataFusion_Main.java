@@ -21,6 +21,7 @@ import de.uni_mannheim.informatik.dws.winter.model.defaultmodel.Attribute;
 import de.uni_mannheim.informatik.dws.winter.utils.WinterLogManager;
 import fusion_evaluation.CurrentClubEvaluationRule;
 import fusion_evaluation.DateOfBirthEvaluationRule;
+import fusion_evaluation.FootEvaluationRule;
 import fusion_evaluation.NameEvaluationRule;
 import fusion_evaluation.NationalityEvaluationRule;
 import fusion_evaluation.PhotoEvaluationRule;
@@ -29,16 +30,16 @@ import fusion_evaluation.WageEvaluationRule;
 import fusion_evaluation.WeightEvaluationRule;
 import fusion_fusers.CurrentClubFavourSourceFuser;
 import fusion_fusers.DateOfBirthFuserFavourSource;
+import fusion_fusers.FootFuserMostRecent;
 import fusion_fusers.NameLongestString;
 import fusion_fusers.NationalityFavourSource;
 import fusion_fusers.PhotoFuserFavourSource;
 import fusion_fusers.TransfersFuserUnion;
 import fusion_fusers.WageInEuroFavourSourceFuser;
-import fusion_fusers.WeightFuserFavourSource;
+import fusion_fusers.WeightFuserMostRecent;
 import fusion_models.PlayerXMLReader_Fusion;
 import identityresolution_models.Player;
 import identityresolution_models.PlayerXMLFormatter;
-import identityresolution_models.PlayerXMLReader;
 
 public class DataFusion_Main {
 
@@ -108,7 +109,7 @@ public class DataFusion_Main {
 		strategy.activateDebugReport("data/output/debugResultsDatafusion.csv", -1, gs);
 
 		// add attribute fusers
-		// TODO: currentposition, currentnumber, height, foot, speed, developments
+		// TODO: currentposition, currentnumber, height, speed, developments
 		strategy.addAttributeFuser(Player.NAME, new NameLongestString(), new NameEvaluationRule());
 		// fuse photos, we prefer the API photos becuase they have a higher resolution
 		dataAPI.setScore(4.0);
@@ -133,15 +134,15 @@ public class DataFusion_Main {
 		dataAPI.setScore(1.0);
 		strategy.addAttributeFuser(Player.CURRENTCLUB, new CurrentClubFavourSourceFuser(), new CurrentClubEvaluationRule());
 		strategy.addAttributeFuser(Player.WAGE, new WageInEuroFavourSourceFuser(), new WageEvaluationRule());
-		// for weight we prefer the API values since they are the most recent
-		dataFIFA.setScore(1.0);
-		dataAPI.setScore(4.0);
-		strategy.addAttributeFuser(Player.WEIGHT, new WeightFuserFavourSource(), new WeightEvaluationRule());
-		//fuse transfers
-		dataAPI.setScore(2.0);
-		dataTransfer.setScore(4.0);
+		// for weight we prefer the most recent values
+		strategy.addAttributeFuser(Player.WEIGHT, new WeightFuserMostRecent(), new WeightEvaluationRule());
+		//fuse transfers which are only in API and transfers
 		strategy.addAttributeFuser(Player.TRANSFERS, new TransfersFuserUnion(), new TransfersEvaluationRule());
-
+		//fuse foot
+		strategy.addAttributeFuser(Player.FOOT, new FootFuserMostRecent(), new FootEvaluationRule());
+		//fuse height (in ESD, FIFA and API)
+		
+		
 		// create the fusion engine
 		DataFusionEngine<Player, Attribute> engine = new DataFusionEngine<>(strategy);
 
