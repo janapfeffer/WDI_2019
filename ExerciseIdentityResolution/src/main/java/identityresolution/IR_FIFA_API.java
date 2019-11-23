@@ -54,13 +54,13 @@ public class IR_FIFA_API {
 
 		// create a matching rule
 		LinearCombinationMatchingRule<Player, Attribute> matchingRule = new LinearCombinationMatchingRule<>(
-				0.7);
+				0.8);
 		matchingRule.activateDebugReport("data/output/debugResultsMatchingRule.csv", 1000, gsTest);
 
 		// add comparators
-		matchingRule.addComparator(new PlayerNameFIFAAPIComparatorJaccard(), 0.5);
-		matchingRule.addComparator(new HeightFIFAAPIPercentageSimilarity(), 0.3);
-		matchingRule.addComparator(new DateFIFAESDComparator2Year(), 0.2);
+		matchingRule.addComparator(new PlayerNameFIFAAPIComparator(), 0.4);
+		matchingRule.addComparator(new HeightFIFAAPIPercentageSimilarity(), 0.2);
+		matchingRule.addComparator(new DateFIFAESDComparator2Year(), 0.3);
 
 		// create a blocker
 		//NoBlocker<Player, Attribute> blocker = new NoBlocker<>(); // noBlocker should not be used, it raises a java.lang.OutOfMemoryError: Java heap space
