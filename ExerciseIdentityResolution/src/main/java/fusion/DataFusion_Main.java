@@ -36,9 +36,11 @@ import fusion_fusers.CurrentClubFavourSourceFuser;
 import fusion_fusers.CurrentNumberFavourSource;
 import fusion_fusers.CurrentNumberMostRecentFuser;
 import fusion_fusers.DateOfBirthFuserFavourSource;
+import fusion_fusers.DateOfBirthVotingFuser;
 import fusion_fusers.DevelopmentsFuserUnion;
 import fusion_fusers.FootFuserMostRecent;
 import fusion_fusers.HeightFuserAverage;
+import fusion_fusers.HeightMedianFuser;
 import fusion_fusers.NameFuserByVoting;
 import fusion_fusers.NameLongestString;
 import fusion_fusers.NationalityFavourSource;
@@ -119,7 +121,7 @@ public class DataFusion_Main {
 		strategy.activateDebugReport("data/output/debugResultsDatafusion.csv", -1, gs);
 
 		// add attribute fusers
-		// TODO: currentposition, currentnumber, height, speed, developments
+		// TODO: currentposition
 		strategy.addAttributeFuser(Player.NAME, new NameFuserByVoting(), new NameEvaluationRule());
 		// fuse photos, we prefer the API photos becuase they have a higher resolution
 		dataAPI.setScore(4.0);
@@ -138,7 +140,8 @@ public class DataFusion_Main {
 		dataESD.setScore(3.0);
 		dataFIFA.setScore(1.0);
 		dataTransfer.setScore(2.0);
-		strategy.addAttributeFuser(Player.DATEOFBIRTH, new DateOfBirthFuserFavourSource(), new DateOfBirthEvaluationRule());
+		//strategy.addAttributeFuser(Player.DATEOFBIRTH, new DateOfBirthFuserFavourSource(), new DateOfBirthEvaluationRule());
+		strategy.addAttributeFuser(Player.DATEOFBIRTH, new DateOfBirthVotingFuser(), new DateOfBirthEvaluationRule());
 		// only FIFAS contains the current club & wages
 		dataFIFA.setScore(4.0);
 		dataAPI.setScore(1.0);
@@ -155,7 +158,8 @@ public class DataFusion_Main {
 		//favour source with the same priorities as current club
 		//strategy.addAttributeFuser(Player.CURRENTNUMBER, new CurrentNumberFavourSource(), new CurrentNumberEvaluationRule());
 		//fuse height (in ESD, FIFA and API)
-		strategy.addAttributeFuser(Player.HEIGHT, new HeightFuserAverage(), new HeightEvaluationRule());
+		//strategy.addAttributeFuser(Player.HEIGHT, new HeightFuserAverage(), new HeightEvaluationRule());
+		strategy.addAttributeFuser(Player.HEIGHT, new HeightMedianFuser(), new HeightEvaluationRule());
 		//fuse developments
 		strategy.addAttributeFuser(Player.DEVELOPMENTS, new DevelopmentsFuserUnion(), new DevelopmentsEvaluationRule());
 		//fuse speed

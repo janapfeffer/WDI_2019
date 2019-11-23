@@ -13,8 +13,7 @@ public class DateOfBirthEvaluationRule extends EvaluationRule<Player, Attribute>
 	public boolean isEqual(Player record1, Player record2, Attribute schemaElement) {
 		// both dobs are set and equal
 		if (record1.getDateOfBirth() != null && record2.getDateOfBirth() != null){
-			if (record1.getDateOfBirth() != null && record2.getDateOfBirth() != null
-					&& record1.getDateOfBirth() == record2.getDateOfBirth()){
+			if (record1.getDateOfBirth() == record2.getDateOfBirth()){
 				return true;
 			}
 			//check whether one dob contains 01.01 
@@ -22,16 +21,13 @@ public class DateOfBirthEvaluationRule extends EvaluationRule<Player, Attribute>
 					(record1.getDateOfBirth().getMonthValue() == 1 && record1.getDateOfBirth().getDayOfMonth() == 1)
 					|| (record2.getDateOfBirth().getMonthValue() == 1 && record2.getDateOfBirth().getDayOfMonth() == 1)
 					) {
-				return year_sim.calculate(record1.getDateOfBirth(), record2.getDateOfBirth()) == 1;
+				return year_sim.calculate(record1.getDateOfBirth(), record2.getDateOfBirth()) != 0;
 			} else {
 				return false;
 			}
 		} else {
 			return false;
 		}
-
-
-
 	}
 
 	@Override
