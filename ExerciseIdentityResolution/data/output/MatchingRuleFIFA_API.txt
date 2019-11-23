@@ -1,0 +1,21 @@
+Matching rule is:
+SimpleLogistic:
+
+Class 0 :
+-2.3 + 
+[[4] HeightFIFAAPIDeviationSimilarity] * -1.63 +
+[[0] PlayerNameFIFAAPIComparator] * 1.91 +
+[[6] DateFIFAAPIComparator] * 0.51 +
+[[3] HeightFIFAAPIAbsoluteDifferences] * 2.28 +
+[[2] PlayerNameFIFAAPIComparatorLevenshtein] * 0.83 +
+[[1] PlayerNameFIFAAPIComparatorJaccard] * 0.59
+
+Class 1 :
+2.3  + 
+[[4] HeightFIFAAPIDeviationSimilarity] * 1.63 +
+[[0] PlayerNameFIFAAPIComparator] * -1.91 +
+[[6] DateFIFAAPIComparator] * -0.51 +
+[[3] HeightFIFAAPIAbsoluteDifferences] * -2.28 +
+[[2] PlayerNameFIFAAPIComparatorLevenshtein] * -0.83 +
+[[1] PlayerNameFIFAAPIComparatorJaccard] * -0.59
+
