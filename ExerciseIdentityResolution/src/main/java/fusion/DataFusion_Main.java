@@ -20,8 +20,11 @@ import de.uni_mannheim.informatik.dws.winter.model.RecordGroupFactory;
 import de.uni_mannheim.informatik.dws.winter.model.defaultmodel.Attribute;
 import de.uni_mannheim.informatik.dws.winter.utils.WinterLogManager;
 import fusion_evaluation.CurrentClubEvaluationRule;
+import fusion_evaluation.CurrentNumberEvaluationRule;
 import fusion_evaluation.DateOfBirthEvaluationRule;
+import fusion_evaluation.DevelopmentsEvaluationRule;
 import fusion_evaluation.FootEvaluationRule;
+import fusion_evaluation.HeightEvaluationRule;
 import fusion_evaluation.NameEvaluationRule;
 import fusion_evaluation.NationalityEvaluationRule;
 import fusion_evaluation.PhotoEvaluationRule;
@@ -29,8 +32,13 @@ import fusion_evaluation.TransfersEvaluationRule;
 import fusion_evaluation.WageEvaluationRule;
 import fusion_evaluation.WeightEvaluationRule;
 import fusion_fusers.CurrentClubFavourSourceFuser;
+import fusion_fusers.CurrentNumberFavourSource;
+import fusion_fusers.CurrentNumberMostRecentFuser;
 import fusion_fusers.DateOfBirthFuserFavourSource;
+import fusion_fusers.DevelopmentsFuserUnion;
 import fusion_fusers.FootFuserMostRecent;
+import fusion_fusers.HeightFuserAverage;
+import fusion_fusers.NameFuserByVoting;
 import fusion_fusers.NameLongestString;
 import fusion_fusers.NationalityFavourSource;
 import fusion_fusers.PhotoFuserFavourSource;
@@ -97,7 +105,7 @@ public class DataFusion_Main {
 		// load the gold standard
 		System.out.println("*\n*\tEvaluating results\n*");
 		DataSet<Player, Attribute> gs = new FusibleHashedDataSet<>();
-		new PlayerXMLReader_Fusion().loadFromXML(new File("data/goldstandard/gs_datafusion.xml"), "/Players/Player", gs);
+		new PlayerXMLReader_Fusion().loadFromXML(new File("data/goldstandard/gs_datafusion_hechen.xml"), "/Players/Player", gs);
 
 		for(Player m : gs.get()) {
 			System.out.println(String.format("gs: %s", m.getIdentifier()));
@@ -110,7 +118,7 @@ public class DataFusion_Main {
 
 		// add attribute fusers
 		// TODO: currentposition, currentnumber, height, speed, developments
-		strategy.addAttributeFuser(Player.NAME, new NameLongestString(), new NameEvaluationRule());
+		strategy.addAttributeFuser(Player.NAME, new NameFuserByVoting(), new NameEvaluationRule());
 		// fuse photos, we prefer the API photos becuase they have a higher resolution
 		dataAPI.setScore(4.0);
 		dataESD.setScore(2.0);
@@ -140,8 +148,14 @@ public class DataFusion_Main {
 		strategy.addAttributeFuser(Player.TRANSFERS, new TransfersFuserUnion(), new TransfersEvaluationRule());
 		//fuse foot
 		strategy.addAttributeFuser(Player.FOOT, new FootFuserMostRecent(), new FootEvaluationRule());
+		//fuse current number (in FIFA19 and API)
+		strategy.addAttributeFuser(Player.CURRENTNUMBER, new CurrentNumberMostRecentFuser(), new CurrentNumberEvaluationRule());
+		//favour source with the same priorities as current club
+		//strategy.addAttributeFuser(Player.CURRENTNUMBER, new CurrentNumberFavourSource(), new CurrentNumberEvaluationRule());
 		//fuse height (in ESD, FIFA and API)
-		
+		//strategy.addAttributeFuser(Player.HEIGHT, new HeightFuserAverage(), new HeightEvaluationRule());
+		//fuse developments
+		strategy.addAttributeFuser(Player.DEVELOPMENTS, new DevelopmentsFuserUnion(), new DevelopmentsEvaluationRule());
 		
 		// create the fusion engine
 		DataFusionEngine<Player, Attribute> engine = new DataFusionEngine<>(strategy);
