@@ -369,17 +369,17 @@
         </Transfers>
     </Player>
     <Player>
-        <id>9</id>
-        <Name>Jonas Svensson</Name>
-        <dateOfBirth>1993-03-06</dateOfBirth>
-        <Nationality>Norway</Nationality>
+        <id>11</id>
+        <Name>Neymar</Name>
+        <dateOfBirth>1992-05-02</dateOfBirth>
+        <Nationality>Brazil</Nationality>
         <Photo></Photo>
-        <CurrentClub>AZ Alkmaar</CurrentClub>
-        <CurrentPosition>Defender</CurrentPosition>
-        <CurrentNumber>2</CurrentNumber>
-        <WageInEuro></WageInEuro>
-        <Weight>70</Weight>
-        <Height>170</Height>
+        <CurrentClub>Paris Saint-Germain</CurrentClub>
+        <CurrentPosition>Left Winger</CurrentPosition>
+        <CurrentNumber>10</CurrentNumber>
+        <WageInEuro>705k</WageInEuro>
+        <Weight>68</Weight>
+        <Height>175</Height>
         <Foot>right</Foot>
         <Speed></Speed>
         <Developments>
@@ -393,42 +393,553 @@
         </Developments>
         <Transfers>
             <Transfer>
-                <ClubOut></ClubOut>
-                <ClubIn></ClubIn>
-                <Year></Year>
+                <ClubOut>FC Barcelona</ClubOut>
+                <ClubIn>Paris Saint-Germain</ClubIn>
+                <Year>2017</Year>
             </Transfer>
-        </Transfers>
-    </Player>
-    <Player>
-        <id>10</id>
-        <Name>Oumar Sissoko</Name>
-        <dateOfBirth>1987-09-13</dateOfBirth>
-        <Nationality>Mali</Nationality>
-        <Photo></Photo>
-        <CurrentClub>AC Le Havre</CurrentClub>
-        <CurrentPosition>Goalkeeper</CurrentPosition>
-        <CurrentNumber>1</CurrentNumber>
-        <WageInEuro></WageInEuro>
-        <Weight>84</Weight>
-        <Height>187</Height>
-        <Foot>right</Foot>
-        <Speed></Speed>
-        <Developments>
-            <Development>
-                <Year>2019</Year>
-                <Rating>1</Rating>
-                <Potential>1</Potential>
-                <DefensiveWorkRate>high</DefensiveWorkRate>
-                <AttackingWorkRate>high</AttackingWorkRate>
-            </Development>
-        </Developments>
-        <Transfers>
             <Transfer>
-                <ClubOut></ClubOut>
-                <ClubIn></ClubIn>
-                <Year></Year>
+                <ClubOut>Santos FC</ClubOut>
+                <ClubIn>FC Barcelona</ClubIn>
+                <Year>2013</Year>
+            </Transfer>
+            <Transfer>
+                <ClubOut>Santos FC U20</ClubOut>
+                <ClubIn>Santos FC</ClubIn>
+                <Year>2009</Year>
             </Transfer>
         </Transfers>
     </Player>
 
+    <Player>
+        <id>12</id>
+        <Name>Harry Maguire</Name>
+        <dateOfBirth>1993-03-05</dateOfBirth>
+        <Nationality>England</Nationality>
+        <Photo></Photo>
+        <CurrentClub>Manchester United</CurrentClub>
+        <CurrentPosition>Centre Back</CurrentPosition>
+        <CurrentNumber>5</CurrentNumber>
+        <WageInEuro>221k</WageInEuro>
+        <Weight>100</Weight>
+        <Height>194</Height>
+        <Foot>right</Foot>
+        <Speed>18.585</Speed>
+        <Developments>
+            <Development>
+                <Year>2019</Year>
+                <Rating>1</Rating>
+                <Potential>1</Potential>
+                <DefensiveWorkRate>high</DefensiveWorkRate>
+                <AttackingWorkRate>high</AttackingWorkRate>
+            </Development>
+        </Developments>
+        <Transfers>
+            <Transfer>
+                <ClubOut>Leicester City</ClubOut>
+                <ClubIn>Manchester United</ClubIn>
+                <Year>2019</Year>
+            </Transfer>
+            <Transfer>
+                <ClubOut>Hull City</ClubOut>
+                <ClubIn>Leicsster City</ClubIn>
+                <Year>2017</Year>
+            </Transfer>
+            <Transfer>
+                <ClubOut>Wigan</ClubOut>
+                <ClubIn>Hull City</ClubIn>
+                <Year>2015</Year>
+            </Transfer>
+            <Transfer>
+                <ClubOut>Sheffield United</ClubOut>
+                <ClubIn>Hull City</ClubIn>
+                <Year>2014</Year>
+            </Transfer>
+            <Transfer>
+                <ClubOut>Sheffield United</ClubOut>
+                <ClubIn>Sheffield United U18</ClubIn>
+                <Year>2011</Year>
+            </Transfer>
+            <Transfer>
+                <ClubOut>Barnsley FC U18</ClubOut>
+                <ClubIn>Sheffield United U18</ClubIn>
+                <Year>2009</Year>
+            </Transfer>
+        </Transfers>
+    </Player>
+
+
+    <Player>
+        <id>13</id>
+        <Name>Timo Werner</Name>
+        <dateOfBirth>1996-03-06</dateOfBirth>
+        <Nationality>Germany</Nationality>
+        <Photo></Photo>
+        <CurrentClub>RB Leipzig</CurrentClub>
+        <CurrentPosition> Centre Forward</CurrentPosition>
+        <CurrentNumber>11</CurrentNumber>
+        <WageInEuro>57.5k</WageInEuro>
+        <Weight>75</Weight>
+        <Height>180</Height>
+        <Foot>right</Foot>
+        <Speed>16</Speed>
+        <Developments>
+            <Development>
+                <Year>2019</Year>
+                <Rating>1</Rating>
+                <Potential>1</Potential>
+                <DefensiveWorkRate>high</DefensiveWorkRate>
+                <AttackingWorkRate>high</AttackingWorkRate>
+            </Development>
+        </Developments>
+        <Transfers>
+            <Transfer>
+                <ClubOut>VfB Stuttgart</ClubOut>
+                <ClubIn>RB Leipzig</ClubIn>
+                <Year>2016</Year>
+            </Transfer>
+            <Transfer>
+                <ClubOut>VfB Stuttgart U19</ClubOut>
+                <ClubIn>VfB Stuttgart</ClubIn>
+                <Year>2013</Year>
+            </Transfer>
+            <Transfer>
+                <ClubOut>VfB Stuttgart U17</ClubOut>
+                <ClubIn>VfB Stuttgart U19</ClubIn>
+                <Year>2012</Year>
+            </Transfer>
+            <Transfer>
+                <ClubOut>VfB Stuttgart Youth</ClubOut>
+                <ClubIn>VfB Stuttgart U17</ClubIn>
+                <Year>2011</Year>
+            </Transfer>
+            <Transfer>
+                <ClubOut>TSV Steinhaldenfeld Youth</ClubOut>
+                <ClubIn>VfB Stuttgart Youth</ClubIn>
+                <Year>2002</Year>
+            </Transfer>
+        </Transfers>
+    </Player>
+
+    <Player>
+        <id>14</id>
+        <Name>Marc Roca</Name>
+        <dateOfBirth>1996-11-26</dateOfBirth>
+        <Nationality>Spain</Nationality>
+        <Photo></Photo>
+        <CurrentClub>RCD Espanyol Barcelona</CurrentClub>
+        <CurrentPosition>Defensive Midfield</CurrentPosition>
+        <CurrentNumber>21</CurrentNumber>
+        <WageInEuro>22k</WageInEuro>
+        <Weight>74</Weight>
+        <Height>184</Height>
+        <Speed>12</Speed>
+        <Foot>left</Foot>
+        <Developments>
+            <Development>
+                <Year>2019</Year>
+                <Rating>1</Rating>
+                <Potential>1</Potential>
+                <DefensiveWorkRate>high</DefensiveWorkRate>
+                <AttackingWorkRate>high</AttackingWorkRate>
+            </Development>
+        </Developments>
+        <Transfers>
+            <Transfer>
+                <ClubOut>RCD Espanyol B</ClubOut>
+                <ClubIn>RCD Espanyol Barcelona</ClubIn>
+                <Year>2016</Year>
+            </Transfer>
+            <Transfer>
+                <ClubOut>Espanyol Barcelona U19</ClubOut>
+                <ClubIn> RCD Espanyol B</ClubIn>
+                <Year>2015</Year>
+            </Transfer>
+            <Transfer>
+                <ClubOut>Espanyol Barcelona Youth</ClubOut>
+                <ClubIn>Espanyol Barcelona U19</ClubIn>
+                <Year>2013</Year>
+            </Transfer>
+        </Transfers>
+    </Player>
+
+    <Player>
+        <id>15</id>
+        <Name>Kepa</Name>
+        <dateOfBirth>1994-10-03</dateOfBirth>
+        <Nationality>Spain</Nationality>
+        <Photo></Photo>
+        <CurrentClub>Chelsea FC</CurrentClub>
+        <CurrentPosition> Goalkeeper</CurrentPosition>
+        <CurrentNumber>1</CurrentNumber>
+        <WageInEuro>170k</WageInEuro>
+        <Weight>86</Weight>
+        <Height>186</Height>
+        <Speed>9</Speed>
+        <Foot>right</Foot>
+        <Developments>
+            <Development>
+                <Year>2019</Year>
+                <Rating>1</Rating>
+                <Potential>1</Potential>
+                <DefensiveWorkRate>high</DefensiveWorkRate>
+                <AttackingWorkRate>high</AttackingWorkRate>
+            </Development>
+        </Developments>
+        <Transfers>
+            <Transfer>
+                <ClubOut>Athletic Bilbao</ClubOut>
+                <ClubIn>Chelsea FC</ClubIn>
+                <Year>2018</Year>
+            </Transfer>
+            <Transfer>
+                <ClubOut>Real Valladolid CF</ClubOut>
+                <ClubIn>Athletic Bilbao</ClubIn>
+                <Year>2016</Year>
+            </Transfer>
+            <Transfer>
+                <ClubOut>Athletic Bilbao</ClubOut>
+                <ClubIn>Real Valladolid CF</ClubIn>
+                <Year>2015</Year>
+            </Transfer>
+            <Transfer>
+                <ClubOut>SD Ponferradina</ClubOut>
+                <ClubIn>Athletic Bilbao</ClubIn>
+                <Year>2015</Year>
+            </Transfer>
+            <Transfer>
+                <ClubOut>Athletic Bilbao</ClubOut>
+                <ClubIn>SD Ponferradina</ClubIn>
+                <Year>2015</Year>
+            </Transfer>
+            <Transfer>
+                <ClubOut>Bilbao Athletic</ClubOut>
+                <ClubIn>Athletic Bilbao</ClubIn>
+                <Year>2014</Year>
+            </Transfer>
+            <Transfer>
+                <ClubOut>CD Basconia</ClubOut>
+                <ClubIn>Bilbao Athletic</ClubIn>
+                <Year>2013</Year>
+            </Transfer>
+            <Transfer>
+                <ClubOut>Athletic Bilbao U19</ClubOut>
+                <ClubIn>CD Basconia</ClubIn>
+                <Year>2012</Year>
+            </Transfer>
+        </Transfers>
+    </Player>
+
+    <Player>
+        <id>16</id>
+        <Name>Krzysztof Piatek</Name>
+        <dateOfBirth>1995-07-01</dateOfBirth>
+        <Nationality>Poland</Nationality>
+        <Photo></Photo>
+        <CurrentClub>AC Milan</CurrentClub>
+        <CurrentPosition>Centre Forward</CurrentPosition>
+        <CurrentNumber>9</CurrentNumber>
+        <WageInEuro>71.2k</WageInEuro>
+        <Weight>77</Weight>
+        <Height>183</Height>
+        <Speed>14</Speed>
+        <Foot>right</Foot>
+        <Developments>
+            <Development>
+                <Year>2019</Year>
+                <Rating>1</Rating>
+                <Potential>1</Potential>
+                <DefensiveWorkRate>high</DefensiveWorkRate>
+                <AttackingWorkRate>high</AttackingWorkRate>
+            </Development>
+        </Developments>
+        <Transfers>
+            <Transfer>
+                <ClubOut>Genoa CFC</ClubOut>
+                <ClubIn>AC Milan</ClubIn>
+                <Year>2019</Year>
+            </Transfer>
+            <Transfer>
+                <ClubOut>Cracovia Kraków</ClubOut>
+                <ClubIn>Genoa CFC</ClubIn>
+                <Year>2018</Year>
+            </Transfer>
+            <Transfer>
+                <ClubOut>Zaglebie Lubin</ClubOut>
+                <ClubIn>Cracovia Kraków</ClubIn>
+                <Year>2016</Year>
+            </Transfer>
+            <Transfer>
+                <ClubOut>Zaglebie Lubin II</ClubOut>
+                <ClubIn>Zaglebie Lubin</ClubIn>
+                <Year>2014</Year>
+            </Transfer>
+            <Transfer>
+                <ClubOut>Lechia Dzierzoniow</ClubOut>
+                <ClubIn>Lechia Dzierzoniow</ClubIn>
+                <Year>2013</Year>
+            </Transfer>
+            <Transfer>
+                <ClubOut>Lechia Dzierzoniow U19</ClubOut>
+                <ClubIn>Lechia Dzierzoniow</ClubIn>
+                <Year>2012</Year>
+            </Transfer>
+        </Transfers>
+    </Player>
+
+    <Player>
+        <id>17</id>
+        <Name>Bernardo Silva</Name>
+        <dateOfBirth>1994-08-10</dateOfBirth>
+        <Nationality>Portugal</Nationality>
+        <Photo></Photo>
+        <CurrentClub>Manchester City</CurrentClub>
+        <CurrentPosition>Right Winger</CurrentPosition>
+        <CurrentNumber>20</CurrentNumber>
+        <WageInEuro>175k</WageInEuro>
+        <weight>65</weight>
+        <Height>173</Height>
+        <Speed>17</Speed>
+        <Foot>left</Foot>
+        <Developments>
+            <Development>
+                <Year>2019</Year>
+                <Rating>1</Rating>
+                <Potential>1</Potential>
+                <DefensiveWorkRate>high</DefensiveWorkRate>
+                <AttackingWorkRate>high</AttackingWorkRate>
+            </Development>
+        </Developments>
+        <Transfers>
+            <Transfer>
+                <ClubOut>Manchester City</ClubOut>
+                <ClubIn>AS Monaco</ClubIn>
+                <Year>2017</Year>
+            </Transfer>
+            <Transfer>
+                <ClubOut>SL Benfica</ClubOut>
+                <ClubIn>AS Monaco</ClubIn>
+                <Year>2015</Year>
+            </Transfer>
+            <Transfer>
+                <ClubOut>AS Monaco</ClubOut>
+                <ClubIn>SL Benfica</ClubIn>
+                <Year>2015</Year>
+            </Transfer>
+            <Transfer>
+                <ClubOut>SL Benfica</ClubOut>
+                <ClubIn>AS Monaco</ClubIn>
+                <Year>2014</Year>
+            </Transfer>
+            <Transfer>
+                <ClubOut>SL Benfica B</ClubOut>
+                <ClubIn>SL Benfica</ClubIn>
+                <Year>2014</Year>
+            </Transfer>
+            <Transfer>
+                <ClubOut>SL Benfica U19</ClubOut>
+                <ClubIn>SL Benfica B</ClubIn>
+                <Year>2013</Year>
+            </Transfer>
+            <Transfer>
+                <ClubOut>SL Benfica U17</ClubOut>
+                <ClubIn>SL Benfica U19</ClubIn>
+                <Year>2011</Year>
+            </Transfer>
+            <Transfer>
+                <ClubOut>SL Benfica U15</ClubOut>
+                <ClubIn>SL Benfica U17</ClubIn>
+                <Year>2009</Year>
+            </Transfer>
+            <Transfer>
+                <ClubOut>SL Benfica Youth</ClubOut>
+                <ClubIn>SL Benfica U15</ClubIn>
+            </Transfer>
+        </Transfers>
+    </Player>
+
+    <Player>
+        <id>18</id>
+        <Name>Andrej Kramaric</Name>
+        <dateOfBirth>1991-06-19</dateOfBirth>
+        <Nationality>Croatia</Nationality>
+        <Photo></Photo>
+        <CurrentClub>TSG 1899 Hoffenheim</CurrentClub>
+        <CurrentPosition>Centre Forward</CurrentPosition>
+        <CurrentNumber>27</CurrentNumber>
+        <WageInEuro>58.1k</WageInEuro>
+        <weight>73</weight>
+        <Height>177</Height>
+        <Speed>14</Speed>
+        <Foot>right</Foot>
+        <Developments>
+            <Development>
+                <Year>2019</Year>
+                <Rating>1</Rating>
+                <Potential>1</Potential>
+                <DefensiveWorkRate>high</DefensiveWorkRate>
+                <AttackingWorkRate>high</AttackingWorkRate>
+            </Development>
+        </Developments>
+        <Transfers>
+            <Transfer>
+                <ClubOut>Leicester City</ClubOut>
+                <ClubIn>TSG 1899 Hoffenheim</ClubIn>
+                <Year>2016</Year>
+            </Transfer>
+            <Transfer>
+                <ClubOut>TSG 1899 Hoffenheim</ClubOut>
+                <ClubIn>Leicester City</ClubIn>
+                <Year>2016</Year>
+            </Transfer>
+            <Transfer>
+                <ClubOut>Leicester City</ClubOut>
+                <ClubIn>TSG 1899 Hoffenheim</ClubIn>
+                <Year>2016</Year>
+            </Transfer>
+            <Transfer>
+                <ClubOut>HNK Rijeka</ClubOut>
+                <ClubIn>Leicester City</ClubIn>
+                <Year>2015</Year>
+            </Transfer>
+            <Transfer>
+                <ClubOut>GNK Dinamo Zagreb</ClubOut>
+                <ClubIn>HNK Rijeka</ClubIn>
+                <Year>2013</Year>
+            </Transfer>
+            <Transfer>
+                <ClubOut>NK Lokomotiva Zagreb</ClubOut>
+                <ClubIn>GNK Dinamo Zagreb</ClubIn>
+                <Year>2013</Year>
+            </Transfer>
+            <Transfer>
+                <ClubOut>GNK Dinamo Zagreb</ClubOut>
+                <ClubIn>NK Lokomotiva Zagreb</ClubIn>
+                <Year>2012</Year>
+            </Transfer>
+            <Transfer>
+                <ClubOut>NK Lokomotiva Zagreb</ClubOut>
+                <ClubIn>GNK Dinamo Zagreb</ClubIn>
+                <Year>2012</Year>
+            </Transfer>
+            <Transfer>
+                <ClubOut>GNK Dinamo Zagreb</ClubOut>
+                <ClubIn>NK Lokomotiva Zagreb</ClubIn>
+                <Year>2012</Year>
+            </Transfer>
+        </Transfers>
+    </Player>
+
+    <Player>
+        <id>19</id>
+        <Name>Nicolò Barella</Name>
+        <dateOfBirth>1997-02-07</dateOfBirth>
+        <Nationality>Italy</Nationality>
+        <Photo></Photo>
+        <CurrentClub>Inter Milan</CurrentClub>
+        <CurrentPosition>Central Midfiel</CurrentPosition>
+        <CurrentNumber>23</CurrentNumber>
+        <WageInEuro></WageInEuro>
+        <Weight>68</Weight>
+        <Height>172</Height>
+        <Speed></Speed>
+        <Foot>right</Foot>
+        <Developments>
+            <Development>
+                <Year>2019</Year>
+                <Rating>1</Rating>
+                <Potential>1</Potential>
+                <DefensiveWorkRate>high</DefensiveWorkRate>
+                <AttackingWorkRate>high</AttackingWorkRate>
+            </Development>
+        </Developments>
+        <Transfers>
+            <Transfer>
+                <ClubOut>Cagliari Calcio</ClubOut>
+                <ClubIn>Inter Milan</ClubIn>
+                <Year>2019</Year>
+            </Transfer>
+            <Transfer>
+                <ClubOut>Como 1907</ClubOut>
+                <ClubIn>Cagliari Calcio</ClubIn>
+                <Year>2016</Year>
+            </Transfer>
+            <Transfer>
+                <ClubOut>Cagliari Calcio</ClubOut>
+                <ClubIn>Como 1907</ClubIn>
+                <Year>2016</Year>
+            </Transfer>
+            <Transfer>
+                <ClubOut>Cagliari Primavera</ClubOut>
+                <ClubIn>Cagliari Calcio</ClubIn>
+                <Year>2014</Year>
+            </Transfer>
+            <Transfer>
+                <ClubOut>Cagliari Youth</ClubOut>
+                <ClubIn>Cagliari Primavera</ClubIn>
+                <Year>2013</Year>
+            </Transfer>
+        </Transfers>
+    </Player>
+
+    <Player>
+        <id>20</id>
+        <Name>Cristiano Ronaldo</Name>
+        <dateOfBirth>1985-02-05</dateOfBirth>
+        <Nationality>Portugal</Nationality>
+        <Photo></Photo>
+        <CurrentClub>Juventus FC</CurrentClub>
+        <CurrentPosition> Left Winge</CurrentPosition>
+        <CurrentNumber>7</CurrentNumber>
+        <WageInEuro>1.1M</WageInEuro>
+        <Weight>83</Weight>
+        <Height>185</Height>
+        <Speed>15</Speed>
+        <Foot>both</Foot>
+        <Developments>
+            <Development>
+                <Year>2019</Year>
+                <Rating>1</Rating>
+                <Potential>1</Potential>
+                <DefensiveWorkRate>high</DefensiveWorkRate>
+                <AttackingWorkRate>high</AttackingWorkRate>
+            </Development>
+        </Developments>
+        <Transfers>
+            <Transfer>
+                <ClubOut>Real Madrid</ClubOut>
+                <ClubIn>Juventus FC</ClubIn>
+                <Year>2018</Year>
+            </Transfer>
+            <Transfer>
+                <ClubOut>Manchester United</ClubOut>
+                <ClubIn>Real Madrid</ClubIn>
+                <Year>2009</Year>
+            </Transfer>
+            <Transfer>
+                <ClubOut>Sporting CP</ClubOut>
+                <ClubIn>Manchester United</ClubIn>
+                <Year>2003</Year>
+            </Transfer>
+            <Transfer>
+                <ClubOut>Sporting CP U19</ClubOut>
+                <ClubIn>Sporting CP</ClubIn>
+                <Year>2002</Year>
+            </Transfer>
+            <Transfer>
+                <ClubOut>Sporting CP Juvenis</ClubOut>
+                <ClubIn>Sporting CP U19</ClubIn>
+                <Year>2000</Year>
+            </Transfer>
+            <Transfer>
+                <ClubOut>Sporting CP Sub-1</ClubOut>
+                <ClubIn>Sporting CP Juvenis</ClubIn>
+                <Year>1998</Year>
+            </Transfer>
+            <Transfer>
+                <ClubOut>CD Nacional U15</ClubOut>
+                <ClubIn>Sporting CP Sub-15</ClubIn>
+                <Year>1997</Year>
+            </Transfer>
+        </Transfers>
+    </Player>
 </Players>
