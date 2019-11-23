@@ -20,6 +20,7 @@ import de.uni_mannheim.informatik.dws.winter.model.RecordGroupFactory;
 import de.uni_mannheim.informatik.dws.winter.model.defaultmodel.Attribute;
 import de.uni_mannheim.informatik.dws.winter.utils.WinterLogManager;
 import fusion_evaluation.CurrentClubEvaluationRule;
+import fusion_evaluation.CurrentNumberEvaluationRule;
 import fusion_evaluation.DateOfBirthEvaluationRule;
 import fusion_evaluation.DevelopmentsEvaluationRule;
 import fusion_evaluation.FootEvaluationRule;
@@ -31,6 +32,7 @@ import fusion_evaluation.TransfersEvaluationRule;
 import fusion_evaluation.WageEvaluationRule;
 import fusion_evaluation.WeightEvaluationRule;
 import fusion_fusers.CurrentClubFavourSourceFuser;
+import fusion_fusers.CurrentNumberMostRecentFuser;
 import fusion_fusers.DateOfBirthFuserFavourSource;
 import fusion_fusers.DevelopmentsFuserUnion;
 import fusion_fusers.FootFuserMostRecent;
@@ -144,6 +146,8 @@ public class DataFusion_Main {
 		strategy.addAttributeFuser(Player.TRANSFERS, new TransfersFuserUnion(), new TransfersEvaluationRule());
 		//fuse foot
 		strategy.addAttributeFuser(Player.FOOT, new FootFuserMostRecent(), new FootEvaluationRule());
+		//fuse current number (in FIFA19 and API)
+		strategy.addAttributeFuser(Player.CURRENTNUMBER, new CurrentNumberMostRecentFuser(), new CurrentNumberEvaluationRule());
 		//fuse height (in ESD, FIFA and API)
 		strategy.addAttributeFuser(Player.HEIGHT, new HeightFuserAverage(), new HeightEvaluationRule());
 		//fuse developments
