@@ -39,6 +39,22 @@ public class PlayerNameFIFAAPIComparator implements Comparator<Player, Attribute
 		String api_name = Normalizer.normalize(StringEscapeUtils.unescapeHtml4(apiplayer.getName()), Normalizer.Form.NFD).
 				replaceAll("[^\\p{ASCII}]", "").replace("'", "").replace(".", "").toLowerCase().replaceAll("\\s+", " ").trim();
 
+		// tokenize names
+		String[] fifa_name_list = fifa_name.split("\\s");
+		String[] api_name_list = api_name.split("\\s");
+
+		// convert first name in ESD to the same format as in FIFA (abbreviate)
+		if(fifa_name_list[0].length() == 1){
+			if(api_name_list.length > 1){
+				api_name_list[0] = api_name_list[0].substring(0, 1);
+			}
+		}
+
+		// turn back to single string
+		fifa_name = String.join(" ", fifa_name_list);
+		api_name = String.join(" ", api_name_list);
+		
+		
 		// calculate similarity
 		double levenshtein_similarity = levenshtein_sim.calculate(fifa_name, api_name);
 		double maxtoken_similarity = maxtoken_sim.calculate(fifa_name, api_name);

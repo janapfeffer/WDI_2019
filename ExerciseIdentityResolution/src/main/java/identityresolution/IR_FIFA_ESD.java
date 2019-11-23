@@ -53,7 +53,7 @@ public class IR_FIFA_ESD {
 
 		// create a matching rule
 		LinearCombinationMatchingRule<Player, Attribute> matchingRule = new LinearCombinationMatchingRule<>(
-				0.67);
+				0.79);
 		matchingRule.activateDebugReport("data/output/debugResultsMatchingRuleFIFA_ESD.csv", 1000, gsTest);
 
 		// add comparators
