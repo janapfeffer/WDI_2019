@@ -28,6 +28,7 @@ import fusion_evaluation.HeightEvaluationRule;
 import fusion_evaluation.NameEvaluationRule;
 import fusion_evaluation.NationalityEvaluationRule;
 import fusion_evaluation.PhotoEvaluationRule;
+import fusion_evaluation.SpeedEvaluationRule;
 import fusion_evaluation.TransfersEvaluationRule;
 import fusion_evaluation.WageEvaluationRule;
 import fusion_evaluation.WeightEvaluationRule;
@@ -42,6 +43,7 @@ import fusion_fusers.NameFuserByVoting;
 import fusion_fusers.NameLongestString;
 import fusion_fusers.NationalityFavourSource;
 import fusion_fusers.PhotoFuserFavourSource;
+import fusion_fusers.SpeedFavourSourceFuser;
 import fusion_fusers.TransfersFuserUnion;
 import fusion_fusers.WageInEuroFavourSourceFuser;
 import fusion_fusers.WeightFuserMostRecent;
@@ -156,6 +158,8 @@ public class DataFusion_Main {
 		strategy.addAttributeFuser(Player.HEIGHT, new HeightFuserAverage(), new HeightEvaluationRule());
 		//fuse developments
 		strategy.addAttributeFuser(Player.DEVELOPMENTS, new DevelopmentsFuserUnion(), new DevelopmentsEvaluationRule());
+		//fuse speed
+		strategy.addAttributeFuser(Player.SPEED, new SpeedFavourSourceFuser(), new SpeedEvaluationRule());
 		
 		// create the fusion engine
 		DataFusionEngine<Player, Attribute> engine = new DataFusionEngine<>(strategy);

@@ -13,7 +13,7 @@
         <Weight>67</Weight>
         <Height>173</Height>
         <Foot>right</Foot>
-        <Speed></Speed>
+        <Speed>93</Speed>
         <Developments>
             <Development>
                 <Year>2019</Year>
@@ -74,7 +74,7 @@
         <Weight>75</Weight>
         <Height>183</Height>
         <Foot>left</Foot>
-        <Speed></Speed>
+        <Speed>48</Speed>
         <Developments>
             <Development>
                 <Year>2019</Year>
@@ -115,7 +115,7 @@
         <Weight>66</Weight>
         <Height>170</Height>
         <Foot>left</Foot>
-        <Speed></Speed>
+        <Speed>69</Speed>
         <Developments>
             <Development>
                 <Year>2019</Year>
@@ -146,7 +146,7 @@
         <Weight>86</Weight>
         <Height>184</Height>
         <Foot>right</Foot>
-        <Speed></Speed>
+        <Speed>70/Speed>
         <Developments>
             <Development>
                 <Year>2019</Year>
@@ -177,7 +177,7 @@
         <Weight>72</Weight>
         <Height>179</Height>
         <Foot>right</Foot>
-        <Speed></Speed>
+        <Speed>92</Speed>
         <Developments>
             <Development>
                 <Year>2019</Year>
@@ -233,7 +233,7 @@
         <Weight>73</Weight>
         <Height>177</Height>
         <Foot>right</Foot>
-        <Speed></Speed>
+        <Speed>66</Speed>
         <Developments>
             <Development>
                 <Year>2019</Year>
@@ -294,7 +294,7 @@
         <Weight>72</Weight>
         <Height>177</Height>
         <Foot>left</Foot>
-        <Speed></Speed>
+        <Speed>74</Speed>
         <Developments>
             <Development>
                 <Year>2019</Year>
@@ -325,7 +325,7 @@
         <Weight>73</Weight>
         <Height>183</Height>
         <Foot>right</Foot>
-        <Speed></Speed>
+        <Speed>84</Speed>
         <Developments>
             <Development>
                 <Year>2019</Year>
@@ -381,7 +381,7 @@
         <Weight>68</Weight>
         <Height>175</Height>
         <Foot>right</Foot>
-        <Speed></Speed>
+        <Speed>89</Speed>
         <Developments>
             <Development>
                 <Year>2019</Year>
@@ -423,7 +423,7 @@
         <Weight>100</Weight>
         <Height>194</Height>
         <Foot>right</Foot>
-        <Speed>18.585</Speed>
+        <Speed>53</Speed>
         <Developments>
             <Development>
                 <Year>2019</Year>
@@ -481,7 +481,7 @@
         <Weight>75</Weight>
         <Height>180</Height>
         <Foot>right</Foot>
-        <Speed>16</Speed>
+        <Speed>92</Speed>
         <Developments>
             <Development>
                 <Year>2019</Year>
@@ -532,7 +532,7 @@
         <WageInEuro>22k</WageInEuro>
         <Weight>74</Weight>
         <Height>184</Height>
-        <Speed>12</Speed>
+        <Speed>62</Speed>
         <Foot>left</Foot>
         <Developments>
             <Development>
@@ -574,7 +574,7 @@
         <WageInEuro>170k</WageInEuro>
         <Weight>86</Weight>
         <Height>186</Height>
-        <Speed>9</Speed>
+        <Speed>33</Speed>
         <Foot>right</Foot>
         <Developments>
             <Development>
@@ -641,7 +641,7 @@
         <WageInEuro>71.2k</WageInEuro>
         <Weight>77</Weight>
         <Height>183</Height>
-        <Speed>14</Speed>
+        <Speed>75</Speed>
         <Foot>right</Foot>
         <Developments>
             <Development>
@@ -698,7 +698,7 @@
         <WageInEuro>175k</WageInEuro>
         <weight>65</weight>
         <Height>173</Height>
-        <Speed>17</Speed>
+        <Speed>78</Speed>
         <Foot>left</Foot>
         <Developments>
             <Development>
@@ -769,7 +769,7 @@
         <WageInEuro>58.1k</WageInEuro>
         <weight>73</weight>
         <Height>177</Height>
-        <Speed>14</Speed>
+        <Speed>70</Speed>
         <Foot>right</Foot>
         <Developments>
             <Development>
@@ -841,7 +841,7 @@
         <WageInEuro></WageInEuro>
         <Weight>68</Weight>
         <Height>172</Height>
-        <Speed></Speed>
+        <Speed>74</Speed>
         <Foot>right</Foot>
         <Developments>
             <Development>
@@ -893,7 +893,7 @@
         <WageInEuro>1.1M</WageInEuro>
         <Weight>83</Weight>
         <Height>185</Height>
-        <Speed>15</Speed>
+        <Speed>91</Speed>
         <Foot>both</Foot>
         <Developments>
             <Development>
