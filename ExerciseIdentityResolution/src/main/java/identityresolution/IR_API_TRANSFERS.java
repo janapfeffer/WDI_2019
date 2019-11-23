@@ -48,7 +48,7 @@ public class IR_API_TRANSFERS {
 
 		// create a matching rule
 		LinearCombinationMatchingRule<Player, Attribute> matchingRule = new LinearCombinationMatchingRule<>(
-				0.84);
+				0.85);
 		matchingRule.activateDebugReport("data/output/debugResultsMatchingRule.csv", 1000, gsTest);
 
 		// add comparators
