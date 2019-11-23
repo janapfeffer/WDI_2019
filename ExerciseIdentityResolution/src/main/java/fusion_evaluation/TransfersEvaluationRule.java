@@ -17,16 +17,13 @@ public class TransfersEvaluationRule extends EvaluationRule<Player, Attribute> {
 		Set<String> transfers1 = new HashSet<>();
 
 		for (Transfer t : record1.getTransfers()) {
-			// note: evaluating using the transfers's name only suffices for simple
-			// lists
-			// in your project, you should have actor ids which you use here
-			// (and in the identity resolution)
-			transfers1.add(t.getClubInName()+" "+t.getClubOutName());
+
+			transfers1.add(t.getYear()+" "+t.getClubInName()+" "+t.getClubOutName());
 		}
 
 		Set<String> transfers2 = new HashSet<>();
 		for (Transfer t : record2.getTransfers()) {
-			transfers2.add(t.getClubInName()+" "+t.getClubOutName());
+			transfers2.add(t.getYear()+" "+t.getClubInName()+" "+t.getClubOutName());
 		}
 
 		return transfers1.containsAll(transfers2) && transfers2.containsAll(transfers1);
