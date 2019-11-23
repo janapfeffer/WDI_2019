@@ -30,6 +30,7 @@ import fusion_evaluation.TransfersEvaluationRule;
 import fusion_evaluation.WageEvaluationRule;
 import fusion_evaluation.WeightEvaluationRule;
 import fusion_fusers.CurrentClubFavourSourceFuser;
+import fusion_fusers.CurrentNumberFavourSource;
 import fusion_fusers.CurrentNumberMostRecentFuser;
 import fusion_fusers.DateOfBirthFuserFavourSource;
 import fusion_fusers.FootFuserMostRecent;
@@ -145,6 +146,8 @@ public class DataFusion_Main {
 		strategy.addAttributeFuser(Player.FOOT, new FootFuserMostRecent(), new FootEvaluationRule());
 		//fuse current number (in FIFA19 and API)
 		strategy.addAttributeFuser(Player.CURRENTNUMBER, new CurrentNumberMostRecentFuser(), new CurrentNumberEvaluationRule());
+		//favour source with the same priorities as current club
+		//strategy.addAttributeFuser(Player.CURRENTNUMBER, new CurrentNumberFavourSource(), new CurrentNumberEvaluationRule());
 		//fuse height (in ESD, FIFA and API)
 
 
