@@ -20,7 +20,7 @@ public class SpeedEvaluationRule extends EvaluationRule<Player, Attribute>  {
 	@Override
 	public boolean isEqual(Player record1, Player record2, Correspondence<Attribute, Matchable> schemaCorrespondence) {
 		// the speed values from the other data source are scaled differently
-		return sim.calculate( Double.valueOf(record1.getSpeed()), Double.valueOf(record2.getSpeed())) == 1;
+		return sim.calculate( Double.valueOf(record1.getSpeed()), Double.valueOf(record2.getSpeed())) != 0;
 	}
 
 }
