@@ -7,7 +7,7 @@
         <Nationality>Brazil</Nationality>
         <Photo></Photo>
         <CurrentClub>Paris Saint-Germain</CurrentClub>
-        <CurrentPosition>Left Winger<CurrentPosition>
+        <CurrentPosition>Left Winger</CurrentPosition>
         <CurrentNumber>10</CurrentNumber>
         <WageInEuro>705k</WageInEuro>
         <Weight>68</Weight>
@@ -74,7 +74,7 @@
                 <Year>2011</Year>
             </Transfer>
             <Transfer>
-                <ClubOut>Barnsley FC U18/ClubOut>
+                <ClubOut>Barnsley FC U18</ClubOut>
                 <ClubIn>Sheffield United U18</ClubIn>
                 <Year>2009</Year>
             </Transfer>
@@ -125,7 +125,7 @@
         </Transfers>
     </Player>
     
-    </Player>
+    <Player>
         <id>14</id>
         <Name>Marc Roca</Name> 
         <dateOfBirth>1996-11-26</dateOfBirth>
@@ -142,7 +142,7 @@
         <Transfers>
             <Transfer>
                 <ClubOut>RCD Espanyol B</ClubOut>
-                <ClubIn>RCD Espanyol Barcelona<ClubIn>
+                <ClubIn>RCD Espanyol Barcelona</ClubIn>
                 <Year>2016</Year>
             </Transfer>
             <Transfer>
@@ -234,8 +234,8 @@
             <Transfer>
                 <ClubOut>Genoa CFC</ClubOut>
                 <ClubIn>AC Milan</ClubIn>
-                <Year>2019<Year>
-            </Transfers>
+                <Year>2019</Year>
+            </Transfer>
             <Transfer>
                 <ClubOut>Cracovia Kraków</ClubOut>
                 <ClubIn>Genoa CFC</ClubIn>
@@ -339,7 +339,7 @@
         <weight>73</weight>
         <Height>177</Height>
         <Speed>14</Speed>
-        <Foot>right<Foot>
+        <Foot>right</Foot>
         <Transfers>
             <Transfer>
                 <ClubOut>Leicester City</ClubOut>
@@ -464,7 +464,7 @@
             </Transfer>
             <Transfer>
                 <ClubOut>Sporting CP U19</ClubOut>
-                <ClubIn>Sporting CP<ClubIn>
+                <ClubIn>Sporting CP</ClubIn>
                 <Year>2002</Year>
             </Transfer>
             <Transfer>

@@ -18,7 +18,13 @@ public class HeightFuserAverage extends AttributeValueFuser<Double, Player, Attr
 
 	@Override
 	public Double getValue(Player record, Correspondence<Attribute, Matchable> correspondence) {
-		return Double.valueOf((record.getHeight()));
+		try {
+			return Double.valueOf((record.getHeight()));
+		} catch (Exception e) {
+			// TODO: handle exception
+		}
+		return null;
+		
 	}
 
 	@Override

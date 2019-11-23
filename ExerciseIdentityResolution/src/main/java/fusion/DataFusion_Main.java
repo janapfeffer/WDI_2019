@@ -21,7 +21,9 @@ import de.uni_mannheim.informatik.dws.winter.model.defaultmodel.Attribute;
 import de.uni_mannheim.informatik.dws.winter.utils.WinterLogManager;
 import fusion_evaluation.CurrentClubEvaluationRule;
 import fusion_evaluation.DateOfBirthEvaluationRule;
+import fusion_evaluation.DevelopmentsEvaluationRule;
 import fusion_evaluation.FootEvaluationRule;
+import fusion_evaluation.HeightEvaluationRule;
 import fusion_evaluation.NameEvaluationRule;
 import fusion_evaluation.NationalityEvaluationRule;
 import fusion_evaluation.PhotoEvaluationRule;
@@ -30,7 +32,9 @@ import fusion_evaluation.WageEvaluationRule;
 import fusion_evaluation.WeightEvaluationRule;
 import fusion_fusers.CurrentClubFavourSourceFuser;
 import fusion_fusers.DateOfBirthFuserFavourSource;
+import fusion_fusers.DevelopmentsFuserUnion;
 import fusion_fusers.FootFuserMostRecent;
+import fusion_fusers.HeightFuserAverage;
 import fusion_fusers.NameLongestString;
 import fusion_fusers.NationalityFavourSource;
 import fusion_fusers.PhotoFuserFavourSource;
@@ -97,7 +101,7 @@ public class DataFusion_Main {
 		// load the gold standard
 		System.out.println("*\n*\tEvaluating results\n*");
 		DataSet<Player, Attribute> gs = new FusibleHashedDataSet<>();
-		new PlayerXMLReader_Fusion().loadFromXML(new File("data/goldstandard/gs_datafusion.xml"), "/Players/Player", gs);
+		new PlayerXMLReader_Fusion().loadFromXML(new File("data/goldstandard/gs_datafusion_hechen.xml"), "/Players/Player", gs);
 
 		for(Player m : gs.get()) {
 			System.out.println(String.format("gs: %s", m.getIdentifier()));
@@ -141,7 +145,9 @@ public class DataFusion_Main {
 		//fuse foot
 		strategy.addAttributeFuser(Player.FOOT, new FootFuserMostRecent(), new FootEvaluationRule());
 		//fuse height (in ESD, FIFA and API)
-		
+		strategy.addAttributeFuser(Player.HEIGHT, new HeightFuserAverage(), new HeightEvaluationRule());
+		//fuse developments
+		strategy.addAttributeFuser(Player.DEVELOPMENTS, new DevelopmentsFuserUnion(), new DevelopmentsEvaluationRule());
 		
 		// create the fusion engine
 		DataFusionEngine<Player, Attribute> engine = new DataFusionEngine<>(strategy);
