@@ -153,7 +153,7 @@ public class DataFusion_Main {
 		//favour source with the same priorities as current club
 		//strategy.addAttributeFuser(Player.CURRENTNUMBER, new CurrentNumberFavourSource(), new CurrentNumberEvaluationRule());
 		//fuse height (in ESD, FIFA and API)
-		//strategy.addAttributeFuser(Player.HEIGHT, new HeightFuserAverage(), new HeightEvaluationRule());
+		strategy.addAttributeFuser(Player.HEIGHT, new HeightFuserAverage(), new HeightEvaluationRule());
 		//fuse developments
 		strategy.addAttributeFuser(Player.DEVELOPMENTS, new DevelopmentsFuserUnion(), new DevelopmentsEvaluationRule());
 		
