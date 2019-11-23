@@ -16,28 +16,31 @@ public class DevelopmentsEvaluationRule extends EvaluationRule<Player, Attribute
 	public boolean isEqual(Player record1, Player record2, Attribute schemaElement) {
 		
 		Set<String> developments1 = new HashSet<>();
-
-		for (Development d : record1.getDevelopments()) {
-
-			developments1.add(d.getYear()+" "
-			+d.getPotential()+" "
-			+d.getRating()+" "
-			+d.getAttackingWorkRate()+" "
-			+d.getDefensiveWorkRate());
-		}
-
 		Set<String> developments2 = new HashSet<>();
 
-		for (Development d : record2.getDevelopments()) {
-
-			developments2.add(d.getYear()+" "
-			+d.getPotential()+" "
-			+d.getRating()+" "
-			+d.getAttackingWorkRate()+" "
-			+d.getDefensiveWorkRate());
-		}
+		if (record1.getDevelopments() != null && record2.getDevelopments() != null) {
+			for (Development d : record1.getDevelopments()) {
+	
+				developments1.add(d.getYear()+" "
+				+d.getPotential()+" "
+				+d.getRating()+" "
+				+d.getAttackingWorkRate()+" "
+				+d.getDefensiveWorkRate());
+			}	
+	
+			for (Development d : record2.getDevelopments()) {
+	
+				developments2.add(d.getYear()+" "
+				+d.getPotential()+" "
+				+d.getRating()+" "
+				+d.getAttackingWorkRate()+" "
+				+d.getDefensiveWorkRate());
+			}
 
 		return developments1.containsAll(developments2) && developments2.containsAll(developments1);
+		}
+		return true;
+		
 	}
 
 	@Override
