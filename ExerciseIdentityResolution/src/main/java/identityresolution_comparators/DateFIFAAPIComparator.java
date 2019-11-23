@@ -31,7 +31,7 @@ public class DateFIFAAPIComparator implements Comparator<Player, Attribute> {
 	}*/
 
 	private static final long serialVersionUID = 1L;
-	public static YearSimilarity sim = new YearSimilarity(2);
+	public static YearSimilarity sim = new YearSimilarity(4);
 
 	private ComparatorLogger comparisonLog;
 
