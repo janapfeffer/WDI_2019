@@ -76,21 +76,6 @@
     <Speed>61</Speed>
   </Player>
   <Player>
-    <id>2004005+6405</id>
-    <Name>J. Pi</Name>
-    <dateOfBirth>1993-09-24T00:00</dateOfBirth>
-    <Nationality>France</Nationality>
-    <Photo>https://cdn.sofifa.org/players/4/19/214991.png</Photo>
-    <CurrentClub>Stade Brestois 29</CurrentClub>
-    <CurrentPosition/>
-    <CurrentNumber>6</CurrentNumber>
-    <WageInEuro>10000.0</WageInEuro>
-    <Weight>73.35</Weight>
-    <Height>179.07</Height>
-    <Foot>Right</Foot>
-    <Speed>69</Speed>
-  </Player>
-  <Player>
     <id>15026+2001847</id>
     <Name>D. Pugh</Name>
     <dateOfBirth>1982-10-19T00:00</dateOfBirth>
@@ -104,21 +89,6 @@
     <Height>182.88</Height>
     <Foot>Left</Foot>
     <Speed>44</Speed>
-  </Player>
-  <Player>
-    <id>14639+2003542</id>
-    <Name>I. Djuric</Name>
-    <dateOfBirth>1988-08-30T00:00</dateOfBirth>
-    <Nationality>Switzerland</Nationality>
-    <Photo>https://cdn.sofifa.org/players/4/19/170743.png</Photo>
-    <CurrentClub>Neuchâtel Xamax</CurrentClub>
-    <CurrentPosition/>
-    <CurrentNumber>55</CurrentNumber>
-    <WageInEuro>2000.0</WageInEuro>
-    <Weight>76.5</Weight>
-    <Height>181.61</Height>
-    <Foot>Right</Foot>
-    <Speed>69</Speed>
   </Player>
   <Player>
     <id>2005635+3032</id>
@@ -226,21 +196,6 @@
     <Speed>67</Speed>
   </Player>
   <Player>
-    <id>2004113+484</id>
-    <Name>J. Matip</Name>
-    <dateOfBirth>1991-08-08T00:00</dateOfBirth>
-    <Nationality>Cameroon</Nationality>
-    <Photo>https://cdn.sofifa.org/players/4/19/197061.png</Photo>
-    <CurrentClub>Liverpool</CurrentClub>
-    <CurrentPosition/>
-    <CurrentNumber>32</CurrentNumber>
-    <WageInEuro>99000.0</WageInEuro>
-    <Weight>89.1</Weight>
-    <Height>194.31</Height>
-    <Foot>Right</Foot>
-    <Speed>69</Speed>
-  </Player>
-  <Player>
     <id>2001588+3339</id>
     <Name>Corentin Jean</Name>
     <dateOfBirth>1995-07-15T00:00</dateOfBirth>
@@ -346,21 +301,6 @@
     <Speed>70</Speed>
   </Player>
   <Player>
-    <id>1227+2002922</id>
-    <Name>F. Acheampong</Name>
-    <dateOfBirth>1993-10-16T00:00</dateOfBirth>
-    <Nationality>Ghana</Nationality>
-    <Photo>https://cdn.sofifa.org/players/4/19/213013.png</Photo>
-    <CurrentClub>Tianjin TEDA FC</CurrentClub>
-    <CurrentPosition/>
-    <CurrentNumber>7</CurrentNumber>
-    <WageInEuro>16000.0</WageInEuro>
-    <Weight>59.4</Weight>
-    <Height>166.37</Height>
-    <Foot>Left</Foot>
-    <Speed>94</Speed>
-  </Player>
-  <Player>
     <id>2002732+3492</id>
     <Name>Felix Kroos</Name>
     <dateOfBirth>1991-03-12T00:00</dateOfBirth>
@@ -374,21 +314,6 @@
     <Height>182.88</Height>
     <Foot>Right</Foot>
     <Speed>64</Speed>
-  </Player>
-  <Player>
-    <id>2003907+3379</id>
-    <Name>Jean-Sylvain Babin</Name>
-    <dateOfBirth>1986-10-14T00:00</dateOfBirth>
-    <Nationality>France</Nationality>
-    <Photo>https://cdn.sofifa.org/players/4/19/176693.png</Photo>
-    <CurrentClub>Real Sporting de Gijón</CurrentClub>
-    <CurrentPosition/>
-    <CurrentNumber>6</CurrentNumber>
-    <WageInEuro>7000.0</WageInEuro>
-    <Weight>88.2</Weight>
-    <Height>181.61</Height>
-    <Foot>Right</Foot>
-    <Speed>33</Speed>
   </Player>
   <Player>
     <id>2008020+2799</id>
@@ -479,21 +404,6 @@
     <Height>180.34</Height>
     <Foot>Left</Foot>
     <Speed>34</Speed>
-  </Player>
-  <Player>
-    <id>2008764+364</id>
-    <Name>Vitolo</Name>
-    <dateOfBirth>1989-11-02T00:00</dateOfBirth>
-    <Nationality>Spain</Nationality>
-    <Photo>https://cdn.sofifa.org/players/4/19/199715.png</Photo>
-    <CurrentClub>Atlético Madrid</CurrentClub>
-    <CurrentPosition/>
-    <CurrentNumber>23</CurrentNumber>
-    <WageInEuro>65000.0</WageInEuro>
-    <Weight>78.3</Weight>
-    <Height>184.15</Height>
-    <Foot>Right</Foot>
-    <Speed>77</Speed>
   </Player>
   <Player>
     <id>2008531+6558</id>
@@ -796,21 +706,6 @@
     <Speed>54</Speed>
   </Player>
   <Player>
-    <id>134+2005164</id>
-    <Name>L. Hrádecký</Name>
-    <dateOfBirth>1989-11-24T00:00</dateOfBirth>
-    <Nationality>Finland</Nationality>
-    <Photo>https://cdn.sofifa.org/players/4/19/190941.png</Photo>
-    <CurrentClub>Bayer 04 Leverkusen</CurrentClub>
-    <CurrentPosition/>
-    <CurrentNumber>1</CurrentNumber>
-    <WageInEuro>74000.0</WageInEuro>
-    <Weight>84.15</Weight>
-    <Height>191.76999</Height>
-    <Foot>Right</Foot>
-    <Speed>44</Speed>
-  </Player>
-  <Player>
     <id>2002435+2402</id>
     <Name>Eloy Room</Name>
     <dateOfBirth>1989-02-06T00:00</dateOfBirth>
@@ -841,21 +736,6 @@
     <Speed>63</Speed>
   </Player>
   <Player>
-    <id>2001147+2182</id>
-    <Name>B. Kuwas</Name>
-    <dateOfBirth>1992-09-19T00:00</dateOfBirth>
-    <Nationality>Curacao</Nationality>
-    <Photo>https://cdn.sofifa.org/players/4/19/228666.png</Photo>
-    <CurrentClub>Heracles Almelo</CurrentClub>
-    <CurrentPosition/>
-    <CurrentNumber>17</CurrentNumber>
-    <WageInEuro>9000.0</WageInEuro>
-    <Weight>76.5</Weight>
-    <Height>179.07</Height>
-    <Foot>Left</Foot>
-    <Speed>81</Speed>
-  </Player>
-  <Player>
     <id>2001856+7341</id>
     <Name>D. Wilson</Name>
     <dateOfBirth>1991-12-27T00:00</dateOfBirth>
@@ -869,21 +749,6 @@
     <Height>187.96</Height>
     <Foot>Left</Foot>
     <Speed>62</Speed>
-  </Player>
-  <Player>
-    <id>2004681+4982</id>
-    <Name>K. Steppe</Name>
-    <dateOfBirth>1988-11-14T00:00</dateOfBirth>
-    <Nationality>Belgium</Nationality>
-    <Photo>https://cdn.sofifa.org/players/4/19/175934.png</Photo>
-    <CurrentClub>Sint-Truidense VV</CurrentClub>
-    <CurrentPosition/>
-    <CurrentNumber>1</CurrentNumber>
-    <WageInEuro>6000.0</WageInEuro>
-    <Weight>69.3</Weight>
-    <Height>184.15</Height>
-    <Foot>Right</Foot>
-    <Speed>45</Speed>
   </Player>
   <Player>
     <id>10190+2000004</id>
@@ -1019,21 +884,6 @@
     <Height>167.64</Height>
     <Foot>Right</Foot>
     <Speed>81</Speed>
-  </Player>
-  <Player>
-    <id>2006509+9265</id>
-    <Name>N. Ravaglia</Name>
-    <dateOfBirth>1988-12-12T00:00</dateOfBirth>
-    <Nationality>Italy</Nationality>
-    <Photo>https://cdn.sofifa.org/players/4/19/173165.png</Photo>
-    <CurrentClub>US Cremonese</CurrentClub>
-    <CurrentPosition/>
-    <CurrentNumber>1</CurrentNumber>
-    <WageInEuro>1000.0</WageInEuro>
-    <Weight>83.25</Weight>
-    <Height>184.15</Height>
-    <Foot>Right</Foot>
-    <Speed>31</Speed>
   </Player>
   <Player>
     <id>2001042+3259</id>
@@ -1576,36 +1426,6 @@
     <Speed>64</Speed>
   </Player>
   <Player>
-    <id>11893+2000080</id>
-    <Name>A. Danch</Name>
-    <dateOfBirth>1987-12-15T00:00</dateOfBirth>
-    <Nationality>Poland</Nationality>
-    <Photo>https://cdn.sofifa.org/players/4/19/180440.png</Photo>
-    <CurrentClub>Arka Gdynia</CurrentClub>
-    <CurrentPosition/>
-    <CurrentNumber>26</CurrentNumber>
-    <WageInEuro>1000.0</WageInEuro>
-    <Weight>76.5</Weight>
-    <Height>181.61</Height>
-    <Foot>Right</Foot>
-    <Speed>50</Speed>
-  </Player>
-  <Player>
-    <id>2008740+3600</id>
-    <Name>V. Le Goff</Name>
-    <dateOfBirth>1989-10-15T00:00</dateOfBirth>
-    <Nationality>France</Nationality>
-    <Photo>https://cdn.sofifa.org/players/4/19/193148.png</Photo>
-    <CurrentClub>FC Lorient</CurrentClub>
-    <CurrentPosition/>
-    <CurrentNumber>25</CurrentNumber>
-    <WageInEuro>7000.0</WageInEuro>
-    <Weight>67.5</Weight>
-    <Height>176.53</Height>
-    <Foot>Left</Foot>
-    <Speed>69</Speed>
-  </Player>
-  <Player>
     <id>1927+2007323</id>
     <Name>Ricardo Ferreira</Name>
     <dateOfBirth>1992-11-25T00:00</dateOfBirth>
@@ -1679,21 +1499,6 @@
     <Height>182.88</Height>
     <Foot>Right</Foot>
     <Speed>87</Speed>
-  </Player>
-  <Player>
-    <id>2007294+3464</id>
-    <Name>Renato Santos</Name>
-    <dateOfBirth>1991-10-05T00:00</dateOfBirth>
-    <Nationality>Portugal</Nationality>
-    <Photo>https://cdn.sofifa.org/players/4/19/210258.png</Photo>
-    <CurrentClub>Málaga CF</CurrentClub>
-    <CurrentPosition/>
-    <CurrentNumber>11</CurrentNumber>
-    <WageInEuro>8000.0</WageInEuro>
-    <Weight>69.3</Weight>
-    <Height>176.53</Height>
-    <Foot>Right</Foot>
-    <Speed>76</Speed>
   </Player>
   <Player>
     <id>1357+2006797</id>
@@ -1799,21 +1604,6 @@
     <Height>175.26</Height>
     <Foot>Right</Foot>
     <Speed>64</Speed>
-  </Player>
-  <Player>
-    <id>1525+2001508</id>
-    <Name>Christopher Nkunku</Name>
-    <dateOfBirth>1997-11-14T00:00</dateOfBirth>
-    <Nationality>France</Nationality>
-    <Photo>https://cdn.sofifa.org/players/4/19/232411.png</Photo>
-    <CurrentClub>Paris Saint-Germain</CurrentClub>
-    <CurrentPosition/>
-    <CurrentNumber>24</CurrentNumber>
-    <WageInEuro>46000.0</WageInEuro>
-    <Weight>71.55</Weight>
-    <Height>176.53</Height>
-    <Foot>Right</Foot>
-    <Speed>75</Speed>
   </Player>
   <Player>
     <id>2004268+932</id>
@@ -2161,21 +1951,6 @@
     <Speed>67</Speed>
   </Player>
   <Player>
-    <id>10068+2005804+2006112</id>
-    <Name>M. Mak</Name>
-    <dateOfBirth>1991-11-14T00:00</dateOfBirth>
-    <Nationality>Poland</Nationality>
-    <Photo>https://cdn.sofifa.org/players/4/19/207904.png</Photo>
-    <CurrentClub>Lechia Gdańsk</CurrentClub>
-    <CurrentPosition/>
-    <CurrentNumber>8</CurrentNumber>
-    <WageInEuro>3000.0</WageInEuro>
-    <Weight>59.4</Weight>
-    <Height>172.72</Height>
-    <Foot>Right</Foot>
-    <Speed>86</Speed>
-  </Player>
-  <Player>
     <id>2002748+6143</id>
     <Name>F. Aristeguieta</Name>
     <dateOfBirth>1992-04-09T00:00</dateOfBirth>
@@ -2234,21 +2009,6 @@
     <Height>187.96</Height>
     <Foot>Right</Foot>
     <Speed>51</Speed>
-  </Player>
-  <Player>
-    <id>2005971+857</id>
-    <Name>Max-Alain Gradel</Name>
-    <dateOfBirth>1987-11-30T00:00</dateOfBirth>
-    <Nationality>Ivory Coast</Nationality>
-    <Photo>https://cdn.sofifa.org/players/4/19/182945.png</Photo>
-    <CurrentClub>Toulouse Football Club</CurrentClub>
-    <CurrentPosition/>
-    <CurrentNumber>15</CurrentNumber>
-    <WageInEuro>32000.0</WageInEuro>
-    <Weight>69.3</Weight>
-    <Height>176.53</Height>
-    <Foot>Right</Foot>
-    <Speed>84</Speed>
   </Player>
   <Player>
     <id>2007067+8081</id>
@@ -2551,21 +2311,6 @@
     <Speed>76</Speed>
   </Player>
   <Player>
-    <id>2008979+5162</id>
-    <Name>Yoann Touzghar</Name>
-    <dateOfBirth>1986-11-29T00:00</dateOfBirth>
-    <Nationality>Tunisia</Nationality>
-    <Photo>https://cdn.sofifa.org/players/4/19/203889.png</Photo>
-    <CurrentClub>ESTAC Troyes</CurrentClub>
-    <CurrentPosition/>
-    <CurrentNumber>14</CurrentNumber>
-    <WageInEuro>6000.0</WageInEuro>
-    <Weight>74.25</Weight>
-    <Height>179.07</Height>
-    <Foot>Right</Foot>
-    <Speed>76</Speed>
-  </Player>
-  <Player>
     <id>11183+2007888</id>
     <Name>Sebastian Rudol</Name>
     <dateOfBirth>1995-02-21T00:00</dateOfBirth>
@@ -2624,36 +2369,6 @@
     <Height>177.8</Height>
     <Foot>Right</Foot>
     <Speed>75</Speed>
-  </Player>
-  <Player>
-    <id>2000463+6389</id>
-    <Name>Almen Abdi</Name>
-    <dateOfBirth>1986-10-21T00:00</dateOfBirth>
-    <Nationality>Switzerland</Nationality>
-    <Photo>https://cdn.sofifa.org/players/4/19/138698.png</Photo>
-    <CurrentClub>Sheffield Wednesday</CurrentClub>
-    <CurrentPosition/>
-    <CurrentNumber>22</CurrentNumber>
-    <WageInEuro>13000.0</WageInEuro>
-    <Weight>74.25</Weight>
-    <Height>181.61</Height>
-    <Foot>Right</Foot>
-    <Speed>54</Speed>
-  </Player>
-  <Player>
-    <id>2008389+3172</id>
-    <Name>T. Heurtaux</Name>
-    <dateOfBirth>1988-07-03T00:00</dateOfBirth>
-    <Nationality>France</Nationality>
-    <Photo>https://cdn.sofifa.org/players/4/19/188654.png</Photo>
-    <CurrentClub>MKE Ankaragücü</CurrentClub>
-    <CurrentPosition/>
-    <CurrentNumber>75</CurrentNumber>
-    <WageInEuro>17000.0</WageInEuro>
-    <Weight>77.4</Weight>
-    <Height>184.15</Height>
-    <Foot>Right</Foot>
-    <Speed>55</Speed>
   </Player>
   <Player>
     <id>2003691+2843</id>
@@ -2731,21 +2446,6 @@
     <Speed>90</Speed>
   </Player>
   <Player>
-    <id>1123+2001838</id>
-    <Name>D. da Costa</Name>
-    <dateOfBirth>1993-07-13T00:00</dateOfBirth>
-    <Nationality>Germany</Nationality>
-    <Photo>https://cdn.sofifa.org/players/4/19/202429.png</Photo>
-    <CurrentClub>Eintracht Frankfurt</CurrentClub>
-    <CurrentPosition/>
-    <CurrentNumber>24</CurrentNumber>
-    <WageInEuro>27000.0</WageInEuro>
-    <Weight>87.3</Weight>
-    <Height>186.69</Height>
-    <Foot>Right</Foot>
-    <Speed>84</Speed>
-  </Player>
-  <Player>
     <id>2007710+5753</id>
     <Name>Saliou Ciss</Name>
     <dateOfBirth>1989-06-15T00:00</dateOfBirth>
@@ -2804,21 +2504,6 @@
     <Height>187.96</Height>
     <Foot>Right</Foot>
     <Speed>39</Speed>
-  </Player>
-  <Player>
-    <id>187+2005169</id>
-    <Name>Lucas Moura</Name>
-    <dateOfBirth>1992-08-13T00:00</dateOfBirth>
-    <Nationality>Brazil</Nationality>
-    <Photo>https://cdn.sofifa.org/players/4/19/200949.png</Photo>
-    <CurrentClub>Tottenham Hotspur</CurrentClub>
-    <CurrentPosition/>
-    <CurrentNumber>27</CurrentNumber>
-    <WageInEuro>115000.0</WageInEuro>
-    <Weight>69.3</Weight>
-    <Height>173.98999</Height>
-    <Foot>Right</Foot>
-    <Speed>90</Speed>
   </Player>
   <Player>
     <id>2006696+7609</id>
@@ -3074,21 +2759,6 @@
     <Height>189.23001</Height>
     <Foot>Right</Foot>
     <Speed>49</Speed>
-  </Player>
-  <Player>
-    <id>1147+2004815</id>
-    <Name>Konstantinos Fortounis</Name>
-    <dateOfBirth>1992-10-16T00:00</dateOfBirth>
-    <Nationality>Greece</Nationality>
-    <Photo>https://cdn.sofifa.org/players/4/19/203980.png</Photo>
-    <CurrentClub>Olympiacos CFP</CurrentClub>
-    <CurrentPosition/>
-    <CurrentNumber>10</CurrentNumber>
-    <WageInEuro>1000.0</WageInEuro>
-    <Weight>75.6</Weight>
-    <Height>181.61</Height>
-    <Foot>Right</Foot>
-    <Speed>77</Speed>
   </Player>
   <Player>
     <id>2007280+870</id>
@@ -3421,21 +3091,6 @@
     <Speed>65</Speed>
   </Player>
   <Player>
-    <id>2003018+37</id>
-    <Name>Gareth Bale</Name>
-    <dateOfBirth>1989-07-16T00:00</dateOfBirth>
-    <Nationality>Wales</Nationality>
-    <Photo>https://cdn.sofifa.org/players/4/19/173731.png</Photo>
-    <CurrentClub>Real Madrid</CurrentClub>
-    <CurrentPosition/>
-    <CurrentNumber>11</CurrentNumber>
-    <WageInEuro>355000.0</WageInEuro>
-    <Weight>81.45</Weight>
-    <Height>184.15</Height>
-    <Foot>Left</Foot>
-    <Speed>95</Speed>
-  </Player>
-  <Player>
     <id>2004405+2390</id>
     <Name>Joshua Brenet</Name>
     <dateOfBirth>1994-03-20T00:00</dateOfBirth>
@@ -3526,36 +3181,6 @@
     <Speed>64</Speed>
   </Player>
   <Player>
-    <id>2001213+2381</id>
-    <Name>Bruno Saltor</Name>
-    <dateOfBirth>1982-01-01T00:00</dateOfBirth>
-    <Nationality>Spain</Nationality>
-    <Photo>https://cdn.sofifa.org/players/4/19/145047.png</Photo>
-    <CurrentClub>Brighton &amp; Hove Albion</CurrentClub>
-    <CurrentPosition/>
-    <CurrentNumber>2</CurrentNumber>
-    <WageInEuro>25000.0</WageInEuro>
-    <Weight>75.6</Weight>
-    <Height>179.07</Height>
-    <Foot>Right</Foot>
-    <Speed>53</Speed>
-  </Player>
-  <Player>
-    <id>2006009+3771</id>
-    <Name>Mehdi Abeid</Name>
-    <dateOfBirth>1992-08-06T00:00</dateOfBirth>
-    <Nationality>Algeria</Nationality>
-    <Photo>https://cdn.sofifa.org/players/4/19/188600.png</Photo>
-    <CurrentClub>Dijon FCO</CurrentClub>
-    <CurrentPosition/>
-    <CurrentNumber>8</CurrentNumber>
-    <WageInEuro>10000.0</WageInEuro>
-    <Weight>84.15</Weight>
-    <Height>179.07</Height>
-    <Foot>Right</Foot>
-    <Speed>65</Speed>
-  </Player>
-  <Player>
     <id>1567+2006101</id>
     <Name>M. Antonio</Name>
     <dateOfBirth>1990-03-28T00:00</dateOfBirth>
@@ -3569,21 +3194,6 @@
     <Height>179.07</Height>
     <Foot>Right</Foot>
     <Speed>86</Speed>
-  </Player>
-  <Player>
-    <id>2004740+7423</id>
-    <Name>K. Stewart</Name>
-    <dateOfBirth>1993-09-07T00:00</dateOfBirth>
-    <Nationality>England</Nationality>
-    <Photo>https://cdn.sofifa.org/players/4/19/206538.png</Photo>
-    <CurrentClub>Hull City</CurrentClub>
-    <CurrentPosition/>
-    <CurrentNumber>6</CurrentNumber>
-    <WageInEuro>9000.0</WageInEuro>
-    <Weight>72.45</Weight>
-    <Height>181.61</Height>
-    <Foot>Right</Foot>
-    <Speed>63</Speed>
   </Player>
   <Player>
     <id>2000444+3869</id>
@@ -3961,21 +3571,6 @@
     <Speed>79</Speed>
   </Player>
   <Player>
-    <id>2000694+9723</id>
-    <Name>A. Hadouir</Name>
-    <dateOfBirth>1982-09-14T00:00</dateOfBirth>
-    <Nationality>Netherlands</Nationality>
-    <Photo>https://cdn.sofifa.org/players/4/19/137686.png</Photo>
-    <CurrentClub>Excelsior</CurrentClub>
-    <CurrentPosition/>
-    <CurrentNumber>7</CurrentNumber>
-    <WageInEuro>2000.0</WageInEuro>
-    <Weight>67.5</Weight>
-    <Height>171.45</Height>
-    <Foot>Right</Foot>
-    <Speed>65</Speed>
-  </Player>
-  <Player>
     <id>2003924+2731</id>
     <Name>Jeffrey Schlupp</Name>
     <dateOfBirth>1992-12-23T00:00</dateOfBirth>
@@ -4034,21 +3629,6 @@
     <Height>195.58</Height>
     <Foot>Right</Foot>
     <Speed>43</Speed>
-  </Player>
-  <Player>
-    <id>2000951+4583</id>
-    <Name>B. Drągowski</Name>
-    <dateOfBirth>1997-08-19T00:00</dateOfBirth>
-    <Nationality>Poland</Nationality>
-    <Photo>https://cdn.sofifa.org/players/4/19/215502.png</Photo>
-    <CurrentClub>Fiorentina</CurrentClub>
-    <CurrentPosition/>
-    <CurrentNumber>69</CurrentNumber>
-    <WageInEuro>15000.0</WageInEuro>
-    <Weight>73.35</Weight>
-    <Height>189.23001</Height>
-    <Foot>Right</Foot>
-    <Speed>42</Speed>
   </Player>
   <Player>
     <id>13873+2005675</id>
@@ -4216,21 +3796,6 @@
     <Speed>77</Speed>
   </Player>
   <Player>
-    <id>1877+2003377</id>
-    <Name>H. Arter</Name>
-    <dateOfBirth>1989-12-28T00:00</dateOfBirth>
-    <Nationality>Republic of Ireland</Nationality>
-    <Photo>https://cdn.sofifa.org/players/4/19/184469.png</Photo>
-    <CurrentClub>Cardiff City</CurrentClub>
-    <CurrentPosition/>
-    <CurrentNumber>22</CurrentNumber>
-    <WageInEuro>55000.0</WageInEuro>
-    <Weight>69.3</Weight>
-    <Height>176.53</Height>
-    <Foot>Left</Foot>
-    <Speed>58</Speed>
-  </Player>
-  <Player>
     <id>2006020+9013</id>
     <Name>Melker Hallberg</Name>
     <dateOfBirth>1995-10-20T00:00</dateOfBirth>
@@ -4396,21 +3961,6 @@
     <Speed>69</Speed>
   </Player>
   <Player>
-    <id>10613+2008028</id>
-    <Name>Silvio Romero</Name>
-    <dateOfBirth>1988-07-22T00:00</dateOfBirth>
-    <Nationality>Colombia</Nationality>
-    <Photo>https://cdn.sofifa.org/players/4/19/214185.png</Photo>
-    <CurrentClub>Atlético Bucaramanga</CurrentClub>
-    <CurrentPosition/>
-    <CurrentNumber>11</CurrentNumber>
-    <WageInEuro>1000.0</WageInEuro>
-    <Weight>69.3</Weight>
-    <Height>173.98999</Height>
-    <Foot>Right</Foot>
-    <Speed>67</Speed>
-  </Player>
-  <Player>
     <id>2002060+4770</id>
     <Name>Declan John</Name>
     <dateOfBirth>1995-06-30T00:00</dateOfBirth>
@@ -4544,21 +4094,6 @@
     <Height>172.72</Height>
     <Foot>Right</Foot>
     <Speed>55</Speed>
-  </Player>
-  <Player>
-    <id>14040+2005486</id>
-    <Name>Marcis Oss</Name>
-    <dateOfBirth>1991-07-25T00:00</dateOfBirth>
-    <Nationality>Latvia</Nationality>
-    <Photo>https://cdn.sofifa.org/players/4/19/231967.png</Photo>
-    <CurrentClub>Neuchâtel Xamax</CurrentClub>
-    <CurrentPosition/>
-    <CurrentNumber>25</CurrentNumber>
-    <WageInEuro>2000.0</WageInEuro>
-    <Weight>92.25</Weight>
-    <Height>191.76999</Height>
-    <Foot>Right</Foot>
-    <Speed>61</Speed>
   </Player>
   <Player>
     <id>2000848+2224</id>
@@ -4966,21 +4501,6 @@
     <Speed>46</Speed>
   </Player>
   <Player>
-    <id>2005879+2634</id>
-    <Name>Matt Miazga</Name>
-    <dateOfBirth>1995-07-19T00:00</dateOfBirth>
-    <Nationality>United States</Nationality>
-    <Photo>https://cdn.sofifa.org/players/4/19/215565.png</Photo>
-    <CurrentClub>FC Nantes</CurrentClub>
-    <CurrentPosition/>
-    <CurrentNumber>3</CurrentNumber>
-    <WageInEuro>51000.0</WageInEuro>
-    <Weight>83.25</Weight>
-    <Height>191.76999</Height>
-    <Foot>Right</Foot>
-    <Speed>58</Speed>
-  </Player>
-  <Player>
     <id>2008149+6300</id>
     <Name>Stefano Celozzi</Name>
     <dateOfBirth>1988-11-02T00:00</dateOfBirth>
@@ -5114,21 +4634,6 @@
     <Height>185.42</Height>
     <Foot>Right</Foot>
     <Speed>53</Speed>
-  </Player>
-  <Player>
-    <id>1405+2002510</id>
-    <Name>Enner Valencia</Name>
-    <dateOfBirth>1989-11-04T00:00</dateOfBirth>
-    <Nationality>Ecuador</Nationality>
-    <Photo>https://cdn.sofifa.org/players/4/19/220295.png</Photo>
-    <CurrentClub>Tigres U.A.N.L.</CurrentClub>
-    <CurrentPosition/>
-    <CurrentNumber>13</CurrentNumber>
-    <WageInEuro>55000.0</WageInEuro>
-    <Weight>75.6</Weight>
-    <Height>176.53</Height>
-    <Foot>Right</Foot>
-    <Speed>87</Speed>
   </Player>
   <Player>
     <id>2008942+3957</id>
@@ -6001,21 +5506,6 @@
     <Speed>59</Speed>
   </Player>
   <Player>
-    <id>2007790+2247</id>
-    <Name>S. Prcić</Name>
-    <dateOfBirth>1993-11-20T00:00</dateOfBirth>
-    <Nationality>Bosnia Herzegovina</Nationality>
-    <Photo>https://cdn.sofifa.org/players/4/19/206167.png</Photo>
-    <CurrentClub>Levante UD</CurrentClub>
-    <CurrentPosition/>
-    <CurrentNumber>8</CurrentNumber>
-    <WageInEuro>16000.0</WageInEuro>
-    <Weight>72.45</Weight>
-    <Height>181.61</Height>
-    <Foot>Right</Foot>
-    <Speed>65</Speed>
-  </Player>
-  <Player>
     <id>2005215+6961</id>
     <Name>Luis Farina</Name>
     <dateOfBirth>1991-04-20T00:00</dateOfBirth>
@@ -6076,21 +5566,6 @@
     <Speed>61</Speed>
   </Player>
   <Player>
-    <id>2005988+2970</id>
-    <Name>M. Poundjé</Name>
-    <dateOfBirth>1992-08-16T00:00</dateOfBirth>
-    <Nationality>France</Nationality>
-    <Photo>https://cdn.sofifa.org/players/4/19/209301.png</Photo>
-    <CurrentClub>FC Girondins de Bordeaux</CurrentClub>
-    <CurrentPosition/>
-    <CurrentNumber>29</CurrentNumber>
-    <WageInEuro>27000.0</WageInEuro>
-    <Weight>73.35</Weight>
-    <Height>179.07</Height>
-    <Foot>Left</Foot>
-    <Speed>85</Speed>
-  </Player>
-  <Player>
     <id>2002025+3581</id>
     <Name>D. Di Gennaro</Name>
     <dateOfBirth>1988-06-16T00:00</dateOfBirth>
@@ -6134,21 +5609,6 @@
     <Height>180.34</Height>
     <Foot>Right</Foot>
     <Speed>61</Speed>
-  </Player>
-  <Player>
-    <id>2007537+2513</id>
-    <Name>R. Salin</Name>
-    <dateOfBirth>1984-07-29T00:00</dateOfBirth>
-    <Nationality>France</Nationality>
-    <Photo>https://cdn.sofifa.org/players/4/19/150477.png</Photo>
-    <CurrentClub>Sporting CP</CurrentClub>
-    <CurrentPosition/>
-    <CurrentNumber>19</CurrentNumber>
-    <WageInEuro>9000.0</WageInEuro>
-    <Weight>75.6</Weight>
-    <Height>186.69</Height>
-    <Foot>Left</Foot>
-    <Speed>34</Speed>
   </Player>
   <Player>
     <id>2001026+4229</id>
@@ -6239,6 +5699,21 @@
     <Height>182.88</Height>
     <Foot>Left</Foot>
     <Speed>53</Speed>
+  </Player>
+  <Player>
+    <id>10068+2006112</id>
+    <Name>M. Mak</Name>
+    <dateOfBirth>1991-11-14T00:00</dateOfBirth>
+    <Nationality>Poland</Nationality>
+    <Photo>https://cdn.sofifa.org/players/4/19/207904.png</Photo>
+    <CurrentClub>Lechia Gdańsk</CurrentClub>
+    <CurrentPosition/>
+    <CurrentNumber>8</CurrentNumber>
+    <WageInEuro>3000.0</WageInEuro>
+    <Weight>59.4</Weight>
+    <Height>172.72</Height>
+    <Foot>Right</Foot>
+    <Speed>86</Speed>
   </Player>
   <Player>
     <id>12514+2003289</id>
@@ -6511,21 +5986,6 @@
     <Speed>70</Speed>
   </Player>
   <Player>
-    <id>2002132+5190</id>
-    <Name>Derley</Name>
-    <dateOfBirth>1987-12-29T00:00</dateOfBirth>
-    <Nationality>Brazil</Nationality>
-    <Photo>https://cdn.sofifa.org/players/4/19/219514.png</Photo>
-    <CurrentClub>CD Aves</CurrentClub>
-    <CurrentPosition/>
-    <CurrentNumber>33</CurrentNumber>
-    <WageInEuro>8000.0</WageInEuro>
-    <Weight>75.6</Weight>
-    <Height>184.15</Height>
-    <Foot>Right</Foot>
-    <Speed>66</Speed>
-  </Player>
-  <Player>
     <id>2007907+5742</id>
     <Name>Sebastien Roudet</Name>
     <dateOfBirth>1982-01-01T00:00</dateOfBirth>
@@ -6584,21 +6044,6 @@
     <Height>187.96</Height>
     <Foot>Right</Foot>
     <Speed>87</Speed>
-  </Player>
-  <Player>
-    <id>14036+2007169+3644</id>
-    <Name>Rafael Lopes</Name>
-    <dateOfBirth>1993-01-01T00:00</dateOfBirth>
-    <Nationality>Republic of Ireland</Nationality>
-    <Photo>https://cdn.sofifa.org/players/4/19/202014.png</Photo>
-    <CurrentClub>Shamrock Rovers</CurrentClub>
-    <CurrentPosition/>
-    <CurrentNumber>4</CurrentNumber>
-    <WageInEuro>1000.0</WageInEuro>
-    <Weight>78.3</Weight>
-    <Height>185.42</Height>
-    <Foot>Right</Foot>
-    <Speed>37</Speed>
   </Player>
   <Player>
     <id>1700+2000370</id>
@@ -6749,21 +6194,6 @@
     <Height>175.26</Height>
     <Foot>Right</Foot>
     <Speed>63</Speed>
-  </Player>
-  <Player>
-    <id>1485+2000665</id>
-    <Name>A. Delort</Name>
-    <dateOfBirth>1991-10-09T00:00</dateOfBirth>
-    <Nationality>France</Nationality>
-    <Photo>https://cdn.sofifa.org/players/4/19/193983.png</Photo>
-    <CurrentClub>Montpellier HSC</CurrentClub>
-    <CurrentPosition/>
-    <CurrentNumber>11</CurrentNumber>
-    <WageInEuro>30000.0</WageInEuro>
-    <Weight>82.35</Weight>
-    <Height>181.61</Height>
-    <Foot>Right</Foot>
-    <Speed>76</Speed>
   </Player>
   <Player>
     <id>2008053+4685</id>
@@ -7336,21 +6766,6 @@
     <Speed>84</Speed>
   </Player>
   <Player>
-    <id>2002587+3367</id>
-    <Name>E. Lamanna</Name>
-    <dateOfBirth>1989-08-07T00:00</dateOfBirth>
-    <Nationality>Italy</Nationality>
-    <Photo>https://cdn.sofifa.org/players/4/19/190769.png</Photo>
-    <CurrentClub>Spezia</CurrentClub>
-    <CurrentPosition/>
-    <CurrentNumber>1</CurrentNumber>
-    <WageInEuro>3000.0</WageInEuro>
-    <Weight>79.2</Weight>
-    <Height>186.69</Height>
-    <Foot>Right</Foot>
-    <Speed>33</Speed>
-  </Player>
-  <Player>
     <id>2003929+2913</id>
     <Name>Jelle van Damme</Name>
     <dateOfBirth>1983-10-10T00:00</dateOfBirth>
@@ -7396,21 +6811,6 @@
     <Speed>85</Speed>
   </Player>
   <Player>
-    <id>2007431+6422</id>
-    <Name>R. Pich</Name>
-    <dateOfBirth>1988-11-12T00:00</dateOfBirth>
-    <Nationality>Slovakia</Nationality>
-    <Photo>https://cdn.sofifa.org/players/4/19/222163.png</Photo>
-    <CurrentClub>Śląsk Wrocław</CurrentClub>
-    <CurrentPosition/>
-    <CurrentNumber>16</CurrentNumber>
-    <WageInEuro>4000.0</WageInEuro>
-    <Weight>67.5</Weight>
-    <Height>173.98999</Height>
-    <Foot>Right</Foot>
-    <Speed>83</Speed>
-  </Player>
-  <Player>
     <id>2000771+5852</id>
     <Name>Antonio Rosati</Name>
     <dateOfBirth>1983-06-26T00:00</dateOfBirth>
@@ -7439,21 +6839,6 @@
     <Height>195.58</Height>
     <Foot>Right</Foot>
     <Speed>47</Speed>
-  </Player>
-  <Player>
-    <id>1920+2006631</id>
-    <Name>Nuno Pinto</Name>
-    <dateOfBirth>1986-08-06T00:00</dateOfBirth>
-    <Nationality>Portugal</Nationality>
-    <Photo>https://cdn.sofifa.org/players/4/19/179884.png</Photo>
-    <CurrentClub>Vitória de Setúbal</CurrentClub>
-    <CurrentPosition/>
-    <CurrentNumber>21</CurrentNumber>
-    <WageInEuro>7000.0</WageInEuro>
-    <Weight>64.35</Weight>
-    <Height>173.98999</Height>
-    <Foot>Left</Foot>
-    <Speed>73</Speed>
   </Player>
   <Player>
     <id>1066+2002090</id>
@@ -7574,36 +6959,6 @@
     <Height>187.96</Height>
     <Foot>Right</Foot>
     <Speed>87</Speed>
-  </Player>
-  <Player>
-    <id>2006359+2186</id>
-    <Name>M. Bešić</Name>
-    <dateOfBirth>1992-09-10T00:00</dateOfBirth>
-    <Nationality>Bosnia Herzegovina</Nationality>
-    <Photo>https://cdn.sofifa.org/players/4/19/200765.png</Photo>
-    <CurrentClub>Middlesbrough</CurrentClub>
-    <CurrentPosition/>
-    <CurrentNumber>37</CurrentNumber>
-    <WageInEuro>58000.0</WageInEuro>
-    <Weight>79.2</Weight>
-    <Height>179.07</Height>
-    <Foot>Right</Foot>
-    <Speed>65</Speed>
-  </Player>
-  <Player>
-    <id>2003134+2826</id>
-    <Name>G. Caprari</Name>
-    <dateOfBirth>1993-07-30T00:00</dateOfBirth>
-    <Nationality>Italy</Nationality>
-    <Photo>https://cdn.sofifa.org/players/4/19/202848.png</Photo>
-    <CurrentClub>Sampdoria</CurrentClub>
-    <CurrentPosition/>
-    <CurrentNumber>17</CurrentNumber>
-    <WageInEuro>25000.0</WageInEuro>
-    <Weight>71.55</Weight>
-    <Height>173.98999</Height>
-    <Foot>Right</Foot>
-    <Speed>84</Speed>
   </Player>
   <Player>
     <id>1081+2007411</id>
@@ -8026,21 +7381,6 @@
     <Speed>49</Speed>
   </Player>
   <Player>
-    <id>2000987+669</id>
-    <Name>Ben Mee</Name>
-    <dateOfBirth>1989-09-23T00:00</dateOfBirth>
-    <Nationality>England</Nationality>
-    <Photo>https://cdn.sofifa.org/players/4/19/189682.png</Photo>
-    <CurrentClub>Burnley</CurrentClub>
-    <CurrentPosition/>
-    <CurrentNumber>6</CurrentNumber>
-    <WageInEuro>58000.0</WageInEuro>
-    <Weight>81.45</Weight>
-    <Height>181.61</Height>
-    <Foot>Left</Foot>
-    <Speed>63</Speed>
-  </Player>
-  <Player>
     <id>2005098+2147</id>
     <Name>Lorenzo Crisetig</Name>
     <dateOfBirth>1993-01-20T00:00</dateOfBirth>
@@ -8054,21 +7394,6 @@
     <Height>182.88</Height>
     <Foot>Left</Foot>
     <Speed>54</Speed>
-  </Player>
-  <Player>
-    <id>2001156+5551</id>
-    <Name>Brayan Angulo</Name>
-    <dateOfBirth>1989-11-02T00:00</dateOfBirth>
-    <Nationality>Colombia</Nationality>
-    <Photo>https://cdn.sofifa.org/players/4/19/184035.png</Photo>
-    <CurrentClub>Puebla FC</CurrentClub>
-    <CurrentPosition/>
-    <CurrentNumber>2</CurrentNumber>
-    <WageInEuro>5000.0</WageInEuro>
-    <Weight>73.35</Weight>
-    <Height>173.98999</Height>
-    <Foot>Left</Foot>
-    <Speed>79</Speed>
   </Player>
   <Player>
     <id>2006642+5623</id>
@@ -8264,36 +7589,6 @@
     <Height>186.69</Height>
     <Foot>Left</Foot>
     <Speed>55</Speed>
-  </Player>
-  <Player>
-    <id>2001417+3468</id>
-    <Name>Chris Brunt</Name>
-    <dateOfBirth>1984-12-14T00:00</dateOfBirth>
-    <Nationality>Northern Ireland</Nationality>
-    <Photo>https://cdn.sofifa.org/players/4/19/52306.png</Photo>
-    <CurrentClub>West Bromwich Albion</CurrentClub>
-    <CurrentPosition/>
-    <CurrentNumber>11</CurrentNumber>
-    <WageInEuro>24000.0</WageInEuro>
-    <Weight>83.25</Weight>
-    <Height>186.69</Height>
-    <Foot>Left</Foot>
-    <Speed>53</Speed>
-  </Player>
-  <Player>
-    <id>1563+2000382</id>
-    <Name>Alexander Djiku</Name>
-    <dateOfBirth>1994-08-09T00:00</dateOfBirth>
-    <Nationality>France</Nationality>
-    <Photo>https://cdn.sofifa.org/players/4/19/212219.png</Photo>
-    <CurrentClub>Stade Malherbe Caen</CurrentClub>
-    <CurrentPosition/>
-    <CurrentNumber>24</CurrentNumber>
-    <WageInEuro>18000.0</WageInEuro>
-    <Weight>73.35</Weight>
-    <Height>181.61</Height>
-    <Foot>Right</Foot>
-    <Speed>79</Speed>
   </Player>
   <Player>
     <id>2006486+7345</id>
@@ -8626,21 +7921,6 @@
     <Speed>68</Speed>
   </Player>
   <Player>
-    <id>2005188+8589</id>
-    <Name>Luciano Slagveer</Name>
-    <dateOfBirth>1993-10-05T00:00</dateOfBirth>
-    <Nationality>Netherlands</Nationality>
-    <Photo>https://cdn.sofifa.org/players/4/19/202200.png</Photo>
-    <CurrentClub>FC Emmen</CurrentClub>
-    <CurrentPosition/>
-    <CurrentNumber>17</CurrentNumber>
-    <WageInEuro>5000.0</WageInEuro>
-    <Weight>73.35</Weight>
-    <Height>179.07</Height>
-    <Foot>Right</Foot>
-    <Speed>92</Speed>
-  </Player>
-  <Player>
     <id>2008018+7038</id>
     <Name>S. Blondelle</Name>
     <dateOfBirth>1986-04-20T00:00</dateOfBirth>
@@ -8774,21 +8054,6 @@
     <Height>171.45</Height>
     <Foot>Left</Foot>
     <Speed>64</Speed>
-  </Player>
-  <Player>
-    <id>2003667+5283</id>
-    <Name>Jack Colback</Name>
-    <dateOfBirth>1989-10-24T00:00</dateOfBirth>
-    <Nationality>England</Nationality>
-    <Photo>https://cdn.sofifa.org/players/4/19/193942.png</Photo>
-    <CurrentClub>Nottingham Forest</CurrentClub>
-    <CurrentPosition/>
-    <CurrentNumber>6</CurrentNumber>
-    <WageInEuro>23000.0</WageInEuro>
-    <Weight>76.5</Weight>
-    <Height>176.53</Height>
-    <Foot>Left</Foot>
-    <Speed>60</Speed>
   </Player>
   <Player>
     <id>1874+2001249</id>
@@ -9286,21 +8551,6 @@
     <Speed>33</Speed>
   </Player>
   <Player>
-    <id>2001657+4663</id>
-    <Name>Cuco Martina</Name>
-    <dateOfBirth>1989-09-25T00:00</dateOfBirth>
-    <Nationality>Curacao</Nationality>
-    <Photo>https://cdn.sofifa.org/players/4/19/204519.png</Photo>
-    <CurrentClub>Stoke City</CurrentClub>
-    <CurrentPosition/>
-    <CurrentNumber>23</CurrentNumber>
-    <WageInEuro>46000.0</WageInEuro>
-    <Weight>76.5</Weight>
-    <Height>184.15</Height>
-    <Foot>Right</Foot>
-    <Speed>65</Speed>
-  </Player>
-  <Player>
     <id>133+2006448</id>
     <Name>Nemanja Matic</Name>
     <dateOfBirth>1990-01-01T00:00</dateOfBirth>
@@ -9329,36 +8579,6 @@
     <Height>195.58</Height>
     <Foot>Left</Foot>
     <Speed>42</Speed>
-  </Player>
-  <Player>
-    <id>2001040+2176</id>
-    <Name>Benoit Poulain</Name>
-    <dateOfBirth>1987-07-24T00:00</dateOfBirth>
-    <Nationality>France</Nationality>
-    <Photo>https://cdn.sofifa.org/players/4/19/188727.png</Photo>
-    <CurrentClub>Club Brugge KV</CurrentClub>
-    <CurrentPosition/>
-    <CurrentNumber>5</CurrentNumber>
-    <WageInEuro>18000.0</WageInEuro>
-    <Weight>82.35</Weight>
-    <Height>186.69</Height>
-    <Foot>Right</Foot>
-    <Speed>37</Speed>
-  </Player>
-  <Player>
-    <id>1398+2006511</id>
-    <Name>N. Sansone</Name>
-    <dateOfBirth>1991-09-10T00:00</dateOfBirth>
-    <Nationality>Italy</Nationality>
-    <Photo>https://cdn.sofifa.org/players/4/19/201858.png</Photo>
-    <CurrentClub>Villarreal CF</CurrentClub>
-    <CurrentPosition/>
-    <CurrentNumber>10</CurrentNumber>
-    <WageInEuro>32000.0</WageInEuro>
-    <Weight>67.5</Weight>
-    <Height>173.98999</Height>
-    <Foot>Right</Foot>
-    <Speed>79</Speed>
   </Player>
   <Player>
     <id>148+2008182</id>
@@ -9524,21 +8744,6 @@
     <Height>177.8</Height>
     <Foot>Right</Foot>
     <Speed>72</Speed>
-  </Player>
-  <Player>
-    <id>2002692+2839</id>
-    <Name>F. Barba</Name>
-    <dateOfBirth>1993-09-01T00:00</dateOfBirth>
-    <Nationality>Italy</Nationality>
-    <Photo>https://cdn.sofifa.org/players/4/19/211557.png</Photo>
-    <CurrentClub>Chievo Verona</CurrentClub>
-    <CurrentPosition/>
-    <CurrentNumber>5</CurrentNumber>
-    <WageInEuro>11000.0</WageInEuro>
-    <Weight>76.5</Weight>
-    <Height>186.69</Height>
-    <Foot>Left</Foot>
-    <Speed>69</Speed>
   </Player>
   <Player>
     <id>2001448+2772</id>
@@ -9796,36 +9001,6 @@
     <Speed>71</Speed>
   </Player>
   <Player>
-    <id>2003682+3659</id>
-    <Name>Jacopo Sala</Name>
-    <dateOfBirth>1991-12-05T00:00</dateOfBirth>
-    <Nationality>Italy</Nationality>
-    <Photo>https://cdn.sofifa.org/players/4/19/197777.png</Photo>
-    <CurrentClub>Sampdoria</CurrentClub>
-    <CurrentPosition/>
-    <CurrentNumber>7</CurrentNumber>
-    <WageInEuro>21000.0</WageInEuro>
-    <Weight>74.25</Weight>
-    <Height>181.61</Height>
-    <Foot>Right</Foot>
-    <Speed>75</Speed>
-  </Player>
-  <Player>
-    <id>1048+2001787</id>
-    <Name>D. Schwaab</Name>
-    <dateOfBirth>1988-08-23T00:00</dateOfBirth>
-    <Nationality>Germany</Nationality>
-    <Photo>https://cdn.sofifa.org/players/4/19/183426.png</Photo>
-    <CurrentClub>PSV</CurrentClub>
-    <CurrentPosition/>
-    <CurrentNumber>5</CurrentNumber>
-    <WageInEuro>16000.0</WageInEuro>
-    <Weight>75.6</Weight>
-    <Height>186.69</Height>
-    <Foot>Right</Foot>
-    <Speed>72</Speed>
-  </Player>
-  <Player>
     <id>2001733+2123</id>
     <Name>Daniel Ayala</Name>
     <dateOfBirth>1990-11-07T00:00</dateOfBirth>
@@ -9976,36 +9151,6 @@
     <Speed>68</Speed>
   </Player>
   <Player>
-    <id>2000301+5856</id>
-    <Name>A. Trajkovski</Name>
-    <dateOfBirth>1992-09-05T00:00</dateOfBirth>
-    <Nationality>FYR Macedonia</Nationality>
-    <Photo>https://cdn.sofifa.org/players/4/19/204350.png</Photo>
-    <CurrentClub>Palermo</CurrentClub>
-    <CurrentPosition/>
-    <CurrentNumber>10</CurrentNumber>
-    <WageInEuro>3000.0</WageInEuro>
-    <Weight>77.4</Weight>
-    <Height>179.07</Height>
-    <Foot>Right</Foot>
-    <Speed>71</Speed>
-  </Player>
-  <Player>
-    <id>1978+2008202</id>
-    <Name>S. Ward</Name>
-    <dateOfBirth>1985-08-20T00:00</dateOfBirth>
-    <Nationality>Republic of Ireland</Nationality>
-    <Photo>https://cdn.sofifa.org/players/4/19/165321.png</Photo>
-    <CurrentClub>Burnley</CurrentClub>
-    <CurrentPosition/>
-    <CurrentNumber>23</CurrentNumber>
-    <WageInEuro>42000.0</WageInEuro>
-    <Weight>79.2</Weight>
-    <Height>184.15</Height>
-    <Foot>Left</Foot>
-    <Speed>60</Speed>
-  </Player>
-  <Player>
     <id>2004457+5807</id>
     <Name>Juan Munoz</Name>
     <dateOfBirth>1995-11-12T00:00</dateOfBirth>
@@ -10139,21 +9284,6 @@
     <Height>176.53</Height>
     <Foot>Right</Foot>
     <Speed>53</Speed>
-  </Player>
-  <Player>
-    <id>2003753+5365</id>
-    <Name>James Troisi</Name>
-    <dateOfBirth>1988-07-03T00:00</dateOfBirth>
-    <Nationality>Australia</Nationality>
-    <Photo>https://cdn.sofifa.org/players/4/19/172208.png</Photo>
-    <CurrentClub>Melbourne Victory</CurrentClub>
-    <CurrentPosition/>
-    <CurrentNumber>10</CurrentNumber>
-    <WageInEuro>6000.0</WageInEuro>
-    <Weight>74.25</Weight>
-    <Height>176.53</Height>
-    <Foot>Left</Foot>
-    <Speed>72</Speed>
   </Player>
   <Player>
     <id>2006899+6723</id>
@@ -10754,21 +9884,6 @@
     <Height>182.88</Height>
     <Foot>Left</Foot>
     <Speed>67</Speed>
-  </Player>
-  <Player>
-    <id>1597+2007518</id>
-    <Name>Rolando</Name>
-    <dateOfBirth>1985-08-31T00:00</dateOfBirth>
-    <Nationality>Portugal</Nationality>
-    <Photo>https://cdn.sofifa.org/players/4/19/163083.png</Photo>
-    <CurrentClub>Olympique de Marseille</CurrentClub>
-    <CurrentPosition/>
-    <CurrentNumber>6</CurrentNumber>
-    <WageInEuro>35000.0</WageInEuro>
-    <Weight>76.5</Weight>
-    <Height>189.23001</Height>
-    <Foot>Right</Foot>
-    <Speed>32</Speed>
   </Player>
   <Player>
     <id>2005953+5479</id>
@@ -12316,21 +11431,6 @@
     <Speed>75</Speed>
   </Player>
   <Player>
-    <id>2006945+4760</id>
-    <Name>Pavels Steinbors</Name>
-    <dateOfBirth>1985-09-21T00:00</dateOfBirth>
-    <Nationality>Latvia</Nationality>
-    <Photo>https://cdn.sofifa.org/players/4/19/186882.png</Photo>
-    <CurrentClub>Arka Gdynia</CurrentClub>
-    <CurrentPosition/>
-    <CurrentNumber>1</CurrentNumber>
-    <WageInEuro>3000.0</WageInEuro>
-    <Weight>80.55</Weight>
-    <Height>191.76999</Height>
-    <Foot>Right</Foot>
-    <Speed>35</Speed>
-  </Player>
-  <Player>
     <id>2001734+721</id>
     <Name>D. Baier</Name>
     <dateOfBirth>1984-05-18T00:00</dateOfBirth>
@@ -12526,21 +11626,6 @@
     <Speed>55</Speed>
   </Player>
   <Player>
-    <id>2008742+6577</id>
-    <Name>Vincent Muratori</Name>
-    <dateOfBirth>1987-08-03T00:00</dateOfBirth>
-    <Nationality>France</Nationality>
-    <Photo>https://cdn.sofifa.org/players/4/19/183797.png</Photo>
-    <CurrentClub>AS Nancy Lorraine</CurrentClub>
-    <CurrentPosition/>
-    <CurrentNumber>26</CurrentNumber>
-    <WageInEuro>4000.0</WageInEuro>
-    <Weight>70.65</Weight>
-    <Height>179.07</Height>
-    <Foot>Left</Foot>
-    <Speed>70</Speed>
-  </Player>
-  <Player>
     <id>12104+2001933</id>
     <Name>David Da Costa</Name>
     <dateOfBirth>1986-04-19T00:00</dateOfBirth>
@@ -12614,21 +11699,6 @@
     <Height>180.34</Height>
     <Foot>Right</Foot>
     <Speed>45</Speed>
-  </Player>
-  <Player>
-    <id>117+2000712</id>
-    <Name>Anthony Martial</Name>
-    <dateOfBirth>1995-12-05T00:00</dateOfBirth>
-    <Nationality>France</Nationality>
-    <Photo>https://cdn.sofifa.org/players/4/19/211300.png</Photo>
-    <CurrentClub>Manchester United</CurrentClub>
-    <CurrentPosition/>
-    <CurrentNumber>11</CurrentNumber>
-    <WageInEuro>165000.0</WageInEuro>
-    <Weight>75.6</Weight>
-    <Height>181.61</Height>
-    <Foot>Right</Foot>
-    <Speed>89</Speed>
   </Player>
   <Player>
     <id>2008249+7439</id>
@@ -13186,21 +12256,6 @@
     <Speed>77</Speed>
   </Player>
   <Player>
-    <id>2000907+9178</id>
-    <Name>Babacar Gueye</Name>
-    <dateOfBirth>1994-12-31T00:00</dateOfBirth>
-    <Nationality>Senegal</Nationality>
-    <Photo>https://cdn.sofifa.org/players/4/19/225368.png</Photo>
-    <CurrentClub>SC Paderborn 07</CurrentClub>
-    <CurrentPosition/>
-    <CurrentNumber>27</CurrentNumber>
-    <WageInEuro>4000.0</WageInEuro>
-    <Weight>83.25</Weight>
-    <Height>191.76999</Height>
-    <Foot>Right</Foot>
-    <Speed>67</Speed>
-  </Player>
-  <Player>
     <id>2008546+463</id>
     <Name>T. Vaclík</Name>
     <dateOfBirth>1989-03-29T00:00</dateOfBirth>
@@ -13334,21 +12389,6 @@
     <Height>182.88</Height>
     <Foot>Right</Foot>
     <Speed>73</Speed>
-  </Player>
-  <Player>
-    <id>2005762+2854</id>
-    <Name>Marvin Matip</Name>
-    <dateOfBirth>1985-09-25T00:00</dateOfBirth>
-    <Nationality>Cameroon</Nationality>
-    <Photo>https://cdn.sofifa.org/players/4/19/161644.png</Photo>
-    <CurrentClub>FC Ingolstadt 04</CurrentClub>
-    <CurrentPosition/>
-    <CurrentNumber>34</CurrentNumber>
-    <WageInEuro>19000.0</WageInEuro>
-    <Weight>84.15</Weight>
-    <Height>184.15</Height>
-    <Foot>Right</Foot>
-    <Speed>71</Speed>
   </Player>
   <Player>
     <id>1010+2003744</id>
@@ -13651,21 +12691,6 @@
     <Speed>65</Speed>
   </Player>
   <Player>
-    <id>1779+2002353</id>
-    <Name>Éder</Name>
-    <dateOfBirth>1987-12-22T00:00</dateOfBirth>
-    <Nationality>Portugal</Nationality>
-    <Photo>https://cdn.sofifa.org/players/4/19/189795.png</Photo>
-    <CurrentClub>Lokomotiv Moscow</CurrentClub>
-    <CurrentPosition/>
-    <CurrentNumber>9</CurrentNumber>
-    <WageInEuro>1000.0</WageInEuro>
-    <Weight>80.55</Weight>
-    <Height>189.23001</Height>
-    <Foot>Right</Foot>
-    <Speed>78</Speed>
-  </Player>
-  <Player>
     <id>2004934+795</id>
     <Name>L. Dendoncker</Name>
     <dateOfBirth>1995-04-15T00:00</dateOfBirth>
@@ -13694,21 +12719,6 @@
     <Height>173.98999</Height>
     <Foot>Right</Foot>
     <Speed>72</Speed>
-  </Player>
-  <Player>
-    <id>2002787+737</id>
-    <Name>F. Krovinović</Name>
-    <dateOfBirth>1995-08-29T00:00</dateOfBirth>
-    <Nationality>Croatia</Nationality>
-    <Photo>https://cdn.sofifa.org/players/4/19/230988.png</Photo>
-    <CurrentClub>SL Benfica</CurrentClub>
-    <CurrentPosition/>
-    <CurrentNumber>20</CurrentNumber>
-    <WageInEuro>12000.0</WageInEuro>
-    <Weight>69.3</Weight>
-    <Height>176.53</Height>
-    <Foot>Right</Foot>
-    <Speed>69</Speed>
   </Player>
   <Player>
     <id>2008101+9819</id>
@@ -13799,21 +12809,6 @@
     <Height>185.42</Height>
     <Foot>Right</Foot>
     <Speed>58</Speed>
-  </Player>
-  <Player>
-    <id>2007273+9646</id>
-    <Name>R. Mulumba</Name>
-    <dateOfBirth>1992-11-02T00:00</dateOfBirth>
-    <Nationality>DR Congo</Nationality>
-    <Photo>https://cdn.sofifa.org/players/4/19/200130.png</Photo>
-    <CurrentClub>KAS Eupen</CurrentClub>
-    <CurrentPosition/>
-    <CurrentNumber>6</CurrentNumber>
-    <WageInEuro>3000.0</WageInEuro>
-    <Weight>75.6</Weight>
-    <Height>179.07</Height>
-    <Foot>Right</Foot>
-    <Speed>65</Speed>
   </Player>
   <Player>
     <id>2003004+6296</id>
@@ -13921,21 +12916,6 @@
     <Speed>30</Speed>
   </Player>
   <Player>
-    <id>2003230+39</id>
-    <Name>G. Higuaín</Name>
-    <dateOfBirth>1987-12-10T00:00</dateOfBirth>
-    <Nationality>Argentina</Nationality>
-    <Photo>https://cdn.sofifa.org/players/4/19/167664.png</Photo>
-    <CurrentClub>Milan</CurrentClub>
-    <CurrentPosition/>
-    <CurrentNumber>9</CurrentNumber>
-    <WageInEuro>245000.0</WageInEuro>
-    <Weight>88.2</Weight>
-    <Height>184.15</Height>
-    <Foot>Right</Foot>
-    <Speed>73</Speed>
-  </Player>
-  <Player>
     <id>2002968+9202</id>
     <Name>Freire</Name>
     <dateOfBirth>1989-08-21T00:00</dateOfBirth>
@@ -13964,21 +12944,6 @@
     <Height>185.42</Height>
     <Foot>Right</Foot>
     <Speed>65</Speed>
-  </Player>
-  <Player>
-    <id>2005870+2361</id>
-    <Name>Mats Rits</Name>
-    <dateOfBirth>1993-07-18T00:00</dateOfBirth>
-    <Nationality>Belgium</Nationality>
-    <Photo>https://cdn.sofifa.org/players/4/19/191627.png</Photo>
-    <CurrentClub>Club Brugge KV</CurrentClub>
-    <CurrentPosition/>
-    <CurrentNumber>26</CurrentNumber>
-    <WageInEuro>17000.0</WageInEuro>
-    <Weight>72.45</Weight>
-    <Height>179.07</Height>
-    <Foot>Right</Foot>
-    <Speed>69</Speed>
   </Player>
   <Player>
     <id>2005917+3276</id>
@@ -14056,36 +13021,6 @@
     <Speed>61</Speed>
   </Player>
   <Player>
-    <id>2008461+2878</id>
-    <Name>T. Ream</Name>
-    <dateOfBirth>1987-10-05T00:00</dateOfBirth>
-    <Nationality>United States</Nationality>
-    <Photo>https://cdn.sofifa.org/players/4/19/198261.png</Photo>
-    <CurrentClub>Fulham</CurrentClub>
-    <CurrentPosition/>
-    <CurrentNumber>13</CurrentNumber>
-    <WageInEuro>38000.0</WageInEuro>
-    <Weight>79.2</Weight>
-    <Height>186.69</Height>
-    <Foot>Left</Foot>
-    <Speed>66</Speed>
-  </Player>
-  <Player>
-    <id>1085+2007290</id>
-    <Name>R. Civelli</Name>
-    <dateOfBirth>1983-10-14T00:00</dateOfBirth>
-    <Nationality>Argentina</Nationality>
-    <Photo>https://cdn.sofifa.org/players/4/19/152993.png</Photo>
-    <CurrentClub>Club Atlético Banfield</CurrentClub>
-    <CurrentPosition/>
-    <CurrentNumber>2</CurrentNumber>
-    <WageInEuro>16000.0</WageInEuro>
-    <Weight>88.2</Weight>
-    <Height>194.31</Height>
-    <Foot>Right</Foot>
-    <Speed>36</Speed>
-  </Player>
-  <Player>
     <id>11782+2008358</id>
     <Name>Thiago Xavier</Name>
     <dateOfBirth>1983-12-27T00:00</dateOfBirth>
@@ -14114,21 +13049,6 @@
     <Height>193.04</Height>
     <Foot>Right</Foot>
     <Speed>68</Speed>
-  </Player>
-  <Player>
-    <id>2004770+8096</id>
-    <Name>K. Agard</Name>
-    <dateOfBirth>1989-10-10T00:00</dateOfBirth>
-    <Nationality>England</Nationality>
-    <Photo>https://cdn.sofifa.org/players/4/19/182883.png</Photo>
-    <CurrentClub>Milton Keynes Dons</CurrentClub>
-    <CurrentPosition/>
-    <CurrentNumber>14</CurrentNumber>
-    <WageInEuro>7000.0</WageInEuro>
-    <Weight>66.6</Weight>
-    <Height>173.98999</Height>
-    <Foot>Right</Foot>
-    <Speed>82</Speed>
   </Player>
   <Player>
     <id>2004518+4313</id>
@@ -14416,21 +13336,6 @@
     <Speed>55</Speed>
   </Player>
   <Player>
-    <id>2007184+2671</id>
-    <Name>Rafal Gikiewicz</Name>
-    <dateOfBirth>1987-10-26T00:00</dateOfBirth>
-    <Nationality>Poland</Nationality>
-    <Photo>https://cdn.sofifa.org/players/4/19/194333.png</Photo>
-    <CurrentClub>1. FC Union Berlin</CurrentClub>
-    <CurrentPosition/>
-    <CurrentNumber>1</CurrentNumber>
-    <WageInEuro>19000.0</WageInEuro>
-    <Weight>80.55</Weight>
-    <Height>189.23001</Height>
-    <Foot>Right</Foot>
-    <Speed>29</Speed>
-  </Player>
-  <Player>
     <id>2008069+3655</id>
     <Name>S. Scuffet</Name>
     <dateOfBirth>1996-05-31T00:00</dateOfBirth>
@@ -14594,21 +13499,6 @@
     <Height>182.88</Height>
     <Foot>Right</Foot>
     <Speed>75</Speed>
-  </Player>
-  <Player>
-    <id>2006339+5299</id>
-    <Name>Mostapha El Kabir</Name>
-    <dateOfBirth>1988-10-05T00:00</dateOfBirth>
-    <Nationality>Morocco</Nationality>
-    <Photo>https://cdn.sofifa.org/players/4/19/189849.png</Photo>
-    <CurrentClub>MKE Ankaragücü</CurrentClub>
-    <CurrentPosition/>
-    <CurrentNumber>9</CurrentNumber>
-    <WageInEuro>14000.0</WageInEuro>
-    <Weight>83.25</Weight>
-    <Height>176.53</Height>
-    <Foot>Right</Foot>
-    <Speed>76</Speed>
   </Player>
   <Player>
     <id>2000755+2094</id>
@@ -14836,21 +13726,6 @@
     <Speed>35</Speed>
   </Player>
   <Player>
-    <id>2008971+638</id>
-    <Name>Y. Konoplyanka</Name>
-    <dateOfBirth>1989-09-29T00:00</dateOfBirth>
-    <Nationality>Ukraine</Nationality>
-    <Photo>https://cdn.sofifa.org/players/4/19/200641.png</Photo>
-    <CurrentClub>FC Schalke 04</CurrentClub>
-    <CurrentPosition/>
-    <CurrentNumber>11</CurrentNumber>
-    <WageInEuro>41000.0</WageInEuro>
-    <Weight>77.4</Weight>
-    <Height>176.53</Height>
-    <Foot>Right</Foot>
-    <Speed>79</Speed>
-  </Player>
-  <Player>
     <id>13320+2002110</id>
     <Name>D. Avdić</Name>
     <dateOfBirth>1988-09-05T00:00</dateOfBirth>
@@ -14971,21 +13846,6 @@
     <Speed>86</Speed>
   </Player>
   <Player>
-    <id>2003552+5508</id>
-    <Name>I. Bel Hassani</Name>
-    <dateOfBirth>1992-09-16T00:00</dateOfBirth>
-    <Nationality>Morocco</Nationality>
-    <Photo>https://cdn.sofifa.org/players/4/19/220118.png</Photo>
-    <CurrentClub>AZ Alkmaar</CurrentClub>
-    <CurrentPosition/>
-    <CurrentNumber>57</CurrentNumber>
-    <WageInEuro>8000.0</WageInEuro>
-    <Weight>71.55</Weight>
-    <Height>173.98999</Height>
-    <Foot>Left</Foot>
-    <Speed>66</Speed>
-  </Player>
-  <Player>
     <id>2007871+2851</id>
     <Name>S. Larsson</Name>
     <dateOfBirth>1985-06-06T00:00</dateOfBirth>
@@ -14999,21 +13859,6 @@
     <Height>177.8</Height>
     <Foot>Right</Foot>
     <Speed>55</Speed>
-  </Player>
-  <Player>
-    <id>2008268+4424</id>
-    <Name>Stole Dimitrievski</Name>
-    <dateOfBirth>1993-12-25T00:00</dateOfBirth>
-    <Nationality>FYR Macedonia</Nationality>
-    <Photo>https://cdn.sofifa.org/players/4/19/211348.png</Photo>
-    <CurrentClub>Rayo Vallecano</CurrentClub>
-    <CurrentPosition/>
-    <CurrentNumber>13</CurrentNumber>
-    <WageInEuro>4000.0</WageInEuro>
-    <Weight>80.55</Weight>
-    <Height>186.69</Height>
-    <Foot>Right</Foot>
-    <Speed>38</Speed>
   </Player>
   <Player>
     <id>2002921+3758</id>
@@ -15299,36 +14144,6 @@
     <Height>175.26</Height>
     <Foot>Right</Foot>
     <Speed>44</Speed>
-  </Player>
-  <Player>
-    <id>2005187+2287</id>
-    <Name>L. Narsingh</Name>
-    <dateOfBirth>1990-09-13T00:00</dateOfBirth>
-    <Nationality>Netherlands</Nationality>
-    <Photo>https://cdn.sofifa.org/players/4/19/192362.png</Photo>
-    <CurrentClub>Swansea City</CurrentClub>
-    <CurrentPosition/>
-    <CurrentNumber>11</CurrentNumber>
-    <WageInEuro>28000.0</WageInEuro>
-    <Weight>76.5</Weight>
-    <Height>176.53</Height>
-    <Foot>Right</Foot>
-    <Speed>91</Speed>
-  </Player>
-  <Player>
-    <id>2002528+2592</id>
-    <Name>E. Bauthéac</Name>
-    <dateOfBirth>1987-08-24T00:00</dateOfBirth>
-    <Nationality>France</Nationality>
-    <Photo>https://cdn.sofifa.org/players/4/19/199418.png</Photo>
-    <CurrentClub>Brisbane Roar</CurrentClub>
-    <CurrentPosition/>
-    <CurrentNumber>11</CurrentNumber>
-    <WageInEuro>7000.0</WageInEuro>
-    <Weight>68.4</Weight>
-    <Height>168.90999</Height>
-    <Foot>Left</Foot>
-    <Speed>77</Speed>
   </Player>
   <Player>
     <id>2008233+7250</id>
@@ -15811,21 +14626,6 @@
     <Speed>51</Speed>
   </Player>
   <Player>
-    <id>1068+2008827</id>
-    <Name>Wendell</Name>
-    <dateOfBirth>1993-07-20T00:00</dateOfBirth>
-    <Nationality>Brazil</Nationality>
-    <Photo>https://cdn.sofifa.org/players/4/19/216466.png</Photo>
-    <CurrentClub>Bayer 04 Leverkusen</CurrentClub>
-    <CurrentPosition/>
-    <CurrentNumber>18</CurrentNumber>
-    <WageInEuro>43000.0</WageInEuro>
-    <Weight>71.55</Weight>
-    <Height>176.53</Height>
-    <Foot>Left</Foot>
-    <Speed>79</Speed>
-  </Player>
-  <Player>
     <id>2007348+5420</id>
     <Name>R. Fiamozzi</Name>
     <dateOfBirth>1993-05-18T00:00</dateOfBirth>
@@ -16244,21 +15044,6 @@
     <Height>190.5</Height>
     <Foot>Left</Foot>
     <Speed>42</Speed>
-  </Player>
-  <Player>
-    <id>1587+2008297</id>
-    <Name>Sven van Beek</Name>
-    <dateOfBirth>1994-07-28T00:00</dateOfBirth>
-    <Nationality>Netherlands</Nationality>
-    <Photo>https://cdn.sofifa.org/players/4/19/213000.png</Photo>
-    <CurrentClub>Feyenoord</CurrentClub>
-    <CurrentPosition/>
-    <CurrentNumber>3</CurrentNumber>
-    <WageInEuro>11000.0</WageInEuro>
-    <Weight>75.6</Weight>
-    <Height>189.23001</Height>
-    <Foot>Right</Foot>
-    <Speed>67</Speed>
   </Player>
   <Player>
     <id>2002613+515</id>
@@ -16756,21 +15541,6 @@
     <Speed>67</Speed>
   </Player>
   <Player>
-    <id>2004383+4368</id>
-    <Name>J. Velázquez</Name>
-    <dateOfBirth>1990-09-08T00:00</dateOfBirth>
-    <Nationality>Argentina</Nationality>
-    <Photo>https://cdn.sofifa.org/players/4/19/210814.png</Photo>
-    <CurrentClub>Club Tijuana</CurrentClub>
-    <CurrentPosition/>
-    <CurrentNumber>2</CurrentNumber>
-    <WageInEuro>13000.0</WageInEuro>
-    <Weight>79.2</Weight>
-    <Height>184.15</Height>
-    <Foot>Right</Foot>
-    <Speed>71</Speed>
-  </Player>
-  <Player>
     <id>2004658+4856</id>
     <Name>K. Leerdam</Name>
     <dateOfBirth>1990-06-24T00:00</dateOfBirth>
@@ -17101,21 +15871,6 @@
     <Speed>78</Speed>
   </Player>
   <Player>
-    <id>2000317+5143</id>
-    <Name>Alessandro Crescenzi</Name>
-    <dateOfBirth>1991-09-25T00:00</dateOfBirth>
-    <Nationality>Italy</Nationality>
-    <Photo>https://cdn.sofifa.org/players/4/19/200810.png</Photo>
-    <CurrentClub>Hellas Verona</CurrentClub>
-    <CurrentPosition/>
-    <CurrentNumber>17</CurrentNumber>
-    <WageInEuro>3000.0</WageInEuro>
-    <Weight>70.65</Weight>
-    <Height>176.53</Height>
-    <Foot>Right</Foot>
-    <Speed>78</Speed>
-  </Player>
-  <Player>
     <id>2002309+51</id>
     <Name>Dries Mertens</Name>
     <dateOfBirth>1987-05-06T00:00</dateOfBirth>
@@ -17266,21 +16021,6 @@
     <Speed>74</Speed>
   </Player>
   <Player>
-    <id>2007616+2404</id>
-    <Name>Ruben Lima</Name>
-    <dateOfBirth>1989-10-03T00:00</dateOfBirth>
-    <Nationality>Portugal</Nationality>
-    <Photo>https://cdn.sofifa.org/players/4/19/192156.png</Photo>
-    <CurrentClub>Moreirense FC</CurrentClub>
-    <CurrentPosition/>
-    <CurrentNumber>5</CurrentNumber>
-    <WageInEuro>6000.0</WageInEuro>
-    <Weight>68.4</Weight>
-    <Height>176.53</Height>
-    <Foot>Left</Foot>
-    <Speed>72</Speed>
-  </Player>
-  <Player>
     <id>2008194+6622</id>
     <Name>Stephen Kingsley</Name>
     <dateOfBirth>1994-07-23T00:00</dateOfBirth>
@@ -17371,21 +16111,6 @@
     <Speed>74</Speed>
   </Player>
   <Player>
-    <id>2002022+745</id>
-    <Name>Davide Calabria</Name>
-    <dateOfBirth>1996-12-06T00:00</dateOfBirth>
-    <Nationality>Italy</Nationality>
-    <Photo>https://cdn.sofifa.org/players/4/19/228881.png</Photo>
-    <CurrentClub>Milan</CurrentClub>
-    <CurrentPosition/>
-    <CurrentNumber>2</CurrentNumber>
-    <WageInEuro>52000.0</WageInEuro>
-    <Weight>69.3</Weight>
-    <Height>176.53</Height>
-    <Foot>Right</Foot>
-    <Speed>77</Speed>
-  </Player>
-  <Player>
     <id>2005908+8586</id>
     <Name>Matthew Pennington</Name>
     <dateOfBirth>1994-10-06T00:00</dateOfBirth>
@@ -17431,21 +16156,6 @@
     <Speed>68</Speed>
   </Player>
   <Player>
-    <id>12905+2007767</id>
-    <Name>Samy Mmaee</Name>
-    <dateOfBirth>1998-01-01T00:00</dateOfBirth>
-    <Nationality>Belgium</Nationality>
-    <Photo>https://cdn.sofifa.org/players/4/19/224211.png</Photo>
-    <CurrentClub>Sint-Truidense VV</CurrentClub>
-    <CurrentPosition/>
-    <CurrentNumber>20</CurrentNumber>
-    <WageInEuro>2000.0</WageInEuro>
-    <Weight>82.35</Weight>
-    <Height>181.61</Height>
-    <Foot>Right</Foot>
-    <Speed>71</Speed>
-  </Player>
-  <Player>
     <id>2006438+9731</id>
     <Name>Nelson Ferreira</Name>
     <dateOfBirth>1982-05-26T00:00</dateOfBirth>
@@ -17489,21 +16199,6 @@
     <Height>184.15</Height>
     <Foot>Right</Foot>
     <Speed>67</Speed>
-  </Player>
-  <Player>
-    <id>2007622+2032</id>
-    <Name>Rubén Pardo</Name>
-    <dateOfBirth>1992-10-22T00:00</dateOfBirth>
-    <Nationality>Spain</Nationality>
-    <Photo>https://cdn.sofifa.org/players/4/19/204523.png</Photo>
-    <CurrentClub>Real Sociedad</CurrentClub>
-    <CurrentPosition/>
-    <CurrentNumber>14</CurrentNumber>
-    <WageInEuro>24000.0</WageInEuro>
-    <Weight>68.4</Weight>
-    <Height>181.61</Height>
-    <Foot>Right</Foot>
-    <Speed>65</Speed>
   </Player>
   <Player>
     <id>1368+2003342</id>
@@ -18091,21 +16786,6 @@
     <Speed>75</Speed>
   </Player>
   <Player>
-    <id>2008532+6534</id>
-    <Name>Tomane</Name>
-    <dateOfBirth>1992-10-23T00:00</dateOfBirth>
-    <Nationality>Portugal</Nationality>
-    <Photo>https://cdn.sofifa.org/players/4/19/175851.png</Photo>
-    <CurrentClub>CD Tondela</CurrentClub>
-    <CurrentPosition/>
-    <CurrentNumber>19</CurrentNumber>
-    <WageInEuro>3000.0</WageInEuro>
-    <Weight>88.2</Weight>
-    <Height>184.15</Height>
-    <Foot>Right</Foot>
-    <Speed>60</Speed>
-  </Player>
-  <Player>
     <id>2001434+8021</id>
     <Name>C. Philipps</Name>
     <dateOfBirth>1994-03-08T00:00</dateOfBirth>
@@ -18421,21 +17101,6 @@
     <Speed>44</Speed>
   </Player>
   <Player>
-    <id>2003416+6407</id>
-    <Name>Helder Tavares</Name>
-    <dateOfBirth>1989-12-26T00:00</dateOfBirth>
-    <Nationality>Cape Verde</Nationality>
-    <Photo>https://cdn.sofifa.org/players/4/19/229327.png</Photo>
-    <CurrentClub>CD Tondela</CurrentClub>
-    <CurrentPosition/>
-    <CurrentNumber>8</CurrentNumber>
-    <WageInEuro>3000.0</WageInEuro>
-    <Weight>72.45</Weight>
-    <Height>179.07</Height>
-    <Foot>Right</Foot>
-    <Speed>67</Speed>
-  </Player>
-  <Player>
     <id>1945+2003511</id>
     <Name>Ibrahim Amadou</Name>
     <dateOfBirth>1993-04-06T00:00</dateOfBirth>
@@ -18661,21 +17326,6 @@
     <Speed>78</Speed>
   </Player>
   <Player>
-    <id>2000172+3122</id>
-    <Name>A. Regattin</Name>
-    <dateOfBirth>1991-08-22T00:00</dateOfBirth>
-    <Nationality>Morocco</Nationality>
-    <Photo>https://cdn.sofifa.org/players/4/19/197081.png</Photo>
-    <CurrentClub>Akhisar Belediyespor</CurrentClub>
-    <CurrentPosition/>
-    <CurrentNumber>34</CurrentNumber>
-    <WageInEuro>15000.0</WageInEuro>
-    <Weight>65.7</Weight>
-    <Height>166.37</Height>
-    <Foot>Right</Foot>
-    <Speed>80</Speed>
-  </Player>
-  <Player>
     <id>2004847+7085</id>
     <Name>Krisztian Nemeth</Name>
     <dateOfBirth>1989-01-05T00:00</dateOfBirth>
@@ -18796,21 +17446,6 @@
     <Speed>42</Speed>
   </Player>
   <Player>
-    <id>2003472+4004</id>
-    <Name>Hotaru Yamaguchi</Name>
-    <dateOfBirth>1990-10-06T00:00</dateOfBirth>
-    <Nationality>Japan</Nationality>
-    <Photo>https://cdn.sofifa.org/players/4/19/222987.png</Photo>
-    <CurrentClub>Cerezo Osaka</CurrentClub>
-    <CurrentPosition/>
-    <CurrentNumber>6</CurrentNumber>
-    <WageInEuro>6000.0</WageInEuro>
-    <Weight>71.55</Weight>
-    <Height>173.98999</Height>
-    <Foot>Right</Foot>
-    <Speed>76</Speed>
-  </Player>
-  <Player>
     <id>1143+2000543</id>
     <Name>André André</Name>
     <dateOfBirth>1989-08-26T00:00</dateOfBirth>
@@ -18869,21 +17504,6 @@
     <Height>193.04</Height>
     <Foot>Right</Foot>
     <Speed>53</Speed>
-  </Player>
-  <Player>
-    <id>15733+2000412</id>
-    <Name>Alexandre Mendy</Name>
-    <dateOfBirth>1994-03-20T00:00</dateOfBirth>
-    <Nationality>Senegal</Nationality>
-    <Photo>https://cdn.sofifa.org/players/4/19/244187.png</Photo>
-    <CurrentClub>Racing Club de Lens</CurrentClub>
-    <CurrentPosition/>
-    <CurrentNumber>19</CurrentNumber>
-    <WageInEuro>1000.0</WageInEuro>
-    <Weight>74.25</Weight>
-    <Height>181.61</Height>
-    <Foot>Left</Foot>
-    <Speed>71</Speed>
   </Player>
   <Player>
     <id>2000741+5237</id>
@@ -19049,21 +17669,6 @@
     <Height>172.72</Height>
     <Foot>Right</Foot>
     <Speed>92</Speed>
-  </Player>
-  <Player>
-    <id>2005697+2006088+6104</id>
-    <Name>Michael Pereira</Name>
-    <dateOfBirth>1987-03-26T00:00</dateOfBirth>
-    <Nationality>France</Nationality>
-    <Photo>https://cdn.sofifa.org/players/4/19/198017.png</Photo>
-    <CurrentClub>Yeni Malatyaspor</CurrentClub>
-    <CurrentPosition/>
-    <CurrentNumber>17</CurrentNumber>
-    <WageInEuro>7000.0</WageInEuro>
-    <Weight>72.45</Weight>
-    <Height>180.34</Height>
-    <Foot>Right</Foot>
-    <Speed>87</Speed>
   </Player>
   <Player>
     <id>2003822+7846</id>
@@ -19546,36 +18151,6 @@
     <Speed>82</Speed>
   </Player>
   <Player>
-    <id>2000569+4521</id>
-    <Name>André Moreira</Name>
-    <dateOfBirth>1995-12-02T00:00</dateOfBirth>
-    <Nationality>Portugal</Nationality>
-    <Photo>https://cdn.sofifa.org/players/4/19/224953.png</Photo>
-    <CurrentClub>Aston Villa</CurrentClub>
-    <CurrentPosition/>
-    <CurrentNumber>23</CurrentNumber>
-    <WageInEuro>17000.0</WageInEuro>
-    <Weight>83.25</Weight>
-    <Height>194.31</Height>
-    <Foot>Right</Foot>
-    <Speed>49</Speed>
-  </Player>
-  <Player>
-    <id>2006352+9327</id>
-    <Name>Moussa Maazou</Name>
-    <dateOfBirth>1988-08-25T00:00</dateOfBirth>
-    <Nationality>Niger</Nationality>
-    <Photo>https://cdn.sofifa.org/players/4/19/187004.png</Photo>
-    <CurrentClub>Racing Club de Lens</CurrentClub>
-    <CurrentPosition/>
-    <CurrentNumber>25</CurrentNumber>
-    <WageInEuro>4000.0</WageInEuro>
-    <Weight>79.2</Weight>
-    <Height>186.69</Height>
-    <Foot>Right</Foot>
-    <Speed>81</Speed>
-  </Player>
-  <Player>
     <id>1513+2000113</id>
     <Name>Adam Szalai</Name>
     <dateOfBirth>1987-12-09T00:00</dateOfBirth>
@@ -19589,21 +18164,6 @@
     <Height>193.04</Height>
     <Foot>Right</Foot>
     <Speed>46</Speed>
-  </Player>
-  <Player>
-    <id>2006200+4118</id>
-    <Name>Mikael Lustig</Name>
-    <dateOfBirth>1986-12-13T00:00</dateOfBirth>
-    <Nationality>Sweden</Nationality>
-    <Photo>https://cdn.sofifa.org/players/4/19/176942.png</Photo>
-    <CurrentClub>Celtic</CurrentClub>
-    <CurrentPosition/>
-    <CurrentNumber>2</CurrentNumber>
-    <WageInEuro>28000.0</WageInEuro>
-    <Weight>77.4</Weight>
-    <Height>189.23001</Height>
-    <Foot>Right</Foot>
-    <Speed>54</Speed>
   </Player>
   <Player>
     <id>14078+2000110</id>
@@ -19649,36 +18209,6 @@
     <Height>182.88</Height>
     <Foot>Left</Foot>
     <Speed>74</Speed>
-  </Player>
-  <Player>
-    <id>2007588+647</id>
-    <Name>R. Barkley</Name>
-    <dateOfBirth>1993-12-05T00:00</dateOfBirth>
-    <Nationality>England</Nationality>
-    <Photo>https://cdn.sofifa.org/players/4/19/199189.png</Photo>
-    <CurrentClub>Chelsea</CurrentClub>
-    <CurrentPosition/>
-    <CurrentNumber>15</CurrentNumber>
-    <WageInEuro>89000.0</WageInEuro>
-    <Weight>86.4</Weight>
-    <Height>186.69</Height>
-    <Foot>Right</Foot>
-    <Speed>70</Speed>
-  </Player>
-  <Player>
-    <id>2007823+2853</id>
-    <Name>Scott Carson</Name>
-    <dateOfBirth>1985-09-03T00:00</dateOfBirth>
-    <Nationality>England</Nationality>
-    <Photo>https://cdn.sofifa.org/players/4/19/157804.png</Photo>
-    <CurrentClub>Derby County</CurrentClub>
-    <CurrentPosition/>
-    <CurrentNumber>1</CurrentNumber>
-    <WageInEuro>25000.0</WageInEuro>
-    <Weight>85.5</Weight>
-    <Height>189.23001</Height>
-    <Foot>Right</Foot>
-    <Speed>37</Speed>
   </Player>
   <Player>
     <id>1968+2007141</id>
@@ -19904,21 +18434,6 @@
     <Height>185.42</Height>
     <Foot>Right</Foot>
     <Speed>65</Speed>
-  </Player>
-  <Player>
-    <id>2008054+3079</id>
-    <Name>Simon Tibbling</Name>
-    <dateOfBirth>1994-09-07T00:00</dateOfBirth>
-    <Nationality>Sweden</Nationality>
-    <Photo>https://cdn.sofifa.org/players/4/19/207559.png</Photo>
-    <CurrentClub>Brøndby IF</CurrentClub>
-    <CurrentPosition/>
-    <CurrentNumber>12</CurrentNumber>
-    <WageInEuro>19000.0</WageInEuro>
-    <Weight>73.35</Weight>
-    <Height>173.98999</Height>
-    <Foot>Right</Foot>
-    <Speed>72</Speed>
   </Player>
   <Player>
     <id>2004248+273</id>
@@ -20221,21 +18736,6 @@
     <Speed>78</Speed>
   </Player>
   <Player>
-    <id>1291+2008524</id>
-    <Name>T. Rogić</Name>
-    <dateOfBirth>1992-12-16T00:00</dateOfBirth>
-    <Nationality>Australia</Nationality>
-    <Photo>https://cdn.sofifa.org/players/4/19/207928.png</Photo>
-    <CurrentClub>Celtic</CurrentClub>
-    <CurrentPosition/>
-    <CurrentNumber>23</CurrentNumber>
-    <WageInEuro>46000.0</WageInEuro>
-    <Weight>87.3</Weight>
-    <Height>186.69</Height>
-    <Foot>Left</Foot>
-    <Speed>66</Speed>
-  </Player>
-  <Player>
     <id>1309+2001277</id>
     <Name>Carles Planas</Name>
     <dateOfBirth>1991-03-04T00:00</dateOfBirth>
@@ -20309,21 +18809,6 @@
     <Height>177.8</Height>
     <Foot>Left</Foot>
     <Speed>92</Speed>
-  </Player>
-  <Player>
-    <id>10376+2005955</id>
-    <Name>Mauro Cerqueira</Name>
-    <dateOfBirth>1992-08-20T00:00</dateOfBirth>
-    <Nationality>Portugal</Nationality>
-    <Photo>https://cdn.sofifa.org/players/4/19/229741.png</Photo>
-    <CurrentClub>CD Nacional</CurrentClub>
-    <CurrentPosition/>
-    <CurrentNumber>5</CurrentNumber>
-    <WageInEuro>3000.0</WageInEuro>
-    <Weight>78.3</Weight>
-    <Height>179.07</Height>
-    <Foot>Left</Foot>
-    <Speed>73</Speed>
   </Player>
   <Player>
     <id>2001208+4901</id>
@@ -20566,36 +19051,6 @@
     <Speed>77</Speed>
   </Player>
   <Player>
-    <id>11428+2001582</id>
-    <Name>C. Sammon</Name>
-    <dateOfBirth>1986-11-06T00:00</dateOfBirth>
-    <Nationality>Republic of Ireland</Nationality>
-    <Photo>https://cdn.sofifa.org/players/4/19/171881.png</Photo>
-    <CurrentClub>Motherwell</CurrentClub>
-    <CurrentPosition/>
-    <CurrentNumber>19</CurrentNumber>
-    <WageInEuro>2000.0</WageInEuro>
-    <Weight>92.25</Weight>
-    <Height>186.69</Height>
-    <Foot>Right</Foot>
-    <Speed>69</Speed>
-  </Player>
-  <Player>
-    <id>1367+2002731</id>
-    <Name>F. Klaus</Name>
-    <dateOfBirth>1992-09-13T00:00</dateOfBirth>
-    <Nationality>Germany</Nationality>
-    <Photo>https://cdn.sofifa.org/players/4/19/202088.png</Photo>
-    <CurrentClub>VfL Wolfsburg</CurrentClub>
-    <CurrentPosition/>
-    <CurrentNumber>11</CurrentNumber>
-    <WageInEuro>38000.0</WageInEuro>
-    <Weight>78.3</Weight>
-    <Height>179.07</Height>
-    <Foot>Right</Foot>
-    <Speed>79</Speed>
-  </Player>
-  <Player>
     <id>1403+2007721</id>
     <Name>Salvatore Bocchetti</Name>
     <dateOfBirth>1986-11-30T00:00</dateOfBirth>
@@ -20731,21 +19186,6 @@
     <Speed>45</Speed>
   </Player>
   <Player>
-    <id>2005522+7656</id>
-    <Name>M. Perez</Name>
-    <dateOfBirth>1990-09-18T00:00</dateOfBirth>
-    <Nationality>France</Nationality>
-    <Photo>https://cdn.sofifa.org/players/4/19/216834.png</Photo>
-    <CurrentClub>Clermont Foot 63</CurrentClub>
-    <CurrentPosition/>
-    <CurrentNumber>10</CurrentNumber>
-    <WageInEuro>3000.0</WageInEuro>
-    <Weight>70.65</Weight>
-    <Height>181.61</Height>
-    <Foot>Right</Foot>
-    <Speed>76</Speed>
-  </Player>
-  <Player>
     <id>2001809+2590</id>
     <Name>Daniele Padelli</Name>
     <dateOfBirth>1985-10-25T00:00</dateOfBirth>
@@ -20804,21 +19244,6 @@
     <Height>175.26</Height>
     <Foot>Right</Foot>
     <Speed>65</Speed>
-  </Player>
-  <Player>
-    <id>2008094+685</id>
-    <Name>Sofiane Feghouli</Name>
-    <dateOfBirth>1989-12-26T00:00</dateOfBirth>
-    <Nationality>Algeria</Nationality>
-    <Photo>https://cdn.sofifa.org/players/4/19/184881.png</Photo>
-    <CurrentClub>Galatasaray SK</CurrentClub>
-    <CurrentPosition/>
-    <CurrentNumber>89</CurrentNumber>
-    <WageInEuro>65000.0</WageInEuro>
-    <Weight>74.25</Weight>
-    <Height>176.53</Height>
-    <Foot>Right</Foot>
-    <Speed>89</Speed>
   </Player>
   <Player>
     <id>2005255+4662</id>
@@ -21016,21 +19441,6 @@
     <Speed>55</Speed>
   </Player>
   <Player>
-    <id>2006706+384</id>
-    <Name>Omer Toprak</Name>
-    <dateOfBirth>1989-07-21T00:00</dateOfBirth>
-    <Nationality>Turkey</Nationality>
-    <Photo>https://cdn.sofifa.org/players/4/19/185239.png</Photo>
-    <CurrentClub>Borussia Dortmund</CurrentClub>
-    <CurrentPosition/>
-    <CurrentNumber>36</CurrentNumber>
-    <WageInEuro>59000.0</WageInEuro>
-    <Weight>82.35</Weight>
-    <Height>186.69</Height>
-    <Foot>Right</Foot>
-    <Speed>83</Speed>
-  </Player>
-  <Player>
     <id>2007388+9665</id>
     <Name>Riku Riski</Name>
     <dateOfBirth>1989-08-16T00:00</dateOfBirth>
@@ -21059,36 +19469,6 @@
     <Height>185.42</Height>
     <Foot>Left</Foot>
     <Speed>77</Speed>
-  </Player>
-  <Player>
-    <id>2006983+839</id>
-    <Name>Pedro Mendes</Name>
-    <dateOfBirth>1992-01-01T00:00</dateOfBirth>
-    <Nationality>Portugal</Nationality>
-    <Photo>https://cdn.sofifa.org/players/4/19/200677.png</Photo>
-    <CurrentClub>Montpellier HSC</CurrentClub>
-    <CurrentPosition/>
-    <CurrentNumber>5</CurrentNumber>
-    <WageInEuro>26000.0</WageInEuro>
-    <Weight>77.4</Weight>
-    <Height>186.69</Height>
-    <Foot>Right</Foot>
-    <Speed>63</Speed>
-  </Player>
-  <Player>
-    <id>2005080+300</id>
-    <Name>L. Fejsa</Name>
-    <dateOfBirth>1988-08-14T00:00</dateOfBirth>
-    <Nationality>Serbia</Nationality>
-    <Photo>https://cdn.sofifa.org/players/4/19/183376.png</Photo>
-    <CurrentClub>SL Benfica</CurrentClub>
-    <CurrentPosition/>
-    <CurrentNumber>5</CurrentNumber>
-    <WageInEuro>18000.0</WageInEuro>
-    <Weight>79.2</Weight>
-    <Height>184.15</Height>
-    <Foot>Right</Foot>
-    <Speed>55</Speed>
   </Player>
   <Player>
     <id>11064+2002662</id>
@@ -21361,21 +19741,6 @@
     <Speed>40</Speed>
   </Player>
   <Player>
-    <id>2007764+43</id>
-    <Name>Samuel Umtiti</Name>
-    <dateOfBirth>1993-11-14T00:00</dateOfBirth>
-    <Nationality>France</Nationality>
-    <Photo>https://cdn.sofifa.org/players/4/19/205600.png</Photo>
-    <CurrentClub>FC Barcelona</CurrentClub>
-    <CurrentPosition/>
-    <CurrentNumber>23</CurrentNumber>
-    <WageInEuro>205000.0</WageInEuro>
-    <Weight>74.25</Weight>
-    <Height>181.61</Height>
-    <Foot>Left</Foot>
-    <Speed>73</Speed>
-  </Player>
-  <Player>
     <id>10113+2007584</id>
     <Name>Rory McArdle</Name>
     <dateOfBirth>1987-05-01T00:00</dateOfBirth>
@@ -21464,21 +19829,6 @@
     <Height>190.5</Height>
     <Foot>Right</Foot>
     <Speed>45</Speed>
-  </Player>
-  <Player>
-    <id>2000944+4891</id>
-    <Name>Bart Schenkeveld</Name>
-    <dateOfBirth>1991-08-28T00:00</dateOfBirth>
-    <Nationality>Netherlands</Nationality>
-    <Photo>https://cdn.sofifa.org/players/4/19/198177.png</Photo>
-    <CurrentClub>Melbourne City FC</CurrentClub>
-    <CurrentPosition/>
-    <CurrentNumber>5</CurrentNumber>
-    <WageInEuro>7000.0</WageInEuro>
-    <Weight>82.35</Weight>
-    <Height>184.15</Height>
-    <Foot>Right</Foot>
-    <Speed>76</Speed>
   </Player>
   <Player>
     <id>2004751+6582</id>
@@ -21599,21 +19949,6 @@
     <Height>172.72</Height>
     <Foot>Right</Foot>
     <Speed>55</Speed>
-  </Player>
-  <Player>
-    <id>1870+2001731</id>
-    <Name>D. Amartey</Name>
-    <dateOfBirth>1996-01-01T00:00</dateOfBirth>
-    <Nationality>Ghana</Nationality>
-    <Photo>https://cdn.sofifa.org/players/4/19/212883.png</Photo>
-    <CurrentClub>Leicester City</CurrentClub>
-    <CurrentPosition/>
-    <CurrentNumber>18</CurrentNumber>
-    <WageInEuro>43000.0</WageInEuro>
-    <Weight>78.3</Weight>
-    <Height>184.15</Height>
-    <Foot>Right</Foot>
-    <Speed>74</Speed>
   </Player>
   <Player>
     <id>2001050+57</id>
@@ -22021,21 +20356,6 @@
     <Speed>68</Speed>
   </Player>
   <Player>
-    <id>1992+2000708</id>
-    <Name>Anthony Limbombe</Name>
-    <dateOfBirth>1994-07-15T00:00</dateOfBirth>
-    <Nationality>Belgium</Nationality>
-    <Photo>https://cdn.sofifa.org/players/4/19/201938.png</Photo>
-    <CurrentClub>FC Nantes</CurrentClub>
-    <CurrentPosition/>
-    <CurrentNumber>22</CurrentNumber>
-    <WageInEuro>21000.0</WageInEuro>
-    <Weight>76.5</Weight>
-    <Height>176.53</Height>
-    <Foot>Right</Foot>
-    <Speed>90</Speed>
-  </Player>
-  <Player>
     <id>2000396+3309</id>
     <Name>Alexander Scholz</Name>
     <dateOfBirth>1992-10-24T00:00</dateOfBirth>
@@ -22291,21 +20611,6 @@
     <Speed>33</Speed>
   </Player>
   <Player>
-    <id>2002267+4764</id>
-    <Name>Dominic Solanke</Name>
-    <dateOfBirth>1997-09-14T00:00</dateOfBirth>
-    <Nationality>England</Nationality>
-    <Photo>https://cdn.sofifa.org/players/4/19/225539.png</Photo>
-    <CurrentClub>Liverpool</CurrentClub>
-    <CurrentPosition/>
-    <CurrentNumber>29</CurrentNumber>
-    <WageInEuro>37000.0</WageInEuro>
-    <Weight>79.2</Weight>
-    <Height>186.69</Height>
-    <Foot>Right</Foot>
-    <Speed>70</Speed>
-  </Player>
-  <Player>
     <id>2002616+5078</id>
     <Name>Fabian Holland</Name>
     <dateOfBirth>1990-07-11T00:00</dateOfBirth>
@@ -22411,21 +20716,6 @@
     <Speed>65</Speed>
   </Player>
   <Player>
-    <id>1057+2003210</id>
-    <Name>Glenn Murray</Name>
-    <dateOfBirth>1983-09-25T00:00</dateOfBirth>
-    <Nationality>England</Nationality>
-    <Photo>https://cdn.sofifa.org/players/4/19/172937.png</Photo>
-    <CurrentClub>Brighton &amp; Hove Albion</CurrentClub>
-    <CurrentPosition/>
-    <CurrentNumber>17</CurrentNumber>
-    <WageInEuro>51000.0</WageInEuro>
-    <Weight>79.2</Weight>
-    <Height>184.15</Height>
-    <Foot>Right</Foot>
-    <Speed>34</Speed>
-  </Player>
-  <Player>
     <id>2000384+3486</id>
     <Name>A. Esswein</Name>
     <dateOfBirth>1990-03-25T00:00</dateOfBirth>
@@ -22454,36 +20744,6 @@
     <Height>187.96</Height>
     <Foot>Right</Foot>
     <Speed>79</Speed>
-  </Player>
-  <Player>
-    <id>2008393+3912</id>
-    <Name>T. Kaminski</Name>
-    <dateOfBirth>1992-10-23T00:00</dateOfBirth>
-    <Nationality>Belgium</Nationality>
-    <Photo>https://cdn.sofifa.org/players/4/19/188400.png</Photo>
-    <CurrentClub>KV Kortrijk</CurrentClub>
-    <CurrentPosition/>
-    <CurrentNumber>28</CurrentNumber>
-    <WageInEuro>8000.0</WageInEuro>
-    <Weight>79.2</Weight>
-    <Height>191.76999</Height>
-    <Foot>Right</Foot>
-    <Speed>45</Speed>
-  </Player>
-  <Player>
-    <id>2008870+276</id>
-    <Name>Willian Jose</Name>
-    <dateOfBirth>1991-11-23T00:00</dateOfBirth>
-    <Nationality>Brazil</Nationality>
-    <Photo>https://cdn.sofifa.org/players/4/19/195093.png</Photo>
-    <CurrentClub>Real Sociedad</CurrentClub>
-    <CurrentPosition/>
-    <CurrentNumber>12</CurrentNumber>
-    <WageInEuro>44000.0</WageInEuro>
-    <Weight>92.25</Weight>
-    <Height>186.69</Height>
-    <Foot>Right</Foot>
-    <Speed>65</Speed>
   </Player>
   <Player>
     <id>10832+2005136</id>
@@ -22876,6 +21136,21 @@
     <Speed>65</Speed>
   </Player>
   <Player>
+    <id>2000173+686</id>
+    <Name>Adrien Silva</Name>
+    <dateOfBirth>1989-03-15T00:00</dateOfBirth>
+    <Nationality>Portugal</Nationality>
+    <Photo>https://cdn.sofifa.org/players/4/19/184826.png</Photo>
+    <CurrentClub>Leicester City</CurrentClub>
+    <CurrentPosition/>
+    <CurrentNumber>23</CurrentNumber>
+    <WageInEuro>75000.0</WageInEuro>
+    <Weight>68.4</Weight>
+    <Height>175.26</Height>
+    <Foot>Right</Foot>
+    <Speed>57</Speed>
+  </Player>
+  <Player>
     <id>2002476+2102</id>
     <Name>E. Velázquez</Name>
     <dateOfBirth>1994-04-30T00:00</dateOfBirth>
@@ -23191,21 +21466,6 @@
     <Speed>54</Speed>
   </Player>
   <Player>
-    <id>2000935+2060</id>
-    <Name>B. Douglas</Name>
-    <dateOfBirth>1989-09-04T00:00</dateOfBirth>
-    <Nationality>Scotland</Nationality>
-    <Photo>https://cdn.sofifa.org/players/4/19/200443.png</Photo>
-    <CurrentClub>Leeds United</CurrentClub>
-    <CurrentPosition/>
-    <CurrentNumber>3</CurrentNumber>
-    <WageInEuro>38000.0</WageInEuro>
-    <Weight>69.3</Weight>
-    <Height>176.53</Height>
-    <Foot>Left</Foot>
-    <Speed>76</Speed>
-  </Player>
-  <Player>
     <id>11032+2007358</id>
     <Name>Richard Foster</Name>
     <dateOfBirth>1985-07-31T00:00</dateOfBirth>
@@ -23234,21 +21494,6 @@
     <Height>190.5</Height>
     <Foot>Right</Foot>
     <Speed>47</Speed>
-  </Player>
-  <Player>
-    <id>1866+2006206</id>
-    <Name>M. Maignan</Name>
-    <dateOfBirth>1995-07-03T00:00</dateOfBirth>
-    <Nationality>France</Nationality>
-    <Photo>https://cdn.sofifa.org/players/4/19/215698.png</Photo>
-    <CurrentClub>LOSC Lille</CurrentClub>
-    <CurrentPosition/>
-    <CurrentNumber>16</CurrentNumber>
-    <WageInEuro>18000.0</WageInEuro>
-    <Weight>88.2</Weight>
-    <Height>189.23001</Height>
-    <Foot>Right</Foot>
-    <Speed>43</Speed>
   </Player>
   <Player>
     <id>10561+2006651</id>
@@ -23339,21 +21584,6 @@
     <Height>185.42</Height>
     <Foot>Left</Foot>
     <Speed>77</Speed>
-  </Player>
-  <Player>
-    <id>12744+2004746</id>
-    <Name>K. Toner</Name>
-    <dateOfBirth>1996-07-18T00:00</dateOfBirth>
-    <Nationality>Republic of Ireland</Nationality>
-    <Photo>https://cdn.sofifa.org/players/4/19/225450.png</Photo>
-    <CurrentClub>St. Patrick's Athletic</CurrentClub>
-    <CurrentPosition/>
-    <CurrentNumber>4</CurrentNumber>
-    <WageInEuro>1000.0</WageInEuro>
-    <Weight>74.25</Weight>
-    <Height>181.61</Height>
-    <Foot>Left</Foot>
-    <Speed>56</Speed>
   </Player>
   <Player>
     <id>2006300+9324</id>
@@ -23536,21 +21766,6 @@
     <Speed>66</Speed>
   </Player>
   <Player>
-    <id>2001047+2589</id>
-    <Name>B. Mensah</Name>
-    <dateOfBirth>1996-01-01T00:00</dateOfBirth>
-    <Nationality>Ghana</Nationality>
-    <Photo>https://cdn.sofifa.org/players/4/19/222457.png</Photo>
-    <CurrentClub>Kayserispor</CurrentClub>
-    <CurrentPosition/>
-    <CurrentNumber>43</CurrentNumber>
-    <WageInEuro>33000.0</WageInEuro>
-    <Weight>64.35</Weight>
-    <Height>179.07</Height>
-    <Foot>Right</Foot>
-    <Speed>76</Speed>
-  </Player>
-  <Player>
     <id>2003865+548</id>
     <Name>Javier Mascherano</Name>
     <dateOfBirth>1984-06-08T00:00</dateOfBirth>
@@ -23729,21 +21944,6 @@
     <Height>182.88</Height>
     <Foot>Right</Foot>
     <Speed>80</Speed>
-  </Player>
-  <Player>
-    <id>11+2007424</id>
-    <Name>Robert Lewandowski</Name>
-    <dateOfBirth>1988-08-21T00:00</dateOfBirth>
-    <Nationality>Poland</Nationality>
-    <Photo>https://cdn.sofifa.org/players/4/19/188545.png</Photo>
-    <CurrentClub>FC Bayern München</CurrentClub>
-    <CurrentPosition/>
-    <CurrentNumber>9</CurrentNumber>
-    <WageInEuro>205000.0</WageInEuro>
-    <Weight>79.2</Weight>
-    <Height>184.15</Height>
-    <Foot>Right</Foot>
-    <Speed>78</Speed>
   </Player>
   <Player>
     <id>2007368+3427</id>
@@ -24421,21 +22621,6 @@
     <Speed>71</Speed>
   </Player>
   <Player>
-    <id>16265+2007033</id>
-    <Name>Peter van der Vlag</Name>
-    <dateOfBirth>1977-12-05T00:00</dateOfBirth>
-    <Nationality>Netherlands</Nationality>
-    <Photo>https://cdn.sofifa.org/players/4/19/28157.png</Photo>
-    <CurrentClub>FC Emmen</CurrentClub>
-    <CurrentPosition/>
-    <CurrentNumber>1</CurrentNumber>
-    <WageInEuro>1000.0</WageInEuro>
-    <Weight>75.6</Weight>
-    <Height>186.69</Height>
-    <Foot>Right</Foot>
-    <Speed>28</Speed>
-  </Player>
-  <Player>
     <id>2003902+7425</id>
     <Name>Jean-Luc Dompe</Name>
     <dateOfBirth>1995-08-12T00:00</dateOfBirth>
@@ -25051,21 +23236,6 @@
     <Speed>41</Speed>
   </Player>
   <Player>
-    <id>2006167+2360</id>
-    <Name>M. Britos</Name>
-    <dateOfBirth>1985-07-17T00:00</dateOfBirth>
-    <Nationality>Uruguay</Nationality>
-    <Photo>https://cdn.sofifa.org/players/4/19/189067.png</Photo>
-    <CurrentClub>Watford</CurrentClub>
-    <CurrentPosition/>
-    <CurrentNumber>3</CurrentNumber>
-    <WageInEuro>39000.0</WageInEuro>
-    <Weight>84.15</Weight>
-    <Height>189.23001</Height>
-    <Foot>Left</Foot>
-    <Speed>38</Speed>
-  </Player>
-  <Player>
     <id>2003077+2710</id>
     <Name>G. Cameron</Name>
     <dateOfBirth>1987-01-01T00:00</dateOfBirth>
@@ -25201,21 +23371,6 @@
     <Speed>47</Speed>
   </Player>
   <Player>
-    <id>2006401+409</id>
-    <Name>Nani</Name>
-    <dateOfBirth>1986-11-17T00:00</dateOfBirth>
-    <Nationality>Portugal</Nationality>
-    <Photo>https://cdn.sofifa.org/players/4/19/139068.png</Photo>
-    <CurrentClub>Sporting CP</CurrentClub>
-    <CurrentPosition/>
-    <CurrentNumber>17</CurrentNumber>
-    <WageInEuro>19000.0</WageInEuro>
-    <Weight>67.5</Weight>
-    <Height>176.53</Height>
-    <Foot>Right</Foot>
-    <Speed>74</Speed>
-  </Player>
-  <Player>
     <id>2002362+3864</id>
     <Name>E. Prib</Name>
     <dateOfBirth>1989-12-15T00:00</dateOfBirth>
@@ -25259,21 +23414,6 @@
     <Height>177.8</Height>
     <Foot>Right</Foot>
     <Speed>76</Speed>
-  </Player>
-  <Player>
-    <id>2008579+3731</id>
-    <Name>T. Oar</Name>
-    <dateOfBirth>1991-12-10T00:00</dateOfBirth>
-    <Nationality>Australia</Nationality>
-    <Photo>https://cdn.sofifa.org/players/4/19/188071.png</Photo>
-    <CurrentClub>Central Coast Mariners</CurrentClub>
-    <CurrentPosition/>
-    <CurrentNumber>10</CurrentNumber>
-    <WageInEuro>3000.0</WageInEuro>
-    <Weight>65.7</Weight>
-    <Height>171.45</Height>
-    <Foot>Left</Foot>
-    <Speed>78</Speed>
   </Player>
   <Player>
     <id>14766+2003062</id>
@@ -25514,21 +23654,6 @@
     <Height>190.5</Height>
     <Foot>Right</Foot>
     <Speed>65</Speed>
-  </Player>
-  <Player>
-    <id>2008857+5288</id>
-    <Name>William Dutoit</Name>
-    <dateOfBirth>1988-09-18T00:00</dateOfBirth>
-    <Nationality>France</Nationality>
-    <Photo>https://cdn.sofifa.org/players/4/19/212632.png</Photo>
-    <CurrentClub>KV Oostende</CurrentClub>
-    <CurrentPosition/>
-    <CurrentNumber>28</CurrentNumber>
-    <WageInEuro>7000.0</WageInEuro>
-    <Weight>75.6</Weight>
-    <Height>181.61</Height>
-    <Foot>Right</Foot>
-    <Speed>46</Speed>
   </Player>
   <Player>
     <id>2008136+6843</id>
@@ -25801,21 +23926,6 @@
     <Speed>66</Speed>
   </Player>
   <Player>
-    <id>2000999+6955</id>
-    <Name>B. Saller</Name>
-    <dateOfBirth>1992-09-22T00:00</dateOfBirth>
-    <Nationality>Germany</Nationality>
-    <Photo>https://cdn.sofifa.org/players/4/19/210004.png</Photo>
-    <CurrentClub>SSV Jahn Regensburg</CurrentClub>
-    <CurrentPosition/>
-    <CurrentNumber>6</CurrentNumber>
-    <WageInEuro>4000.0</WageInEuro>
-    <Weight>69.3</Weight>
-    <Height>179.07</Height>
-    <Foot>Right</Foot>
-    <Speed>70</Speed>
-  </Player>
-  <Player>
     <id>2008122+3627</id>
     <Name>S. Yago</Name>
     <dateOfBirth>1992-12-16T00:00</dateOfBirth>
@@ -25904,21 +24014,6 @@
     <Height>172.72</Height>
     <Foot>Left</Foot>
     <Speed>93</Speed>
-  </Player>
-  <Player>
-    <id>2006392+754</id>
-    <Name>N. Amiri</Name>
-    <dateOfBirth>1996-10-27T00:00</dateOfBirth>
-    <Nationality>Germany</Nationality>
-    <Photo>https://cdn.sofifa.org/players/4/19/225309.png</Photo>
-    <CurrentClub>TSG 1899 Hoffenheim</CurrentClub>
-    <CurrentPosition/>
-    <CurrentNumber>18</CurrentNumber>
-    <WageInEuro>27000.0</WageInEuro>
-    <Weight>72.45</Weight>
-    <Height>179.07</Height>
-    <Foot>Right</Foot>
-    <Speed>68</Speed>
   </Player>
   <Player>
     <id>2005300+2835</id>
@@ -26176,21 +24271,6 @@
     <Speed>42</Speed>
   </Player>
   <Player>
-    <id>11546+2002633</id>
-    <Name>Fabien Tchenkoua</Name>
-    <dateOfBirth>1992-10-01T00:00</dateOfBirth>
-    <Nationality>Cameroon</Nationality>
-    <Photo>https://cdn.sofifa.org/players/4/19/210824.png</Photo>
-    <CurrentClub>FC Carl Zeiss Jena</CurrentClub>
-    <CurrentPosition/>
-    <CurrentNumber>7</CurrentNumber>
-    <WageInEuro>1000.0</WageInEuro>
-    <Weight>73.35</Weight>
-    <Height>171.45</Height>
-    <Foot>Right</Foot>
-    <Speed>83</Speed>
-  </Player>
-  <Player>
     <id>2005846+3134</id>
     <Name>Matias Aguirregaray</Name>
     <dateOfBirth>1990-01-01T00:00</dateOfBirth>
@@ -26279,21 +24359,6 @@
     <Height>180.34</Height>
     <Foot>Right</Foot>
     <Speed>83</Speed>
-  </Player>
-  <Player>
-    <id>11043+2002277</id>
-    <Name>Dominik Stroh-Engel</Name>
-    <dateOfBirth>1985-11-27T00:00</dateOfBirth>
-    <Nationality>Germany</Nationality>
-    <Photo>https://cdn.sofifa.org/players/4/19/167437.png</Photo>
-    <CurrentClub>Karlsruher SC</CurrentClub>
-    <CurrentPosition/>
-    <CurrentNumber>27</CurrentNumber>
-    <WageInEuro>2000.0</WageInEuro>
-    <Weight>93.15</Weight>
-    <Height>196.85</Height>
-    <Foot>Right</Foot>
-    <Speed>58</Speed>
   </Player>
   <Player>
     <id>1167+2008543</id>
@@ -26519,21 +24584,6 @@
     <Height>170.18</Height>
     <Foot>Left</Foot>
     <Speed>61</Speed>
-  </Player>
-  <Player>
-    <id>2008124+6168</id>
-    <Name>S. Willems</Name>
-    <dateOfBirth>1990-08-31T00:00</dateOfBirth>
-    <Nationality>France</Nationality>
-    <Photo>https://cdn.sofifa.org/players/4/19/213136.png</Photo>
-    <CurrentClub>Sporting de Charleroi</CurrentClub>
-    <CurrentPosition/>
-    <CurrentNumber>23</CurrentNumber>
-    <WageInEuro>7000.0</WageInEuro>
-    <Weight>75.6</Weight>
-    <Height>181.61</Height>
-    <Foot>Left</Foot>
-    <Speed>65</Speed>
   </Player>
   <Player>
     <id>2004976+2635</id>
@@ -26776,21 +24826,6 @@
     <Speed>76</Speed>
   </Player>
   <Player>
-    <id>2001803+224</id>
-    <Name>D. De Rossi</Name>
-    <dateOfBirth>1983-07-24T00:00</dateOfBirth>
-    <Nationality>Italy</Nationality>
-    <Photo>https://cdn.sofifa.org/players/4/19/53302.png</Photo>
-    <CurrentClub>Roma</CurrentClub>
-    <CurrentPosition/>
-    <CurrentNumber>16</CurrentNumber>
-    <WageInEuro>80000.0</WageInEuro>
-    <Weight>82.35</Weight>
-    <Height>184.15</Height>
-    <Foot>Right</Foot>
-    <Speed>67</Speed>
-  </Player>
-  <Player>
     <id>2003466+3825</id>
     <Name>H. Kiyotake</Name>
     <dateOfBirth>1989-11-12T00:00</dateOfBirth>
@@ -26836,21 +24871,6 @@
     <Speed>65</Speed>
   </Player>
   <Player>
-    <id>2008223+5809</id>
-    <Name>Steven De Petter</Name>
-    <dateOfBirth>1985-11-22T00:00</dateOfBirth>
-    <Nationality>Belgium</Nationality>
-    <Photo>https://cdn.sofifa.org/players/4/19/155694.png</Photo>
-    <CurrentClub>Sint-Truidense VV</CurrentClub>
-    <CurrentPosition/>
-    <CurrentNumber>6</CurrentNumber>
-    <WageInEuro>6000.0</WageInEuro>
-    <Weight>74.25</Weight>
-    <Height>181.61</Height>
-    <Foot>Left</Foot>
-    <Speed>46</Speed>
-  </Player>
-  <Player>
     <id>2008295+7481</id>
     <Name>Sven Schipplock</Name>
     <dateOfBirth>1988-11-08T00:00</dateOfBirth>
@@ -26894,21 +24914,6 @@
     <Height>177.8</Height>
     <Foot>Left</Foot>
     <Speed>79</Speed>
-  </Player>
-  <Player>
-    <id>2001517+9395</id>
-    <Name>C. Aneke</Name>
-    <dateOfBirth>1993-07-03T00:00</dateOfBirth>
-    <Nationality>England</Nationality>
-    <Photo>https://cdn.sofifa.org/players/4/19/202123.png</Photo>
-    <CurrentClub>Milton Keynes Dons</CurrentClub>
-    <CurrentPosition/>
-    <CurrentNumber>10</CurrentNumber>
-    <WageInEuro>5000.0</WageInEuro>
-    <Weight>82.35</Weight>
-    <Height>189.23001</Height>
-    <Foot>Right</Foot>
-    <Speed>54</Speed>
   </Player>
   <Player>
     <id>2000881+4135</id>
@@ -26969,21 +24974,6 @@
     <Height>182.88</Height>
     <Foot>Left</Foot>
     <Speed>67</Speed>
-  </Player>
-  <Player>
-    <id>1572+2002727</id>
-    <Name>Felipe</Name>
-    <dateOfBirth>1984-02-22T00:00</dateOfBirth>
-    <Nationality>Brazil</Nationality>
-    <Photo>https://cdn.sofifa.org/players/4/19/768.png</Photo>
-    <CurrentClub>SPAL</CurrentClub>
-    <CurrentPosition/>
-    <CurrentNumber>27</CurrentNumber>
-    <WageInEuro>13000.0</WageInEuro>
-    <Weight>74.25</Weight>
-    <Height>189.23001</Height>
-    <Foot>Left</Foot>
-    <Speed>41</Speed>
   </Player>
   <Player>
     <id>2002157+989</id>
@@ -27089,21 +25079,6 @@
     <Height>175.26</Height>
     <Foot>Right</Foot>
     <Speed>82</Speed>
-  </Player>
-  <Player>
-    <id>2006015+7095</id>
-    <Name>M. Terki</Name>
-    <dateOfBirth>1991-09-27T00:00</dateOfBirth>
-    <Nationality>Algeria</Nationality>
-    <Photo>https://cdn.sofifa.org/players/4/19/201845.png</Photo>
-    <CurrentClub>Sporting Lokeren</CurrentClub>
-    <CurrentPosition/>
-    <CurrentNumber>14</CurrentNumber>
-    <WageInEuro>6000.0</WageInEuro>
-    <Weight>86.4</Weight>
-    <Height>186.69</Height>
-    <Foot>Right</Foot>
-    <Speed>67</Speed>
   </Player>
   <Player>
     <id>2000313+5556</id>
@@ -27226,21 +25201,6 @@
     <Speed>63</Speed>
   </Player>
   <Player>
-    <id>2005246+7</id>
-    <Name>Luka Modric</Name>
-    <dateOfBirth>1985-09-09T00:00</dateOfBirth>
-    <Nationality>Croatia</Nationality>
-    <Photo>https://cdn.sofifa.org/players/4/19/177003.png</Photo>
-    <CurrentClub>Real Madrid</CurrentClub>
-    <CurrentPosition/>
-    <CurrentNumber>10</CurrentNumber>
-    <WageInEuro>420000.0</WageInEuro>
-    <Weight>65.7</Weight>
-    <Height>173.98999</Height>
-    <Foot>Right</Foot>
-    <Speed>72</Speed>
-  </Player>
-  <Player>
     <id>2004998+625</id>
     <Name>L. Bittencourt</Name>
     <dateOfBirth>1993-12-19T00:00</dateOfBirth>
@@ -27344,21 +25304,6 @@
     <Height>182.88</Height>
     <Foot>Right</Foot>
     <Speed>76</Speed>
-  </Player>
-  <Player>
-    <id>1943+2006652</id>
-    <Name>O. Onazi</Name>
-    <dateOfBirth>1992-12-25T00:00</dateOfBirth>
-    <Nationality>Nigeria</Nationality>
-    <Photo>https://cdn.sofifa.org/players/4/19/202934.png</Photo>
-    <CurrentClub>Trabzonspor</CurrentClub>
-    <CurrentPosition/>
-    <CurrentNumber>20</CurrentNumber>
-    <WageInEuro>25000.0</WageInEuro>
-    <Weight>72.45</Weight>
-    <Height>171.45</Height>
-    <Foot>Right</Foot>
-    <Speed>78</Speed>
   </Player>
   <Player>
     <id>2008648+4797</id>
@@ -27901,21 +25846,6 @@
     <Speed>79</Speed>
   </Player>
   <Player>
-    <id>2004827+2952</id>
-    <Name>Kostas Lamprou</Name>
-    <dateOfBirth>1991-09-18T00:00</dateOfBirth>
-    <Nationality>Greece</Nationality>
-    <Photo>https://cdn.sofifa.org/players/4/19/199568.png</Photo>
-    <CurrentClub>Ajax</CurrentClub>
-    <CurrentPosition/>
-    <CurrentNumber>26</CurrentNumber>
-    <WageInEuro>11000.0</WageInEuro>
-    <Weight>83.25</Weight>
-    <Height>176.53</Height>
-    <Foot>Left</Foot>
-    <Speed>44</Speed>
-  </Player>
-  <Player>
     <id>2002982+265</id>
     <Name>Gabriel Paulista</Name>
     <dateOfBirth>1990-11-22T00:00</dateOfBirth>
@@ -28034,21 +25964,6 @@
     <Height>185.42</Height>
     <Foot>Right</Foot>
     <Speed>53</Speed>
-  </Player>
-  <Player>
-    <id>2000866+9224</id>
-    <Name>A. Taylor</Name>
-    <dateOfBirth>1990-09-02T00:00</dateOfBirth>
-    <Nationality>Wales</Nationality>
-    <Photo>https://cdn.sofifa.org/players/4/19/193123.png</Photo>
-    <CurrentClub>Northampton Town</CurrentClub>
-    <CurrentPosition/>
-    <CurrentNumber>6</CurrentNumber>
-    <WageInEuro>5000.0</WageInEuro>
-    <Weight>75.6</Weight>
-    <Height>191.76999</Height>
-    <Foot>Right</Foot>
-    <Speed>60</Speed>
   </Player>
   <Player>
     <id>2001886+2409</id>
@@ -28576,21 +26491,6 @@
     <Speed>80</Speed>
   </Player>
   <Player>
-    <id>2006714+5300</id>
-    <Name>Opa Nguette</Name>
-    <dateOfBirth>1994-07-08T00:00</dateOfBirth>
-    <Nationality>Senegal</Nationality>
-    <Photo>https://cdn.sofifa.org/players/4/19/211099.png</Photo>
-    <CurrentClub>FC Metz</CurrentClub>
-    <CurrentPosition/>
-    <CurrentNumber>11</CurrentNumber>
-    <WageInEuro>5000.0</WageInEuro>
-    <Weight>75.6</Weight>
-    <Height>181.61</Height>
-    <Foot>Right</Foot>
-    <Speed>82</Speed>
-  </Player>
-  <Player>
     <id>2006663+2170</id>
     <Name>Olcay Sahan</Name>
     <dateOfBirth>1987-05-26T00:00</dateOfBirth>
@@ -29101,21 +27001,6 @@
     <Speed>73</Speed>
   </Player>
   <Player>
-    <id>1926+2004561</id>
-    <Name>Kaan Ayhan</Name>
-    <dateOfBirth>1994-11-10T00:00</dateOfBirth>
-    <Nationality>Turkey</Nationality>
-    <Photo>https://cdn.sofifa.org/players/4/19/207790.png</Photo>
-    <CurrentClub>Fortuna Düsseldorf</CurrentClub>
-    <CurrentPosition/>
-    <CurrentNumber>18</CurrentNumber>
-    <WageInEuro>22000.0</WageInEuro>
-    <Weight>83.25</Weight>
-    <Height>184.15</Height>
-    <Foot>Right</Foot>
-    <Speed>66</Speed>
-  </Player>
-  <Player>
     <id>2003648+2461</id>
     <Name>Ivan Strinic</Name>
     <dateOfBirth>1987-07-17T00:00</dateOfBirth>
@@ -29219,21 +27104,6 @@
     <Height>187.96</Height>
     <Foot>Right</Foot>
     <Speed>87</Speed>
-  </Player>
-  <Player>
-    <id>2000908+4060</id>
-    <Name>Babanco</Name>
-    <dateOfBirth>1985-07-27T00:00</dateOfBirth>
-    <Nationality>Cape Verde</Nationality>
-    <Photo>https://cdn.sofifa.org/players/4/19/196896.png</Photo>
-    <CurrentClub>CD Feirense</CurrentClub>
-    <CurrentPosition/>
-    <CurrentNumber>5</CurrentNumber>
-    <WageInEuro>8000.0</WageInEuro>
-    <Weight>69.3</Weight>
-    <Height>179.07</Height>
-    <Foot>Left</Foot>
-    <Speed>77</Speed>
   </Player>
   <Player>
     <id>2000978+8942</id>
@@ -29399,21 +27269,6 @@
     <Height>182.88</Height>
     <Foot>Right</Foot>
     <Speed>67</Speed>
-  </Player>
-  <Player>
-    <id>2000048+8101</id>
-    <Name>Abdullah Al Hafith</Name>
-    <dateOfBirth>1992-12-25T00:00</dateOfBirth>
-    <Nationality>Saudi Arabia</Nationality>
-    <Photo>https://cdn.sofifa.org/players/4/19/207716.png</Photo>
-    <CurrentClub>Al Hilal</CurrentClub>
-    <CurrentPosition/>
-    <CurrentNumber>17</CurrentNumber>
-    <WageInEuro>11000.0</WageInEuro>
-    <Weight>76.5</Weight>
-    <Height>186.69</Height>
-    <Foot>Right</Foot>
-    <Speed>59</Speed>
   </Player>
   <Player>
     <id>2002101+6360</id>
@@ -29656,21 +27511,6 @@
     <Speed>88</Speed>
   </Player>
   <Player>
-    <id>1471+2002211</id>
-    <Name>Dimitrios Pelkas</Name>
-    <dateOfBirth>1993-10-26T00:00</dateOfBirth>
-    <Nationality>Greece</Nationality>
-    <Photo>https://cdn.sofifa.org/players/4/19/208053.png</Photo>
-    <CurrentClub>PAOK</CurrentClub>
-    <CurrentPosition/>
-    <CurrentNumber>18</CurrentNumber>
-    <WageInEuro>1000.0</WageInEuro>
-    <Weight>72.45</Weight>
-    <Height>176.53</Height>
-    <Foot>Right</Foot>
-    <Speed>78</Speed>
-  </Player>
-  <Player>
     <id>2008607+4482</id>
     <Name>Tristan Dingome</Name>
     <dateOfBirth>1992-01-01T00:00</dateOfBirth>
@@ -29731,36 +27571,6 @@
     <Speed>53</Speed>
   </Player>
   <Player>
-    <id>2000139+7074</id>
-    <Name>A. Tighadouini</Name>
-    <dateOfBirth>1992-11-30T00:00</dateOfBirth>
-    <Nationality>Morocco</Nationality>
-    <Photo>https://cdn.sofifa.org/players/4/19/203377.png</Photo>
-    <CurrentClub>Esbjerg fB</CurrentClub>
-    <CurrentPosition/>
-    <CurrentNumber>11</CurrentNumber>
-    <WageInEuro>4000.0</WageInEuro>
-    <Weight>71.55</Weight>
-    <Height>179.07</Height>
-    <Foot>Right</Foot>
-    <Speed>77</Speed>
-  </Player>
-  <Player>
-    <id>1431+2008869</id>
-    <Name>W. Vainqueur</Name>
-    <dateOfBirth>1988-11-19T00:00</dateOfBirth>
-    <Nationality>France</Nationality>
-    <Photo>https://cdn.sofifa.org/players/4/19/181402.png</Photo>
-    <CurrentClub>Antalyaspor</CurrentClub>
-    <CurrentPosition/>
-    <CurrentNumber>19</CurrentNumber>
-    <WageInEuro>18000.0</WageInEuro>
-    <Weight>72.45</Weight>
-    <Height>179.07</Height>
-    <Foot>Right</Foot>
-    <Speed>68</Speed>
-  </Player>
-  <Player>
     <id>1765+2005985</id>
     <Name>Maxime Gonalons</Name>
     <dateOfBirth>1989-03-10T00:00</dateOfBirth>
@@ -29804,21 +27614,6 @@
     <Height>190.5</Height>
     <Foot>Left</Foot>
     <Speed>74</Speed>
-  </Player>
-  <Player>
-    <id>2007384+5654</id>
-    <Name>R. Munsy</Name>
-    <dateOfBirth>1989-07-09T00:00</dateOfBirth>
-    <Nationality>DR Congo</Nationality>
-    <Photo>https://cdn.sofifa.org/players/4/19/179971.png</Photo>
-    <CurrentClub>BB Erzurumspor</CurrentClub>
-    <CurrentPosition/>
-    <CurrentNumber>20</CurrentNumber>
-    <WageInEuro>9000.0</WageInEuro>
-    <Weight>89.1</Weight>
-    <Height>186.69</Height>
-    <Foot>Right</Foot>
-    <Speed>84</Speed>
   </Player>
   <Player>
     <id>1401+2000706</id>
@@ -29999,21 +27794,6 @@
     <Height>186.69</Height>
     <Foot>Right</Foot>
     <Speed>67</Speed>
-  </Player>
-  <Player>
-    <id>1132+2005728</id>
-    <Name>M. Hinteregger</Name>
-    <dateOfBirth>1992-09-07T00:00</dateOfBirth>
-    <Nationality>Austria</Nationality>
-    <Photo>https://cdn.sofifa.org/players/4/19/201922.png</Photo>
-    <CurrentClub>FC Augsburg</CurrentClub>
-    <CurrentPosition/>
-    <CurrentNumber>4</CurrentNumber>
-    <WageInEuro>23000.0</WageInEuro>
-    <Weight>82.35</Weight>
-    <Height>184.15</Height>
-    <Foot>Left</Foot>
-    <Speed>73</Speed>
   </Player>
   <Player>
     <id>2000669+2712</id>
@@ -30511,21 +28291,6 @@
     <Speed>83</Speed>
   </Player>
   <Player>
-    <id>2004300+5688</id>
-    <Name>Jordy Buijs</Name>
-    <dateOfBirth>1988-12-28T00:00</dateOfBirth>
-    <Nationality>Netherlands</Nationality>
-    <Photo>https://cdn.sofifa.org/players/4/19/183564.png</Photo>
-    <CurrentClub>V-Varen Nagasaki</CurrentClub>
-    <CurrentPosition/>
-    <CurrentNumber>45</CurrentNumber>
-    <WageInEuro>3000.0</WageInEuro>
-    <Weight>79.2</Weight>
-    <Height>184.15</Height>
-    <Foot>Right</Foot>
-    <Speed>65</Speed>
-  </Player>
-  <Player>
     <id>2003841+930</id>
     <Name>Javi Fuego</Name>
     <dateOfBirth>1984-01-04T00:00</dateOfBirth>
@@ -30931,21 +28696,6 @@
     <Speed>67</Speed>
   </Player>
   <Player>
-    <id>2003254+3936</id>
-    <Name>Grant Hanley</Name>
-    <dateOfBirth>1991-11-20T00:00</dateOfBirth>
-    <Nationality>Scotland</Nationality>
-    <Photo>https://cdn.sofifa.org/players/4/19/198904.png</Photo>
-    <CurrentClub>Norwich City</CurrentClub>
-    <CurrentPosition/>
-    <CurrentNumber>31</CurrentNumber>
-    <WageInEuro>19000.0</WageInEuro>
-    <Weight>80.55</Weight>
-    <Height>189.23001</Height>
-    <Foot>Right</Foot>
-    <Speed>63</Speed>
-  </Player>
-  <Player>
     <id>2001686+6222</id>
     <Name>D. Dąbrowski</Name>
     <dateOfBirth>1992-08-27T00:00</dateOfBirth>
@@ -30974,21 +28724,6 @@
     <Height>175.26</Height>
     <Foot>Right</Foot>
     <Speed>78</Speed>
-  </Player>
-  <Player>
-    <id>14700+2004691</id>
-    <Name>K. Bigler</Name>
-    <dateOfBirth>1992-10-05T00:00</dateOfBirth>
-    <Nationality>Switzerland</Nationality>
-    <Photo>https://cdn.sofifa.org/players/4/19/205075.png</Photo>
-    <CurrentClub>FC Thun</CurrentClub>
-    <CurrentPosition/>
-    <CurrentNumber>25</CurrentNumber>
-    <WageInEuro>2000.0</WageInEuro>
-    <Weight>69.3</Weight>
-    <Height>171.45</Height>
-    <Foot>Right</Foot>
-    <Speed>71</Speed>
   </Player>
   <Player>
     <id>2003997+7486</id>
@@ -31411,21 +29146,6 @@
     <Speed>88</Speed>
   </Player>
   <Player>
-    <id>1704+2007856</id>
-    <Name>S. Cristóforo</Name>
-    <dateOfBirth>1993-08-23T00:00</dateOfBirth>
-    <Nationality>Uruguay</Nationality>
-    <Photo>https://cdn.sofifa.org/players/4/19/219712.png</Photo>
-    <CurrentClub>Getafe CF</CurrentClub>
-    <CurrentPosition/>
-    <CurrentNumber>15</CurrentNumber>
-    <WageInEuro>36000.0</WageInEuro>
-    <Weight>67.5</Weight>
-    <Height>173.98999</Height>
-    <Foot>Right</Foot>
-    <Speed>54</Speed>
-  </Player>
-  <Player>
     <id>2007459+3834</id>
     <Name>R. Gosens</Name>
     <dateOfBirth>1994-07-05T00:00</dateOfBirth>
@@ -31529,21 +29249,6 @@
     <Height>182.88</Height>
     <Foot>Right</Foot>
     <Speed>68</Speed>
-  </Player>
-  <Player>
-    <id>2005982+4494</id>
-    <Name>Maxime Colin</Name>
-    <dateOfBirth>1991-11-15T00:00</dateOfBirth>
-    <Nationality>France</Nationality>
-    <Photo>https://cdn.sofifa.org/players/4/19/201136.png</Photo>
-    <CurrentClub>Birmingham City</CurrentClub>
-    <CurrentPosition/>
-    <CurrentNumber>5</CurrentNumber>
-    <WageInEuro>17000.0</WageInEuro>
-    <Weight>75.6</Weight>
-    <Height>179.07</Height>
-    <Foot>Right</Foot>
-    <Speed>76</Speed>
   </Player>
   <Player>
     <id>2001723+6327</id>
@@ -31786,21 +29491,6 @@
     <Speed>86</Speed>
   </Player>
   <Player>
-    <id>1371+2008250</id>
-    <Name>Steven Zuber</Name>
-    <dateOfBirth>1991-08-17T00:00</dateOfBirth>
-    <Nationality>Switzerland</Nationality>
-    <Photo>https://cdn.sofifa.org/players/4/19/190059.png</Photo>
-    <CurrentClub>TSG 1899 Hoffenheim</CurrentClub>
-    <CurrentPosition/>
-    <CurrentNumber>14</CurrentNumber>
-    <WageInEuro>29000.0</WageInEuro>
-    <Weight>78.3</Weight>
-    <Height>181.61</Height>
-    <Foot>Right</Foot>
-    <Speed>79</Speed>
-  </Player>
-  <Player>
     <id>1230+2003824</id>
     <Name>Jason Denayer</Name>
     <dateOfBirth>1995-06-26T00:00</dateOfBirth>
@@ -31859,21 +29549,6 @@
     <Height>177.8</Height>
     <Foot>Right</Foot>
     <Speed>67</Speed>
-  </Player>
-  <Player>
-    <id>2006151+5514</id>
-    <Name>Mick van Buren</Name>
-    <dateOfBirth>1992-08-24T00:00</dateOfBirth>
-    <Nationality>Netherlands</Nationality>
-    <Photo>https://cdn.sofifa.org/players/4/19/204506.png</Photo>
-    <CurrentClub>SK Slavia Praha</CurrentClub>
-    <CurrentPosition/>
-    <CurrentNumber>14</CurrentNumber>
-    <WageInEuro>1000.0</WageInEuro>
-    <Weight>72.45</Weight>
-    <Height>184.15</Height>
-    <Foot>Left</Foot>
-    <Speed>82</Speed>
   </Player>
   <Player>
     <id>2002082+6189</id>
@@ -32506,21 +30181,6 @@
     <Speed>83</Speed>
   </Player>
   <Player>
-    <id>2000992+5770</id>
-    <Name>Ben Watson</Name>
-    <dateOfBirth>1985-07-09T00:00</dateOfBirth>
-    <Nationality>England</Nationality>
-    <Photo>https://cdn.sofifa.org/players/4/19/160292.png</Photo>
-    <CurrentClub>Nottingham Forest</CurrentClub>
-    <CurrentPosition/>
-    <CurrentNumber>8</CurrentNumber>
-    <WageInEuro>20000.0</WageInEuro>
-    <Weight>79.2</Weight>
-    <Height>179.07</Height>
-    <Foot>Right</Foot>
-    <Speed>45</Speed>
-  </Player>
-  <Player>
     <id>2001983+703</id>
     <Name>D. Ospina</Name>
     <dateOfBirth>1988-08-31T00:00</dateOfBirth>
@@ -32594,21 +30254,6 @@
     <Height>182.88</Height>
     <Foot>Right</Foot>
     <Speed>73</Speed>
-  </Player>
-  <Player>
-    <id>1079+2007044</id>
-    <Name>Phil Jagielka</Name>
-    <dateOfBirth>1982-08-17T00:00</dateOfBirth>
-    <Nationality>England</Nationality>
-    <Photo>https://cdn.sofifa.org/players/4/19/53914.png</Photo>
-    <CurrentClub>Everton</CurrentClub>
-    <CurrentPosition/>
-    <CurrentNumber>6</CurrentNumber>
-    <WageInEuro>53000.0</WageInEuro>
-    <Weight>86.4</Weight>
-    <Height>181.61</Height>
-    <Foot>Right</Foot>
-    <Speed>51</Speed>
   </Player>
   <Player>
     <id>12742+2006110</id>
@@ -32881,21 +30526,6 @@
     <Speed>69</Speed>
   </Player>
   <Player>
-    <id>2006329+2974</id>
-    <Name>M. Leitner</Name>
-    <dateOfBirth>1992-12-08T00:00</dateOfBirth>
-    <Nationality>Germany</Nationality>
-    <Photo>https://cdn.sofifa.org/players/4/19/200857.png</Photo>
-    <CurrentClub>Norwich City</CurrentClub>
-    <CurrentPosition/>
-    <CurrentNumber>10</CurrentNumber>
-    <WageInEuro>22000.0</WageInEuro>
-    <Weight>67.5</Weight>
-    <Height>176.53</Height>
-    <Foot>Right</Foot>
-    <Speed>67</Speed>
-  </Player>
-  <Player>
     <id>2001138+4809</id>
     <Name>Braga</Name>
     <dateOfBirth>1983-06-01T00:00</dateOfBirth>
@@ -32986,21 +30616,6 @@
     <Speed>65</Speed>
   </Player>
   <Player>
-    <id>2000150+2388</id>
-    <Name>Adrian Mariappa</Name>
-    <dateOfBirth>1986-10-03T00:00</dateOfBirth>
-    <Nationality>Jamaica</Nationality>
-    <Photo>https://cdn.sofifa.org/players/4/19/172953.png</Photo>
-    <CurrentClub>Watford</CurrentClub>
-    <CurrentPosition/>
-    <CurrentNumber>6</CurrentNumber>
-    <WageInEuro>39000.0</WageInEuro>
-    <Weight>77.4</Weight>
-    <Height>179.07</Height>
-    <Foot>Right</Foot>
-    <Speed>52</Speed>
-  </Player>
-  <Player>
     <id>2004210+2588</id>
     <Name>Jonathan Biabiany</Name>
     <dateOfBirth>1988-04-28T00:00</dateOfBirth>
@@ -33029,21 +30644,6 @@
     <Height>175.26</Height>
     <Foot>Right</Foot>
     <Speed>71</Speed>
-  </Player>
-  <Player>
-    <id>2001346+9583</id>
-    <Name>Cedric Itten</Name>
-    <dateOfBirth>1996-12-27T00:00</dateOfBirth>
-    <Nationality>Switzerland</Nationality>
-    <Photo>https://cdn.sofifa.org/players/4/19/233139.png</Photo>
-    <CurrentClub>FC St. Gallen</CurrentClub>
-    <CurrentPosition/>
-    <CurrentNumber>13</CurrentNumber>
-    <WageInEuro>4000.0</WageInEuro>
-    <Weight>80.55</Weight>
-    <Height>186.69</Height>
-    <Foot>Right</Foot>
-    <Speed>61</Speed>
   </Player>
   <Player>
     <id>2003395+407</id>
@@ -33224,21 +30824,6 @@
     <Height>182.88</Height>
     <Foot>Right</Foot>
     <Speed>72</Speed>
-  </Player>
-  <Player>
-    <id>2004983+322</id>
-    <Name>L. Bailey</Name>
-    <dateOfBirth>1997-08-09T00:00</dateOfBirth>
-    <Nationality>Jamaica</Nationality>
-    <Photo>https://cdn.sofifa.org/players/4/19/229906.png</Photo>
-    <CurrentClub>Bayer 04 Leverkusen</CurrentClub>
-    <CurrentPosition/>
-    <CurrentNumber>9</CurrentNumber>
-    <WageInEuro>54000.0</WageInEuro>
-    <Weight>78.3</Weight>
-    <Height>179.07</Height>
-    <Foot>Left</Foot>
-    <Speed>90</Speed>
   </Player>
   <Player>
     <id>2008408+4078</id>
@@ -33631,21 +31216,6 @@
     <Speed>55</Speed>
   </Player>
   <Player>
-    <id>2003040+4839</id>
-    <Name>G. Mackay-Steven</Name>
-    <dateOfBirth>1990-08-31T00:00</dateOfBirth>
-    <Nationality>Scotland</Nationality>
-    <Photo>https://cdn.sofifa.org/players/4/19/204820.png</Photo>
-    <CurrentClub>Aberdeen</CurrentClub>
-    <CurrentPosition/>
-    <CurrentNumber>11</CurrentNumber>
-    <WageInEuro>5000.0</WageInEuro>
-    <Weight>69.3</Weight>
-    <Height>173.98999</Height>
-    <Foot>Left</Foot>
-    <Speed>82</Speed>
-  </Player>
-  <Player>
     <id>2008904+763</id>
     <Name>W. Weghorst</Name>
     <dateOfBirth>1992-08-07T00:00</dateOfBirth>
@@ -33674,36 +31244,6 @@
     <Height>177.8</Height>
     <Foot>Right</Foot>
     <Speed>54</Speed>
-  </Player>
-  <Player>
-    <id>2002776+4715</id>
-    <Name>Fidel</Name>
-    <dateOfBirth>1989-10-27T00:00</dateOfBirth>
-    <Nationality>Spain</Nationality>
-    <Photo>https://cdn.sofifa.org/players/4/19/189172.png</Photo>
-    <CurrentClub>UD Las Palmas</CurrentClub>
-    <CurrentPosition/>
-    <CurrentNumber>16</CurrentNumber>
-    <WageInEuro>8000.0</WageInEuro>
-    <Weight>73.35</Weight>
-    <Height>179.07</Height>
-    <Foot>Left</Foot>
-    <Speed>76</Speed>
-  </Player>
-  <Player>
-    <id>2008639+3926</id>
-    <Name>Uros Cosic</Name>
-    <dateOfBirth>1992-10-24T00:00</dateOfBirth>
-    <Nationality>Serbia</Nationality>
-    <Photo>https://cdn.sofifa.org/players/4/19/198900.png</Photo>
-    <CurrentClub>AEK Athens</CurrentClub>
-    <CurrentPosition/>
-    <CurrentNumber>15</CurrentNumber>
-    <WageInEuro>1000.0</WageInEuro>
-    <Weight>76.5</Weight>
-    <Height>186.69</Height>
-    <Foot>Right</Foot>
-    <Speed>72</Speed>
   </Player>
   <Player>
     <id>2003643+906</id>
@@ -34171,21 +31711,6 @@
     <Speed>82</Speed>
   </Player>
   <Player>
-    <id>1923+2009058</id>
-    <Name>Zeca</Name>
-    <dateOfBirth>1988-08-31T00:00</dateOfBirth>
-    <Nationality>Greece</Nationality>
-    <Photo>https://cdn.sofifa.org/players/4/19/168621.png</Photo>
-    <CurrentClub>FC København</CurrentClub>
-    <CurrentPosition/>
-    <CurrentNumber>8</CurrentNumber>
-    <WageInEuro>21000.0</WageInEuro>
-    <Weight>66.6</Weight>
-    <Height>181.61</Height>
-    <Foot>Right</Foot>
-    <Speed>77</Speed>
-  </Player>
-  <Player>
     <id>2006901+8429</id>
     <Name>Paul Papp</Name>
     <dateOfBirth>1989-11-11T00:00</dateOfBirth>
@@ -34244,21 +31769,6 @@
     <Height>167.64</Height>
     <Foot>Right</Foot>
     <Speed>76</Speed>
-  </Player>
-  <Player>
-    <id>2006209+5765</id>
-    <Name>Mike van Duinen</Name>
-    <dateOfBirth>1991-11-06T00:00</dateOfBirth>
-    <Nationality>Netherlands</Nationality>
-    <Photo>https://cdn.sofifa.org/players/4/19/205603.png</Photo>
-    <CurrentClub>PEC Zwolle</CurrentClub>
-    <CurrentPosition/>
-    <CurrentNumber>9</CurrentNumber>
-    <WageInEuro>6000.0</WageInEuro>
-    <Weight>74.25</Weight>
-    <Height>186.69</Height>
-    <Foot>Right</Foot>
-    <Speed>78</Speed>
   </Player>
   <Player>
     <id>2001212+4458</id>
@@ -34394,21 +31904,6 @@
     <Height>182.88</Height>
     <Foot>Right</Foot>
     <Speed>36</Speed>
-  </Player>
-  <Player>
-    <id>2004700+3436</id>
-    <Name>Kevin Diks</Name>
-    <dateOfBirth>1996-10-06T00:00</dateOfBirth>
-    <Nationality>Netherlands</Nationality>
-    <Photo>https://cdn.sofifa.org/players/4/19/224841.png</Photo>
-    <CurrentClub>Fiorentina</CurrentClub>
-    <CurrentPosition/>
-    <CurrentNumber>34</CurrentNumber>
-    <WageInEuro>23000.0</WageInEuro>
-    <Weight>69.3</Weight>
-    <Height>184.15</Height>
-    <Foot>Right</Foot>
-    <Speed>75</Speed>
   </Player>
   <Player>
     <id>2008729+6235</id>
@@ -34606,21 +32101,6 @@
     <Speed>91</Speed>
   </Player>
   <Player>
-    <id>2004185+3262</id>
-    <Name>Jon Bautista</Name>
-    <dateOfBirth>1995-07-03T00:00</dateOfBirth>
-    <Nationality>Spain</Nationality>
-    <Photo>https://cdn.sofifa.org/players/4/19/233231.png</Photo>
-    <CurrentClub>Real Sociedad</CurrentClub>
-    <CurrentPosition/>
-    <CurrentNumber>21</CurrentNumber>
-    <WageInEuro>18000.0</WageInEuro>
-    <Weight>71.55</Weight>
-    <Height>179.07</Height>
-    <Foot>Right</Foot>
-    <Speed>58</Speed>
-  </Player>
-  <Player>
     <id>2004944+6564</id>
     <Name>Leandro Grimi</Name>
     <dateOfBirth>1985-02-09T00:00</dateOfBirth>
@@ -34799,21 +32279,6 @@
     <Height>182.88</Height>
     <Foot>Right</Foot>
     <Speed>55</Speed>
-  </Player>
-  <Player>
-    <id>1374+2004432</id>
-    <Name>Jozy Altidore</Name>
-    <dateOfBirth>1989-11-06T00:00</dateOfBirth>
-    <Nationality>United States</Nationality>
-    <Photo>https://cdn.sofifa.org/players/4/19/176237.png</Photo>
-    <CurrentClub>Toronto FC</CurrentClub>
-    <CurrentPosition/>
-    <CurrentNumber>17</CurrentNumber>
-    <WageInEuro>10000.0</WageInEuro>
-    <Weight>78.3</Weight>
-    <Height>184.15</Height>
-    <Foot>Right</Foot>
-    <Speed>73</Speed>
   </Player>
   <Player>
     <id>2007632+6830</id>
@@ -35024,21 +32489,6 @@
     <Height>187.96</Height>
     <Foot>Left</Foot>
     <Speed>36</Speed>
-  </Player>
-  <Player>
-    <id>1787+2002329</id>
-    <Name>Dwight Gayle</Name>
-    <dateOfBirth>1990-10-20T00:00</dateOfBirth>
-    <Nationality>England</Nationality>
-    <Photo>https://cdn.sofifa.org/players/4/19/205670.png</Photo>
-    <CurrentClub>West Bromwich Albion</CurrentClub>
-    <CurrentPosition/>
-    <CurrentNumber>16</CurrentNumber>
-    <WageInEuro>46000.0</WageInEuro>
-    <Weight>77.4</Weight>
-    <Height>176.53</Height>
-    <Foot>Right</Foot>
-    <Speed>81</Speed>
   </Player>
   <Player>
     <id>2007449+492</id>
@@ -35491,21 +32941,6 @@
     <Speed>87</Speed>
   </Player>
   <Player>
-    <id>1791+2004417</id>
-    <Name>J. Drmić</Name>
-    <dateOfBirth>1992-08-08T00:00</dateOfBirth>
-    <Nationality>Switzerland</Nationality>
-    <Photo>https://cdn.sofifa.org/players/4/19/198504.png</Photo>
-    <CurrentClub>Borussia Mönchengladbach</CurrentClub>
-    <CurrentPosition/>
-    <CurrentNumber>18</CurrentNumber>
-    <WageInEuro>26000.0</WageInEuro>
-    <Weight>80.55</Weight>
-    <Height>181.61</Height>
-    <Foot>Right</Foot>
-    <Speed>77</Speed>
-  </Player>
-  <Player>
     <id>2006018+2398</id>
     <Name>Mehmet Ekici</Name>
     <dateOfBirth>1990-03-25T00:00</dateOfBirth>
@@ -35821,21 +33256,6 @@
     <Speed>71</Speed>
   </Player>
   <Player>
-    <id>2003839+4405</id>
-    <Name>Javi Castellano</Name>
-    <dateOfBirth>1987-11-02T00:00</dateOfBirth>
-    <Nationality>Spain</Nationality>
-    <Photo>https://cdn.sofifa.org/players/4/19/190094.png</Photo>
-    <CurrentClub>UD Las Palmas</CurrentClub>
-    <CurrentPosition/>
-    <CurrentNumber>18</CurrentNumber>
-    <WageInEuro>7000.0</WageInEuro>
-    <Weight>72.45</Weight>
-    <Height>181.61</Height>
-    <Foot>Right</Foot>
-    <Speed>40</Speed>
-  </Player>
-  <Player>
     <id>2003461+5591</id>
     <Name>H. Faik</Name>
     <dateOfBirth>1993-03-19T00:00</dateOfBirth>
@@ -35984,21 +33404,6 @@
     <Height>182.88</Height>
     <Foot>Right</Foot>
     <Speed>68</Speed>
-  </Player>
-  <Player>
-    <id>2007792+442</id>
-    <Name>Santi Mina</Name>
-    <dateOfBirth>1995-12-07T00:00</dateOfBirth>
-    <Nationality>Spain</Nationality>
-    <Photo>https://cdn.sofifa.org/players/4/19/212623.png</Photo>
-    <CurrentClub>Valencia CF</CurrentClub>
-    <CurrentPosition/>
-    <CurrentNumber>22</CurrentNumber>
-    <WageInEuro>40000.0</WageInEuro>
-    <Weight>76.5</Weight>
-    <Height>179.07</Height>
-    <Foot>Right</Foot>
-    <Speed>81</Speed>
   </Player>
   <Player>
     <id>2000980+349</id>
@@ -36181,21 +33586,6 @@
     <Speed>44</Speed>
   </Player>
   <Player>
-    <id>2006319+5239</id>
-    <Name>Momo</Name>
-    <dateOfBirth>1982-07-15T00:00</dateOfBirth>
-    <Nationality>Spain</Nationality>
-    <Photo>https://cdn.sofifa.org/players/4/19/146058.png</Photo>
-    <CurrentClub>UD Las Palmas</CurrentClub>
-    <CurrentPosition/>
-    <CurrentNumber>11</CurrentNumber>
-    <WageInEuro>5000.0</WageInEuro>
-    <Weight>67.5</Weight>
-    <Height>179.07</Height>
-    <Foot>Left</Foot>
-    <Speed>53</Speed>
-  </Player>
-  <Player>
     <id>2002798+3574</id>
     <Name>Filipe Augusto</Name>
     <dateOfBirth>1993-08-12T00:00</dateOfBirth>
@@ -36208,21 +33598,6 @@
     <Weight>79.2</Weight>
     <Height>182.88</Height>
     <Foot>Left</Foot>
-    <Speed>68</Speed>
-  </Player>
-  <Player>
-    <id>10041+2000830</id>
-    <Name>Arnor Smarason</Name>
-    <dateOfBirth>1988-09-07T00:00</dateOfBirth>
-    <Nationality>Iceland</Nationality>
-    <Photo>https://cdn.sofifa.org/players/4/19/189721.png</Photo>
-    <CurrentClub>Lillestrøm SK</CurrentClub>
-    <CurrentPosition/>
-    <CurrentNumber>88</CurrentNumber>
-    <WageInEuro>2000.0</WageInEuro>
-    <Weight>75.6</Weight>
-    <Height>184.15</Height>
-    <Foot>Right</Foot>
     <Speed>68</Speed>
   </Player>
   <Player>
@@ -36421,21 +33796,6 @@
     <Speed>63</Speed>
   </Player>
   <Player>
-    <id>150+2004635</id>
-    <Name>Kasper Schmeichel</Name>
-    <dateOfBirth>1986-11-05T00:00</dateOfBirth>
-    <Nationality>Denmark</Nationality>
-    <Photo>https://cdn.sofifa.org/players/4/19/163587.png</Photo>
-    <CurrentClub>Leicester City</CurrentClub>
-    <CurrentPosition/>
-    <CurrentNumber>1</CurrentNumber>
-    <WageInEuro>78000.0</WageInEuro>
-    <Weight>88.2</Weight>
-    <Height>186.69</Height>
-    <Foot>Right</Foot>
-    <Speed>60</Speed>
-  </Player>
-  <Player>
     <id>2000784+5720</id>
     <Name>A. Vellios</Name>
     <dateOfBirth>1992-01-08T00:00</dateOfBirth>
@@ -36494,21 +33854,6 @@
     <Height>182.88</Height>
     <Foot>Right</Foot>
     <Speed>64</Speed>
-  </Player>
-  <Player>
-    <id>1168+2006542</id>
-    <Name>N. Pallois</Name>
-    <dateOfBirth>1987-09-19T00:00</dateOfBirth>
-    <Nationality>France</Nationality>
-    <Photo>https://cdn.sofifa.org/players/4/19/199393.png</Photo>
-    <CurrentClub>FC Nantes</CurrentClub>
-    <CurrentPosition/>
-    <CurrentNumber>4</CurrentNumber>
-    <WageInEuro>25000.0</WageInEuro>
-    <Weight>88.2</Weight>
-    <Height>189.23001</Height>
-    <Foot>Left</Foot>
-    <Speed>63</Speed>
   </Player>
   <Player>
     <id>2004465+2545</id>
@@ -36766,21 +34111,6 @@
     <Speed>43</Speed>
   </Player>
   <Player>
-    <id>2002331+759</id>
-    <Name>Dyego Sousa</Name>
-    <dateOfBirth>1989-09-14T00:00</dateOfBirth>
-    <Nationality>Brazil</Nationality>
-    <Photo>https://cdn.sofifa.org/players/4/19/224116.png</Photo>
-    <CurrentClub>SC Braga</CurrentClub>
-    <CurrentPosition/>
-    <CurrentNumber>99</CurrentNumber>
-    <WageInEuro>19000.0</WageInEuro>
-    <Weight>82.35</Weight>
-    <Height>189.23001</Height>
-    <Foot>Right</Foot>
-    <Speed>54</Speed>
-  </Player>
-  <Player>
     <id>14416+2002969</id>
     <Name>Fulvio Sulmoni</Name>
     <dateOfBirth>1986-01-04T00:00</dateOfBirth>
@@ -36856,21 +34186,6 @@
     <Speed>53</Speed>
   </Player>
   <Player>
-    <id>1457+2001648</id>
-    <Name>C. Biraghi</Name>
-    <dateOfBirth>1992-09-01T00:00</dateOfBirth>
-    <Nationality>Italy</Nationality>
-    <Photo>https://cdn.sofifa.org/players/4/19/201389.png</Photo>
-    <CurrentClub>Fiorentina</CurrentClub>
-    <CurrentPosition/>
-    <CurrentNumber>4</CurrentNumber>
-    <WageInEuro>42000.0</WageInEuro>
-    <Weight>77.4</Weight>
-    <Height>184.15</Height>
-    <Foot>Left</Foot>
-    <Speed>78</Speed>
-  </Player>
-  <Player>
     <id>2007454+3394</id>
     <Name>Roberto Torres</Name>
     <dateOfBirth>1989-03-17T00:00</dateOfBirth>
@@ -36929,21 +34244,6 @@
     <Height>170.18</Height>
     <Foot>Right</Foot>
     <Speed>76</Speed>
-  </Player>
-  <Player>
-    <id>11136+2004270</id>
-    <Name>Jordan Bowery</Name>
-    <dateOfBirth>1991-07-02T00:00</dateOfBirth>
-    <Nationality>England</Nationality>
-    <Photo>https://cdn.sofifa.org/players/4/19/190239.png</Photo>
-    <CurrentClub>Crewe Alexandra</CurrentClub>
-    <CurrentPosition/>
-    <CurrentNumber>10</CurrentNumber>
-    <WageInEuro>5000.0</WageInEuro>
-    <Weight>75.6</Weight>
-    <Height>186.69</Height>
-    <Foot>Right</Foot>
-    <Speed>79</Speed>
   </Player>
   <Player>
     <id>2001892+4053</id>
@@ -37066,21 +34366,6 @@
     <Speed>72</Speed>
   </Player>
   <Player>
-    <id>2005263+9021</id>
-    <Name>L. Broź</Name>
-    <dateOfBirth>1985-12-17T00:00</dateOfBirth>
-    <Nationality>Poland</Nationality>
-    <Photo>https://cdn.sofifa.org/players/4/19/177719.png</Photo>
-    <CurrentClub>Śląsk Wrocław</CurrentClub>
-    <CurrentPosition/>
-    <CurrentNumber>28</CurrentNumber>
-    <WageInEuro>2000.0</WageInEuro>
-    <Weight>73.35</Weight>
-    <Height>179.07</Height>
-    <Foot>Right</Foot>
-    <Speed>64</Speed>
-  </Player>
-  <Player>
     <id>2003489+5496</id>
     <Name>Hugo Vieira</Name>
     <dateOfBirth>1988-07-25T00:00</dateOfBirth>
@@ -37169,21 +34454,6 @@
     <Height>177.8</Height>
     <Foot>Right</Foot>
     <Speed>54</Speed>
-  </Player>
-  <Player>
-    <id>1613+2008343</id>
-    <Name>T. Bongonda</Name>
-    <dateOfBirth>1995-11-20T00:00</dateOfBirth>
-    <Nationality>Belgium</Nationality>
-    <Photo>https://cdn.sofifa.org/players/4/19/217877.png</Photo>
-    <CurrentClub>SV Zulte-Waregem</CurrentClub>
-    <CurrentPosition/>
-    <CurrentNumber>10</CurrentNumber>
-    <WageInEuro>14000.0</WageInEuro>
-    <Weight>63.45</Weight>
-    <Height>176.53</Height>
-    <Foot>Left</Foot>
-    <Speed>80</Speed>
   </Player>
   <Player>
     <id>2006676+3062</id>
@@ -37441,21 +34711,6 @@
     <Speed>55</Speed>
   </Player>
   <Player>
-    <id>2008013+693</id>
-    <Name>Sidnei</Name>
-    <dateOfBirth>1989-06-23T00:00</dateOfBirth>
-    <Nationality>Brazil</Nationality>
-    <Photo>https://cdn.sofifa.org/players/4/19/182002.png</Photo>
-    <CurrentClub>Real Betis</CurrentClub>
-    <CurrentPosition/>
-    <CurrentNumber>12</CurrentNumber>
-    <WageInEuro>27000.0</WageInEuro>
-    <Weight>87.3</Weight>
-    <Height>186.69</Height>
-    <Foot>Right</Foot>
-    <Speed>63</Speed>
-  </Player>
-  <Player>
     <id>2003574+8806</id>
     <Name>Íñigo López</Name>
     <dateOfBirth>1982-07-23T00:00</dateOfBirth>
@@ -37469,21 +34724,6 @@
     <Height>185.42</Height>
     <Foot>Right</Foot>
     <Speed>31</Speed>
-  </Player>
-  <Player>
-    <id>2000173+2048+686</id>
-    <Name>Adrien Silva</Name>
-    <dateOfBirth>1989-03-15T00:00</dateOfBirth>
-    <Nationality>Portugal</Nationality>
-    <Photo>https://cdn.sofifa.org/players/4/19/184826.png</Photo>
-    <CurrentClub>Leicester City</CurrentClub>
-    <CurrentPosition/>
-    <CurrentNumber>23</CurrentNumber>
-    <WageInEuro>75000.0</WageInEuro>
-    <Weight>68.4</Weight>
-    <Height>175.26</Height>
-    <Foot>Right</Foot>
-    <Speed>57</Speed>
   </Player>
   <Player>
     <id>1338+2007795</id>
@@ -37649,36 +34889,6 @@
     <Height>170.18</Height>
     <Foot>Left</Foot>
     <Speed>69</Speed>
-  </Player>
-  <Player>
-    <id>2004160+3067</id>
-    <Name>J. McGinn</Name>
-    <dateOfBirth>1994-10-18T00:00</dateOfBirth>
-    <Nationality>Scotland</Nationality>
-    <Photo>https://cdn.sofifa.org/players/4/19/210881.png</Photo>
-    <CurrentClub>Aston Villa</CurrentClub>
-    <CurrentPosition/>
-    <CurrentNumber>7</CurrentNumber>
-    <WageInEuro>15000.0</WageInEuro>
-    <Weight>67.5</Weight>
-    <Height>176.53</Height>
-    <Foot>Left</Foot>
-    <Speed>71</Speed>
-  </Player>
-  <Player>
-    <id>10090+2005397</id>
-    <Name>Manuel Pascali</Name>
-    <dateOfBirth>1981-09-09T00:00</dateOfBirth>
-    <Nationality>Italy</Nationality>
-    <Photo>https://cdn.sofifa.org/players/4/19/189734.png</Photo>
-    <CurrentClub>Cosenza</CurrentClub>
-    <CurrentPosition/>
-    <CurrentNumber>29</CurrentNumber>
-    <WageInEuro>1000.0</WageInEuro>
-    <Weight>82.35</Weight>
-    <Height>186.69</Height>
-    <Foot>Right</Foot>
-    <Speed>34</Speed>
   </Player>
   <Player>
     <id>1282+2005278</id>
@@ -37874,21 +35084,6 @@
     <Height>180.34</Height>
     <Foot>Right</Foot>
     <Speed>54</Speed>
-  </Player>
-  <Player>
-    <id>1644+2003919</id>
-    <Name>J. Bruma</Name>
-    <dateOfBirth>1991-11-13T00:00</dateOfBirth>
-    <Nationality>Netherlands</Nationality>
-    <Photo>https://cdn.sofifa.org/players/4/19/195363.png</Photo>
-    <CurrentClub>VfL Wolfsburg</CurrentClub>
-    <CurrentPosition/>
-    <CurrentNumber>5</CurrentNumber>
-    <WageInEuro>35000.0</WageInEuro>
-    <Weight>87.3</Weight>
-    <Height>189.23001</Height>
-    <Foot>Right</Foot>
-    <Speed>65</Speed>
   </Player>
   <Player>
     <id>2007817+2863</id>
@@ -38146,21 +35341,6 @@
     <Speed>79</Speed>
   </Player>
   <Player>
-    <id>11741+2000736</id>
-    <Name>Antoine Rabillard</Name>
-    <dateOfBirth>1995-09-22T00:00</dateOfBirth>
-    <Nationality>France</Nationality>
-    <Photo>https://cdn.sofifa.org/players/4/19/232118.png</Photo>
-    <CurrentClub>AS Béziers</CurrentClub>
-    <CurrentPosition/>
-    <CurrentNumber>9</CurrentNumber>
-    <WageInEuro>1000.0</WageInEuro>
-    <Weight>69.3</Weight>
-    <Height>176.53</Height>
-    <Foot>Right</Foot>
-    <Speed>66</Speed>
-  </Player>
-  <Player>
     <id>2003967+2264</id>
     <Name>J. Toljan</Name>
     <dateOfBirth>1994-08-08T00:00</dateOfBirth>
@@ -38294,21 +35474,6 @@
     <Height>182.88</Height>
     <Foot>Left</Foot>
     <Speed>33</Speed>
-  </Player>
-  <Player>
-    <id>2008085+4488</id>
-    <Name>Sloan Privat</Name>
-    <dateOfBirth>1989-07-24T00:00</dateOfBirth>
-    <Nationality>France</Nationality>
-    <Photo>https://cdn.sofifa.org/players/4/19/187051.png</Photo>
-    <CurrentClub>Valenciennes FC</CurrentClub>
-    <CurrentPosition/>
-    <CurrentNumber>29</CurrentNumber>
-    <WageInEuro>6000.0</WageInEuro>
-    <Weight>87.3</Weight>
-    <Height>186.69</Height>
-    <Foot>Right</Foot>
-    <Speed>61</Speed>
   </Player>
   <Player>
     <id>2001885+4886</id>
@@ -38836,21 +36001,6 @@
     <Speed>55</Speed>
   </Player>
   <Player>
-    <id>2005833+858</id>
-    <Name>Mathieu Debuchy</Name>
-    <dateOfBirth>1985-07-28T00:00</dateOfBirth>
-    <Nationality>France</Nationality>
-    <Photo>https://cdn.sofifa.org/players/4/19/158626.png</Photo>
-    <CurrentClub>AS Saint-Étienne</CurrentClub>
-    <CurrentPosition/>
-    <CurrentNumber>26</CurrentNumber>
-    <WageInEuro>31000.0</WageInEuro>
-    <Weight>75.6</Weight>
-    <Height>176.53</Height>
-    <Foot>Right</Foot>
-    <Speed>73</Speed>
-  </Player>
-  <Player>
     <id>2003833+267</id>
     <Name>J. Cillessen</Name>
     <dateOfBirth>1989-04-22T00:00</dateOfBirth>
@@ -39076,21 +36226,6 @@
     <Speed>67</Speed>
   </Player>
   <Player>
-    <id>10906+2008748</id>
-    <Name>V. Sierro</Name>
-    <dateOfBirth>1995-10-08T00:00</dateOfBirth>
-    <Nationality>Switzerland</Nationality>
-    <Photo>https://cdn.sofifa.org/players/4/19/228593.png</Photo>
-    <CurrentClub>FC St. Gallen</CurrentClub>
-    <CurrentPosition/>
-    <CurrentNumber>14</CurrentNumber>
-    <WageInEuro>5000.0</WageInEuro>
-    <Weight>74.25</Weight>
-    <Height>184.15</Height>
-    <Foot>Right</Foot>
-    <Speed>67</Speed>
-  </Player>
-  <Player>
     <id>2007895+5276</id>
     <Name>S. Bassong</Name>
     <dateOfBirth>1986-07-09T00:00</dateOfBirth>
@@ -39119,21 +36254,6 @@
     <Height>187.96</Height>
     <Foot>Left</Foot>
     <Speed>65</Speed>
-  </Player>
-  <Player>
-    <id>2008855+7707</id>
-    <Name>W. Buckley</Name>
-    <dateOfBirth>1989-11-21T00:00</dateOfBirth>
-    <Nationality>England</Nationality>
-    <Photo>https://cdn.sofifa.org/players/4/19/187150.png</Photo>
-    <CurrentClub>Bolton Wanderers</CurrentClub>
-    <CurrentPosition/>
-    <CurrentNumber>11</CurrentNumber>
-    <WageInEuro>4000.0</WageInEuro>
-    <Weight>76.5</Weight>
-    <Height>184.15</Height>
-    <Foot>Right</Foot>
-    <Speed>69</Speed>
   </Player>
   <Player>
     <id>1790+2001136</id>
@@ -39466,21 +36586,6 @@
     <Speed>72</Speed>
   </Player>
   <Player>
-    <id>2005957+5119</id>
-    <Name>M. Dos Santos</Name>
-    <dateOfBirth>1989-07-07T00:00</dateOfBirth>
-    <Nationality>Argentina</Nationality>
-    <Photo>https://cdn.sofifa.org/players/4/19/210787.png</Photo>
-    <CurrentClub>CD Leganés</CurrentClub>
-    <CurrentPosition/>
-    <CurrentNumber>15</CurrentNumber>
-    <WageInEuro>15000.0</WageInEuro>
-    <Weight>75.6</Weight>
-    <Height>181.61</Height>
-    <Foot>Right</Foot>
-    <Speed>59</Speed>
-  </Player>
-  <Player>
     <id>1854+2008139</id>
     <Name>Stefan Mitrovic</Name>
     <dateOfBirth>1990-05-22T00:00</dateOfBirth>
@@ -39554,21 +36659,6 @@
     <Height>175.26</Height>
     <Foot>Left</Foot>
     <Speed>77</Speed>
-  </Player>
-  <Player>
-    <id>2007079+7398</id>
-    <Name>Pierre-Yves Polomat</Name>
-    <dateOfBirth>1993-12-27T00:00</dateOfBirth>
-    <Nationality>France</Nationality>
-    <Photo>https://cdn.sofifa.org/players/4/19/208324.png</Photo>
-    <CurrentClub>AS Saint-Étienne</CurrentClub>
-    <CurrentPosition/>
-    <CurrentNumber>3</CurrentNumber>
-    <WageInEuro>9000.0</WageInEuro>
-    <Weight>76.5</Weight>
-    <Height>181.61</Height>
-    <Foot>Left</Foot>
-    <Speed>78</Speed>
   </Player>
   <Player>
     <id>139+2000676</id>
@@ -39959,21 +37049,6 @@
     <Height>162.56</Height>
     <Foot>Right</Foot>
     <Speed>66</Speed>
-  </Player>
-  <Player>
-    <id>2007193+4929</id>
-    <Name>Rafal Wolski</Name>
-    <dateOfBirth>1992-11-10T00:00</dateOfBirth>
-    <Nationality>Poland</Nationality>
-    <Photo>https://cdn.sofifa.org/players/4/19/204078.png</Photo>
-    <CurrentClub>Lechia Gdańsk</CurrentClub>
-    <CurrentPosition/>
-    <CurrentNumber>27</CurrentNumber>
-    <WageInEuro>5000.0</WageInEuro>
-    <Weight>69.3</Weight>
-    <Height>179.07</Height>
-    <Foot>Right</Foot>
-    <Speed>69</Speed>
   </Player>
   <Player>
     <id>1314+2005886</id>
@@ -40396,21 +37471,6 @@
     <Speed>63</Speed>
   </Player>
   <Player>
-    <id>2001192+2294</id>
-    <Name>Bruno Ecuele Manga</Name>
-    <dateOfBirth>1988-07-16T00:00</dateOfBirth>
-    <Nationality>Gabon</Nationality>
-    <Photo>https://cdn.sofifa.org/players/4/19/188270.png</Photo>
-    <CurrentClub>Cardiff City</CurrentClub>
-    <CurrentPosition/>
-    <CurrentNumber>5</CurrentNumber>
-    <WageInEuro>37000.0</WageInEuro>
-    <Weight>75.6</Weight>
-    <Height>186.69</Height>
-    <Foot>Right</Foot>
-    <Speed>58</Speed>
-  </Player>
-  <Player>
     <id>2007034+7891</id>
     <Name>P. van Ooijen</Name>
     <dateOfBirth>1992-02-16T00:00</dateOfBirth>
@@ -40531,21 +37591,6 @@
     <Speed>53</Speed>
   </Player>
   <Player>
-    <id>2001389+7072</id>
-    <Name>Charles</Name>
-    <dateOfBirth>1984-04-04T00:00</dateOfBirth>
-    <Nationality>Brazil</Nationality>
-    <Photo>https://cdn.sofifa.org/players/4/19/184944.png</Photo>
-    <CurrentClub>Antalyaspor</CurrentClub>
-    <CurrentPosition/>
-    <CurrentNumber>8</CurrentNumber>
-    <WageInEuro>7000.0</WageInEuro>
-    <Weight>70.65</Weight>
-    <Height>176.53</Height>
-    <Foot>Right</Foot>
-    <Speed>69</Speed>
-  </Player>
-  <Player>
     <id>2001353+5257</id>
     <Name>Cedric Yambere</Name>
     <dateOfBirth>1990-11-06T00:00</dateOfBirth>
@@ -40649,21 +37694,6 @@
     <Height>172.72</Height>
     <Foot>Right</Foot>
     <Speed>58</Speed>
-  </Player>
-  <Player>
-    <id>2005663+477</id>
-    <Name>Mark Uth</Name>
-    <dateOfBirth>1991-08-24T00:00</dateOfBirth>
-    <Nationality>Germany</Nationality>
-    <Photo>https://cdn.sofifa.org/players/4/19/200318.png</Photo>
-    <CurrentClub>FC Schalke 04</CurrentClub>
-    <CurrentPosition/>
-    <CurrentNumber>7</CurrentNumber>
-    <WageInEuro>42000.0</WageInEuro>
-    <Weight>71.55</Weight>
-    <Height>184.15</Height>
-    <Foot>Left</Foot>
-    <Speed>76</Speed>
   </Player>
   <Player>
     <id>2002221+2302</id>
@@ -41476,21 +38506,6 @@
     <Speed>59</Speed>
   </Player>
   <Player>
-    <id>2001157+6187</id>
-    <Name>Brayan Beckeles</Name>
-    <dateOfBirth>1985-11-28T00:00</dateOfBirth>
-    <Nationality>Honduras</Nationality>
-    <Photo>https://cdn.sofifa.org/players/4/19/219285.png</Photo>
-    <CurrentClub>Club Necaxa</CurrentClub>
-    <CurrentPosition/>
-    <CurrentNumber>2</CurrentNumber>
-    <WageInEuro>6000.0</WageInEuro>
-    <Weight>83.25</Weight>
-    <Height>184.15</Height>
-    <Foot>Right</Foot>
-    <Speed>65</Speed>
-  </Player>
-  <Player>
     <id>2001536+7007</id>
     <Name>C. Dielna</Name>
     <dateOfBirth>1987-12-14T00:00</dateOfBirth>
@@ -41596,21 +38611,6 @@
     <Speed>62</Speed>
   </Player>
   <Player>
-    <id>2000364+3058</id>
-    <Name>Álex Pérez</Name>
-    <dateOfBirth>1991-08-11T00:00</dateOfBirth>
-    <Nationality>Spain</Nationality>
-    <Photo>https://cdn.sofifa.org/players/4/19/201149.png</Photo>
-    <CurrentClub>Real Sporting de Gijón</CurrentClub>
-    <CurrentPosition/>
-    <CurrentNumber>24</CurrentNumber>
-    <WageInEuro>8000.0</WageInEuro>
-    <Weight>83.25</Weight>
-    <Height>189.23001</Height>
-    <Foot>Right</Foot>
-    <Speed>34</Speed>
-  </Player>
-  <Player>
     <id>2001075+6765</id>
     <Name>Bjarne Thoelke</Name>
     <dateOfBirth>1992-04-11T00:00</dateOfBirth>
@@ -41639,21 +38639,6 @@
     <Height>181.61</Height>
     <Foot>Right</Foot>
     <Speed>51</Speed>
-  </Player>
-  <Player>
-    <id>2008960+4133</id>
-    <Name>Y. El Ghanassy</Name>
-    <dateOfBirth>1990-07-12T00:00</dateOfBirth>
-    <Nationality>Belgium</Nationality>
-    <Photo>https://cdn.sofifa.org/players/4/19/190516.png</Photo>
-    <CurrentClub>Al Raed</CurrentClub>
-    <CurrentPosition/>
-    <CurrentNumber>8</CurrentNumber>
-    <WageInEuro>16000.0</WageInEuro>
-    <Weight>72.45</Weight>
-    <Height>173.98999</Height>
-    <Foot>Right</Foot>
-    <Speed>76</Speed>
   </Player>
   <Player>
     <id>2007786+5820</id>
@@ -42211,21 +39196,6 @@
     <Speed>75</Speed>
   </Player>
   <Player>
-    <id>2000411+5278</id>
-    <Name>A. Letellier</Name>
-    <dateOfBirth>1990-12-11T00:00</dateOfBirth>
-    <Nationality>France</Nationality>
-    <Photo>https://cdn.sofifa.org/players/4/19/199574.png</Photo>
-    <CurrentClub>ESTAC Troyes</CurrentClub>
-    <CurrentPosition/>
-    <CurrentNumber>1</CurrentNumber>
-    <WageInEuro>9000.0</WageInEuro>
-    <Weight>92.25</Weight>
-    <Height>191.76999</Height>
-    <Foot>Right</Foot>
-    <Speed>37</Speed>
-  </Player>
-  <Player>
     <id>2006399+3729</id>
     <Name>Nana Asare</Name>
     <dateOfBirth>1986-07-11T00:00</dateOfBirth>
@@ -42404,21 +39374,6 @@
     <Height>175.26</Height>
     <Foot>Left</Foot>
     <Speed>64</Speed>
-  </Player>
-  <Player>
-    <id>2003569+5736</id>
-    <Name>Iñaki Astiz</Name>
-    <dateOfBirth>1983-11-05T00:00</dateOfBirth>
-    <Nationality>Spain</Nationality>
-    <Photo>https://cdn.sofifa.org/players/4/19/146969.png</Photo>
-    <CurrentClub>Legia Warszawa</CurrentClub>
-    <CurrentPosition/>
-    <CurrentNumber>34</CurrentNumber>
-    <WageInEuro>5000.0</WageInEuro>
-    <Weight>76.5</Weight>
-    <Height>184.15</Height>
-    <Foot>Right</Foot>
-    <Speed>59</Speed>
   </Player>
   <Player>
     <id>2004496+245</id>
@@ -42661,21 +39616,6 @@
     <Speed>71</Speed>
   </Player>
   <Player>
-    <id>2001704+6344</id>
-    <Name>D. Marcq</Name>
-    <dateOfBirth>1988-12-08T00:00</dateOfBirth>
-    <Nationality>France</Nationality>
-    <Photo>https://cdn.sofifa.org/players/4/19/181436.png</Photo>
-    <CurrentClub>SV Zulte-Waregem</CurrentClub>
-    <CurrentPosition/>
-    <CurrentNumber>5</CurrentNumber>
-    <WageInEuro>7000.0</WageInEuro>
-    <Weight>76.5</Weight>
-    <Height>181.61</Height>
-    <Foot>Right</Foot>
-    <Speed>51</Speed>
-  </Player>
-  <Player>
     <id>1793+2000457</id>
     <Name>Allan McGregor</Name>
     <dateOfBirth>1982-01-31T00:00</dateOfBirth>
@@ -42764,21 +39704,6 @@
     <Height>187.96</Height>
     <Foot>Left</Foot>
     <Speed>51</Speed>
-  </Player>
-  <Player>
-    <id>1392+2004028</id>
-    <Name>J. Briand</Name>
-    <dateOfBirth>1985-08-02T00:00</dateOfBirth>
-    <Nationality>France</Nationality>
-    <Photo>https://cdn.sofifa.org/players/4/19/134779.png</Photo>
-    <CurrentClub>FC Girondins de Bordeaux</CurrentClub>
-    <CurrentPosition/>
-    <CurrentNumber>7</CurrentNumber>
-    <WageInEuro>41000.0</WageInEuro>
-    <Weight>83.25</Weight>
-    <Height>181.61</Height>
-    <Foot>Right</Foot>
-    <Speed>71</Speed>
   </Player>
   <Player>
     <id>1445+2000112</id>
@@ -42901,21 +39826,6 @@
     <Speed>35</Speed>
   </Player>
   <Player>
-    <id>2003185+8941</id>
-    <Name>G. Korte</Name>
-    <dateOfBirth>1993-08-01T00:00</dateOfBirth>
-    <Nationality>Netherlands</Nationality>
-    <Photo>https://cdn.sofifa.org/players/4/19/210213.png</Photo>
-    <CurrentClub>NAC Breda</CurrentClub>
-    <CurrentPosition/>
-    <CurrentNumber>7</CurrentNumber>
-    <WageInEuro>3000.0</WageInEuro>
-    <Weight>70.65</Weight>
-    <Height>168.90999</Height>
-    <Foot>Right</Foot>
-    <Speed>85</Speed>
-  </Player>
-  <Player>
     <id>2008951+8097</id>
     <Name>Yannik Boli</Name>
     <dateOfBirth>1988-01-13T00:00</dateOfBirth>
@@ -43004,21 +39914,6 @@
     <Height>176.53</Height>
     <Foot>Right</Foot>
     <Speed>50</Speed>
-  </Player>
-  <Player>
-    <id>2002429+5552</id>
-    <Name>E. Bennett</Name>
-    <dateOfBirth>1988-12-18T00:00</dateOfBirth>
-    <Nationality>England</Nationality>
-    <Photo>https://cdn.sofifa.org/players/4/19/186595.png</Photo>
-    <CurrentClub>Blackburn Rovers</CurrentClub>
-    <CurrentPosition/>
-    <CurrentNumber>31</CurrentNumber>
-    <WageInEuro>24000.0</WageInEuro>
-    <Weight>72.45</Weight>
-    <Height>176.53</Height>
-    <Foot>Right</Foot>
-    <Speed>78</Speed>
   </Player>
   <Player>
     <id>2002410+9282</id>
@@ -43396,21 +40291,6 @@
     <Speed>43</Speed>
   </Player>
   <Player>
-    <id>1950+2002839</id>
-    <Name>Florian Niederlechner</Name>
-    <dateOfBirth>1990-10-24T00:00</dateOfBirth>
-    <Nationality>Germany</Nationality>
-    <Photo>https://cdn.sofifa.org/players/4/19/211899.png</Photo>
-    <CurrentClub>SC Freiburg</CurrentClub>
-    <CurrentPosition/>
-    <CurrentNumber>7</CurrentNumber>
-    <WageInEuro>25000.0</WageInEuro>
-    <Weight>85.5</Weight>
-    <Height>186.69</Height>
-    <Foot>Right</Foot>
-    <Speed>75</Speed>
-  </Player>
-  <Player>
     <id>14513+2008851</id>
     <Name>W. Atkinson</Name>
     <dateOfBirth>1988-10-14T00:00</dateOfBirth>
@@ -43439,21 +40319,6 @@
     <Height>172.72</Height>
     <Foot>Left</Foot>
     <Speed>73</Speed>
-  </Player>
-  <Player>
-    <id>2005966+6096</id>
-    <Name>Max Christiansen</Name>
-    <dateOfBirth>1996-09-25T00:00</dateOfBirth>
-    <Nationality>Germany</Nationality>
-    <Photo>https://cdn.sofifa.org/players/4/19/226686.png</Photo>
-    <CurrentClub>DSC Arminia Bielefeld</CurrentClub>
-    <CurrentPosition/>
-    <CurrentNumber>5</CurrentNumber>
-    <WageInEuro>5000.0</WageInEuro>
-    <Weight>81.45</Weight>
-    <Height>186.69</Height>
-    <Foot>Right</Foot>
-    <Speed>64</Speed>
   </Player>
   <Player>
     <id>2006257+73</id>
@@ -43589,36 +40454,6 @@
     <Height>187.96</Height>
     <Foot>Left</Foot>
     <Speed>48</Speed>
-  </Player>
-  <Player>
-    <id>2003094+5944</id>
-    <Name>G. Mandjeck</Name>
-    <dateOfBirth>1988-12-09T00:00</dateOfBirth>
-    <Nationality>Cameroon</Nationality>
-    <Photo>https://cdn.sofifa.org/players/4/19/183382.png</Photo>
-    <CurrentClub/>
-    <CurrentPosition/>
-    <CurrentNumber>8</CurrentNumber>
-    <WageInEuro>null</WageInEuro>
-    <Weight>76.5</Weight>
-    <Height>184.15</Height>
-    <Foot>Right</Foot>
-    <Speed>71</Speed>
-  </Player>
-  <Player>
-    <id>2003583+3950</id>
-    <Name>Isaac Cofie</Name>
-    <dateOfBirth>1991-04-05T00:00</dateOfBirth>
-    <Nationality>Ghana</Nationality>
-    <Photo>https://cdn.sofifa.org/players/4/19/198908.png</Photo>
-    <CurrentClub>Real Sporting de Gijón</CurrentClub>
-    <CurrentPosition/>
-    <CurrentNumber>5</CurrentNumber>
-    <WageInEuro>8000.0</WageInEuro>
-    <Weight>74.25</Weight>
-    <Height>181.61</Height>
-    <Foot>Right</Foot>
-    <Speed>66</Speed>
   </Player>
   <Player>
     <id>1737+2001750</id>
@@ -43861,21 +40696,6 @@
     <Speed>71</Speed>
   </Player>
   <Player>
-    <id>2007120+4453</id>
-    <Name>Prince Oniangue</Name>
-    <dateOfBirth>1988-11-04T00:00</dateOfBirth>
-    <Nationality>Congo</Nationality>
-    <Photo>https://cdn.sofifa.org/players/4/19/183453.png</Photo>
-    <CurrentClub>Stade Malherbe Caen</CurrentClub>
-    <CurrentPosition/>
-    <CurrentNumber>6</CurrentNumber>
-    <WageInEuro>14000.0</WageInEuro>
-    <Weight>77.4</Weight>
-    <Height>189.23001</Height>
-    <Foot>Right</Foot>
-    <Speed>65</Speed>
-  </Player>
-  <Player>
     <id>1327+2008103</id>
     <Name>Souahilo Meite</Name>
     <dateOfBirth>1995-01-01T00:00</dateOfBirth>
@@ -44054,21 +40874,6 @@
     <Height>175.26</Height>
     <Foot>Right</Foot>
     <Speed>83</Speed>
-  </Player>
-  <Player>
-    <id>2007905+4920</id>
-    <Name>S. Pocognoli</Name>
-    <dateOfBirth>1987-08-01T00:00</dateOfBirth>
-    <Nationality>Belgium</Nationality>
-    <Photo>https://cdn.sofifa.org/players/4/19/163369.png</Photo>
-    <CurrentClub>Standard de Liège</CurrentClub>
-    <CurrentPosition/>
-    <CurrentNumber>15</CurrentNumber>
-    <WageInEuro>8000.0</WageInEuro>
-    <Weight>80.55</Weight>
-    <Height>181.61</Height>
-    <Foot>Left</Foot>
-    <Speed>69</Speed>
   </Player>
   <Player>
     <id>2008695+4336</id>
@@ -44656,21 +41461,6 @@
     <Speed>70</Speed>
   </Player>
   <Player>
-    <id>1472+2003915</id>
-    <Name>J. Montero</Name>
-    <dateOfBirth>1989-09-01T00:00</dateOfBirth>
-    <Nationality>Ecuador</Nationality>
-    <Photo>https://cdn.sofifa.org/players/4/19/186805.png</Photo>
-    <CurrentClub>Swansea City</CurrentClub>
-    <CurrentPosition/>
-    <CurrentNumber>10</CurrentNumber>
-    <WageInEuro>30000.0</WageInEuro>
-    <Weight>69.3</Weight>
-    <Height>171.45</Height>
-    <Foot>Right</Foot>
-    <Speed>90</Speed>
-  </Player>
-  <Player>
     <id>2006272+5965</id>
     <Name>Miroslav Radovic</Name>
     <dateOfBirth>1984-01-16T00:00</dateOfBirth>
@@ -44699,21 +41489,6 @@
     <Height>187.96</Height>
     <Foot>Right</Foot>
     <Speed>68</Speed>
-  </Player>
-  <Player>
-    <id>2002097+5380</id>
-    <Name>D. Stracqualursi</Name>
-    <dateOfBirth>1987-10-20T00:00</dateOfBirth>
-    <Nationality>Argentina</Nationality>
-    <Photo>https://cdn.sofifa.org/players/4/19/206005.png</Photo>
-    <CurrentClub>Club Atlético Aldosivi</CurrentClub>
-    <CurrentPosition/>
-    <CurrentNumber>22</CurrentNumber>
-    <WageInEuro>8000.0</WageInEuro>
-    <Weight>85.5</Weight>
-    <Height>189.23001</Height>
-    <Foot>Right</Foot>
-    <Speed>54</Speed>
   </Player>
   <Player>
     <id>2006181+4358</id>
@@ -45106,21 +41881,6 @@
     <Speed>60</Speed>
   </Player>
   <Player>
-    <id>2000098+9270</id>
-    <Name>A. Marciniak</Name>
-    <dateOfBirth>1988-09-28T00:00</dateOfBirth>
-    <Nationality>Poland</Nationality>
-    <Photo>https://cdn.sofifa.org/players/4/19/179055.png</Photo>
-    <CurrentClub>Arka Gdynia</CurrentClub>
-    <CurrentPosition/>
-    <CurrentNumber>17</CurrentNumber>
-    <WageInEuro>2000.0</WageInEuro>
-    <Weight>77.4</Weight>
-    <Height>184.15</Height>
-    <Foot>Left</Foot>
-    <Speed>73</Speed>
-  </Player>
-  <Player>
     <id>1153+2003609</id>
     <Name>I. Diop</Name>
     <dateOfBirth>1997-01-09T00:00</dateOfBirth>
@@ -45209,21 +41969,6 @@
     <Height>187.96</Height>
     <Foot>Left</Foot>
     <Speed>54</Speed>
-  </Player>
-  <Player>
-    <id>1281+2001495</id>
-    <Name>Christophe Kerbrat</Name>
-    <dateOfBirth>1986-08-02T00:00</dateOfBirth>
-    <Nationality>France</Nationality>
-    <Photo>https://cdn.sofifa.org/players/4/19/204338.png</Photo>
-    <CurrentClub>En Avant de Guingamp</CurrentClub>
-    <CurrentPosition/>
-    <CurrentNumber>29</CurrentNumber>
-    <WageInEuro>21000.0</WageInEuro>
-    <Weight>73.35</Weight>
-    <Height>184.15</Height>
-    <Foot>Right</Foot>
-    <Speed>66</Speed>
   </Player>
   <Player>
     <id>20+2008363</id>
@@ -45436,21 +42181,6 @@
     <Speed>77</Speed>
   </Player>
   <Player>
-    <id>11856+2008365</id>
-    <Name>Thibaut Vion</Name>
-    <dateOfBirth>1993-12-11T00:00</dateOfBirth>
-    <Nationality>France</Nationality>
-    <Photo>https://cdn.sofifa.org/players/4/19/207824.png</Photo>
-    <CurrentClub>Chamois Niortais Football Club</CurrentClub>
-    <CurrentPosition/>
-    <CurrentNumber>14</CurrentNumber>
-    <WageInEuro>2000.0</WageInEuro>
-    <Weight>80.55</Weight>
-    <Height>184.15</Height>
-    <Foot>Right</Foot>
-    <Speed>68</Speed>
-  </Player>
-  <Player>
     <id>2005961+8719</id>
     <Name>Mauro Vigorito</Name>
     <dateOfBirth>1990-05-22T00:00</dateOfBirth>
@@ -45571,21 +42301,6 @@
     <Speed>68</Speed>
   </Player>
   <Player>
-    <id>1481+2003836</id>
-    <Name>Jaume</Name>
-    <dateOfBirth>1990-11-05T00:00</dateOfBirth>
-    <Nationality>Spain</Nationality>
-    <Photo>https://cdn.sofifa.org/players/4/19/220604.png</Photo>
-    <CurrentClub>Valencia CF</CurrentClub>
-    <CurrentPosition/>
-    <CurrentNumber>1</CurrentNumber>
-    <WageInEuro>23000.0</WageInEuro>
-    <Weight>72.45</Weight>
-    <Height>186.69</Height>
-    <Foot>Right</Foot>
-    <Speed>58</Speed>
-  </Player>
-  <Player>
     <id>2005689+2824</id>
     <Name>Markus Rosenberg</Name>
     <dateOfBirth>1982-09-27T00:00</dateOfBirth>
@@ -45674,21 +42389,6 @@
     <Height>177.8</Height>
     <Foot>Right</Foot>
     <Speed>75</Speed>
-  </Player>
-  <Player>
-    <id>2005206+4092</id>
-    <Name>L. Vitale</Name>
-    <dateOfBirth>1987-10-05T00:00</dateOfBirth>
-    <Nationality>Italy</Nationality>
-    <Photo>https://cdn.sofifa.org/players/4/19/178470.png</Photo>
-    <CurrentClub>US Salernitana 1919</CurrentClub>
-    <CurrentPosition/>
-    <CurrentNumber>3</CurrentNumber>
-    <WageInEuro>3000.0</WageInEuro>
-    <Weight>70.65</Weight>
-    <Height>179.07</Height>
-    <Foot>Left</Foot>
-    <Speed>78</Speed>
   </Player>
   <Player>
     <id>1342+2006588</id>
@@ -45886,21 +42586,6 @@
     <Speed>68</Speed>
   </Player>
   <Player>
-    <id>2002694+8957</id>
-    <Name>F. Casarini</Name>
-    <dateOfBirth>1989-08-07T00:00</dateOfBirth>
-    <Nationality>Italy</Nationality>
-    <Photo>https://cdn.sofifa.org/players/4/19/189736.png</Photo>
-    <CurrentClub>Ascoli</CurrentClub>
-    <CurrentPosition/>
-    <CurrentNumber>16</CurrentNumber>
-    <WageInEuro>2000.0</WageInEuro>
-    <Weight>73.35</Weight>
-    <Height>179.07</Height>
-    <Foot>Right</Foot>
-    <Speed>84</Speed>
-  </Player>
-  <Player>
     <id>2004311+6720</id>
     <Name>Jorge García</Name>
     <dateOfBirth>1984-01-13T00:00</dateOfBirth>
@@ -45946,21 +42631,6 @@
     <Speed>59</Speed>
   </Player>
   <Player>
-    <id>2005133+3914</id>
-    <Name>L. Ceppitelli</Name>
-    <dateOfBirth>1989-11-08T00:00</dateOfBirth>
-    <Nationality>Italy</Nationality>
-    <Photo>https://cdn.sofifa.org/players/4/19/205553.png</Photo>
-    <CurrentClub>Cagliari</CurrentClub>
-    <CurrentPosition/>
-    <CurrentNumber>23</CurrentNumber>
-    <WageInEuro>21000.0</WageInEuro>
-    <Weight>82.35</Weight>
-    <Height>186.69</Height>
-    <Foot>Right</Foot>
-    <Speed>61</Speed>
-  </Player>
-  <Player>
     <id>2001099+2066</id>
     <Name>B. Jokič</Name>
     <dateOfBirth>1987-01-01T00:00</dateOfBirth>
@@ -45974,21 +42644,6 @@
     <Height>175.26</Height>
     <Foot>Left</Foot>
     <Speed>79</Speed>
-  </Player>
-  <Player>
-    <id>2005773+7522</id>
-    <Name>M. Haïdara</Name>
-    <dateOfBirth>1992-12-02T00:00</dateOfBirth>
-    <Nationality>France</Nationality>
-    <Photo>https://cdn.sofifa.org/players/4/19/201955.png</Photo>
-    <CurrentClub>Racing Club de Lens</CurrentClub>
-    <CurrentPosition/>
-    <CurrentNumber>21</CurrentNumber>
-    <WageInEuro>4000.0</WageInEuro>
-    <Weight>75.6</Weight>
-    <Height>179.07</Height>
-    <Foot>Left</Foot>
-    <Speed>70</Speed>
   </Player>
   <Player>
     <id>2008766+5533</id>
@@ -46666,21 +43321,6 @@
     <Speed>39</Speed>
   </Player>
   <Player>
-    <id>2007742+3290</id>
-    <Name>Samir Ujkani</Name>
-    <dateOfBirth>1988-07-05T00:00</dateOfBirth>
-    <Nationality>Kosovo</Nationality>
-    <Photo>https://cdn.sofifa.org/players/4/19/175897.png</Photo>
-    <CurrentClub>Çaykur Rizespor</CurrentClub>
-    <CurrentPosition/>
-    <CurrentNumber>1</CurrentNumber>
-    <WageInEuro>9000.0</WageInEuro>
-    <Weight>86.4</Weight>
-    <Height>186.69</Height>
-    <Foot>Right</Foot>
-    <Speed>49</Speed>
-  </Player>
-  <Player>
     <id>2008603+3271</id>
     <Name>Tranquillo Barnetta</Name>
     <dateOfBirth>1985-05-22T00:00</dateOfBirth>
@@ -46739,21 +43379,6 @@
     <Height>182.88</Height>
     <Foot>Right</Foot>
     <Speed>61</Speed>
-  </Player>
-  <Player>
-    <id>2001569+6485</id>
-    <Name>C. Kazim-Richards</Name>
-    <dateOfBirth>1986-08-26T00:00</dateOfBirth>
-    <Nationality>Turkey</Nationality>
-    <Photo>https://cdn.sofifa.org/players/4/19/166114.png</Photo>
-    <CurrentClub>Lobos BUAP</CurrentClub>
-    <CurrentPosition/>
-    <CurrentNumber>30</CurrentNumber>
-    <WageInEuro>5000.0</WageInEuro>
-    <Weight>94.05</Weight>
-    <Height>186.69</Height>
-    <Foot>Right</Foot>
-    <Speed>65</Speed>
   </Player>
   <Player>
     <id>2002219+6101</id>
@@ -46936,21 +43561,6 @@
     <Speed>88</Speed>
   </Player>
   <Player>
-    <id>2003366+640</id>
-    <Name>Hans Vanaken</Name>
-    <dateOfBirth>1992-08-24T00:00</dateOfBirth>
-    <Nationality>Belgium</Nationality>
-    <Photo>https://cdn.sofifa.org/players/4/19/200155.png</Photo>
-    <CurrentClub>Club Brugge KV</CurrentClub>
-    <CurrentPosition/>
-    <CurrentNumber>18</CurrentNumber>
-    <WageInEuro>27000.0</WageInEuro>
-    <Weight>79.2</Weight>
-    <Height>194.31</Height>
-    <Foot>Right</Foot>
-    <Speed>55</Speed>
-  </Player>
-  <Player>
     <id>11704+2000090</id>
     <Name>Adam Henley</Name>
     <dateOfBirth>1994-06-14T00:00</dateOfBirth>
@@ -47114,21 +43724,6 @@
     <Height>172.72</Height>
     <Foot>Right</Foot>
     <Speed>71</Speed>
-  </Player>
-  <Player>
-    <id>2008321+2411</id>
-    <Name>Tana</Name>
-    <dateOfBirth>1990-09-20T00:00</dateOfBirth>
-    <Nationality>Spain</Nationality>
-    <Photo>https://cdn.sofifa.org/players/4/19/219808.png</Photo>
-    <CurrentClub>UD Las Palmas</CurrentClub>
-    <CurrentPosition/>
-    <CurrentNumber>24</CurrentNumber>
-    <WageInEuro>11000.0</WageInEuro>
-    <Weight>72.45</Weight>
-    <Height>168.90999</Height>
-    <Foot>Right</Foot>
-    <Speed>65</Speed>
   </Player>
   <Player>
     <id>14509+2004209</id>
@@ -47926,21 +44521,6 @@
     <Speed>65</Speed>
   </Player>
   <Player>
-    <id>2005546+6652</id>
-    <Name>M. Zambelli</Name>
-    <dateOfBirth>1985-08-22T00:00</dateOfBirth>
-    <Nationality>Italy</Nationality>
-    <Photo>https://cdn.sofifa.org/players/4/19/159499.png</Photo>
-    <CurrentClub>Foggia</CurrentClub>
-    <CurrentPosition/>
-    <CurrentNumber>13</CurrentNumber>
-    <WageInEuro>2000.0</WageInEuro>
-    <Weight>76.5</Weight>
-    <Height>181.61</Height>
-    <Foot>Right</Foot>
-    <Speed>66</Speed>
-  </Player>
-  <Player>
     <id>2001617+6094</id>
     <Name>Crislan</Name>
     <dateOfBirth>1992-03-13T00:00</dateOfBirth>
@@ -48314,21 +44894,6 @@
     <Height>177.8</Height>
     <Foot>Left</Foot>
     <Speed>74</Speed>
-  </Player>
-  <Player>
-    <id>13991+2003380</id>
-    <Name>Harry Souttar</Name>
-    <dateOfBirth>1998-10-22T00:00</dateOfBirth>
-    <Nationality>Scotland</Nationality>
-    <Photo>https://cdn.sofifa.org/players/4/19/229901.png</Photo>
-    <CurrentClub>Stoke City</CurrentClub>
-    <CurrentPosition/>
-    <CurrentNumber>36</CurrentNumber>
-    <WageInEuro>3000.0</WageInEuro>
-    <Weight>78.3</Weight>
-    <Height>199.39</Height>
-    <Foot>Right</Foot>
-    <Speed>40</Speed>
   </Player>
   <Player>
     <id>165+2004791</id>
@@ -49201,21 +45766,6 @@
     <Speed>77</Speed>
   </Player>
   <Player>
-    <id>2000387+3527</id>
-    <Name>Alexander Gerndt</Name>
-    <dateOfBirth>1986-07-14T00:00</dateOfBirth>
-    <Nationality>Sweden</Nationality>
-    <Photo>https://cdn.sofifa.org/players/4/19/181349.png</Photo>
-    <CurrentClub>FC Lugano</CurrentClub>
-    <CurrentPosition/>
-    <CurrentNumber>19</CurrentNumber>
-    <WageInEuro>8000.0</WageInEuro>
-    <Weight>79.2</Weight>
-    <Height>184.15</Height>
-    <Foot>Left</Foot>
-    <Speed>73</Speed>
-  </Player>
-  <Player>
     <id>2004698+5</id>
     <Name>K. De Bruyne</Name>
     <dateOfBirth>1991-06-28T00:00</dateOfBirth>
@@ -49621,21 +46171,6 @@
     <Speed>45</Speed>
   </Player>
   <Player>
-    <id>1561+2004225</id>
-    <Name>J. Hogg</Name>
-    <dateOfBirth>1988-12-06T00:00</dateOfBirth>
-    <Nationality>England</Nationality>
-    <Photo>https://cdn.sofifa.org/players/4/19/183546.png</Photo>
-    <CurrentClub>Huddersfield Town</CurrentClub>
-    <CurrentPosition/>
-    <CurrentNumber>6</CurrentNumber>
-    <WageInEuro>42000.0</WageInEuro>
-    <Weight>72.45</Weight>
-    <Height>176.53</Height>
-    <Foot>Right</Foot>
-    <Speed>68</Speed>
-  </Player>
-  <Player>
     <id>2000377+8765</id>
     <Name>Alexander Bannink</Name>
     <dateOfBirth>1990-02-20T00:00</dateOfBirth>
@@ -49846,21 +46381,6 @@
     <Speed>66</Speed>
   </Player>
   <Player>
-    <id>106+2004609</id>
-    <Name>Karim Benzema</Name>
-    <dateOfBirth>1987-12-19T00:00</dateOfBirth>
-    <Nationality>France</Nationality>
-    <Photo>https://cdn.sofifa.org/players/4/19/165153.png</Photo>
-    <CurrentClub>Real Madrid</CurrentClub>
-    <CurrentPosition/>
-    <CurrentNumber>9</CurrentNumber>
-    <WageInEuro>240000.0</WageInEuro>
-    <Weight>80.55</Weight>
-    <Height>186.69</Height>
-    <Foot>Right</Foot>
-    <Speed>76</Speed>
-  </Player>
-  <Player>
     <id>131+2003497</id>
     <Name>Iago Aspas</Name>
     <dateOfBirth>1987-08-01T00:00</dateOfBirth>
@@ -49934,21 +46454,6 @@
     <Height>185.42</Height>
     <Foot>Right</Foot>
     <Speed>60</Speed>
-  </Player>
-  <Player>
-    <id>2002292+4910</id>
-    <Name>D. Lévêque</Name>
-    <dateOfBirth>1989-11-22T00:00</dateOfBirth>
-    <Nationality>France</Nationality>
-    <Photo>https://cdn.sofifa.org/players/4/19/194086.png</Photo>
-    <CurrentClub>PAOK</CurrentClub>
-    <CurrentPosition/>
-    <CurrentNumber>56</CurrentNumber>
-    <WageInEuro>1000.0</WageInEuro>
-    <Weight>71.55</Weight>
-    <Height>181.61</Height>
-    <Foot>Left</Foot>
-    <Speed>69</Speed>
   </Player>
   <Player>
     <id>2006262+4129</id>
@@ -50146,21 +46651,6 @@
     <Speed>69</Speed>
   </Player>
   <Player>
-    <id>2000618+5014</id>
-    <Name>A. Isaksson</Name>
-    <dateOfBirth>1983-01-01T00:00</dateOfBirth>
-    <Nationality>Sweden</Nationality>
-    <Photo>https://cdn.sofifa.org/players/4/19/20551.png</Photo>
-    <CurrentClub>Djurgårdens IF</CurrentClub>
-    <CurrentPosition/>
-    <CurrentNumber>1</CurrentNumber>
-    <WageInEuro>2000.0</WageInEuro>
-    <Weight>76.5</Weight>
-    <Height>196.85</Height>
-    <Foot>Right</Foot>
-    <Speed>42</Speed>
-  </Player>
-  <Player>
     <id>1040+2002178</id>
     <Name>Diego Llorente</Name>
     <dateOfBirth>1993-08-16T00:00</dateOfBirth>
@@ -50174,21 +46664,6 @@
     <Height>185.42</Height>
     <Foot>Right</Foot>
     <Speed>63</Speed>
-  </Player>
-  <Player>
-    <id>2002359+2809</id>
-    <Name>E. Barreto</Name>
-    <dateOfBirth>1984-07-15T00:00</dateOfBirth>
-    <Nationality>Paraguay</Nationality>
-    <Photo>https://cdn.sofifa.org/players/4/19/152922.png</Photo>
-    <CurrentClub>Sampdoria</CurrentClub>
-    <CurrentPosition/>
-    <CurrentNumber>8</CurrentNumber>
-    <WageInEuro>26000.0</WageInEuro>
-    <Weight>78.3</Weight>
-    <Height>181.61</Height>
-    <Foot>Right</Foot>
-    <Speed>66</Speed>
   </Player>
   <Player>
     <id>1257+2000901</id>
@@ -50354,21 +46829,6 @@
     <Height>190.5</Height>
     <Foot>Left</Foot>
     <Speed>52</Speed>
-  </Player>
-  <Player>
-    <id>2002557+2192</id>
-    <Name>E. Sviatchenko</Name>
-    <dateOfBirth>1991-10-04T00:00</dateOfBirth>
-    <Nationality>Denmark</Nationality>
-    <Photo>https://cdn.sofifa.org/players/4/19/199745.png</Photo>
-    <CurrentClub>FC Midtjylland</CurrentClub>
-    <CurrentPosition/>
-    <CurrentNumber>28</CurrentNumber>
-    <WageInEuro>19000.0</WageInEuro>
-    <Weight>81.45</Weight>
-    <Height>184.15</Height>
-    <Foot>Right</Foot>
-    <Speed>71</Speed>
   </Player>
   <Player>
     <id>2003959+411</id>
@@ -50821,21 +47281,6 @@
     <Speed>64</Speed>
   </Player>
   <Player>
-    <id>180+2007932</id>
-    <Name>Serge Gnabry</Name>
-    <dateOfBirth>1995-07-14T00:00</dateOfBirth>
-    <Nationality>Germany</Nationality>
-    <Photo>https://cdn.sofifa.org/players/4/19/206113.png</Photo>
-    <CurrentClub>FC Bayern München</CurrentClub>
-    <CurrentPosition/>
-    <CurrentNumber>6</CurrentNumber>
-    <WageInEuro>85000.0</WageInEuro>
-    <Weight>74.25</Weight>
-    <Height>173.98999</Height>
-    <Foot>Right</Foot>
-    <Speed>90</Speed>
-  </Player>
-  <Player>
     <id>2006744+4284</id>
     <Name>O. Vizcarrondo</Name>
     <dateOfBirth>1984-05-31T00:00</dateOfBirth>
@@ -50849,21 +47294,6 @@
     <Height>190.5</Height>
     <Foot>Right</Foot>
     <Speed>30</Speed>
-  </Player>
-  <Player>
-    <id>2008272+9244</id>
-    <Name>Stuart Findlay</Name>
-    <dateOfBirth>1995-09-14T00:00</dateOfBirth>
-    <Nationality>Scotland</Nationality>
-    <Photo>https://cdn.sofifa.org/players/4/19/227945.png</Photo>
-    <CurrentClub>Kilmarnock</CurrentClub>
-    <CurrentPosition/>
-    <CurrentNumber>17</CurrentNumber>
-    <WageInEuro>2000.0</WageInEuro>
-    <Weight>81.45</Weight>
-    <Height>191.76999</Height>
-    <Foot>Left</Foot>
-    <Speed>64</Speed>
   </Player>
   <Player>
     <id>2001683+5516</id>
@@ -50984,21 +47414,6 @@
     <Height>182.88</Height>
     <Foot>Right</Foot>
     <Speed>69</Speed>
-  </Player>
-  <Player>
-    <id>2000681+3465</id>
-    <Name>Àngel Rangel</Name>
-    <dateOfBirth>1982-10-28T00:00</dateOfBirth>
-    <Nationality>Spain</Nationality>
-    <Photo>https://cdn.sofifa.org/players/4/19/153938.png</Photo>
-    <CurrentClub>Queens Park Rangers</CurrentClub>
-    <CurrentPosition/>
-    <CurrentNumber>22</CurrentNumber>
-    <WageInEuro>5000.0</WageInEuro>
-    <Weight>81.45</Weight>
-    <Height>179.07</Height>
-    <Foot>Right</Foot>
-    <Speed>47</Speed>
   </Player>
   <Player>
     <id>2000913+8233</id>
@@ -51421,21 +47836,6 @@
     <Speed>77</Speed>
   </Player>
   <Player>
-    <id>2004516+4562</id>
-    <Name>J. De Sart</Name>
-    <dateOfBirth>1994-12-23T00:00</dateOfBirth>
-    <Nationality>Belgium</Nationality>
-    <Photo>https://cdn.sofifa.org/players/4/19/217287.png</Photo>
-    <CurrentClub>KV Kortrijk</CurrentClub>
-    <CurrentPosition/>
-    <CurrentNumber>23</CurrentNumber>
-    <WageInEuro>8000.0</WageInEuro>
-    <Weight>72.45</Weight>
-    <Height>186.69</Height>
-    <Foot>Right</Foot>
-    <Speed>60</Speed>
-  </Player>
-  <Player>
     <id>2007375+9141</id>
     <Name>R. Dekker</Name>
     <dateOfBirth>1995-03-15T00:00</dateOfBirth>
@@ -51644,21 +48044,6 @@
     <Height>182.88</Height>
     <Foot>Right</Foot>
     <Speed>55</Speed>
-  </Player>
-  <Player>
-    <id>2008445+435</id>
-    <Name>Tiemoue Bakayoko</Name>
-    <dateOfBirth>1994-08-17T00:00</dateOfBirth>
-    <Nationality>France</Nationality>
-    <Photo>https://cdn.sofifa.org/players/4/19/219809.png</Photo>
-    <CurrentClub>Milan</CurrentClub>
-    <CurrentPosition/>
-    <CurrentNumber>14</CurrentNumber>
-    <WageInEuro>85000.0</WageInEuro>
-    <Weight>84.15</Weight>
-    <Height>186.69</Height>
-    <Foot>Right</Foot>
-    <Speed>69</Speed>
   </Player>
   <Player>
     <id>2007691+2842</id>
@@ -51914,6 +48299,21 @@
     <Height>190.5</Height>
     <Foot>Right</Foot>
     <Speed>51</Speed>
+  </Player>
+  <Player>
+    <id>2006088+6104</id>
+    <Name>Michael Pereira</Name>
+    <dateOfBirth>1987-12-08T00:00</dateOfBirth>
+    <Nationality>France</Nationality>
+    <Photo>https://cdn.sofifa.org/players/4/19/198017.png</Photo>
+    <CurrentClub>Yeni Malatyaspor</CurrentClub>
+    <CurrentPosition/>
+    <CurrentNumber>17</CurrentNumber>
+    <WageInEuro>7000.0</WageInEuro>
+    <Weight>72.45</Weight>
+    <Height>180.34</Height>
+    <Foot>Right</Foot>
+    <Speed>87</Speed>
   </Player>
   <Player>
     <id>2001815+3375</id>
@@ -52306,21 +48706,6 @@
     <Speed>54</Speed>
   </Player>
   <Player>
-    <id>1962+2006035</id>
-    <Name>Mexer</Name>
-    <dateOfBirth>1988-09-08T00:00</dateOfBirth>
-    <Nationality>Mozambique</Nationality>
-    <Photo>https://cdn.sofifa.org/players/4/19/196801.png</Photo>
-    <CurrentClub>Stade Rennais FC</CurrentClub>
-    <CurrentPosition/>
-    <CurrentNumber>4</CurrentNumber>
-    <WageInEuro>28000.0</WageInEuro>
-    <Weight>78.3</Weight>
-    <Height>186.69</Height>
-    <Foot>Right</Foot>
-    <Speed>67</Speed>
-  </Player>
-  <Player>
     <id>11642+2008550</id>
     <Name>T. Cywka</Name>
     <dateOfBirth>1988-06-27T00:00</dateOfBirth>
@@ -52394,21 +48779,6 @@
     <Height>189.23001</Height>
     <Foot>Left</Foot>
     <Speed>53</Speed>
-  </Player>
-  <Player>
-    <id>1345+2001520</id>
-    <Name>Ciaran Clark</Name>
-    <dateOfBirth>1989-09-26T00:00</dateOfBirth>
-    <Nationality>Republic of Ireland</Nationality>
-    <Photo>https://cdn.sofifa.org/players/4/19/183129.png</Photo>
-    <CurrentClub>Newcastle United</CurrentClub>
-    <CurrentPosition/>
-    <CurrentNumber>2</CurrentNumber>
-    <WageInEuro>42000.0</WageInEuro>
-    <Weight>87.3</Weight>
-    <Height>186.69</Height>
-    <Foot>Left</Foot>
-    <Speed>59</Speed>
   </Player>
   <Player>
     <id>2000566+2610</id>
@@ -52621,21 +48991,6 @@
     <Speed>42</Speed>
   </Player>
   <Player>
-    <id>1255+2004723</id>
-    <Name>Kevin Malcuit</Name>
-    <dateOfBirth>1991-07-31T00:00</dateOfBirth>
-    <Nationality>France</Nationality>
-    <Photo>https://cdn.sofifa.org/players/4/19/198949.png</Photo>
-    <CurrentClub>Napoli</CurrentClub>
-    <CurrentPosition/>
-    <CurrentNumber>2</CurrentNumber>
-    <WageInEuro>47000.0</WageInEuro>
-    <Weight>76.5</Weight>
-    <Height>179.07</Height>
-    <Foot>Right</Foot>
-    <Speed>87</Speed>
-  </Player>
-  <Player>
     <id>2005113+8069</id>
     <Name>L. Néry</Name>
     <dateOfBirth>1991-02-05T00:00</dateOfBirth>
@@ -52709,21 +49064,6 @@
     <Height>195.58</Height>
     <Foot>Right</Foot>
     <Speed>47</Speed>
-  </Player>
-  <Player>
-    <id>2001672+7585</id>
-    <Name>Dabney Dos Santos</Name>
-    <dateOfBirth>1996-07-21T00:00</dateOfBirth>
-    <Nationality>Netherlands</Nationality>
-    <Photo>https://cdn.sofifa.org/players/4/19/224243.png</Photo>
-    <CurrentClub>Heracles Almelo</CurrentClub>
-    <CurrentPosition/>
-    <CurrentNumber>24</CurrentNumber>
-    <WageInEuro>3000.0</WageInEuro>
-    <Weight>68.4</Weight>
-    <Height>173.98999</Height>
-    <Foot>Right</Foot>
-    <Speed>87</Speed>
   </Player>
   <Player>
     <id>2002503+3329</id>
@@ -53416,21 +49756,6 @@
     <Speed>55</Speed>
   </Player>
   <Player>
-    <id>2007676+3238</id>
-    <Name>Ryan Koolwijk</Name>
-    <dateOfBirth>1985-08-08T00:00</dateOfBirth>
-    <Nationality>Netherlands</Nationality>
-    <Photo>https://cdn.sofifa.org/players/4/19/184071.png</Photo>
-    <CurrentClub>Excelsior</CurrentClub>
-    <CurrentPosition/>
-    <CurrentNumber>8</CurrentNumber>
-    <WageInEuro>6000.0</WageInEuro>
-    <Weight>75.6</Weight>
-    <Height>194.31</Height>
-    <Foot>Left</Foot>
-    <Speed>32</Speed>
-  </Player>
-  <Player>
     <id>12642+2006407</id>
     <Name>Nathan Delfouneso</Name>
     <dateOfBirth>1991-02-02T00:00</dateOfBirth>
@@ -53596,21 +49921,6 @@
     <Speed>74</Speed>
   </Player>
   <Player>
-    <id>16+2006923</id>
-    <Name>Paulo Dybala</Name>
-    <dateOfBirth>1993-11-15T00:00</dateOfBirth>
-    <Nationality>Argentina</Nationality>
-    <Photo>https://cdn.sofifa.org/players/4/19/211110.png</Photo>
-    <CurrentClub>Juventus</CurrentClub>
-    <CurrentPosition/>
-    <CurrentNumber>21</CurrentNumber>
-    <WageInEuro>205000.0</WageInEuro>
-    <Weight>74.25</Weight>
-    <Height>176.53</Height>
-    <Foot>Left</Foot>
-    <Speed>83</Speed>
-  </Player>
-  <Player>
     <id>2008848+271</id>
     <Name>Wilfried Zaha</Name>
     <dateOfBirth>1992-11-10T00:00</dateOfBirth>
@@ -53731,21 +50041,6 @@
     <Speed>72</Speed>
   </Player>
   <Player>
-    <id>11187+2005469</id>
-    <Name>Marcin Cebula</Name>
-    <dateOfBirth>1995-12-06T00:00</dateOfBirth>
-    <Nationality>Poland</Nationality>
-    <Photo>https://cdn.sofifa.org/players/4/19/211245.png</Photo>
-    <CurrentClub>Korona Kielce</CurrentClub>
-    <CurrentPosition/>
-    <CurrentNumber>7</CurrentNumber>
-    <WageInEuro>1000.0</WageInEuro>
-    <Weight>64.35</Weight>
-    <Height>176.53</Height>
-    <Foot>Right</Foot>
-    <Speed>73</Speed>
-  </Player>
-  <Player>
     <id>2007882+3669</id>
     <Name>S. Polter</Name>
     <dateOfBirth>1991-04-01T00:00</dateOfBirth>
@@ -53804,21 +50099,6 @@
     <Height>190.5</Height>
     <Foot>Right</Foot>
     <Speed>44</Speed>
-  </Player>
-  <Player>
-    <id>2004484+3866</id>
-    <Name>Jubal</Name>
-    <dateOfBirth>1993-08-29T00:00</dateOfBirth>
-    <Nationality>Brazil</Nationality>
-    <Photo>https://cdn.sofifa.org/players/4/19/217565.png</Photo>
-    <CurrentClub>Portimonense SC</CurrentClub>
-    <CurrentPosition/>
-    <CurrentNumber>33</CurrentNumber>
-    <WageInEuro>6000.0</WageInEuro>
-    <Weight>79.2</Weight>
-    <Height>189.23001</Height>
-    <Foot>Right</Foot>
-    <Speed>65</Speed>
   </Player>
   <Player>
     <id>2006087+5569</id>
@@ -53894,21 +50174,6 @@
     <Height>172.72</Height>
     <Foot>Right</Foot>
     <Speed>68</Speed>
-  </Player>
-  <Player>
-    <id>1755+2000192</id>
-    <Name>A. Musa</Name>
-    <dateOfBirth>1992-10-14T00:00</dateOfBirth>
-    <Nationality>Nigeria</Nationality>
-    <Photo>https://cdn.sofifa.org/players/4/19/201818.png</Photo>
-    <CurrentClub>Al Nassr</CurrentClub>
-    <CurrentPosition/>
-    <CurrentNumber>7</CurrentNumber>
-    <WageInEuro>36000.0</WageInEuro>
-    <Weight>61.65</Weight>
-    <Height>168.90999</Height>
-    <Foot>Right</Foot>
-    <Speed>92</Speed>
   </Player>
   <Player>
     <id>15771+2006512</id>
@@ -54164,21 +50429,6 @@
     <Height>185.42</Height>
     <Foot>Right</Foot>
     <Speed>65</Speed>
-  </Player>
-  <Player>
-    <id>1439+2004218</id>
-    <Name>Jonathan De Guzman</Name>
-    <dateOfBirth>1987-09-13T00:00</dateOfBirth>
-    <Nationality>Netherlands</Nationality>
-    <Photo>https://cdn.sofifa.org/players/4/19/177569.png</Photo>
-    <CurrentClub>Eintracht Frankfurt</CurrentClub>
-    <CurrentPosition/>
-    <CurrentNumber>6</CurrentNumber>
-    <WageInEuro>32000.0</WageInEuro>
-    <Weight>73.35</Weight>
-    <Height>173.98999</Height>
-    <Foot>Right</Foot>
-    <Speed>69</Speed>
   </Player>
   <Player>
     <id>2006184+4967</id>
