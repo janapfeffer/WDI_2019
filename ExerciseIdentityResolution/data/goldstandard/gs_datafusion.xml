@@ -16,11 +16,11 @@
         <Speed></Speed>
         <Developments>
             <Development>
-                <Year></Year>
-                <Rating></Rating>
-                <Potential></Potential>
-                <DefensiveWorkRate></DefensiveWorkRate>
-                <AttackingWorkRate></AttackingWorkRate>
+                <Year>2019</Year>
+                <Rating>1</Rating>
+                <Potential>1</Potential>
+                <DefensiveWorkRate>high</DefensiveWorkRate>
+                <AttackingWorkRate>high</AttackingWorkRate>
             </Development>
         </Developments>
         <Transfers>
@@ -77,11 +77,11 @@
         <Speed></Speed>
         <Developments>
             <Development>
-                <Year></Year>
-                <Rating></Rating>
-                <Potential></Potential>
-                <DefensiveWorkRate></DefensiveWorkRate>
-                <AttackingWorkRate></AttackingWorkRate>
+                <Year>2019</Year>
+                <Rating>1</Rating>
+                <Potential>1</Potential>
+                <DefensiveWorkRate>high</DefensiveWorkRate>
+                <AttackingWorkRate>high</AttackingWorkRate>
             </Development>
         </Developments>
         <Transfers>
@@ -118,11 +118,11 @@
         <Speed></Speed>
         <Developments>
             <Development>
-                <Year></Year>
-                <Rating></Rating>
-                <Potential></Potential>
-                <DefensiveWorkRate></DefensiveWorkRate>
-                <AttackingWorkRate></AttackingWorkRate>
+                <Year>2019</Year>
+                <Rating>1</Rating>
+                <Potential>1</Potential>
+                <DefensiveWorkRate>high</DefensiveWorkRate>
+                <AttackingWorkRate>high</AttackingWorkRate>
             </Development>
         </Developments>
         <Transfers>
@@ -149,11 +149,11 @@
         <Speed></Speed>
         <Developments>
             <Development>
-                <Year></Year>
-                <Rating></Rating>
-                <Potential></Potential>
-                <DefensiveWorkRate></DefensiveWorkRate>
-                <AttackingWorkRate></AttackingWorkRate>
+                <Year>2019</Year>
+                <Rating>1</Rating>
+                <Potential>1</Potential>
+                <DefensiveWorkRate>high</DefensiveWorkRate>
+                <AttackingWorkRate>high</AttackingWorkRate>
             </Development>
         </Developments>
         <Transfers>
@@ -180,11 +180,11 @@
         <Speed></Speed>
         <Developments>
             <Development>
-                <Year></Year>
-                <Rating></Rating>
-                <Potential></Potential>
-                <DefensiveWorkRate></DefensiveWorkRate>
-                <AttackingWorkRate></AttackingWorkRate>
+                <Year>2019</Year>
+                <Rating>1</Rating>
+                <Potential>1</Potential>
+                <DefensiveWorkRate>high</DefensiveWorkRate>
+                <AttackingWorkRate>high</AttackingWorkRate>
             </Development>
         </Developments>
         <Transfers>
@@ -236,11 +236,11 @@
         <Speed></Speed>
         <Developments>
             <Development>
-                <Year></Year>
-                <Rating></Rating>
-                <Potential></Potential>
-                <DefensiveWorkRate></DefensiveWorkRate>
-                <AttackingWorkRate></AttackingWorkRate>
+                <Year>2019</Year>
+                <Rating>1</Rating>
+                <Potential>1</Potential>
+                <DefensiveWorkRate>high</DefensiveWorkRate>
+                <AttackingWorkRate>high</AttackingWorkRate>
             </Development>
         </Developments>
         <Transfers>
@@ -297,11 +297,11 @@
         <Speed></Speed>
         <Developments>
             <Development>
-                <Year></Year>
-                <Rating></Rating>
-                <Potential></Potential>
-                <DefensiveWorkRate></DefensiveWorkRate>
-                <AttackingWorkRate></AttackingWorkRate>
+                <Year>2019</Year>
+                <Rating>1</Rating>
+                <Potential>1</Potential>
+                <DefensiveWorkRate>high</DefensiveWorkRate>
+                <AttackingWorkRate>high</AttackingWorkRate>
             </Development>
         </Developments>
         <Transfers>
@@ -328,11 +328,11 @@
         <Speed></Speed>
         <Developments>
             <Development>
-                <Year></Year>
-                <Rating></Rating>
-                <Potential></Potential>
-                <DefensiveWorkRate></DefensiveWorkRate>
-                <AttackingWorkRate></AttackingWorkRate>
+                <Year>2019</Year>
+                <Rating>1</Rating>
+                <Potential>1</Potential>
+                <DefensiveWorkRate>high</DefensiveWorkRate>
+                <AttackingWorkRate>high</AttackingWorkRate>
             </Development>
         </Developments>
         <Transfers>
@@ -372,23 +372,23 @@
         <id>9</id>
         <Name>Jonas Svensson</Name>
         <dateOfBirth>1993-03-06</dateOfBirth>
-        <Nationality></Nationality>
+        <Nationality>Norway</Nationality>
         <Photo></Photo>
-        <CurrentClub></CurrentClub>
-        <CurrentPosition></CurrentPosition>
-        <CurrentNumber></CurrentNumber>
+        <CurrentClub>AZ Alkmaar</CurrentClub>
+        <CurrentPosition>Defender</CurrentPosition>
+        <CurrentNumber>2</CurrentNumber>
         <WageInEuro></WageInEuro>
-        <Weight></Weight>
-        <Height></Height>
-        <Foot></Foot>
+        <Weight>70</Weight>
+        <Height>170</Height>
+        <Foot>right</Foot>
         <Speed></Speed>
         <Developments>
             <Development>
-                <Year></Year>
-                <Rating></Rating>
-                <Potential></Potential>
-                <DefensiveWorkRate></DefensiveWorkRate>
-                <AttackingWorkRate></AttackingWorkRate>
+                <Year>2019</Year>
+                <Rating>1</Rating>
+                <Potential>1</Potential>
+                <DefensiveWorkRate>high</DefensiveWorkRate>
+                <AttackingWorkRate>high</AttackingWorkRate>
             </Development>
         </Developments>
         <Transfers>
@@ -403,23 +403,23 @@
         <id>10</id>
         <Name>Oumar Sissoko</Name>
         <dateOfBirth>1987-09-13</dateOfBirth>
-        <Nationality></Nationality>
+        <Nationality>Mali</Nationality>
         <Photo></Photo>
-        <CurrentClub></CurrentClub>
-        <CurrentPosition></CurrentPosition>
-        <CurrentNumber></CurrentNumber>
+        <CurrentClub>AC Le Havre</CurrentClub>
+        <CurrentPosition>Goalkeeper</CurrentPosition>
+        <CurrentNumber>1</CurrentNumber>
         <WageInEuro></WageInEuro>
-        <Weight></Weight>
-        <Height></Height>
-        <Foot></Foot>
+        <Weight>84</Weight>
+        <Height>187</Height>
+        <Foot>right</Foot>
         <Speed></Speed>
         <Developments>
             <Development>
-                <Year></Year>
-                <Rating></Rating>
-                <Potential></Potential>
-                <DefensiveWorkRate></DefensiveWorkRate>
-                <AttackingWorkRate></AttackingWorkRate>
+                <Year>2019</Year>
+                <Rating>1</Rating>
+                <Potential>1</Potential>
+                <DefensiveWorkRate>high</DefensiveWorkRate>
+                <AttackingWorkRate>high</AttackingWorkRate>
             </Development>
         </Developments>
         <Transfers>
