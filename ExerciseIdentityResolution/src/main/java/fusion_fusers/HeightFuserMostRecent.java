@@ -27,7 +27,10 @@ public class HeightFuserMostRecent extends AttributeValueFuser<Double, Player, A
 			Processable<Correspondence<Attribute, Matchable>> schemaCorrespondences, Attribute schemaElement) {
 
 		FusedValue<Double, Player, Attribute> fused = getFusedValue(group, schemaCorrespondences, schemaElement);
-		fusedRecord.setHeight(Float.valueOf(fused.getValue().toString()));
+		if (fused.getValue() != null) {
+			fusedRecord.setHeight(Float.valueOf(fused.getValue().toString()));
+		}
+		
 		fusedRecord.setAttributeProvenance(Player.HEIGHT, fused.getOriginalIds());
 		
 	}
