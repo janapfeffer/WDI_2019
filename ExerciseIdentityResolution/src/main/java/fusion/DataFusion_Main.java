@@ -100,8 +100,8 @@ public class DataFusion_Main {
 		System.out.println("*\n*\tLoading correspondences\n*");
 		CorrespondenceSet<Player, Attribute> correspondences = new CorrespondenceSet<>();
 		//correspondences.loadCorrespondences(new File("data/output/API_2_Transfer_correspondences.csv"),dataAPI, dataTransfer);
-		//correspondences.loadCorrespondences(new File("data/output/FIFA19_2_API_correspondences.csv"),dataFIFA, dataAPI);
-		correspondences.loadCorrespondences(new File("data/output/FIFA19_2_ESD_correspondences.csv"),dataFIFA, dataESD);
+		correspondences.loadCorrespondences(new File("data/output/FIFA19_2_API_correspondences.csv"),dataFIFA, dataAPI);
+		//correspondences.loadCorrespondences(new File("data/output/FIFA19_2_ESD_correspondences.csv"),dataFIFA, dataESD);
 
 		// write group size distribution
 		correspondences.printGroupSizeDistribution();
