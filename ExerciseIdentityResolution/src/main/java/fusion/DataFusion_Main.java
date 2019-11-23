@@ -31,6 +31,7 @@ import fusion_evaluation.WeightEvaluationRule;
 import fusion_fusers.CurrentClubFavourSourceFuser;
 import fusion_fusers.DateOfBirthFuserFavourSource;
 import fusion_fusers.FootFuserMostRecent;
+import fusion_fusers.NameFuserByVoting;
 import fusion_fusers.NameLongestString;
 import fusion_fusers.NationalityFavourSource;
 import fusion_fusers.PhotoFuserFavourSource;
@@ -110,7 +111,7 @@ public class DataFusion_Main {
 
 		// add attribute fusers
 		// TODO: currentposition, currentnumber, height, speed, developments
-		strategy.addAttributeFuser(Player.NAME, new NameLongestString(), new NameEvaluationRule());
+		strategy.addAttributeFuser(Player.NAME, new NameFuserByVoting(), new NameEvaluationRule());
 		// fuse photos, we prefer the API photos becuase they have a higher resolution
 		dataAPI.setScore(4.0);
 		dataESD.setScore(2.0);
