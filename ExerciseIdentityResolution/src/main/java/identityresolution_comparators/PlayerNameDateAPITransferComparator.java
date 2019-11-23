@@ -70,7 +70,7 @@ public class PlayerNameDateAPITransferComparator implements Comparator<Player, A
 		if ((levenshtein_similarity == 1) & (year_similarity > 0)) {
 			postSimilarity = 1;
 		} else {
-			postSimilarity = 0.9 * levenshtein_similarity + 0.1 * year_similarity;
+			postSimilarity = 0.85 * levenshtein_similarity + 0.15 * year_similarity;
 		}
 		
 		if(this.comparisonLog != null){
