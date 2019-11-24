@@ -49,6 +49,7 @@ import fusion_fusers.SpeedFavourSourceFuser;
 import fusion_fusers.TransfersFuserUnion;
 import fusion_fusers.WageInEuroFavourSourceFuser;
 import fusion_fusers.WeightFuserMostRecent;
+import fusion_models.PlayerXMLFormatter_Fusion;
 import fusion_models.PlayerXMLReader_Fusion;
 import identityresolution_models.Player;
 import identityresolution_models.PlayerXMLFormatter;
@@ -99,9 +100,9 @@ public class DataFusion_Main {
 		// load correspondences
 		System.out.println("*\n*\tLoading correspondences\n*");
 		CorrespondenceSet<Player, Attribute> correspondences = new CorrespondenceSet<>();
-		//correspondences.loadCorrespondences(new File("data/output/API_2_Transfer_correspondences.csv"),dataAPI, dataTransfer);
+		correspondences.loadCorrespondences(new File("data/output/API_2_Transfer_correspondences.csv"),dataAPI, dataTransfer);
 		correspondences.loadCorrespondences(new File("data/output/FIFA19_2_API_correspondences.csv"),dataFIFA, dataAPI);
-		//correspondences.loadCorrespondences(new File("data/output/FIFA19_2_ESD_correspondences.csv"),dataFIFA, dataESD);
+		correspondences.loadCorrespondences(new File("data/output/FIFA19_2_ESD_correspondences.csv"),dataFIFA, dataESD);
 
 		// write group size distribution
 		correspondences.printGroupSizeDistribution();
@@ -179,7 +180,7 @@ public class DataFusion_Main {
 		FusibleDataSet<Player, Attribute> fusedDataSet = engine.run(correspondences, null);
 
 		// write the result
-		new PlayerXMLFormatter().writeXML(new File("data/output/fused.xml"), fusedDataSet);
+		new PlayerXMLFormatter_Fusion().writeXML(new File("data/output/fused.xml"), fusedDataSet);
 
 		// evaluate
 		DataFusionEvaluator<Player, Attribute> evaluator = new DataFusionEvaluator<>(strategy, new RecordGroupFactory<Player, Attribute>());

@@ -4,6 +4,8 @@ import org.w3c.dom.Document;
 import org.w3c.dom.Element;
 
 import de.uni_mannheim.informatik.dws.winter.model.io.XMLFormatter;
+import identityresolution_models.Development;
+import identityresolution_models.DevelopmentXMLFormatter;
 import identityresolution_models.Player;
 import identityresolution_models.Transfer;
 import identityresolution_models.TransferXMLFormatter;
@@ -11,7 +13,8 @@ import identityresolution_models.TransferXMLFormatter;
 public class PlayerXMLFormatter_Fusion extends XMLFormatter<Player> {
 
 	TransferXMLFormatter transferFormatter = new TransferXMLFormatter();
-
+	DevelopmentXMLFormatter developmentFormatter = new DevelopmentXMLFormatter();
+	
 	@Override
 	public Element createRootElement(Document doc) {
 		return doc.createElement("players");
@@ -61,6 +64,8 @@ public class PlayerXMLFormatter_Fusion extends XMLFormatter<Player> {
 				record.getMergedAttributeProvenance(Player.SPEED), doc));
 		
 		player.appendChild(createTransfersElement(record, doc));
+		player.appendChild(createDevelopmetsElement(record, doc));
+		
 
 		return player;
 	}
@@ -77,12 +82,25 @@ public class PlayerXMLFormatter_Fusion extends XMLFormatter<Player> {
 		transferRoot.setAttribute("provenance",
 				record.getMergedAttributeProvenance(Player.TRANSFERS));
 
-		for (Transfer a : record.getTransfers()) {
+		for (Transfer t : record.getTransfers()) {
 			transferRoot.appendChild(transferFormatter
-					.createElementFromRecord(a, doc));
+					.createElementFromRecord(t, doc));
 		}
 
 		return transferRoot;
+	}
+	
+	protected Element createDevelopmetsElement(Player record, Document doc) {
+		Element developmentRoot = developmentFormatter.createRootElement(doc);
+		developmentRoot.setAttribute("provenance",
+				record.getMergedAttributeProvenance(Player.DEVELOPMENTS));
+
+		for (Development d : record.getDevelopments()) {
+			developmentRoot.appendChild(developmentFormatter
+					.createElementFromRecord(d, doc));
+		}
+
+		return developmentRoot;
 	}
 
 

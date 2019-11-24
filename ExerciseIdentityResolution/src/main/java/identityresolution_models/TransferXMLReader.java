@@ -15,8 +15,8 @@ public class TransferXMLReader extends XMLMatchableReader<Transfer, Attribute>{
 		Transfer transfer = new Transfer(id, provenanceInfo);
 
 		// fill the attributes
-		transfer.setClubInName(getValueFromChildElement(node, "ClubInName"));
-		transfer.setClubOutName(getValueFromChildElement(node, "ClubOutName"));
+		transfer.setClubInName(getValueFromChildElement(node, "ClubIn"));
+		transfer.setClubOutName(getValueFromChildElement(node, "ClubOut"));
 		try {
 			transfer.setYear(Integer.valueOf(getValueFromChildElement(node, "Year")));
 		} catch (Exception e) {

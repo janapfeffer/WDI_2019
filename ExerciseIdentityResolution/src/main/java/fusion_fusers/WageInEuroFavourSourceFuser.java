@@ -25,7 +25,10 @@ public class WageInEuroFavourSourceFuser extends AttributeValueFuser<Float, Play
 	public void fuse(RecordGroup<Player, Attribute> group, Player fusedRecord,
 			Processable<Correspondence<Attribute, Matchable>> schemaCorrespondences, Attribute schemaElement) {
 		FusedValue<Float, Player, Attribute> fused = getFusedValue(group, schemaCorrespondences, schemaElement);
-		fusedRecord.setWage(fused.getValue());
+		if (fused.getValue() != null)
+			fusedRecord.setWage(fused.getValue());
+		else
+			fusedRecord.setWage(0.0f);
 		fusedRecord.setAttributeProvenance(Player.WAGE, fused.getOriginalIds());
 
 	}
