@@ -30,9 +30,9 @@ public class HeightFuserMostRecent extends AttributeValueFuser<Double, Player, A
 		if (fused.getValue() != null) {
 			fusedRecord.setHeight(Float.valueOf(fused.getValue().toString()));
 		}
-		
+
 		fusedRecord.setAttributeProvenance(Player.HEIGHT, fused.getOriginalIds());
-		
+
 	}
 
 	@Override

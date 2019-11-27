@@ -31,7 +31,7 @@ public class PlayerBlockingFirstnameGenerator extends RecordBlockingKeyGenerator
 			System.out.print("Name: " + name + " Original Name: " + record.getName());
 			System.exit(1);
 		}
-		
+
 
 		// create pair
 		resultCollector.next(new Pair<>(firstname, record));

@@ -21,7 +21,7 @@ public class DevelopmentXMLFormatter extends XMLFormatter<Development>{
 		developments.appendChild(createTextElement("Potential", String.valueOf(record.getPotential()), doc));
 		developments.appendChild(createTextElement("DefensiveWorkRate", String.valueOf(record.getDefensiveWorkRate()), doc));
 		developments.appendChild(createTextElement("AttackingWorkRate", String.valueOf(record.getAttackingWorkRate()), doc));
-		
+
 		return developments;
 	}
 

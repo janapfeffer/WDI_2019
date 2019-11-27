@@ -19,8 +19,8 @@ public class HeightFuserAverage extends AttributeValueFuser<Double, Player, Attr
 	@Override
 	public Double getValue(Player record, Correspondence<Attribute, Matchable> correspondence) {
 
-			return Double.valueOf((record.getHeight()));
-		
+		return Double.valueOf((record.getHeight()));
+
 	}
 
 	@Override
@@ -31,11 +31,11 @@ public class HeightFuserAverage extends AttributeValueFuser<Double, Player, Attr
 
 		// set the value for the fused record
 		if (fused.getValue() != null)
-				fusedRecord.setHeight(Float.valueOf(fused.getValue().toString()));
+			fusedRecord.setHeight(Float.valueOf(fused.getValue().toString()));
 
 		// add provenance info
 		fusedRecord.setAttributeProvenance(Player.HEIGHT, fused.getOriginalIds());
-		
+
 	}
 
 	@Override

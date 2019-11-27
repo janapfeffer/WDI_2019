@@ -9,13 +9,13 @@ import de.uni_mannheim.informatik.dws.winter.similarity.numeric.AbsoluteDifferen
 import identityresolution_models.Player;
 
 public class HeightFIFAAPIAbsoluteDifferences implements Comparator<Player, Attribute>{
-	
+
 	//similarity measure test
-	 public static void main( String[] args ) throws Exception{
+	public static void main( String[] args ) throws Exception{
 		System.out.println(sim.calculate(170.76, 165.98));
 	}
 	private static AbsoluteDifferenceSimilarity sim = new AbsoluteDifferenceSimilarity(8);
-	
+
 	private ComparatorLogger comparisonLog;
 
 	@Override
@@ -23,7 +23,7 @@ public class HeightFIFAAPIAbsoluteDifferences implements Comparator<Player, Attr
 		// FIFA weight format: XXX.XX
 		// ESD weight format: XXX.XX
 		// the height difference range in 2 datasets - +/- 4 cm
-		
+
 		//get height values
 		double fifa_height;
 		double api_height;
@@ -37,8 +37,8 @@ public class HeightFIFAAPIAbsoluteDifferences implements Comparator<Player, Attr
 		} catch (Exception e) {
 			api_height = 0;
 		}
-		
-		 
+
+
 
 		// save names and class name to logger
 		if(this.comparisonLog != null){
@@ -47,8 +47,8 @@ public class HeightFIFAAPIAbsoluteDifferences implements Comparator<Player, Attr
 			this.comparisonLog.setRecord2Value(String.valueOf(api_height));
 		}
 
-		
-	    // calculate similarity
+
+		// calculate similarity
 		double similarity;
 		try {
 			similarity = sim.calculate(fifa_height, api_height);

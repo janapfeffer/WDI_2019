@@ -9,7 +9,7 @@ import de.uni_mannheim.informatik.dws.winter.similarity.string.LevenshteinSimila
 import identityresolution_models.Player;
 
 public class NationalityEvaluationRule extends EvaluationRule<Player, Attribute>  {
-	
+
 	private static LevenshteinSimilarity sim = new LevenshteinSimilarity();
 
 	@Override
@@ -20,7 +20,6 @@ public class NationalityEvaluationRule extends EvaluationRule<Player, Attribute>
 
 	@Override
 	public boolean isEqual(Player record1, Player record2, Correspondence<Attribute, Matchable> schemaCorrespondence) {
-		// the natio
 		return sim.calculate(record1.getNationality(), record2.getNationality()) > 0.9;
 	}
 

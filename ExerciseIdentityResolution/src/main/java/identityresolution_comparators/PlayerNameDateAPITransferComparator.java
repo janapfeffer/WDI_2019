@@ -41,13 +41,13 @@ public class PlayerNameDateAPITransferComparator implements Comparator<Player, A
 		// calculate Levenshtein similarity
 		double levenshtein_similarity = levenshtein_sim.calculate(api_name, transfer_name);
 
-		
+
 		// calculate absolute birth year similarity
 		LocalDateTime transfer_birth = transferplayer.getDateOfBirth();
 		LocalDateTime api_birth =  apiplayer.getDateOfBirth();
 
 		double year_similarity; 
-		
+
 		if(api_birth == null){
 			DateTimeFormatter formatter = DateTimeFormatter.ofPattern("yyyy-MM-dd HH:mm");
 			// use dummy year if no date of birth is given
@@ -72,7 +72,7 @@ public class PlayerNameDateAPITransferComparator implements Comparator<Player, A
 		} else {
 			postSimilarity = 0.85 * levenshtein_similarity + 0.15 * year_similarity;
 		}
-		
+
 		if(this.comparisonLog != null){
 			this.comparisonLog.setRecord1PreprocessedValue(api_name);
 			this.comparisonLog.setRecord2PreprocessedValue(transfer_name);

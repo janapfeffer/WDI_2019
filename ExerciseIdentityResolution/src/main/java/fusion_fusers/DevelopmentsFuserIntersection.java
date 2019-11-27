@@ -16,15 +16,15 @@ import identityresolution_models.Development;
 
 public class DevelopmentsFuserIntersection extends AttributeValueFuser<List<Development>, Player, Attribute>{
 
-	
+
 	public DevelopmentsFuserIntersection() {
 		super(new Intersection<Development, Player, Attribute>());
 	}
-	
+
 	public boolean hasValue(Player record, Correspondence<Attribute, Matchable> correspondence) {
 		return record.hasValue(Player.DEVELOPMENTS);
 	}
-	
+
 	public List<Development> getValue(Player record, Correspondence<Attribute, Matchable> correspondence) {
 		return record.getDevelopments();
 	}

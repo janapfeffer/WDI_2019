@@ -23,7 +23,7 @@ AttributeValueFuser<String, Player, Attribute>{
 	public String getValue(Player record, Correspondence<Attribute, Matchable> correspondence) {
 		return record.getName();
 	}
-	
+
 
 	@Override
 	public void fuse(RecordGroup<Player, Attribute> group, Player fusedRecord,

@@ -14,13 +14,13 @@ import de.uni_mannheim.informatik.dws.winter.similarity.string.TokenizingJaccard
 import identityresolution_models.Player;
 
 public class PlayerNameFIFAAPIComparatorJaccard implements Comparator<Player, Attribute>{
-	
+
 	private static final long serialVersionUID = 1L;
 	/*similarity measure test*/
-	 public static void main( String[] args ) throws Exception{
+	public static void main( String[] args ) throws Exception{
 		System.out.println(sim.calculate("", ""));
 	}
-	
+
 	private static TokenizingJaccardSimilarity sim = new TokenizingJaccardSimilarity();
 	private ComparatorLogger comparisonLog;
 

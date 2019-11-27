@@ -45,7 +45,7 @@ public class DateFIFAESDComparator2Year implements Comparator<Player, Attribute>
 		LocalDateTime esd_birth =  esd_player.getDateOfBirth();
 
 		double similarity; 
-		
+
 		if(esd_birth == null){
 			DateTimeFormatter formatter = DateTimeFormatter.ofPattern("yyyy-MM-dd HH:mm");
 			esd_birth =  LocalDateTime.parse("2090-01-01 00:00", formatter);

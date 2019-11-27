@@ -165,7 +165,7 @@ public class DataFusion_Main {
 		strategy.addAttributeFuser(Player.DEVELOPMENTS, new DevelopmentsFuserUnion(), new DevelopmentsEvaluationRule());
 		//fuse speed
 		strategy.addAttributeFuser(Player.SPEED, new SpeedFavourSourceFuser(), new SpeedEvaluationRule());
-		
+
 		// create the fusion engine
 		DataFusionEngine<Player, Attribute> engine = new DataFusionEngine<>(strategy);
 

@@ -14,15 +14,15 @@ import identityresolution_models.Player;
 import identityresolution_models.Transfer;
 
 public class TransfersFuserUnion extends AttributeValueFuser<List<Transfer>, Player, Attribute> {
-	
+
 	public TransfersFuserUnion() {
 		super(new Union<Transfer, Player, Attribute>());
 	}
-	
+
 	public boolean hasValue(Player record, Correspondence<Attribute, Matchable> correspondence) {
 		return record.hasValue(Player.TRANSFERS);
 	}
-	
+
 	public List<Transfer> getValue(Player record, Correspondence<Attribute, Matchable> correspondence) {
 		return record.getTransfers();
 	}

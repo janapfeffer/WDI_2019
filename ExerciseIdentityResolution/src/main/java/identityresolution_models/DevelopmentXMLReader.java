@@ -6,7 +6,7 @@ import de.uni_mannheim.informatik.dws.winter.model.defaultmodel.Attribute;
 import de.uni_mannheim.informatik.dws.winter.model.io.XMLMatchableReader;
 
 public class DevelopmentXMLReader extends XMLMatchableReader<Development, Attribute>{
-	
+
 	@Override
 	public Development createModelFromElement(Node node, String provenanceInfo) {
 		String id = getValueFromChildElement(node, "id");
@@ -23,8 +23,8 @@ public class DevelopmentXMLReader extends XMLMatchableReader<Development, Attrib
 			development.setYear(Integer.valueOf(getValueFromChildElement(node, "Year")));
 		} catch (Exception e) {
 		}
-		
-		
+
+
 
 		return development;
 	}

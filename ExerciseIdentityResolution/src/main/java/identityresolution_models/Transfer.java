@@ -6,7 +6,7 @@ import de.uni_mannheim.informatik.dws.winter.model.AbstractRecord;
 import de.uni_mannheim.informatik.dws.winter.model.defaultmodel.Attribute;
 
 public class Transfer extends AbstractRecord<Attribute> implements Serializable{
-	
+
 	/**
 	 * 
 	 */
@@ -14,33 +14,17 @@ public class Transfer extends AbstractRecord<Attribute> implements Serializable{
 	private String clubInName;
 	private String clubOutName;
 	private int year;
-	
+
 	public Transfer(String identifier, String provenance) {
 		super(identifier, provenance);
 	}
-/*	
-	public Transfer(String clubInName, String clubOutName, int year){
-		this.setClubInName(clubInName);
-		this.setClubOutName(clubOutName);
-		this.setYear(year);
-	}
-*/	
-	/*
-	 * (non-Javadoc)
-	 * 
-	 * @see java.lang.Object#hashCode()
-	 */
+	
 	@Override
 	public int hashCode() {
 		int result = 31 + ((clubInName == null) ? 0 : clubInName.hashCode());
 		return result;
 	}
 
-	/*
-	 * (non-Javadoc)
-	 * 
-	 * @see java.lang.Object#equals(java.lang.Object)
-	 */
 	@Override
 	public boolean equals(Object obj) {
 		if (this == obj)
@@ -82,14 +66,11 @@ public class Transfer extends AbstractRecord<Attribute> implements Serializable{
 	public void setYear(int year) {
 		this.year = year;
 	}
-	
+
 	public static final Attribute CLUBINNAME = new Attribute("clubInName");
 	public static final Attribute CLUBOUTNAME = new Attribute("clubOutName");
 	public static final Attribute YEAR = new Attribute("year");
-	
-	/* (non-Javadoc)
-	 * @see de.uni_mannheim.informatik.wdi.model.Record#hasValue(java.lang.Object)
-	 */
+
 	@Override
 	public boolean hasValue(Attribute attribute) {
 		if(attribute==CLUBINNAME)
@@ -100,7 +81,7 @@ public class Transfer extends AbstractRecord<Attribute> implements Serializable{
 			return year!=0;
 		return false;
 	}
-	
+
 	@Override
 	public String toString() {
 		return String.format("[Transfer: %s]", getClubInName(), getClubOutName(), getYear());

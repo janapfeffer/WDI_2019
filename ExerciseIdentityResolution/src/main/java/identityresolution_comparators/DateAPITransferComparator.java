@@ -43,7 +43,7 @@ public class DateAPITransferComparator implements Comparator<Player, Attribute> 
 		LocalDateTime api_birth =  api_player.getDateOfBirth();
 
 		double similarity; 
-		
+
 		if(api_birth == null){
 			DateTimeFormatter formatter = DateTimeFormatter.ofPattern("yyyy-MM-dd HH:mm");
 			// use dummy year if no date of birth is given

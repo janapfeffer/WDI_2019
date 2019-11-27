@@ -12,7 +12,7 @@ import identityresolution_models.Player;
 
 public class PlayerNameFIFAESDComparatorJaccard implements Comparator<Player, Attribute>{
 
-	
+
 	/**
 	 * 
 	 */

@@ -32,7 +32,7 @@ import identityresolution_models.Player;
 import identityresolution_models.PlayerXMLReader;
 
 public class IR_FIFA_ESD_machine_learning {
-	
+
 	/*
 	 * Logging Options:
 	 * 		default: 	level INFO	- console
@@ -47,28 +47,28 @@ public class IR_FIFA_ESD_machine_learning {
 	 */
 
 	private static final Logger logger = WinterLogManager.activateLogger("default");
-	
-    public static void main( String[] args ) throws Exception
-    {
-    	System.out.println("*\n*\tLoading datasets\n*");
+
+	public static void main( String[] args ) throws Exception
+	{
+		System.out.println("*\n*\tLoading datasets\n*");
 		HashedDataSet<Player, Attribute> dataFIFA = new HashedDataSet<>();
 		new PlayerXMLReader().loadFromXML(new File("data/input/FIFA19 target schema.xml"), "/Players/Player", 
 				dataFIFA);
 		HashedDataSet<Player, Attribute> dataESD = new HashedDataSet<>();
 		new PlayerXMLReader().loadFromXML(new File("data/input/EuropeanSoccerDB target schema.xml"), "/Players/Player", 
 				dataESD);
-		
+
 		// load the training set
 		System.out.println("*\n*\tLoading training gold standard\n*");
 		MatchingGoldStandard gsTraining = new MatchingGoldStandard();
 		gsTraining.loadFromCSVFile(new File("data/goldstandard/gs_fifa_eu_train.csv"));
-		
+
 		// create a matching rule
 		String options[] = new String[] { };
 		String modelType = "RandomForest"; // use a random forest
 		WekaMatchingRule<Player, Attribute> matchingRule = new WekaMatchingRule<>(0.9, modelType, options);
 		matchingRule.activateDebugReport("data/output/debugResultsMatchingRuleFIFA_ESD_ML.csv", 1000, gsTraining);
-		
+
 		// add comparators
 		matchingRule.addComparator(new PlayerNameFIFAESDComparatorLevenshtein());
 		matchingRule.addComparator(new PlayerNameFIFAESDComparatorJaccard());
@@ -79,8 +79,8 @@ public class IR_FIFA_ESD_machine_learning {
 		matchingRule.addComparator(new HeightFIFAESDAbsoluteDifferences());
 		//matchingRule.addComparator(new HeightFIFAESDDeviationSimilarity());
 		//matchingRule.addComparator(new HeightFIFAESDPercentageSimilarity());
-		
-		
+
+
 		// train the matching rule's model
 		System.out.println("*\n*\tLearning matching rule\n*");
 		RuleLearner<Player, Attribute> learner = new RuleLearner<>();
@@ -92,9 +92,9 @@ public class IR_FIFA_ESD_machine_learning {
 
 		// create a blocker (blocking strategy)
 		StandardRecordBlocker<Player, Attribute> blocker = new StandardRecordBlocker<Player, Attribute>(new PlayerBlockingFirstnameGenerator());
-//		SortedNeighbourhoodBlocker<Movie, Attribute, Attribute> blocker = new SortedNeighbourhoodBlocker<>(new MovieBlockingKeyByDecadeGenerator(), 1);
+		//		SortedNeighbourhoodBlocker<Movie, Attribute, Attribute> blocker = new SortedNeighbourhoodBlocker<>(new MovieBlockingKeyByDecadeGenerator(), 1);
 		blocker.collectBlockSizeData("data/output/debugResultsBlockingFIFA_ESD_ML.csv", 100);
-		
+
 		// Initialize Matching Engine
 		MatchingEngine<Player, Attribute> engine = new MatchingEngine<>();
 
@@ -112,13 +112,13 @@ public class IR_FIFA_ESD_machine_learning {
 		MatchingGoldStandard gsTest = new MatchingGoldStandard();
 		gsTest.loadFromCSVFile(new File(
 				"data/goldstandard/gs_fifa_eu_test.csv"));
-		
+
 		// evaluate your result
 		System.out.println("*\n*\tEvaluating result\n*");
 		MatchingEvaluator<Player, Attribute> evaluator = new MatchingEvaluator<Player, Attribute>();
 		Performance perfTest = evaluator.evaluateMatching(correspondences,
 				gsTest);
-		
+
 		// print the evaluation result
 		System.out.println("FIFA <-> EU");
 		System.out.println(String.format(
@@ -127,5 +127,5 @@ public class IR_FIFA_ESD_machine_learning {
 				"Recall: %.4f",	perfTest.getRecall()));
 		System.out.println(String.format(
 				"F1: %.4f",perfTest.getF1()));
-    }
+	}
 }

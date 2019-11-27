@@ -14,7 +14,7 @@ public class PlayerXMLFormatter_Fusion extends XMLFormatter<Player> {
 
 	TransferXMLFormatter transferFormatter = new TransferXMLFormatter();
 	DevelopmentXMLFormatter developmentFormatter = new DevelopmentXMLFormatter();
-	
+
 	@Override
 	public Element createRootElement(Document doc) {
 		return doc.createElement("players");
@@ -62,10 +62,10 @@ public class PlayerXMLFormatter_Fusion extends XMLFormatter<Player> {
 		player.appendChild(createTextElementWithProvenance("Speed",
 				String.valueOf(record.getSpeed()),
 				record.getMergedAttributeProvenance(Player.SPEED), doc));
-		
+
 		player.appendChild(createTransfersElement(record, doc));
 		player.appendChild(createDevelopmetsElement(record, doc));
-		
+
 
 		return player;
 	}
@@ -89,7 +89,7 @@ public class PlayerXMLFormatter_Fusion extends XMLFormatter<Player> {
 
 		return transferRoot;
 	}
-	
+
 	protected Element createDevelopmetsElement(Player record, Document doc) {
 		Element developmentRoot = developmentFormatter.createRootElement(doc);
 		developmentRoot.setAttribute("provenance",

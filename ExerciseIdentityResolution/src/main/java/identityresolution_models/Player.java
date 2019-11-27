@@ -37,7 +37,7 @@ public class Player extends AbstractRecord<Attribute> implements Serializable {
 	private int speed;
 	private List<Transfer> transfers;
 	private List<Development> developments;
-	
+
 
 	public Player(String identifier, String provenance) {
 		super(identifier, provenance);
@@ -58,63 +58,63 @@ public class Player extends AbstractRecord<Attribute> implements Serializable {
 	public void setDateOfBirth(LocalDateTime dateOfBirth) {
 		this.dateOfBirth = dateOfBirth;
 	}
-	
+
 	public void setNationality(String nationality){
 		this.nationality = nationality;
 	}
-	
+
 	public String getNationality(){
 		return nationality;
 	}
-	
+
 	public void setPhoto(String photo){
 		this.photo = photo;
 	}
-	
+
 	public String getPhoto(){
 		return photo;
 	}
-	
+
 	public void setCurrentClub(String currentClub){
 		this.currentClub = currentClub;
 	}
-	
+
 	public String getCurrentClub(){
 		return currentClub;
 	}
-	
+
 	public void setCurrentPosition(String currentPosition) {
 		this.currentPosition = currentPosition;
 	}
-	
+
 	public String getCurrentPosition(){
 		return currentPosition;
 	}
-	
+
 	public void setWage(Float wage){
 		this.wage = wage;
 	}
-	
+
 	public Float getWage(){
 		return wage;
 	}
-	
+
 	public void setCurrentNumber(int currentNumber){
 		this.currentNumber = currentNumber;
 	}
-	
+
 	public int getCurrentNumber(){
 		return currentNumber;
 	}
-	
+
 	public void setTransfers(List<Transfer> transfers){
 		this.transfers = transfers;
 	}
-	
+
 	public List<Transfer> getTransfers(){
 		return transfers;
 	}
-	
+
 	public float getHeight() {
 		float helper = 0.0f;
 		try {
@@ -201,9 +201,9 @@ public class Player extends AbstractRecord<Attribute> implements Serializable {
 	public static final Attribute TRANSFERS = new Attribute("Transfers");
 	public static final Attribute DEVELOPMENTS = new Attribute("Developments");
 
-	
-	
-	
+
+
+
 	/* (non-Javadoc)
 	 * @see de.uni_mannheim.informatik.wdi.model.Record#hasValue(java.lang.Object)
 	 */
@@ -263,7 +263,7 @@ public class Player extends AbstractRecord<Attribute> implements Serializable {
 		return recordProvenance;
 	}
 
-	
+
 	public void setAttributeProvenance(Attribute attribute,
 			Collection<String> provenance) {
 		this.provenance.put(attribute, provenance);

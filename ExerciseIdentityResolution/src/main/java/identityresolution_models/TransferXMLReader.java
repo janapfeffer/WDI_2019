@@ -21,8 +21,8 @@ public class TransferXMLReader extends XMLMatchableReader<Transfer, Attribute>{
 			transfer.setYear(Integer.valueOf(getValueFromChildElement(node, "Year")));
 		} catch (Exception e) {
 		}
-		
-		
+
+
 
 		return transfer;
 	}

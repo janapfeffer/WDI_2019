@@ -30,7 +30,7 @@ public class PlayerNameAPITransfersComparatorLevenshtein implements Comparator<P
 		for(int i = 0; i < myList.length; i++){
 			System.out.println(myList[i]);
 		}
-		
+
 
 
 	}

@@ -44,28 +44,28 @@ public class IR_FIFA_API_machine_learning {
 	 */
 
 	private static final Logger logger = WinterLogManager.activateLogger("default");
-	
-    public static void main( String[] args ) throws Exception
-    {
-    	System.out.println("*\n*\tLoading datasets\n*");
+
+	public static void main( String[] args ) throws Exception
+	{
+		System.out.println("*\n*\tLoading datasets\n*");
 		HashedDataSet<Player, Attribute> dataFIFA = new HashedDataSet<>();
 		new PlayerXMLReader().loadFromXML(new File("data/input/FIFA19 target schema.xml"), "/Players/Player", 
 				dataFIFA);
 		HashedDataSet<Player, Attribute> dataAPI = new HashedDataSet<>();
 		new PlayerXMLReader().loadFromXML(new File("data/input/PlayerAndTransfersAPI target schema.xml"), "/Players/Player", 
 				dataAPI);
-		
+
 		// load the training set
 		System.out.println("*\n*\tLoading training gold standard\n*");
 		MatchingGoldStandard gsTraining = new MatchingGoldStandard();
 		gsTraining.loadFromCSVFile(new File("data/goldstandard/gs_fifa_api_train.csv"));
-		
+
 		// create a matching rule
 		String options[] = new String[] {};
 		String modelType = "SimpleLogistic"; // use a logistic regression
 		WekaMatchingRule<Player, Attribute> matchingRule = new WekaMatchingRule<>(0.8, modelType, options);
 		matchingRule.activateDebugReport("data/output/debugResultsMatchingRuleFIFA_API.csv", 1000, gsTraining);
-		
+
 		// add comparators
 		matchingRule.addComparator(new PlayerNameFIFAAPIComparator());
 		matchingRule.addComparator(new PlayerNameFIFAAPIComparatorJaccard());
@@ -75,7 +75,7 @@ public class IR_FIFA_API_machine_learning {
 		matchingRule.addComparator(new HeightFIFAAPIPercentageSimilarity());
 		matchingRule.addComparator(new DateFIFAAPIComparator());
 
-		
+
 		// train the matching rule's model
 		System.out.println("*\n*\tLearning matching rule\n*");
 		RuleLearner<Player, Attribute> learner = new RuleLearner<>();
@@ -84,12 +84,12 @@ public class IR_FIFA_API_machine_learning {
 		PrintWriter writer = new PrintWriter("data/output/MatchingRuleFIFA_API.txt", "UTF-8");
 		writer.println(String.format("Matching rule is:\n%s", matchingRule.getModelDescription()));
 		writer.close();
-		
+
 		// create a blocker (blocking strategy)
 		StandardRecordBlocker<Player, Attribute> blocker = new StandardRecordBlocker<Player, Attribute>(new PlayerBlockingFirstnameGenerator());
 		//SortedNeighbourhoodBlocker<Player, Attribute, Attribute> blocker = new SortedNeighbourhoodBlocker<>(new PlayerBlockingFirstnameGenerator(), 1);
 		blocker.collectBlockSizeData("data/output/debugResultsBlockingFIFA_API_ML.csv", 100);
-		
+
 		// Initialize Matching Engine
 		MatchingEngine<Player, Attribute> engine = new MatchingEngine<>();
 
@@ -107,13 +107,13 @@ public class IR_FIFA_API_machine_learning {
 		MatchingGoldStandard gsTest = new MatchingGoldStandard();
 		gsTest.loadFromCSVFile(new File(
 				"data/goldstandard/gs_fifa_api_test.csv"));
-		
+
 		// evaluate your result
 		System.out.println("*\n*\tEvaluating result\n*");
 		MatchingEvaluator<Player, Attribute> evaluator = new MatchingEvaluator<Player, Attribute>();
 		Performance perfTest = evaluator.evaluateMatching(correspondences,
 				gsTest);
-		
+
 		// print the evaluation result
 		System.out.println("API <-> Transfers");
 		System.out.println(String.format(
@@ -122,5 +122,5 @@ public class IR_FIFA_API_machine_learning {
 				"Recall: %.4f",	perfTest.getRecall()));
 		System.out.println(String.format(
 				"F1: %.4f",perfTest.getF1()));
-    }
+	}
 }

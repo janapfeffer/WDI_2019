@@ -15,15 +15,15 @@ import identityresolution_models.Development;
 
 public class DevelopmentsFuserUnion extends AttributeValueFuser<List<Development>, Player, Attribute>{
 
-	
+
 	public DevelopmentsFuserUnion() {
 		super(new Union<Development, Player, Attribute>());
 	}
-	
+
 	public boolean hasValue(Player record, Correspondence<Attribute, Matchable> correspondence) {
 		return record.hasValue(Player.DEVELOPMENTS);
 	}
-	
+
 	public List<Development> getValue(Player record, Correspondence<Attribute, Matchable> correspondence) {
 		return record.getDevelopments();
 	}

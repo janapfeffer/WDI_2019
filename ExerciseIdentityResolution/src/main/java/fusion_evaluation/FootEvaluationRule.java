@@ -8,7 +8,7 @@ import identityresolution_models.Player;
 
 public class FootEvaluationRule extends EvaluationRule<Player, Attribute>{
 
-	
+
 	@Override
 	public boolean isEqual(Player record1, Player record2, Attribute schemaElement) {
 		if(record1.getFoot()== null && record2.getFoot()==null)
@@ -21,7 +21,7 @@ public class FootEvaluationRule extends EvaluationRule<Player, Attribute>{
 
 	@Override
 	public boolean isEqual(Player record1, Player record2, 
-				Correspondence<Attribute, Matchable> schemaCorrespondence) {
+			Correspondence<Attribute, Matchable> schemaCorrespondence) {
 		return isEqual(record1, record2, (Attribute)null);
 	}
 

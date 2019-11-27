@@ -17,20 +17,6 @@ public class PlayerNameFIFAAPIComparatorLevenshtein implements Comparator<Player
 	private static LevenshteinSimilarity sim = new LevenshteinSimilarity();
 	private ComparatorLogger comparisonLog;
 
-	/*public static void main( String[] args ) {
-		String[] myList;
-		myList = Normalizer.normalize("nospacepls", Normalizer.Form.NFD).
-				replaceAll("[^\\p{ASCII}]", "").replace("'", "").replace(".", "").toLowerCase().replaceAll("\\s+", " ").trim().split("\\s");
-		//myList[0] = myList[0].substring(0, 1);
-
-		MaximumOfTokenContainment sim = new MaximumOfTokenContainment();
-		LevenshteinSimilarity sim2 = new LevenshteinSimilarity();
-
-		System.out.println(Math.max(sim.calculate("r peter woed", "r dude wod"),  sim2.calculate("r peter woed", "r dude wod")));
-
-
-	}*/
-
 	@Override
 	public double compare(Player fifaplayer, Player apiplayer, Correspondence<Attribute, Matchable> schemaCorrespondence) {
 		// FIFA name format: F. Lastname

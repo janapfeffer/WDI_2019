@@ -10,13 +10,13 @@ import de.uni_mannheim.informatik.dws.winter.similarity.numeric.PercentageSimila
 import identityresolution_models.Player;
 
 public class HeightFIFAESDPercentageSimilarity implements Comparator<Player, Attribute>{
-	
+
 	//similarity measure test
 	public static void main( String[] args ) throws Exception{
-	System.out.println(sim.calculate(170.76, 165.98));
+		System.out.println(sim.calculate(170.76, 165.98));
 	}
 	private static PercentageSimilarity sim = new PercentageSimilarity(20);
-	
+
 	private ComparatorLogger comparisonLog;
 
 	@Override
@@ -24,7 +24,7 @@ public class HeightFIFAESDPercentageSimilarity implements Comparator<Player, Att
 		// FIFA weight format: XXX.XX
 		// ESD weight format: XXX.XX
 		// the height difference range in 2 datasets - +/- 4 cm
-		
+
 		//get height values
 		double fifa_height;
 		double esd_height;
@@ -38,7 +38,7 @@ public class HeightFIFAESDPercentageSimilarity implements Comparator<Player, Att
 		} catch (Exception e) {
 			esd_height = 0;
 		}
-		
+
 		// save names and class name to logger
 		if(this.comparisonLog != null){
 			this.comparisonLog.setComparatorName(getClass().getName());
@@ -46,8 +46,8 @@ public class HeightFIFAESDPercentageSimilarity implements Comparator<Player, Att
 			this.comparisonLog.setRecord2Value(String.valueOf(esd_height));
 		}
 
-		
-	    // calculate similarity
+
+		// calculate similarity
 		double similarity;
 		try {
 			similarity = sim.calculate(fifa_height, esd_height);

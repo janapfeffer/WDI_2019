@@ -8,13 +8,13 @@ import de.uni_mannheim.informatik.dws.winter.similarity.numeric.AbsoluteDifferen
 import identityresolution_models.Player;
 
 public class WeightEvaluationRule extends EvaluationRule<Player, Attribute>  {
-	
+
 	// we tolerate a difference of 2kg
 	private static AbsoluteDifferenceSimilarity sim = new AbsoluteDifferenceSimilarity(2);
 
 	@Override
 	public boolean isEqual(Player record1, Player record2, Attribute schemaElement) {
-		
+
 		//is both values are not null, set true if sim measure is not 0 (values are in tolerated range)
 		//set false if the sim measure is 0 (values are out of tolerated range)
 		if (record1.getWeight() != null && record2.getWeight() != null)
@@ -25,7 +25,7 @@ public class WeightEvaluationRule extends EvaluationRule<Player, Attribute>  {
 		//if one of the value is null - not equal
 		else
 			return false;
-		
+
 
 	}
 

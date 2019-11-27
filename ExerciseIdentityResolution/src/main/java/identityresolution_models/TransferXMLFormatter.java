@@ -15,11 +15,11 @@ public class TransferXMLFormatter extends XMLFormatter<Transfer> {
 	@Override
 	public Element createElementFromRecord(Transfer record, Document doc) {
 		Element transfer = doc.createElement("Transfer");
-		
+
 		transfer.appendChild(createTextElement("Year", String.valueOf(record.getYear()), doc));
 		transfer.appendChild(createTextElement("ClubOut", String.valueOf(record.getClubOutName()), doc));
 		transfer.appendChild(createTextElement("ClubIn", String.valueOf(record.getClubInName()), doc));
-		
+
 		return transfer;
 	}
 

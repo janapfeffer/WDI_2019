@@ -45,7 +45,7 @@ public class DateFIFAAPIComparator implements Comparator<Player, Attribute> {
 		LocalDateTime api_birth =  api_player.getDateOfBirth();
 
 		double similarity; 
-		
+
 		if(api_birth == null){
 			DateTimeFormatter formatter = DateTimeFormatter.ofPattern("yyyy-MM-dd HH:mm");
 			api_birth =  LocalDateTime.parse("2090-01-01 00:00", formatter);

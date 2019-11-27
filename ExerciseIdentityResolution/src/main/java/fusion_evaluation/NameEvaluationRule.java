@@ -10,7 +10,7 @@ import identityresolution_models.Player;
 
 public class NameEvaluationRule extends EvaluationRule<Player, Attribute> {
 	SimilarityMeasure<String> sim = new TokenizingJaccardSimilarity();
-	
+
 	@Override
 	public boolean isEqual(Player record1, Player record2, Attribute schemaElement) {
 		// the name is correct all tokens are there, but the order does not matter
