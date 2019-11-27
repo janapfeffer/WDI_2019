@@ -2,12 +2,12 @@
 	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
 	<modelVersion>4.0.0</modelVersion>
 
-	<groupId>de.uni_mannheim.informatik.dws.wdi</groupId>
-	<artifactId>ExerciseIdentityResolution</artifactId>
-	<version>0.0.1-SNAPSHOT</version>
+	<groupId>group3</groupId>
+	<artifactId>FootballWebDataIntegration</artifactId>
+	<version>1.0</version>
 	<packaging>jar</packaging>
 
-	<name>ExerciseIdentityResolution</name>
+	<name>FootballWebDataIntegration</name>
 	<url>http://maven.apache.org</url>
 
 	<properties>
@@ -31,7 +31,7 @@
 	<repositories>
 		<repository>
 			<id>releases</id>
-			<url>https://breda.informatik.uni-mannheim.de/nexus/content/repositories/releases/</url>
+			<url>https://github.com/janapfeffer/WDI_2019</url>
 		</repository>
 	</repositories>
 
