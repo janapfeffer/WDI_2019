@@ -31,7 +31,11 @@ import identityresolution_comparators.PlayerNameFIFAESDComparatorLevenshtein;
 import identityresolution_comparators.PlayerNameFIFAESDComparatorMaximumTokenContainment;
 import identityresolution_models.Player;
 import identityresolution_models.PlayerXMLReader;
-
+/**
+ * @author group3
+ * 
+ * Identity resolution between the iSports API data set and the FIFA19 data set.
+ */
 public class IR_FIFA_API {
 
 	private static final Logger logger = WinterLogManager.activateLogger("default");

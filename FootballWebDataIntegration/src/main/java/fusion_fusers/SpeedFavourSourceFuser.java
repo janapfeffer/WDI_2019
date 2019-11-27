@@ -9,7 +9,11 @@ import de.uni_mannheim.informatik.dws.winter.model.RecordGroup;
 import de.uni_mannheim.informatik.dws.winter.model.defaultmodel.Attribute;
 import de.uni_mannheim.informatik.dws.winter.processing.Processable;
 import identityresolution_models.Player;
-
+/**
+ * @author group3
+ * 
+ * Fusion of the speed using the source scores.
+ */
 public class SpeedFavourSourceFuser extends AttributeValueFuser<Integer, Player, Attribute>{
 
 	public SpeedFavourSourceFuser() {

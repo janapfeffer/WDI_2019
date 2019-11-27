@@ -23,9 +23,12 @@ import de.uni_mannheim.informatik.dws.winter.model.DataSet;
 import de.uni_mannheim.informatik.dws.winter.model.FusibleFactory;
 import de.uni_mannheim.informatik.dws.winter.model.RecordGroup;
 import de.uni_mannheim.informatik.dws.winter.model.defaultmodel.Attribute;
-
-public class PlayerXMLReader_Fusion extends XMLMatchableReader<Player, Attribute> implements
-FusibleFactory<Player, Attribute>{
+/**
+ * @author group3
+ * 
+ * Player XML reader, reads the player files.
+ */
+public class PlayerXMLReader_Fusion extends XMLMatchableReader<Player, Attribute> implements FusibleFactory<Player, Attribute>{
 
 	@Override
 	protected void initialiseDataset(DataSet<Player, Attribute> dataset) {

@@ -9,7 +9,11 @@ import identityresolution_models.DevelopmentXMLFormatter;
 import identityresolution_models.Player;
 import identityresolution_models.Transfer;
 import identityresolution_models.TransferXMLFormatter;
-
+/**
+ * @author group3
+ * 
+ * Player XML formatter, used for writing the fusion results.
+ */
 public class PlayerXMLFormatter_Fusion extends XMLFormatter<Player> {
 
 	TransferXMLFormatter transferFormatter = new TransferXMLFormatter();

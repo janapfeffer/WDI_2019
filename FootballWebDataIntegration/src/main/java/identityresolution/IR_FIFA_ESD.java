@@ -29,7 +29,11 @@ import identityresolution_comparators.PlayerNameFIFAESDComparatorLevenshtein;
 import identityresolution_comparators.PlayerNameFIFAESDComparatorMaximumTokenContainment;
 import identityresolution_models.Player;
 import identityresolution_models.PlayerXMLReader;
-
+/**
+ * @author group3
+ * 
+ * Identity resolution between the FIFA19 data set and the European Soccer Database data set.
+ */
 public class IR_FIFA_ESD {
 
 	private static final Logger logger = WinterLogManager.activateLogger("default");

@@ -12,7 +12,12 @@ import de.uni_mannheim.informatik.dws.winter.model.defaultmodel.Attribute;
 import de.uni_mannheim.informatik.dws.winter.similarity.string.LevenshteinSimilarity;
 import de.uni_mannheim.informatik.dws.winter.similarity.string.MaximumOfTokenContainment;
 import identityresolution_models.Player;
-
+/**
+ * @author group3
+ * 
+ * Comparator for the name of the iSports API and FIFA19 data set using the maximum of
+ * levenshtein similarity and maximum of token containment.
+ */
 public class PlayerNameFIFAAPIComparator implements Comparator<Player, Attribute>{
 
 	private static LevenshteinSimilarity levenshtein_sim = new LevenshteinSimilarity();

@@ -4,7 +4,10 @@ import org.w3c.dom.Node;
 
 import de.uni_mannheim.informatik.dws.winter.model.defaultmodel.Attribute;
 import de.uni_mannheim.informatik.dws.winter.model.io.XMLMatchableReader;
-
+/**
+ * @author group3
+ * A {@link XMLMatchableReader} for {@link Transfer}s.
+ */
 public class TransferXMLReader extends XMLMatchableReader<Transfer, Attribute>{
 
 	//@Override

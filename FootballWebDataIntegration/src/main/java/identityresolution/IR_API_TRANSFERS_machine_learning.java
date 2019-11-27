@@ -31,21 +31,12 @@ import identityresolution_comparators.PlayerNameFIFAESDComparatorLevenshtein;
 import identityresolution_comparators.PlayerNameFIFAESDComparatorMaximumTokenContainment;
 import identityresolution_models.Player;
 import identityresolution_models.PlayerXMLReader;
-
+/**
+ * @author group3
+ * 
+ * Identity resolution between the iSports API data set and the transfers data set using machine learning.
+ */
 public class IR_API_TRANSFERS_machine_learning {
-
-	/*
-	 * Logging Options:
-	 * 		default: 	level INFO	- console
-	 * 		trace:		level TRACE     - console
-	 * 		infoFile:	level INFO	- console/file
-	 * 		traceFile:	level TRACE	- console/file
-	 *  
-	 * To set the log level to trace and write the log to winter.log and console, 
-	 * activate the "traceFile" logger as follows:
-	 *     private static final Logger logger = WinterLogManager.activateLogger("traceFile");
-	 *
-	 */
 
 	private static final Logger logger = WinterLogManager.activateLogger("default");
 

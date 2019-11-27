@@ -9,13 +9,14 @@ import de.uni_mannheim.informatik.dws.winter.model.Matchable;
 import de.uni_mannheim.informatik.dws.winter.model.defaultmodel.Attribute;
 import de.uni_mannheim.informatik.dws.winter.similarity.string.TokenizingJaccardSimilarity;
 import identityresolution_models.Player;
-
+/**
+ * @author group3
+ * 
+ * Comparator for the name of the European Soccer Database and FIFA19 data sets 
+ * using Tokenizing Jaccard.
+ */
 public class PlayerNameFIFAESDComparatorJaccard implements Comparator<Player, Attribute>{
 
-
-	/**
-	 * 
-	 */
 	private static final long serialVersionUID = 1L;
 	private static TokenizingJaccardSimilarity sim = new TokenizingJaccardSimilarity();
 	private ComparatorLogger comparisonLog;

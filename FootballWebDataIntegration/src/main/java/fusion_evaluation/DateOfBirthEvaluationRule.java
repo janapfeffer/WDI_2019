@@ -6,7 +6,11 @@ import de.uni_mannheim.informatik.dws.winter.model.Matchable;
 import de.uni_mannheim.informatik.dws.winter.model.defaultmodel.Attribute;
 import de.uni_mannheim.informatik.dws.winter.similarity.date.YearSimilarity;
 import identityresolution_models.Player;
-
+/**
+ * @author group3
+ * 
+ * Evaluation of the fusion of the date of birth (dob). 
+ */
 public class DateOfBirthEvaluationRule extends EvaluationRule<Player, Attribute> {
 	public YearSimilarity year_sim = new YearSimilarity(2);
 	@Override

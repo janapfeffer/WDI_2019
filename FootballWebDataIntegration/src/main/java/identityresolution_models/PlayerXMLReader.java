@@ -16,8 +16,8 @@ import de.uni_mannheim.informatik.dws.winter.model.defaultmodel.Attribute;
 import de.uni_mannheim.informatik.dws.winter.model.io.XMLMatchableReader;
 
 /**
+ * @author group3
  * A {@link XMLMatchableReader} for {@link Player}s.
- * 
  */
 public class PlayerXMLReader extends XMLMatchableReader<Player, Attribute> {
 

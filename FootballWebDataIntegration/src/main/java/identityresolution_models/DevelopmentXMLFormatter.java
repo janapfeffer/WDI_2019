@@ -3,8 +3,14 @@ package identityresolution_models;
 import org.w3c.dom.Document;
 import org.w3c.dom.Element;
 
+import de.uni_mannheim.informatik.dws.winter.model.AbstractRecord;
 import de.uni_mannheim.informatik.dws.winter.model.io.XMLFormatter;
-
+/**
+ * {@link XMLFormatter} for {@link Development}s.
+ * 
+ * @author Group3
+ * 
+ */
 public class DevelopmentXMLFormatter extends XMLFormatter<Development>{
 
 	@Override

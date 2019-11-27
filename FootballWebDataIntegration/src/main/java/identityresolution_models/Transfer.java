@@ -4,12 +4,12 @@ import java.io.Serializable;
 
 import de.uni_mannheim.informatik.dws.winter.model.AbstractRecord;
 import de.uni_mannheim.informatik.dws.winter.model.defaultmodel.Attribute;
-
+/**
+ * @author group3
+ * A {@link AbstractRecord} which represents a Transfer
+ */
 public class Transfer extends AbstractRecord<Attribute> implements Serializable{
 
-	/**
-	 * 
-	 */
 	private static final long serialVersionUID = 1L;
 	private String clubInName;
 	private String clubOutName;

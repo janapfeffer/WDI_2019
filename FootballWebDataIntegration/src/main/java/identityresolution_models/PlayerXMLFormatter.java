@@ -8,7 +8,7 @@ import de.uni_mannheim.informatik.dws.winter.model.io.XMLFormatter;
 /**
  * {@link XMLFormatter} for {@link Player}s.
  * 
- * @author Group 3
+ * @author Group3
  * 
  */
 public class PlayerXMLFormatter extends XMLFormatter<Player> {

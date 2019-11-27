@@ -13,7 +13,11 @@ import de.uni_mannheim.informatik.dws.winter.model.defaultmodel.Attribute;
 import de.uni_mannheim.informatik.dws.winter.processing.Processable;
 import identityresolution_models.Player;
 import identityresolution_models.Development;
-
+/**
+ * @author group3
+ * 
+ * Fusion of the developments through intersection.
+ */
 public class DevelopmentsFuserIntersection extends AttributeValueFuser<List<Development>, Player, Attribute>{
 
 

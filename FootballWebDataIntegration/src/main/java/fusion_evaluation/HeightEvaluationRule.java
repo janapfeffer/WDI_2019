@@ -6,7 +6,11 @@ import de.uni_mannheim.informatik.dws.winter.model.Matchable;
 import de.uni_mannheim.informatik.dws.winter.model.defaultmodel.Attribute;
 import de.uni_mannheim.informatik.dws.winter.similarity.numeric.AbsoluteDifferenceSimilarity;
 import identityresolution_models.Player;
-
+/**
+ * @author group3
+ * 
+ * Evaluation of the fusion of the height. 
+ */
 public class HeightEvaluationRule extends EvaluationRule<Player, Attribute>{
 	// the height is correct if it does not go out of the range +/- 2cm
 	private static AbsoluteDifferenceSimilarity sim = new AbsoluteDifferenceSimilarity(2);

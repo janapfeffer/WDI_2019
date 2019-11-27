@@ -10,9 +10,12 @@ import de.uni_mannheim.informatik.dws.winter.model.RecordGroup;
 import de.uni_mannheim.informatik.dws.winter.model.defaultmodel.Attribute;
 import de.uni_mannheim.informatik.dws.winter.processing.Processable;
 import identityresolution_models.Player;
-
-public class NameLongestString extends
-AttributeValueFuser<String, Player, Attribute>{
+/**
+ * @author group3
+ * 
+ * Fusion of the name using the longest string.
+ */
+public class NameLongestString extends AttributeValueFuser<String, Player, Attribute>{
 
 	public NameLongestString() {
 		super(new LongestString<Player, Attribute>());

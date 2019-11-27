@@ -9,7 +9,11 @@ import de.uni_mannheim.informatik.dws.winter.similarity.numeric.AbsoluteDifferen
 import de.uni_mannheim.informatik.dws.winter.similarity.numeric.DeviationSimilarity;
 import de.uni_mannheim.informatik.dws.winter.similarity.numeric.PercentageSimilarity;
 import identityresolution_models.Player;
-
+/**
+ * @author group3
+ * 
+ * Comparator for the height of the European Soccer Database and FIFA19 data set using deviation similarity.
+ */
 public class HeightFIFAESDDeviationSimilarity implements Comparator<Player, Attribute>{
 
 	//similarity measure test

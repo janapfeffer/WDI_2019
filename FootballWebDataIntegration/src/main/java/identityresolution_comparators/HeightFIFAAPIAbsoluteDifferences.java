@@ -7,7 +7,11 @@ import de.uni_mannheim.informatik.dws.winter.model.Matchable;
 import de.uni_mannheim.informatik.dws.winter.model.defaultmodel.Attribute;
 import de.uni_mannheim.informatik.dws.winter.similarity.numeric.AbsoluteDifferenceSimilarity;
 import identityresolution_models.Player;
-
+/**
+ * @author group3
+ * 
+ * Comparator for the height of the iSports API and FIFA19 data set based on an absolute difference.
+ */
 public class HeightFIFAAPIAbsoluteDifferences implements Comparator<Player, Attribute>{
 
 	//similarity measure test

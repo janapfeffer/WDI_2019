@@ -7,7 +7,12 @@ import de.uni_mannheim.informatik.dws.winter.model.defaultmodel.Attribute;
 import de.uni_mannheim.informatik.dws.winter.similarity.SimilarityMeasure;
 import de.uni_mannheim.informatik.dws.winter.similarity.string.TokenizingJaccardSimilarity;
 import identityresolution_models.Player;
-
+/**
+ * @author group3
+ * 
+ * Evaluation of the fusion of the current club. 
+ * It can be spelled slightly differently.
+ */
 public class CurrentClubEvaluationRule extends EvaluationRule<Player, Attribute>  {
 	SimilarityMeasure<String> sim = new TokenizingJaccardSimilarity();
 

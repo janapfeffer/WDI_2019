@@ -25,7 +25,11 @@ import identityresolution_comparators.PlayerNameAPITransfersComparatorLevenshtei
 import identityresolution_comparators.PlayerNameDateAPITransferComparator;
 import identityresolution_models.Player;
 import identityresolution_models.PlayerXMLReader;
-
+/**
+ * @author group3
+ * 
+ * Identity resolution between the iSports API data set and the transfers data set.
+ */
 public class IR_API_TRANSFERS {
 
 	private static final Logger logger = WinterLogManager.activateLogger("default");

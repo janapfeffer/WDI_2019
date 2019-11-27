@@ -1,9 +1,7 @@
 package identityresolution_comparators;
 
-import java.text.SimpleDateFormat;
 import java.time.LocalDateTime;
 import java.time.format.DateTimeFormatter;
-import java.util.Date;
 
 import de.uni_mannheim.informatik.dws.winter.matching.rules.Comparator;
 import de.uni_mannheim.informatik.dws.winter.matching.rules.ComparatorLogger;
@@ -13,22 +11,13 @@ import de.uni_mannheim.informatik.dws.winter.model.defaultmodel.Attribute;
 import de.uni_mannheim.informatik.dws.winter.similarity.date.YearSimilarity;
 import identityresolution_models.Player;
 
-
+/**
+ * @author group3
+ * 
+ * Comparator for the date of birth of the FIFA19 and the European Soccer Database data set.
+ * Uses a two year difference since FIFA19 does only contain the derived date of birth that can be inaccurate by 2 years.
+ */
 public class DateFIFAESDComparator2Year implements Comparator<Player, Attribute> {
-
-	/*similarity measure test
-	public static void main( String[] args ) throws Exception{
-		DateTimeFormatter formatter = DateTimeFormatter.ofPattern("yyyy-MM-dd HH:mm");
-		LocalDateTime date1 = LocalDateTime.parse("1998-05-16 00:00", formatter);
-		LocalDateTime date2 = LocalDateTime.parse("1997-01-01 00:00", formatter);
-		double sim_test;
-		if (date2.isAfter(date1)) {
-			sim_test = sim.calculate(date2, date1);
-		} else {
-			sim_test = 0.0;
-		}
-		System.out.println(sim_test);
-	}*/
 
 	private static final long serialVersionUID = 1L;
 	public static YearSimilarity sim = new YearSimilarity(4);

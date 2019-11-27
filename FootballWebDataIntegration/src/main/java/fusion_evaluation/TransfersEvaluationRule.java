@@ -9,7 +9,11 @@ import de.uni_mannheim.informatik.dws.winter.model.Matchable;
 import de.uni_mannheim.informatik.dws.winter.model.defaultmodel.Attribute;
 import identityresolution_models.Player;
 import identityresolution_models.Transfer;
-
+/**
+ * @author group3
+ * 
+ * Evaluation of the fusion of the transfers.
+ */
 public class TransfersEvaluationRule extends EvaluationRule<Player, Attribute> {
 
 	@Override

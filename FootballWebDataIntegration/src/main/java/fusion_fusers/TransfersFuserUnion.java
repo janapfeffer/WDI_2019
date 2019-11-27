@@ -12,7 +12,11 @@ import de.uni_mannheim.informatik.dws.winter.model.defaultmodel.Attribute;
 import de.uni_mannheim.informatik.dws.winter.processing.Processable;
 import identityresolution_models.Player;
 import identityresolution_models.Transfer;
-
+/**
+ * @author group3
+ * 
+ * Fusion of the transfers using union.
+ */
 public class TransfersFuserUnion extends AttributeValueFuser<List<Transfer>, Player, Attribute> {
 
 	public TransfersFuserUnion() {

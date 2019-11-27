@@ -10,7 +10,11 @@ import de.uni_mannheim.informatik.dws.winter.model.defaultmodel.Attribute;
 import de.uni_mannheim.informatik.dws.winter.similarity.string.JaccardOnNGramsSimilarity;
 import de.uni_mannheim.informatik.dws.winter.similarity.string.TokenizingJaccardSimilarity;
 import identityresolution_models.Player;
-
+/**
+ * @author group3
+ * 
+ * Comparator for the name of the European Soccer Database and FIFA19 data sets using Jaccard  on n-gram.
+ */
 public class PlayerNameFIFAESDComparatorJaccardOnNGram implements Comparator<Player, Attribute>{
 
 	private static JaccardOnNGramsSimilarity sim = new JaccardOnNGramsSimilarity(2);

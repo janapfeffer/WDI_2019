@@ -19,7 +19,11 @@ import de.uni_mannheim.informatik.dws.winter.model.DataSet;
 import de.uni_mannheim.informatik.dws.winter.model.FusibleFactory;
 import de.uni_mannheim.informatik.dws.winter.model.RecordGroup;
 import de.uni_mannheim.informatik.dws.winter.model.defaultmodel.Attribute;
-
+/**
+ * @author group3
+ * 
+ * Developments XML reader, used for fusion.
+ */
 public class DevelopmentsXMLReader_Fusion extends XMLMatchableReader<Player, Attribute> implements
 FusibleFactory<Player, Attribute>{
 

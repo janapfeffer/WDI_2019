@@ -11,7 +11,11 @@ import de.uni_mannheim.informatik.dws.winter.model.defaultmodel.Attribute;
 import de.uni_mannheim.informatik.dws.winter.processing.DataIterator;
 import de.uni_mannheim.informatik.dws.winter.processing.Processable;
 import identityresolution_models.Player;
-
+/**
+ * @author group3
+ * 
+ * Blocking based on a players birthday in five year intervals.
+ */
 public class PlayerBlockingKeyByYearGenerator extends
 RecordBlockingKeyGenerator<Player, Attribute>{
 
@@ -20,8 +24,6 @@ RecordBlockingKeyGenerator<Player, Attribute>{
 			DataIterator<Pair<String, Player>> resultCollector) {
 
 		resultCollector.next(new Pair<>(Integer.toString(record.getDateOfBirth().getYear() / 5), record));
-		//resultCollector.next(new Pair<>(Integer.toString(record.getDateOfBirth().getYear() + 1), record));
-		//resultCollector.next(new Pair<>(Integer.toString(record.getDateOfBirth().getYear() + 2), record));
 	}
 
 }

@@ -12,7 +12,11 @@ import de.uni_mannheim.informatik.dws.winter.model.defaultmodel.Attribute;
 
 import de.uni_mannheim.informatik.dws.winter.similarity.string.TokenizingJaccardSimilarity;
 import identityresolution_models.Player;
-
+/**
+ * @author group3
+ * 
+ * Comparator for the name of the iSports API and FIFA19 data set using Jaccard.
+ */
 public class PlayerNameFIFAAPIComparatorJaccard implements Comparator<Player, Attribute>{
 
 	private static final long serialVersionUID = 1L;

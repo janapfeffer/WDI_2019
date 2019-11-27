@@ -11,9 +11,12 @@ import de.uni_mannheim.informatik.dws.winter.model.defaultmodel.Attribute;
 import de.uni_mannheim.informatik.dws.winter.similarity.string.LevenshteinSimilarity;
 import de.uni_mannheim.informatik.dws.winter.similarity.date.YearSimilarity;
 import identityresolution_models.Player;
-
-
-
+/**
+ * @author group3
+ * 
+ * Comparator for the name of the iSports API and transfer data set using levenshtein similarity
+ * and the date of birth using year similarity with an accepted deviation of 2 years.
+ */
 public class PlayerNameDateAPITransferComparator implements Comparator<Player, Attribute>{
 
 	private static final long serialVersionUID = 1L;

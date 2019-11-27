@@ -11,7 +11,11 @@ import de.uni_mannheim.informatik.dws.winter.model.RecordGroup;
 import de.uni_mannheim.informatik.dws.winter.model.defaultmodel.Attribute;
 import de.uni_mannheim.informatik.dws.winter.processing.Processable;
 import identityresolution_models.Player;
-
+/**
+ * @author group3
+ * 
+ * Fusion of the date of birth based on source scores.
+ */
 public class DateOfBirthFuserFavourSource extends AttributeValueFuser<LocalDateTime, Player, Attribute>{
 
 	public DateOfBirthFuserFavourSource() {

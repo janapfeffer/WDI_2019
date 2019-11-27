@@ -9,7 +9,11 @@ import de.uni_mannheim.informatik.dws.winter.model.RecordGroup;
 import de.uni_mannheim.informatik.dws.winter.model.defaultmodel.Attribute;
 import de.uni_mannheim.informatik.dws.winter.processing.Processable;
 import identityresolution_models.Player;
-
+/**
+ * @author group3
+ * 
+ * Fusion of the wage using the source scores.
+ */
 public class WageInEuroFavourSourceFuser extends AttributeValueFuser<Float, Player, Attribute>{
 
 	public WageInEuroFavourSourceFuser() {

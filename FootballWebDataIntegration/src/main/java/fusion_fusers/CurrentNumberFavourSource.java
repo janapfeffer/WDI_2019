@@ -9,7 +9,11 @@ import de.uni_mannheim.informatik.dws.winter.model.RecordGroup;
 import de.uni_mannheim.informatik.dws.winter.model.defaultmodel.Attribute;
 import de.uni_mannheim.informatik.dws.winter.processing.Processable;
 import identityresolution_models.Player;
-
+/**
+ * @author group3
+ * 
+ * Fusion of the current jersey number based on source scores.
+ */
 public class CurrentNumberFavourSource extends AttributeValueFuser<Integer, Player, Attribute>{
 	// API and FIFA are the only data sources containing the current number
 	// -> favour with the same priority as current club

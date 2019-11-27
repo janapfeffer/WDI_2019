@@ -13,9 +13,8 @@ import de.uni_mannheim.informatik.dws.winter.model.AbstractRecord;
 import de.uni_mannheim.informatik.dws.winter.model.defaultmodel.Attribute;
 
 /**
- * A {@link AbstractRecord} which represents an Player
- * 
- * 
+ * @author group3
+ * A {@link AbstractRecord} which represents a Player
  */
 public class Player extends AbstractRecord<Attribute> implements Serializable {
 

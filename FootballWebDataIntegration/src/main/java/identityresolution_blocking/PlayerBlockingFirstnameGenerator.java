@@ -13,7 +13,11 @@ import de.uni_mannheim.informatik.dws.winter.model.defaultmodel.Attribute;
 import de.uni_mannheim.informatik.dws.winter.processing.DataIterator;
 import de.uni_mannheim.informatik.dws.winter.processing.Processable;
 import identityresolution_models.Player;
-
+/**
+ * @author group3
+ * 
+ * Blocking based on the first character of the first name of a player.
+ */
 public class PlayerBlockingFirstnameGenerator extends RecordBlockingKeyGenerator<Player, Attribute> {
 
 	@Override
@@ -23,7 +27,7 @@ public class PlayerBlockingFirstnameGenerator extends RecordBlockingKeyGenerator
 		// normalize name
 		String name = Normalizer.normalize(StringEscapeUtils.unescapeHtml4(record.getName()), Normalizer.Form.NFD).
 				replaceAll("[^\\p{ASCII}]", "").replace("'", "").replace(".", "").toLowerCase().replaceAll("\\s+", " ").trim();
-		// extract first letter of firstname
+		// extract first letter of first name
 		String firstname = "";
 		try {
 			firstname = name.substring(0, 1);
