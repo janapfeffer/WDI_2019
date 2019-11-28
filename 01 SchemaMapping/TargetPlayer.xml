@@ -1,0 +1,65 @@
+								<?xml version="1.0" encoding="utf-8"?>
+<Players>
+    <Player>
+        <id>1000</id>
+        <Name>Leo Messi</Name>
+        <dateOfBirth>01.01.1980</dateOfBirth>
+        <Nationality>Argentina</Nationality>
+        <Photo>https://cdn.sofifa.org/players/4/19/158023.png</Photo>
+        <CurrentClub>Barcelona</CurrentClub>
+        <CurrentPosition>BK</CurrentPosition>
+        <CurrentNumber>10</CurrentNumber>
+        <WageInEuro>560000</WageInEuro>
+        <Weight>80.10</Weight>
+        <Height>170.50</Height>
+        <Foot>right</Foot>
+        <Speed>86</Speed>
+        <Developments>
+ 		        <Development>
+	    		      <Year>2015</Year>
+                <Rating>98</Rating>
+            		<Potential>76</Potential>
+                <DefensiveWorkRate>medium</DefensiveWorkRate>
+                <AttackingWorkRate>high</AttackingWorkRate> 
+		        </Development> 
+        </Developments>
+        <Transfers>
+            <Transfer>
+                <ClubOut>Manchester City</ClubOut>
+                <ClubIn>Barcelona</ClubIn>
+                <Year>2005</Year>
+            </Transfer>
+        </Transfers>
+    </Player>
+          <Player>
+        <id>1000</id>
+        <Name>Leo Messi</Name>
+        <dateOfBirth>01.01.1980</dateOfBirth>
+        <Nationality>Argentina</Nationality>
+        <Photo>https://cdn.sofifa.org/players/4/19/158023.png</Photo>
+        <CurrentClub>Barcelona</CurrentClub>
+        <CurrentPosition>BK</CurrentPosition>
+        <CurrentNumber>10</CurrentNumber>
+        <WageInEuro>560000</WageInEuro>
+        <Weight>80.10</Weight>
+        <Height>170.50</Height>
+        <Foot>right</Foot>
+        <Speed>86</Speed>
+            <Developments>
+ 		<Development>
+	    		<Year>2015</Year>
+            		<Rating>98</Rating>
+            		<Potential>76</Potential>
+            		<DefensiveWorkRate>medium</DefensiveWorkRate>
+            		<AttackingWorkRate>high</AttackingWorkRate> 
+		</Development> 
+            </Developments>
+        <Transfers>
+            <Transfer>
+                <ClubOut>Manchester City</ClubOut>
+                <ClubIn>Barcelona</ClubIn>
+                <Year>2005</Year>
+            </Transfer>
+        </Transfers>
+    </Player>
+</Players>

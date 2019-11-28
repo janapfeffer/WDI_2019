@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Edited with Altova MapForce 2019r3sp1 -->
+<mapping xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="25">
+	<resources/>
+	<component name="defaultmap" uid="1" editable="1" blackbox="0">
+		<properties SelectedLanguage="builtin"/>
+		<structure>
+			<children>
+				<component name="player" library="json" uid="5" kind="31">
+					<properties XSLTTargetEncoding="UTF-8"/>
+					<view ltx="101" lty="31" rbx="289" rby="391"/>
+					<data>
+						<root>
+							<header>
+								<namespaces>
+									<namespace/>
+									<namespace uid="http://www.altova.com/mapforce"/>
+								</namespaces>
+							</header>
+							<entry name="FileInstance" ns="1" expanded="1">
+								<entry name="document" ns="1" expanded="1" casttotargettypemode="cast-in-subtree">
+									<entry name="root" expanded="1">
+										<entry name="array" expanded="1">
+											<entry name="item" type="json-item" expanded="1">
+												<entry name="object" outkey="3" expanded="1">
+													<entry name="recordId" type="json-property" expanded="1"/>
+													<entry name="playerId" type="json-property" expanded="1"/>
+													<entry name="name" type="json-property" expanded="1">
+														<entry name="string" outkey="4"/>
+													</entry>
+													<entry name="birthday" type="json-property" expanded="1">
+														<entry name="string" outkey="5"/>
+													</entry>
+													<entry name="height" type="json-property" expanded="1">
+														<entry name="number" outkey="6"/>
+													</entry>
+													<entry name="country" type="json-property" expanded="1"/>
+													<entry name="feet" type="json-property" expanded="1"/>
+													<entry name="weight" type="json-property" expanded="1">
+														<entry name="number" outkey="7"/>
+													</entry>
+													<entry name="photo" type="json-property" expanded="1">
+														<entry name="string" outkey="8"/>
+													</entry>
+													<entry name="value" type="json-property" expanded="1"/>
+													<entry name="teamId" type="json-property" expanded="1"/>
+													<entry name="position" type="json-property" expanded="1">
+														<entry name="string" outkey="9"/>
+													</entry>
+													<entry name="number" type="json-property" expanded="1">
+														<entry name="number" outkey="10"/>
+													</entry>
+													<entry name="introduce" type="json-property" expanded="1"/>
+													<entry name="contractEndDate" type="json-property" expanded="1"/>
+												</entry>
+											</entry>
+										</entry>
+									</entry>
+								</entry>
+							</entry>
+						</root>
+						<json schema="player.schema.json" inputinstance="player.json" outputinstance="player.json"/>
+					</data>
+				</component>
+				<component name="TargetPlayer" library="xml" uid="3" kind="14">
+					<properties XSLTTargetEncoding="UTF-8" XSLTDefaultOutput="1"/>
+					<view ltx="596" lty="2" rbx="845" rby="418"/>
+					<data>
+						<root>
+							<header>
+								<namespaces>
+									<namespace/>
+									<namespace uid="http://www.altova.com/mapforce"/>
+								</namespaces>
+							</header>
+							<entry name="FileInstance" ns="1" expanded="1">
+								<entry name="document" ns="1" expanded="1" casttotargettypemode="cast-in-subtree">
+									<entry name="Players" inpkey="1" expanded="1">
+										<entry name="Player" expanded="1">
+											<entry name="Name" inpkey="2"/>
+											<entry name="dateOfBirth" inpkey="11"/>
+											<entry name="Photo" inpkey="12"/>
+											<entry name="CurrentPosition" inpkey="13"/>
+											<entry name="CurrentNumber" inpkey="14"/>
+											<entry name="PlayerCharacteristics" expanded="1">
+												<entry name="Weight" inpkey="15"/>
+												<entry name="Height" inpkey="16"/>
+											</entry>
+										</entry>
+									</entry>
+								</entry>
+							</entry>
+						</root>
+						<document schema="TargetPlayer.xsd" outputinstance="TargetPlayer.xml" instanceroot="{}Players"/>
+					</data>
+				</component>
+			</children>
+			<graph directed="1">
+				<edges/>
+				<vertices>
+					<vertex vertexkey="3">
+						<edges>
+							<edge vertexkey="1"/>
+						</edges>
+					</vertex>
+					<vertex vertexkey="4">
+						<edges>
+							<edge vertexkey="2"/>
+						</edges>
+					</vertex>
+					<vertex vertexkey="5">
+						<edges>
+							<edge vertexkey="11"/>
+						</edges>
+					</vertex>
+					<vertex vertexkey="8">
+						<edges>
+							<edge vertexkey="12"/>
+						</edges>
+					</vertex>
+					<vertex vertexkey="9">
+						<edges>
+							<edge vertexkey="13"/>
+						</edges>
+					</vertex>
+					<vertex vertexkey="10">
+						<edges>
+							<edge vertexkey="14"/>
+						</edges>
+					</vertex>
+					<vertex vertexkey="7">
+						<edges>
+							<edge vertexkey="15"/>
+						</edges>
+					</vertex>
+					<vertex vertexkey="6">
+						<edges>
+							<edge vertexkey="16"/>
+						</edges>
+					</vertex>
+				</vertices>
+			</graph>
+		</structure>
+	</component>
+</mapping>
