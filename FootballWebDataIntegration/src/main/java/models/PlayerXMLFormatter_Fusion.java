@@ -16,12 +16,12 @@ public class PlayerXMLFormatter_Fusion extends XMLFormatter<Player> {
 
 	@Override
 	public Element createRootElement(Document doc) {
-		return doc.createElement("players");
+		return doc.createElement("Players");
 	}
 
 	@Override
 	public Element createElementFromRecord(Player record, Document doc) {
-		Element player = doc.createElement("player");
+		Element player = doc.createElement("Player");
 
 		player.appendChild(createTextElement("id", record.getIdentifier(), doc));
 

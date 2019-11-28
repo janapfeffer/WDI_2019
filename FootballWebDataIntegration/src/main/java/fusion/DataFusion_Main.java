@@ -188,6 +188,11 @@ public class DataFusion_Main {
 		double accuracy = evaluator.evaluate(fusedDataSet, gs, null);
 
 		System.out.println(String.format("Accuracy: %.2f", accuracy));
+		
+		// print density of final fused data set
+		FusibleDataSet<Player, Attribute> dataFused = new FusibleHashedDataSet<>();
+		new PlayerXMLReader_Fusion().loadFromXML(new File("data/output/fused.xml"), "/Players/Player", dataFused);
+		dataFused.printDataSetDensityReport();
 	}
 
 }
