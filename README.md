@@ -1,1 +1,2 @@
-# WDI_2019
+##  Web Data Integration Project: Football Player Information
+
