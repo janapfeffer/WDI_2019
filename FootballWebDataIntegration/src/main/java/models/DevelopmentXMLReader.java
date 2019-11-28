@@ -1,4 +1,4 @@
-package identityresolution_models;
+package models;
 
 import org.w3c.dom.Node;
 

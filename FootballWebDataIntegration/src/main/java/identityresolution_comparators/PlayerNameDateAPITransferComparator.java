@@ -9,8 +9,8 @@ import de.uni_mannheim.informatik.dws.winter.model.Correspondence;
 import de.uni_mannheim.informatik.dws.winter.model.Matchable;
 import de.uni_mannheim.informatik.dws.winter.model.defaultmodel.Attribute;
 import de.uni_mannheim.informatik.dws.winter.similarity.string.LevenshteinSimilarity;
+import models.Player;
 import de.uni_mannheim.informatik.dws.winter.similarity.date.YearSimilarity;
-import identityresolution_models.Player;
 /**
  * @author group3
  * 

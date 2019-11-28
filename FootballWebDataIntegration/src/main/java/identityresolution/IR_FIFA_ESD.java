@@ -27,8 +27,8 @@ import identityresolution_comparators.PlayerNameFIFAESDComparatorJaccard;
 import identityresolution_comparators.PlayerNameFIFAESDComparatorJaccardOnNGram;
 import identityresolution_comparators.PlayerNameFIFAESDComparatorLevenshtein;
 import identityresolution_comparators.PlayerNameFIFAESDComparatorMaximumTokenContainment;
-import identityresolution_models.Player;
-import identityresolution_models.PlayerXMLReader;
+import models.Player;
+import models.PlayerXMLReader;
 /**
  * @author group3
  * 

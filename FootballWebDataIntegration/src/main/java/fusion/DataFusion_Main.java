@@ -49,10 +49,10 @@ import fusion_fusers.SpeedFavourSourceFuser;
 import fusion_fusers.TransfersFuserUnion;
 import fusion_fusers.WageInEuroFavourSourceFuser;
 import fusion_fusers.WeightFuserMostRecent;
-import fusion_models.PlayerXMLFormatter_Fusion;
-import fusion_models.PlayerXMLReader_Fusion;
-import identityresolution_models.Player;
-import identityresolution_models.PlayerXMLFormatter;
+import models.Player;
+import models.PlayerXMLFormatter;
+import models.PlayerXMLFormatter_Fusion;
+import models.PlayerXMLReader_Fusion;
 
 public class DataFusion_Main {
 

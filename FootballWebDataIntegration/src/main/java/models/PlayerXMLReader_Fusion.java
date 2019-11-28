@@ -1,11 +1,6 @@
-package fusion_models;
+package models;
 
 import de.uni_mannheim.informatik.dws.winter.model.io.XMLMatchableReader;
-import identityresolution_models.Development;
-import identityresolution_models.DevelopmentXMLReader;
-import identityresolution_models.Player;
-import identityresolution_models.Transfer;
-import identityresolution_models.TransferXMLReader;
 
 import java.time.LocalDateTime;
 import java.time.format.DateTimeFormatter;

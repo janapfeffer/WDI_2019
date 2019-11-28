@@ -26,8 +26,8 @@ import identityresolution_comparators.HeightFIFAAPIPercentageSimilarity;
 import identityresolution_comparators.PlayerNameFIFAAPIComparator;
 import identityresolution_comparators.PlayerNameFIFAAPIComparatorJaccard;
 import identityresolution_comparators.PlayerNameFIFAAPIComparatorLevenshtein;
-import identityresolution_models.Player;
-import identityresolution_models.PlayerXMLReader;
+import models.Player;
+import models.PlayerXMLReader;
 /**
  * @author group3
  * 

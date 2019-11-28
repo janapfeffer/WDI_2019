@@ -8,7 +8,7 @@ import de.uni_mannheim.informatik.dws.winter.model.Pair;
 import de.uni_mannheim.informatik.dws.winter.model.defaultmodel.Attribute;
 import de.uni_mannheim.informatik.dws.winter.processing.DataIterator;
 import de.uni_mannheim.informatik.dws.winter.processing.Processable;
-import identityresolution_models.Player;
+import models.Player;
 /**
  * @author group3
  * 

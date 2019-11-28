@@ -1,14 +1,9 @@
-package fusion_models;
+package models;
 
 import org.w3c.dom.Document;
 import org.w3c.dom.Element;
 
 import de.uni_mannheim.informatik.dws.winter.model.io.XMLFormatter;
-import identityresolution_models.Development;
-import identityresolution_models.DevelopmentXMLFormatter;
-import identityresolution_models.Player;
-import identityresolution_models.Transfer;
-import identityresolution_models.TransferXMLFormatter;
 /**
  * @author group3
  * 

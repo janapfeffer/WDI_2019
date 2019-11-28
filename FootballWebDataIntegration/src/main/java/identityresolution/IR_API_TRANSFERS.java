@@ -23,8 +23,8 @@ import identityresolution_comparators.DateAPITransferComparator;
 import identityresolution_comparators.PlayerNameAPITransferComparator;
 import identityresolution_comparators.PlayerNameAPITransfersComparatorLevenshtein;
 import identityresolution_comparators.PlayerNameDateAPITransferComparator;
-import identityresolution_models.Player;
-import identityresolution_models.PlayerXMLReader;
+import models.Player;
+import models.PlayerXMLReader;
 /**
  * @author group3
  * 

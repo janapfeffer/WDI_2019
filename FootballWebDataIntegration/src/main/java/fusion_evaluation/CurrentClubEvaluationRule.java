@@ -6,7 +6,7 @@ import de.uni_mannheim.informatik.dws.winter.model.Matchable;
 import de.uni_mannheim.informatik.dws.winter.model.defaultmodel.Attribute;
 import de.uni_mannheim.informatik.dws.winter.similarity.SimilarityMeasure;
 import de.uni_mannheim.informatik.dws.winter.similarity.string.TokenizingJaccardSimilarity;
-import identityresolution_models.Player;
+import models.Player;
 /**
  * @author group3
  * 

@@ -8,7 +8,7 @@ import de.uni_mannheim.informatik.dws.winter.model.defaultmodel.Attribute;
 import de.uni_mannheim.informatik.dws.winter.similarity.numeric.AbsoluteDifferenceSimilarity;
 import de.uni_mannheim.informatik.dws.winter.similarity.numeric.DeviationSimilarity;
 import de.uni_mannheim.informatik.dws.winter.similarity.numeric.PercentageSimilarity;
-import identityresolution_models.Player;
+import models.Player;
 /**
  * @author group3
  * 

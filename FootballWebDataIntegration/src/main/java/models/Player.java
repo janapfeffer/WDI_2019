@@ -1,5 +1,5 @@
 /* copyright: group 3*/
-package identityresolution_models;
+package models;
 
 import java.io.Serializable;
 import java.time.LocalDateTime;
