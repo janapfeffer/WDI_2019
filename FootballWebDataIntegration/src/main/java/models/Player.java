@@ -119,7 +119,7 @@ public class Player extends AbstractRecord<Attribute> implements Serializable {
 		try {
 			helper = height;
 		} catch (Exception e) {
-			// TODO: handle exception
+			
 		}
 		return helper;
 	}
@@ -229,7 +229,7 @@ public class Player extends AbstractRecord<Attribute> implements Serializable {
 		else if(attribute==NATIONALITY)
 			return getNationality()!=null;
 		else if(attribute==PHOTO)
-			return getPhoto()!=null;
+			return getPhoto()!=null && getPhoto() != "";
 		else if(attribute==SPEED)
 			return getSpeed()!=0;
 		else if(attribute==TRANSFERS)
