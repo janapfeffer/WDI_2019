@@ -57,12 +57,12 @@ FusibleFactory<Player, Attribute>{
 		try {
 			player.setCurrentClub(getValueFromChildElement(node, "CurrentClub"));
 		} catch (Exception e) {
-			// TODO: nothing
+			;
 		}
 		try {
 			player.setCurrentNumber(Integer.valueOf(getValueFromChildElement(node, "CurrentNumber")));
 		} catch (Exception e) {
-			// TODO: handle exception
+			
 		}
 
 		try {

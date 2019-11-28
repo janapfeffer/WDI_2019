@@ -1,5 +1,7 @@
 package fusion_evaluation;
 
+import java.text.Normalizer;
+
 import de.uni_mannheim.informatik.dws.winter.datafusion.EvaluationRule;
 import de.uni_mannheim.informatik.dws.winter.model.Correspondence;
 import de.uni_mannheim.informatik.dws.winter.model.Matchable;
@@ -17,7 +19,9 @@ public class NameEvaluationRule extends EvaluationRule<Player, Attribute> {
 	@Override
 	public boolean isEqual(Player record1, Player record2, Attribute schemaElement) {
 		// the name is correct all tokens are there, but the order does not matter
-		return sim.calculate(record1.getName(), record2.getName()) == 1.0;
+		String s1 = Normalizer.normalize(record1.getName(), Normalizer.Form.NFD);
+		String s2 = Normalizer.normalize(record1.getName(), Normalizer.Form.NFD);
+		return sim.calculate(s1, s2) == 1.0;			
 	}
 
 	@Override

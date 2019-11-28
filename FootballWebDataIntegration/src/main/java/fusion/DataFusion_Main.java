@@ -84,10 +84,10 @@ public class DataFusion_Main {
 
 		// Maintain Provenance
 		// Scores (are later on sometimes adapted since the data quality varies for different attributes)
-		dataAPI.setScore(1.0);
-		dataESD.setScore(2.0);
-		dataFIFA.setScore(3.0);
-		dataTransfer.setScore(4.0);
+		dataAPI.setScore(4.0);
+		dataESD.setScore(3.0);
+		dataFIFA.setScore(2.0);
+		dataTransfer.setScore(1.0);
 
 		// Date (last update)
 		DateTimeFormatter formatter = new DateTimeFormatterBuilder()
@@ -127,30 +127,16 @@ public class DataFusion_Main {
 		strategy.activateDebugReport("data/output/debugResultsDatafusion.csv", -1, gs);
 
 		// add attribute fusers
+		// fuse date of birth, we prefer data sources that contain the accurate date of birth (API and ESD)
+		strategy.addAttributeFuser(Player.DATEOFBIRTH, new DateOfBirthFuserFavourSource(), new DateOfBirthEvaluationRule());
+		//strategy.addAttributeFuser(Player.DATEOFBIRTH, new DateOfBirthVotingFuser(), new DateOfBirthEvaluationRule());
 		strategy.addAttributeFuser(Player.NAME, new NameLongestString(), new NameEvaluationRule());
 		// fuse photos, we prefer the API photos because they have a higher resolution
-		dataAPI.setScore(4.0);
-		dataESD.setScore(2.0);
-		dataFIFA.setScore(3.0);
-		dataTransfer.setScore(1.0);
 		strategy.addAttributeFuser(Player.PHOTO, new PhotoFuserFavourSource(), new PhotoEvaluationRule());
-		// fuse nationality
-		dataAPI.setScore(0.0);
-		dataESD.setScore(0.0);
-		dataFIFA.setScore(4.0);
-		dataTransfer.setScore(0.0);
+		// fuse nationality, it is only contained in FIFA19
 		//strategy.addAttributeFuser(Player.NATIONALITY, new NationalityFavourSource(), new NationalityEvaluationRule());
 		strategy.addAttributeFuser(Player.NATIONALITY, new NationalityLongestString(), new NationalityEvaluationRule());
-		// fuse date of birth, we prefer data sources that contain the accurate date of birth
-		dataAPI.setScore(4.0);
-		dataESD.setScore(3.0);
-		dataFIFA.setScore(0.0);
-		dataTransfer.setScore(0.0);
-		//strategy.addAttributeFuser(Player.DATEOFBIRTH, new DateOfBirthFuserFavourSource(), new DateOfBirthEvaluationRule());
-		strategy.addAttributeFuser(Player.DATEOFBIRTH, new DateOfBirthFuserFavourSource(), new DateOfBirthEvaluationRule());
 		// only FIFAS contains the current club & wages
-		dataFIFA.setScore(4.0);
-		dataAPI.setScore(1.0);
 		// doesn't matter which fuser we use, same result
 		//strategy.addAttributeFuser(Player.CURRENTCLUB, new CurrentClubFavourSourceFuser(), new CurrentClubEvaluationRule());
 		strategy.addAttributeFuser(Player.CURRENTCLUB, new CurrentClubMostRecentFuser(), new CurrentClubEvaluationRule());

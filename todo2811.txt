@@ -1,7 +1,6 @@
 Report:
 section 2:
-- take information from the current full text and put it into sub sections of 2
-- delete/comment out tables & (then) old full text
+- content finished, review
 section 3:
 - overview table with comparators + results
 - overview table with blockers + results
