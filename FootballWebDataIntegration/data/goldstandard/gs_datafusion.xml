@@ -344,7 +344,7 @@
             </Transfer>
             <Transfer>
                 <ClubOut>Hull City</ClubOut>
-                <ClubIn>Leicsster City</ClubIn>
+                <ClubIn>Leicester City</ClubIn>
                 <Year>2017</Year>
             </Transfer>
             <Transfer>
@@ -356,16 +356,6 @@
                 <ClubOut>Sheffield United</ClubOut>
                 <ClubIn>Hull City</ClubIn>
                 <Year>2014</Year>
-            </Transfer>
-            <Transfer>
-                <ClubOut>Sheffield United</ClubOut>
-                <ClubIn>Sheffield United U18</ClubIn>
-                <Year>2011</Year>
-            </Transfer>
-            <Transfer>
-                <ClubOut>Barnsley FC U18</ClubOut>
-                <ClubIn>Sheffield United U18</ClubIn>
-                <Year>2009</Year>
             </Transfer>
         </Transfers>
     </Player>
@@ -407,16 +397,6 @@
                 <ClubOut>VfB Stuttgart U17</ClubOut>
                 <ClubIn>VfB Stuttgart U19</ClubIn>
                 <Year>2012</Year>
-            </Transfer>
-            <Transfer>
-                <ClubOut>VfB Stuttgart Youth</ClubOut>
-                <ClubIn>VfB Stuttgart U17</ClubIn>
-                <Year>2011</Year>
-            </Transfer>
-            <Transfer>
-                <ClubOut>TSV Steinhaldenfeld Youth</ClubOut>
-                <ClubIn>VfB Stuttgart Youth</ClubIn>
-                <Year>2002</Year>
             </Transfer>
         </Transfers>
     </Player>
@@ -574,20 +554,6 @@
                 <ClubIn>SL Benfica B</ClubIn>
                 <Year>2013</Year>
             </Transfer>
-            <Transfer>
-                <ClubOut>SL Benfica U17</ClubOut>
-                <ClubIn>SL Benfica U19</ClubIn>
-                <Year>2011</Year>
-            </Transfer>
-            <Transfer>
-                <ClubOut>SL Benfica U15</ClubOut>
-                <ClubIn>SL Benfica U17</ClubIn>
-                <Year>2009</Year>
-            </Transfer>
-            <Transfer>
-                <ClubOut>SL Benfica Youth</ClubOut>
-                <ClubIn>SL Benfica U15</ClubIn>
-            </Transfer>
         </Transfers>
     </Player>
 
@@ -743,36 +709,6 @@
                 <ClubOut>Real Madrid</ClubOut>
                 <ClubIn>Juventus FC</ClubIn>
                 <Year>2018</Year>
-            </Transfer>
-            <Transfer>
-                <ClubOut>Manchester United</ClubOut>
-                <ClubIn>Real Madrid</ClubIn>
-                <Year>2009</Year>
-            </Transfer>
-            <Transfer>
-                <ClubOut>Sporting CP</ClubOut>
-                <ClubIn>Manchester United</ClubIn>
-                <Year>2003</Year>
-            </Transfer>
-            <Transfer>
-                <ClubOut>Sporting CP U19</ClubOut>
-                <ClubIn>Sporting CP</ClubIn>
-                <Year>2002</Year>
-            </Transfer>
-            <Transfer>
-                <ClubOut>Sporting CP Juvenis</ClubOut>
-                <ClubIn>Sporting CP U19</ClubIn>
-                <Year>2000</Year>
-            </Transfer>
-            <Transfer>
-                <ClubOut>Sporting CP Sub-1</ClubOut>
-                <ClubIn>Sporting CP Juvenis</ClubIn>
-                <Year>1998</Year>
-            </Transfer>
-            <Transfer>
-                <ClubOut>CD Nacional U15</ClubOut>
-                <ClubIn>Sporting CP Sub-15</ClubIn>
-                <Year>1997</Year>
             </Transfer>
         </Transfers>
     </Player>

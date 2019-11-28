@@ -127,7 +127,6 @@ public class DataFusion_Main {
 		strategy.activateDebugReport("data/output/debugResultsDatafusion.csv", -1, gs);
 
 		// add attribute fusers
-		// TODO: currentposition
 		strategy.addAttributeFuser(Player.NAME, new NameLongestString(), new NameEvaluationRule());
 		// fuse photos, we prefer the API photos because they have a higher resolution
 		dataAPI.setScore(4.0);
