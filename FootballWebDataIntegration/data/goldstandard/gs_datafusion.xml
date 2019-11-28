@@ -281,33 +281,33 @@
         </Developments>
         <Transfers>
             <Transfer>
-                <ClubOut></ClubOut>
-                <ClubIn></ClubIn>
+                <ClubOut>Leeds United</ClubOut>
+                <ClubIn>Sint-Truidense VV </ClubIn>
                 <Year>2017</Year>
             </Transfer>
             <Transfer>
-                <ClubOut></ClubOut>
-                <ClubIn></ClubIn>
+                <ClubOut>Charlton Athletic</ClubOut>
+                <ClubIn>Leeds United</ClubIn>
                 <Year>2017</Year>
             </Transfer>
             <Transfer>
-                <ClubOut></ClubOut>
-                <ClubIn></ClubIn>
+                <ClubOut>Leeds United</ClubOut>
+                <ClubIn>Charlton Athletic</ClubIn>
                 <Year>2016</Year>
             </Transfer>
             <Transfer>
-                <ClubOut></ClubOut>
-                <ClubIn></ClubIn>
+                <ClubOut>SBV Excelsior Rotterdam</ClubOut>
+                <ClubIn>Leeds United</ClubIn>
                 <Year>2015</Year>
             </Transfer>
             <Transfer>
-                <ClubOut></ClubOut>
-                <ClubIn></ClubIn>
+                <ClubOut>Club Brugge KV</ClubOut>
+                <ClubIn>SBV Excelsior Rotterdam</ClubIn>
                 <Year>2013</Year>
             </Transfer>
             <Transfer>
-                <ClubOut></ClubOut>
-                <ClubIn></ClubIn>
+                <ClubOut>Belenenses SAD</ClubOut>
+                <ClubIn>Club Brugge KV</ClubIn>
                 <Year>2013</Year>
             </Transfer>
         </Transfers>
@@ -322,7 +322,7 @@
         <CurrentClub>Manchester United</CurrentClub>
         <CurrentPosition>Centre Back</CurrentPosition>
         <CurrentNumber>5</CurrentNumber>
-        <WageInEuro>123000</WageInEuro>
+        <WageInEuro>222000</WageInEuro>
         <Weight>100</Weight>
         <Height>194</Height>
         <Foot>right</Foot>
@@ -370,7 +370,7 @@
         <CurrentNumber>11</CurrentNumber>
         <WageInEuro>136000</WageInEuro>
         <Weight>75</Weight>
-        <Height>180</Height>
+        <Height>181</Height>
         <Foot>right</Foot>
         <Speed>92</Speed>
         <Developments>
