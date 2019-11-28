@@ -9,7 +9,7 @@
         <CurrentClub>Newcastle United</CurrentClub>
         <CurrentPosition>Right Wing</CurrentPosition>
         <CurrentNumber>10</CurrentNumber>
-        <WageInEuro></WageInEuro>
+        <WageInEuro>70200</WageInEuro>
         <Weight>67</Weight>
         <Height>173</Height>
         <Foot>right</Foot>
@@ -70,7 +70,7 @@
         <CurrentClub>Werder Bremen</CurrentClub>
         <CurrentPosition>Centre Back</CurrentPosition>
         <CurrentNumber>18</CurrentNumber>
-        <WageInEuro></WageInEuro>
+        <WageInEuro>38300</WageInEuro>
         <Weight>75</Weight>
         <Height>183</Height>
         <Foot>left</Foot>
@@ -142,7 +142,7 @@
         <CurrentClub>Bayer 04 Leverkusen</CurrentClub>
         <CurrentPosition>Defensive Midfield</CurrentPosition>
         <CurrentNumber>15</CurrentNumber>
-        <WageInEuro></WageInEuro>
+        <WageInEuro>38600</WageInEuro>
         <Weight>86</Weight>
         <Height>184</Height>
         <Foot>right</Foot>
@@ -281,33 +281,33 @@
         </Developments>
         <Transfers>
             <Transfer>
-                <ClubOut></ClubOut>
-                <ClubIn></ClubIn>
+                <ClubOut>Leeds United</ClubOut>
+                <ClubIn>Sint-Truidense VV </ClubIn>
                 <Year>2017</Year>
             </Transfer>
             <Transfer>
-                <ClubOut></ClubOut>
-                <ClubIn></ClubIn>
+                <ClubOut>Charlton Athletic</ClubOut>
+                <ClubIn>Leeds United</ClubIn>
                 <Year>2017</Year>
             </Transfer>
             <Transfer>
-                <ClubOut></ClubOut>
-                <ClubIn></ClubIn>
+                <ClubOut>Leeds United</ClubOut>
+                <ClubIn>Charlton Athletic</ClubIn>
                 <Year>2016</Year>
             </Transfer>
             <Transfer>
-                <ClubOut></ClubOut>
-                <ClubIn></ClubIn>
+                <ClubOut>SBV Excelsior Rotterdam</ClubOut>
+                <ClubIn>Leeds United</ClubIn>
                 <Year>2015</Year>
             </Transfer>
             <Transfer>
-                <ClubOut></ClubOut>
-                <ClubIn></ClubIn>
+                <ClubOut>Club Brugge KV</ClubOut>
+                <ClubIn>SBV Excelsior Rotterdam</ClubIn>
                 <Year>2013</Year>
             </Transfer>
             <Transfer>
-                <ClubOut></ClubOut>
-                <ClubIn></ClubIn>
+                <ClubOut>Belenenses SAD</ClubOut>
+                <ClubIn>Club Brugge KV</ClubIn>
                 <Year>2013</Year>
             </Transfer>
         </Transfers>
@@ -322,7 +322,7 @@
         <CurrentClub>Manchester United</CurrentClub>
         <CurrentPosition>Centre Back</CurrentPosition>
         <CurrentNumber>5</CurrentNumber>
-        <WageInEuro>221k</WageInEuro>
+        <WageInEuro>222000</WageInEuro>
         <Weight>100</Weight>
         <Height>194</Height>
         <Foot>right</Foot>
@@ -368,9 +368,9 @@
         <CurrentClub>RB Leipzig</CurrentClub>
         <CurrentPosition>Centre Forward</CurrentPosition>
         <CurrentNumber>11</CurrentNumber>
-        <WageInEuro>575000</WageInEuro>
+        <WageInEuro>136000</WageInEuro>
         <Weight>75</Weight>
-        <Height>180</Height>
+        <Height>181</Height>
         <Foot>right</Foot>
         <Speed>92</Speed>
         <Developments>
@@ -638,7 +638,7 @@
         <CurrentClub>Inter Milan</CurrentClub>
         <CurrentPosition>Center Midfield</CurrentPosition>
         <CurrentNumber>23</CurrentNumber>
-        <WageInEuro></WageInEuro>
+        <WageInEuro>93200</WageInEuro>
         <Weight>68</Weight>
         <Height>172</Height>
         <Speed>74</Speed>
