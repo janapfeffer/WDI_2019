@@ -13,4 +13,9 @@ submitted to the
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;University of Mannheim     
              
 November 2019       
+
+<b>What can be found where:</b>  
+- Phase 1 - Schema Mapping: folder SchemaMapping
+- Phase 2 - Identity Resolution: folder IdentityResolutionResults (Java Project)
+- Phase 3 - Fusion: folder IdentityResolutionResults (Java Project)
    
