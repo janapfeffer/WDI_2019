@@ -101,8 +101,8 @@ public class DataFusion_Main {
 		System.out.println("*\n*\tLoading correspondences\n*");
 		CorrespondenceSet<Player, Attribute> correspondences = new CorrespondenceSet<>();
 		correspondences.loadCorrespondences(new File("data/output/API_2_Transfer_correspondences.csv"),dataAPI, dataTransfer);
-		correspondences.loadCorrespondences(new File("data/output/FIFA19_2_API_correspondences.csv"),dataFIFA, dataAPI);
-		correspondences.loadCorrespondences(new File("data/output/FIFA19_2_ESD_correspondences.csv"),dataFIFA, dataESD);
+		//correspondences.loadCorrespondences(new File("data/output/FIFA19_2_API_correspondences.csv"),dataFIFA, dataAPI);
+		//correspondences.loadCorrespondences(new File("data/output/FIFA19_2_ESD_correspondences.csv"),dataFIFA, dataESD);
 
 		// write group size distribution
 		correspondences.printGroupSizeDistribution();
@@ -110,7 +110,7 @@ public class DataFusion_Main {
 		// load the gold standard
 		System.out.println("*\n*\tEvaluating results\n*");
 		DataSet<Player, Attribute> gs = new FusibleHashedDataSet<>();
-		new PlayerXMLReader_Fusion().loadFromXML(new File("data/goldstandard/gs_datafusion_hechen.xml"), "/Players/Player", gs);
+		new PlayerXMLReader_Fusion().loadFromXML(new File("data/goldstandard/gs_datafusion.xml"), "/Players/Player", gs);
 
 		for(Player m : gs.get()) {
 			System.out.println(String.format("gs: %s", m.getIdentifier()));
