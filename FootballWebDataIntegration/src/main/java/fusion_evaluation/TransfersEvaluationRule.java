@@ -1,5 +1,6 @@
 package fusion_evaluation;
 
+import java.text.Normalizer;
 import java.util.HashSet;
 import java.util.Set;
 
@@ -21,21 +22,22 @@ public class TransfersEvaluationRule extends EvaluationRule<Player, Attribute> {
 		Set<String> transfers1 = new HashSet<>();
 
 		for (Transfer t : record1.getTransfers()) {
+			String s1 = Normalizer.normalize(t.getClubInName(), Normalizer.Form.NFD);
+			String s2 = Normalizer.normalize(t.getClubOutName(), Normalizer.Form.NFD);
 
-			transfers1.add(t.getYear()+" "+t.getClubInName()+" "+t.getClubOutName());
+			transfers1.add(t.getYear()+" "+ s1 +" "+ s2);
 		}
 
 		Set<String> transfers2 = new HashSet<>();
 		for (Transfer t : record2.getTransfers()) {
-			transfers2.add(t.getYear()+" "+t.getClubInName()+" "+t.getClubOutName());
+			String s1 = Normalizer.normalize(t.getClubInName(), Normalizer.Form.NFD);
+			String s2 = Normalizer.normalize(t.getClubOutName(), Normalizer.Form.NFD);
+			transfers2.add(t.getYear()+" "+ s1 +" "+ s2 );
 		}
 
 		return transfers1.containsAll(transfers2) && transfers2.containsAll(transfers1);
 	}
 
-	/* (non-Javadoc)
-	 * @see de.uni_mannheim.informatik.wdi.datafusion.EvaluationRule#isEqual(java.lang.Object, java.lang.Object, de.uni_mannheim.informatik.wdi.model.Correspondence)
-	 */
 	@Override
 	public boolean isEqual(Player record1, Player record2,
 			Correspondence<Attribute, Matchable> schemaCorrespondence) {

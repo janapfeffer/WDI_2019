@@ -18,13 +18,13 @@ public class SpeedEvaluationRule extends EvaluationRule<Player, Attribute>  {
 
 	@Override
 	public boolean isEqual(Player record1, Player record2, Attribute schemaElement) {
-		// only FIFA19 has the speed
-		return record1.getSpeed() == record2.getSpeed();
+		return sim.calculate( Double.valueOf(record1.getSpeed()), Double.valueOf(record2.getSpeed())) != 0;
 	}
 
 	@Override
 	public boolean isEqual(Player record1, Player record2, Correspondence<Attribute, Matchable> schemaCorrespondence) {
-		return sim.calculate( Double.valueOf(record1.getSpeed()), Double.valueOf(record2.getSpeed())) != 0;
+		// only FIFA19 has the speed
+		return record1.getSpeed() == record2.getSpeed();
 	}
 
 }

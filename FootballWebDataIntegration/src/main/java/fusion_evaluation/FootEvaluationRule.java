@@ -21,7 +21,7 @@ public class FootEvaluationRule extends EvaluationRule<Player, Attribute>{
 		else if(record1.getFoot()== null ^ record2.getFoot()==null)
 			return false;
 		else 
-			return record1.getFoot().equals(record2.getFoot());
+			return record1.getFoot().toLowerCase().equals(record2.getFoot().toLowerCase());
 	}
 
 	@Override

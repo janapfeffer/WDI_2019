@@ -32,7 +32,7 @@ public class DateOfBirthFuserFavourSource extends AttributeValueFuser<LocalDateT
 			Processable<Correspondence<Attribute, Matchable>> schemaCorrespondences, Attribute schemaElement) {
 		FusedValue<LocalDateTime, Player, Attribute> fused = getFusedValue(group, schemaCorrespondences, schemaElement);
 		fusedRecord.setDateOfBirth(fused.getValue());
-		fusedRecord.setAttributeProvenance(Player.NATIONALITY, fused.getOriginalIds());
+		fusedRecord.setAttributeProvenance(Player.DATEOFBIRTH, fused.getOriginalIds());
 
 	}
 

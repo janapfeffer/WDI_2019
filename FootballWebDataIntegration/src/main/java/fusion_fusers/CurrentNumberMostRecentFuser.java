@@ -12,7 +12,7 @@ import models.Player;
 /**
  * @author group3
  * 
- * Fusion of the current jersey number fvouring the most recent source.
+ * Fusion of the current jersey number favouring the most recent source.
  */
 public class CurrentNumberMostRecentFuser extends
 AttributeValueFuser<Integer, Player, Attribute> {

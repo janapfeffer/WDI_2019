@@ -19,7 +19,13 @@ public class DevelopmentsEvaluationRule extends EvaluationRule<Player, Attribute
 
 	@Override
 	public boolean isEqual(Player record1, Player record2, Attribute schemaElement) {
+		// since the developments in the gold standard are dummy values
+		return true;
+	}
 
+	@Override
+	public boolean isEqual(Player record1, Player record2, Correspondence<Attribute, Matchable> schemaCorrespondence) {
+		
 		Set<String> developments1 = new HashSet<>();
 		Set<String> developments2 = new HashSet<>();
 
@@ -46,12 +52,6 @@ public class DevelopmentsEvaluationRule extends EvaluationRule<Player, Attribute
 		}
 		return true;
 
-	}
-
-	@Override
-	public boolean isEqual(Player record1, Player record2, Correspondence<Attribute, Matchable> schemaCorrespondence) {
-		
-		return isEqual(record1, record2, (Attribute)null);
 	}
 
 }
