@@ -5,9 +5,7 @@ import de.uni_mannheim.informatik.dws.winter.matching.rules.ComparatorLogger;
 import de.uni_mannheim.informatik.dws.winter.model.Correspondence;
 import de.uni_mannheim.informatik.dws.winter.model.Matchable;
 import de.uni_mannheim.informatik.dws.winter.model.defaultmodel.Attribute;
-import de.uni_mannheim.informatik.dws.winter.similarity.numeric.AbsoluteDifferenceSimilarity;
 import de.uni_mannheim.informatik.dws.winter.similarity.numeric.DeviationSimilarity;
-import de.uni_mannheim.informatik.dws.winter.similarity.numeric.PercentageSimilarity;
 import models.Player;
 /**
  * @author group3

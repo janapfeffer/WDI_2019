@@ -1,8 +1,5 @@
 package identityresolution_blocking;
 
-import java.time.LocalDateTime;
-import java.time.format.DateTimeFormatter;
-
 import de.uni_mannheim.informatik.dws.winter.matching.blockers.generators.RecordBlockingKeyGenerator;
 import de.uni_mannheim.informatik.dws.winter.model.Correspondence;
 import de.uni_mannheim.informatik.dws.winter.model.Matchable;

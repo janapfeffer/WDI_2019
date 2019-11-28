@@ -32,8 +32,7 @@ public class PlayerBlockingFirstnameGenerator extends RecordBlockingKeyGenerator
 		try {
 			firstname = name.substring(0, 1);
 		} catch (Exception e) {
-			System.out.print("Name: " + name + " Original Name: " + record.getName());
-			System.exit(1);
+			
 		}
 
 

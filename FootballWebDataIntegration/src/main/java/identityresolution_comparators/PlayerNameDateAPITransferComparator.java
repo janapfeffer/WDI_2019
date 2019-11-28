@@ -49,7 +49,7 @@ public class PlayerNameDateAPITransferComparator implements Comparator<Player, A
 		LocalDateTime transfer_birth = transferplayer.getDateOfBirth();
 		LocalDateTime api_birth =  apiplayer.getDateOfBirth();
 
-		double year_similarity; 
+		double year_similarity=0.0; 
 
 		if(api_birth == null){
 			DateTimeFormatter formatter = DateTimeFormatter.ofPattern("yyyy-MM-dd HH:mm");
@@ -60,8 +60,8 @@ public class PlayerNameDateAPITransferComparator implements Comparator<Player, A
 			try {
 				year_similarity = year_sim.calculate(transfer_birth, api_birth);
 			} catch (Exception e) {
-				System.out.println("transferbirth: " + Integer.valueOf(transfer_birth.getYear()) + " apibirth: " + Integer.valueOf(api_birth.getYear()));
-				year_similarity = 0;
+				//System.out.println("transferbirth: " + Integer.valueOf(transfer_birth.getYear()) + " apibirth: " + Integer.valueOf(api_birth.getYear()));
+				//year_similarity = 0;
 			}
 
 		} else {

@@ -5,7 +5,6 @@ import de.uni_mannheim.informatik.dws.winter.matching.rules.ComparatorLogger;
 import de.uni_mannheim.informatik.dws.winter.model.Correspondence;
 import de.uni_mannheim.informatik.dws.winter.model.Matchable;
 import de.uni_mannheim.informatik.dws.winter.model.defaultmodel.Attribute;
-import de.uni_mannheim.informatik.dws.winter.similarity.numeric.AbsoluteDifferenceSimilarity;
 import de.uni_mannheim.informatik.dws.winter.similarity.numeric.PercentageSimilarity;
 import models.Player;
 /**
@@ -35,12 +34,12 @@ public class HeightFIFAESDPercentageSimilarity implements Comparator<Player, Att
 		try {
 			fifa_height = fifaplayer.getHeight();
 		} catch (Exception e) {
-			fifa_height = 0;
+			fifa_height=0.0;
 		}
 		try {
 			esd_height = esdplayer.getHeight();
 		} catch (Exception e) {
-			esd_height = 0;
+			esd_height=0.0;
 		}
 
 		// save names and class name to logger

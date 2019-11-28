@@ -13,7 +13,6 @@ import de.uni_mannheim.informatik.dws.winter.model.Matchable;
 import de.uni_mannheim.informatik.dws.winter.model.defaultmodel.Attribute;
 import de.uni_mannheim.informatik.dws.winter.similarity.string.LevenshteinSimilarity;
 import de.uni_mannheim.informatik.dws.winter.similarity.string.MaximumOfTokenContainment;
-import de.uni_mannheim.informatik.dws.winter.similarity.string.TokenizingJaccardSimilarity;
 import models.Player;
 
 public class PlayerNameAPITransfersComparatorLevenshtein implements Comparator<Player, Attribute>{
