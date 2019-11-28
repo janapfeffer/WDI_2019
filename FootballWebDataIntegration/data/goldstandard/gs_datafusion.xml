@@ -9,7 +9,7 @@
         <CurrentClub>Newcastle United</CurrentClub>
         <CurrentPosition>Right Wing</CurrentPosition>
         <CurrentNumber>10</CurrentNumber>
-        <WageInEuro></WageInEuro>
+        <WageInEuro>70200</WageInEuro>
         <Weight>67</Weight>
         <Height>173</Height>
         <Foot>right</Foot>
@@ -70,7 +70,7 @@
         <CurrentClub>Werder Bremen</CurrentClub>
         <CurrentPosition>Centre Back</CurrentPosition>
         <CurrentNumber>18</CurrentNumber>
-        <WageInEuro></WageInEuro>
+        <WageInEuro>38300</WageInEuro>
         <Weight>75</Weight>
         <Height>183</Height>
         <Foot>left</Foot>
@@ -111,7 +111,7 @@
         <CurrentClub>West Ham United</CurrentClub>
         <CurrentPosition>Defender</CurrentPosition>
         <CurrentNumber>3</CurrentNumber>
-        <WageInEuro></WageInEuro>
+        <WageInEuro>58500</WageInEuro>
         <Weight>66</Weight>
         <Height>170</Height>
         <Foot>left</Foot>
@@ -142,7 +142,7 @@
         <CurrentClub>Bayer 04 Leverkusen</CurrentClub>
         <CurrentPosition>Defensive Midfield</CurrentPosition>
         <CurrentNumber>15</CurrentNumber>
-        <WageInEuro></WageInEuro>
+        <WageInEuro>38600</WageInEuro>
         <Weight>86</Weight>
         <Height>184</Height>
         <Foot>right</Foot>
@@ -173,7 +173,7 @@
         <CurrentClub>Melbourne City</CurrentClub>
         <CurrentPosition>Right Center Midfield</CurrentPosition>
         <CurrentNumber>6</CurrentNumber>
-        <WageInEuro></WageInEuro>
+        <WageInEuro>1400</WageInEuro>
         <Weight>73</Weight>
         <Height>177</Height>
         <Foot>right</Foot>
@@ -234,7 +234,7 @@
         <CurrentClub>Wisła Płock SA</CurrentClub>
         <CurrentPosition>Left Back</CurrentPosition>
         <CurrentNumber>7</CurrentNumber>
-        <WageInEuro></WageInEuro>
+        <WageInEuro>2200</WageInEuro>
         <Weight>72</Weight>
         <Height>177</Height>
         <Foot>left</Foot>
@@ -264,9 +264,9 @@
         <Photo>dummy</Photo>
         <CurrentClub>Sint-Truiden VV</CurrentClub>
         <CurrentPosition>Right Midfield</CurrentPosition>
-        <CurrentNumber></CurrentNumber>
-        <WageInEuro></WageInEuro>
-        <Weight>73</Weight>
+        <CurrentNumber>7</CurrentNumber>
+        <WageInEuro>4500</WageInEuro>
+        <Weight>76</Weight>
         <Height>183</Height>
         <Foot>right</Foot>
         <Speed>84</Speed>
@@ -322,7 +322,7 @@
         <CurrentClub>Manchester United</CurrentClub>
         <CurrentPosition>Centre Back</CurrentPosition>
         <CurrentNumber>5</CurrentNumber>
-        <WageInEuro>221k</WageInEuro>
+        <WageInEuro>123000</WageInEuro>
         <Weight>100</Weight>
         <Height>194</Height>
         <Foot>right</Foot>
@@ -368,7 +368,7 @@
         <CurrentClub>RB Leipzig</CurrentClub>
         <CurrentPosition>Centre Forward</CurrentPosition>
         <CurrentNumber>11</CurrentNumber>
-        <WageInEuro>575000</WageInEuro>
+        <WageInEuro>136000</WageInEuro>
         <Weight>75</Weight>
         <Height>180</Height>
         <Foot>right</Foot>
@@ -452,7 +452,7 @@
         <CurrentClub>AC Milan</CurrentClub>
         <CurrentPosition>Centre Forward</CurrentPosition>
         <CurrentNumber>9</CurrentNumber>
-        <WageInEuro>712000</WageInEuro>
+        <WageInEuro>64500</WageInEuro>
         <Weight>77</Weight>
         <Height>183</Height>
         <Speed>75</Speed>
@@ -566,7 +566,7 @@
         <CurrentClub>TSG 1899 Hoffenheim</CurrentClub>
         <CurrentPosition>Centre Forward</CurrentPosition>
         <CurrentNumber>27</CurrentNumber>
-        <WageInEuro>581000</WageInEuro>
+        <WageInEuro>58100</WageInEuro>
         <weight>73</weight>
         <Height>177</Height>
         <Speed>70</Speed>
@@ -638,7 +638,7 @@
         <CurrentClub>Inter Milan</CurrentClub>
         <CurrentPosition>Center Midfield</CurrentPosition>
         <CurrentNumber>23</CurrentNumber>
-        <WageInEuro></WageInEuro>
+        <WageInEuro>93200</WageInEuro>
         <Weight>68</Weight>
         <Height>172</Height>
         <Speed>74</Speed>
@@ -690,7 +690,7 @@
         <CurrentClub>Juventus FC</CurrentClub>
         <CurrentPosition>Left Wing</CurrentPosition>
         <CurrentNumber>7</CurrentNumber>
-        <WageInEuro>11000000</WageInEuro>
+        <WageInEuro>1100000</WageInEuro>
         <Weight>83</Weight>
         <Height>185</Height>
         <Speed>91</Speed>

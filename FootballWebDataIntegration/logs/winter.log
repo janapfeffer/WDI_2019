@@ -18700,3 +18700,498 @@
 [TRACE] 2019-11-28 17:38:35.568 [de.uni_mannheim.informatik.dws.winter.datafusion.DataFusionEvaluator] - 	Nationality: 0,93
 [TRACE] 2019-11-28 17:38:35.568 [de.uni_mannheim.informatik.dws.winter.datafusion.DataFusionEvaluator] - 	WageInEuro: 0,00
 [TRACE] 2019-11-28 17:38:35.568 [de.uni_mannheim.informatik.dws.winter.datafusion.DataFusionEvaluator] - 	CurrentPosition: 0,60
+[INFO ] 2019-11-28 18:11:37.897 [de.uni_mannheim.informatik.dws.winter.model.io.XMLMatchableReader] - Loading 12115 elements from transfer_csv.xml
+[INFO ] 2019-11-28 18:11:38.500 [de.uni_mannheim.informatik.dws.winter.model.FusibleHashedDataSet] - DataSet density: 0,21
+[INFO ] 2019-11-28 18:11:38.500 [de.uni_mannheim.informatik.dws.winter.model.FusibleHashedDataSet] - Attributes densities:
+[INFO ] 2019-11-28 18:11:38.546 [de.uni_mannheim.informatik.dws.winter.model.FusibleHashedDataSet] - 	Weight: 0,00
+[INFO ] 2019-11-28 18:11:38.546 [de.uni_mannheim.informatik.dws.winter.model.FusibleHashedDataSet] - 	DateOfBirth: 1,00
+[INFO ] 2019-11-28 18:11:38.546 [de.uni_mannheim.informatik.dws.winter.model.FusibleHashedDataSet] - 	Height: 0,00
+[INFO ] 2019-11-28 18:11:38.547 [de.uni_mannheim.informatik.dws.winter.model.FusibleHashedDataSet] - 	Photo: 0,00
+[INFO ] 2019-11-28 18:11:38.547 [de.uni_mannheim.informatik.dws.winter.model.FusibleHashedDataSet] - 	CurrentNumber: 0,00
+[INFO ] 2019-11-28 18:11:38.547 [de.uni_mannheim.informatik.dws.winter.model.FusibleHashedDataSet] - 	Developments: 0,00
+[INFO ] 2019-11-28 18:11:38.548 [de.uni_mannheim.informatik.dws.winter.model.FusibleHashedDataSet] - 	Name: 1,00
+[INFO ] 2019-11-28 18:11:38.548 [de.uni_mannheim.informatik.dws.winter.model.FusibleHashedDataSet] - 	CurrentClub: 0,00
+[INFO ] 2019-11-28 18:11:38.549 [de.uni_mannheim.informatik.dws.winter.model.FusibleHashedDataSet] - 	Transfers: 1,00
+[INFO ] 2019-11-28 18:11:38.549 [de.uni_mannheim.informatik.dws.winter.model.FusibleHashedDataSet] - 	Speed: 0,00
+[INFO ] 2019-11-28 18:11:38.550 [de.uni_mannheim.informatik.dws.winter.model.FusibleHashedDataSet] - 	Foot: 0,00
+[INFO ] 2019-11-28 18:11:38.550 [de.uni_mannheim.informatik.dws.winter.model.FusibleHashedDataSet] - 	Nationality: 0,00
+[INFO ] 2019-11-28 18:11:38.560 [de.uni_mannheim.informatik.dws.winter.model.FusibleHashedDataSet] - 	WageInEuro: 0,00
+[INFO ] 2019-11-28 18:11:38.561 [de.uni_mannheim.informatik.dws.winter.model.FusibleHashedDataSet] - 	CurrentPosition: 0,00
+[INFO ] 2019-11-28 18:11:39.376 [de.uni_mannheim.informatik.dws.winter.model.io.XMLMatchableReader] - Loading 10117 elements from PlayerAndTransfersAPI target schema.xml
+[INFO ] 2019-11-28 18:11:39.648 [de.uni_mannheim.informatik.dws.winter.model.FusibleHashedDataSet] - DataSet density: 0,42
+[INFO ] 2019-11-28 18:11:39.649 [de.uni_mannheim.informatik.dws.winter.model.FusibleHashedDataSet] - Attributes densities:
+[INFO ] 2019-11-28 18:11:39.742 [de.uni_mannheim.informatik.dws.winter.model.FusibleHashedDataSet] - 	Weight: 0,42
+[INFO ] 2019-11-28 18:11:39.743 [de.uni_mannheim.informatik.dws.winter.model.FusibleHashedDataSet] - 	DateOfBirth: 0,95
+[INFO ] 2019-11-28 18:11:39.743 [de.uni_mannheim.informatik.dws.winter.model.FusibleHashedDataSet] - 	Height: 0,79
+[INFO ] 2019-11-28 18:11:39.744 [de.uni_mannheim.informatik.dws.winter.model.FusibleHashedDataSet] - 	Photo: 0,69
+[INFO ] 2019-11-28 18:11:39.745 [de.uni_mannheim.informatik.dws.winter.model.FusibleHashedDataSet] - 	CurrentNumber: 0,80
+[INFO ] 2019-11-28 18:11:39.745 [de.uni_mannheim.informatik.dws.winter.model.FusibleHashedDataSet] - 	Developments: 0,00
+[INFO ] 2019-11-28 18:11:39.746 [de.uni_mannheim.informatik.dws.winter.model.FusibleHashedDataSet] - 	Name: 1,00
+[INFO ] 2019-11-28 18:11:39.747 [de.uni_mannheim.informatik.dws.winter.model.FusibleHashedDataSet] - 	CurrentClub: 0,00
+[INFO ] 2019-11-28 18:11:39.747 [de.uni_mannheim.informatik.dws.winter.model.FusibleHashedDataSet] - 	Transfers: 0,26
+[INFO ] 2019-11-28 18:11:39.747 [de.uni_mannheim.informatik.dws.winter.model.FusibleHashedDataSet] - 	Speed: 0,00
+[INFO ] 2019-11-28 18:11:39.748 [de.uni_mannheim.informatik.dws.winter.model.FusibleHashedDataSet] - 	Foot: 0,00
+[INFO ] 2019-11-28 18:11:39.749 [de.uni_mannheim.informatik.dws.winter.model.FusibleHashedDataSet] - 	Nationality: 0,00
+[INFO ] 2019-11-28 18:11:39.750 [de.uni_mannheim.informatik.dws.winter.model.FusibleHashedDataSet] - 	WageInEuro: 0,00
+[INFO ] 2019-11-28 18:11:39.759 [de.uni_mannheim.informatik.dws.winter.model.FusibleHashedDataSet] - 	CurrentPosition: 1,00
+[INFO ] 2019-11-28 18:11:40.579 [de.uni_mannheim.informatik.dws.winter.model.io.XMLMatchableReader] - Loading 9086 elements from EuropeanSoccerDB target schema.xml
+[INFO ] 2019-11-28 18:11:40.777 [de.uni_mannheim.informatik.dws.winter.model.FusibleHashedDataSet] - DataSet density: 0,43
+[INFO ] 2019-11-28 18:11:40.778 [de.uni_mannheim.informatik.dws.winter.model.FusibleHashedDataSet] - Attributes densities:
+[INFO ] 2019-11-28 18:11:40.823 [de.uni_mannheim.informatik.dws.winter.model.FusibleHashedDataSet] - 	Weight: 1,00
+[INFO ] 2019-11-28 18:11:40.824 [de.uni_mannheim.informatik.dws.winter.model.FusibleHashedDataSet] - 	DateOfBirth: 1,00
+[INFO ] 2019-11-28 18:11:40.824 [de.uni_mannheim.informatik.dws.winter.model.FusibleHashedDataSet] - 	Height: 1,00
+[INFO ] 2019-11-28 18:11:40.824 [de.uni_mannheim.informatik.dws.winter.model.FusibleHashedDataSet] - 	Photo: 0,00
+[INFO ] 2019-11-28 18:11:40.825 [de.uni_mannheim.informatik.dws.winter.model.FusibleHashedDataSet] - 	CurrentNumber: 0,00
+[INFO ] 2019-11-28 18:11:40.825 [de.uni_mannheim.informatik.dws.winter.model.FusibleHashedDataSet] - 	Developments: 1,00
+[INFO ] 2019-11-28 18:11:40.825 [de.uni_mannheim.informatik.dws.winter.model.FusibleHashedDataSet] - 	Name: 1,00
+[INFO ] 2019-11-28 18:11:40.826 [de.uni_mannheim.informatik.dws.winter.model.FusibleHashedDataSet] - 	CurrentClub: 0,00
+[INFO ] 2019-11-28 18:11:40.826 [de.uni_mannheim.informatik.dws.winter.model.FusibleHashedDataSet] - 	Transfers: 0,00
+[INFO ] 2019-11-28 18:11:40.826 [de.uni_mannheim.informatik.dws.winter.model.FusibleHashedDataSet] - 	Speed: 0,00
+[INFO ] 2019-11-28 18:11:40.826 [de.uni_mannheim.informatik.dws.winter.model.FusibleHashedDataSet] - 	Foot: 1,00
+[INFO ] 2019-11-28 18:11:40.827 [de.uni_mannheim.informatik.dws.winter.model.FusibleHashedDataSet] - 	Nationality: 0,00
+[INFO ] 2019-11-28 18:11:40.827 [de.uni_mannheim.informatik.dws.winter.model.FusibleHashedDataSet] - 	WageInEuro: 0,00
+[INFO ] 2019-11-28 18:11:40.827 [de.uni_mannheim.informatik.dws.winter.model.FusibleHashedDataSet] - 	CurrentPosition: 0,00
+[INFO ] 2019-11-28 18:11:41.923 [de.uni_mannheim.informatik.dws.winter.model.io.XMLMatchableReader] - Loading 18207 elements from FIFA19 target schema.xml
+[INFO ] 2019-11-28 18:11:42.048 [de.uni_mannheim.informatik.dws.winter.model.FusibleHashedDataSet] - DataSet density: 0,93
+[INFO ] 2019-11-28 18:11:42.048 [de.uni_mannheim.informatik.dws.winter.model.FusibleHashedDataSet] - Attributes densities:
+[INFO ] 2019-11-28 18:11:42.086 [de.uni_mannheim.informatik.dws.winter.model.FusibleHashedDataSet] - 	Weight: 1,00
+[INFO ] 2019-11-28 18:11:42.088 [de.uni_mannheim.informatik.dws.winter.model.FusibleHashedDataSet] - 	DateOfBirth: 1,00
+[INFO ] 2019-11-28 18:11:42.088 [de.uni_mannheim.informatik.dws.winter.model.FusibleHashedDataSet] - 	Height: 1,00
+[INFO ] 2019-11-28 18:11:42.089 [de.uni_mannheim.informatik.dws.winter.model.FusibleHashedDataSet] - 	Photo: 1,00
+[INFO ] 2019-11-28 18:11:42.090 [de.uni_mannheim.informatik.dws.winter.model.FusibleHashedDataSet] - 	CurrentNumber: 1,00
+[INFO ] 2019-11-28 18:11:42.090 [de.uni_mannheim.informatik.dws.winter.model.FusibleHashedDataSet] - 	Developments: 1,00
+[INFO ] 2019-11-28 18:11:42.090 [de.uni_mannheim.informatik.dws.winter.model.FusibleHashedDataSet] - 	Name: 1,00
+[INFO ] 2019-11-28 18:11:42.091 [de.uni_mannheim.informatik.dws.winter.model.FusibleHashedDataSet] - 	CurrentClub: 0,99
+[INFO ] 2019-11-28 18:11:42.091 [de.uni_mannheim.informatik.dws.winter.model.FusibleHashedDataSet] - 	Transfers: 0,00
+[INFO ] 2019-11-28 18:11:42.092 [de.uni_mannheim.informatik.dws.winter.model.FusibleHashedDataSet] - 	Speed: 1,00
+[INFO ] 2019-11-28 18:11:42.092 [de.uni_mannheim.informatik.dws.winter.model.FusibleHashedDataSet] - 	Foot: 1,00
+[INFO ] 2019-11-28 18:11:42.092 [de.uni_mannheim.informatik.dws.winter.model.FusibleHashedDataSet] - 	Nationality: 1,00
+[INFO ] 2019-11-28 18:11:42.093 [de.uni_mannheim.informatik.dws.winter.model.FusibleHashedDataSet] - 	WageInEuro: 0,99
+[INFO ] 2019-11-28 18:11:42.093 [de.uni_mannheim.informatik.dws.winter.model.FusibleHashedDataSet] - 	CurrentPosition: 1,00
+[INFO ] 2019-11-28 18:11:42.192 [de.uni_mannheim.informatik.dws.winter.datafusion.CorrespondenceSet] - Group Size Distribtion of 7042 groups:
+[INFO ] 2019-11-28 18:11:42.192 [de.uni_mannheim.informatik.dws.winter.datafusion.CorrespondenceSet] - 	Group Size 	| Frequency 
+[INFO ] 2019-11-28 18:11:42.192 [de.uni_mannheim.informatik.dws.winter.datafusion.CorrespondenceSet] - 	————————————————————————————
+[INFO ] 2019-11-28 18:11:42.194 [de.uni_mannheim.informatik.dws.winter.datafusion.CorrespondenceSet] - 		2	| 	4359
+[INFO ] 2019-11-28 18:11:42.194 [de.uni_mannheim.informatik.dws.winter.datafusion.CorrespondenceSet] - 		3	| 	1495
+[INFO ] 2019-11-28 18:11:42.194 [de.uni_mannheim.informatik.dws.winter.datafusion.CorrespondenceSet] - 		4	| 	1162
+[INFO ] 2019-11-28 18:11:42.194 [de.uni_mannheim.informatik.dws.winter.datafusion.CorrespondenceSet] - 		5	| 	17
+[INFO ] 2019-11-28 18:11:42.194 [de.uni_mannheim.informatik.dws.winter.datafusion.CorrespondenceSet] - 		6	| 	7
+[INFO ] 2019-11-28 18:11:42.194 [de.uni_mannheim.informatik.dws.winter.datafusion.CorrespondenceSet] - 		7	| 	1
+[INFO ] 2019-11-28 18:11:42.195 [de.uni_mannheim.informatik.dws.winter.datafusion.CorrespondenceSet] - 		9	| 	1
+[INFO ] 2019-11-28 18:11:42.202 [de.uni_mannheim.informatik.dws.winter.model.io.XMLMatchableReader] - Loading 15 elements from gs_datafusion.xml
+[INFO ] 2019-11-28 18:11:42.210 [de.uni_mannheim.informatik.dws.winter.datafusion.DataFusionEngine] - Attribute Consistencies:
+[INFO ] 2019-11-28 18:11:42.773 [de.uni_mannheim.informatik.dws.winter.datafusion.DataFusionEngine] - 	DateOfBirth: 0,06
+[INFO ] 2019-11-28 18:11:42.773 [de.uni_mannheim.informatik.dws.winter.datafusion.DataFusionEngine] - 	Speed: 1,00
+[INFO ] 2019-11-28 18:11:42.774 [de.uni_mannheim.informatik.dws.winter.datafusion.DataFusionEngine] - 	WageInEuro: 1,00
+[INFO ] 2019-11-28 18:11:42.774 [de.uni_mannheim.informatik.dws.winter.datafusion.DataFusionEngine] - 	Photo: 0,49
+[INFO ] 2019-11-28 18:11:42.774 [de.uni_mannheim.informatik.dws.winter.datafusion.DataFusionEngine] - 	Weight: 0,78
+[INFO ] 2019-11-28 18:11:42.774 [de.uni_mannheim.informatik.dws.winter.datafusion.DataFusionEngine] - 	Nationality: 1,00
+[INFO ] 2019-11-28 18:11:42.775 [de.uni_mannheim.informatik.dws.winter.datafusion.DataFusionEngine] - 	Name: 0,81
+[INFO ] 2019-11-28 18:11:42.775 [de.uni_mannheim.informatik.dws.winter.datafusion.DataFusionEngine] - 	Foot: 0,97
+[INFO ] 2019-11-28 18:11:42.775 [de.uni_mannheim.informatik.dws.winter.datafusion.DataFusionEngine] - 	CurrentPosition: 0,59
+[INFO ] 2019-11-28 18:11:42.776 [de.uni_mannheim.informatik.dws.winter.datafusion.DataFusionEngine] - 	CurrentClub: 1,00
+[INFO ] 2019-11-28 18:11:42.785 [de.uni_mannheim.informatik.dws.winter.datafusion.DataFusionEngine] - 	Transfers: 0,50
+[INFO ] 2019-11-28 18:11:42.786 [de.uni_mannheim.informatik.dws.winter.datafusion.DataFusionEngine] - 	Height: 0,79
+[INFO ] 2019-11-28 18:11:42.786 [de.uni_mannheim.informatik.dws.winter.datafusion.DataFusionEngine] - 	CurrentNumber: 0,77
+[INFO ] 2019-11-28 18:11:42.787 [de.uni_mannheim.informatik.dws.winter.datafusion.DataFusionEngine] - 	Developments: 0,44
+[INFO ] 2019-11-28 18:11:45.088 [de.uni_mannheim.informatik.dws.winter.datafusion.DataFusionStrategy] - Debug results written to file: data/output/debugResultsDatafusion.csv
+[TRACE] 2019-11-28 18:11:45.735 [de.uni_mannheim.informatik.dws.winter.datafusion.DataFusionEvaluator] - Error in 'Weight': [Player: Bernardo Silva] <> [Player: Bernardo Silva]
+[TRACE] 2019-11-28 18:11:45.735 [de.uni_mannheim.informatik.dws.winter.datafusion.DataFusionEvaluator] - Error in 'CurrentNumber': [Player: Bernardo Silva] <> [Player: Bernardo Silva]
+[TRACE] 2019-11-28 18:11:45.736 [de.uni_mannheim.informatik.dws.winter.datafusion.DataFusionEvaluator] - Error in 'Transfers': [Player: Bernardo Silva] <> [Player: Bernardo Silva]
+[TRACE] 2019-11-28 18:11:45.736 [de.uni_mannheim.informatik.dws.winter.datafusion.DataFusionEvaluator] - Error in 'Speed': [Player: Bernardo Silva] <> [Player: Bernardo Silva]
+[TRACE] 2019-11-28 18:11:45.736 [de.uni_mannheim.informatik.dws.winter.datafusion.DataFusionEvaluator] - Error in 'WageInEuro': [Player: Bernardo Silva] <> [Player: Bernardo Silva]
+[TRACE] 2019-11-28 18:11:45.737 [de.uni_mannheim.informatik.dws.winter.datafusion.DataFusionEvaluator] - Error in 'Weight': [Player: Jordan Botaka] <> [Player: Jordan Rolly Botaka]
+[TRACE] 2019-11-28 18:11:45.737 [de.uni_mannheim.informatik.dws.winter.datafusion.DataFusionEvaluator] - Error in 'Transfers': [Player: Jordan Botaka] <> [Player: Jordan Rolly Botaka]
+[TRACE] 2019-11-28 18:11:45.737 [de.uni_mannheim.informatik.dws.winter.datafusion.DataFusionEvaluator] - Error in 'Speed': [Player: Jordan Botaka] <> [Player: Jordan Rolly Botaka]
+[TRACE] 2019-11-28 18:11:45.738 [de.uni_mannheim.informatik.dws.winter.datafusion.DataFusionEvaluator] - Error in 'WageInEuro': [Player: Jordan Botaka] <> [Player: Jordan Rolly Botaka]
+[TRACE] 2019-11-28 18:11:45.738 [de.uni_mannheim.informatik.dws.winter.datafusion.DataFusionEvaluator] - Error in 'Transfers': [Player: Marc Roca] <> [Player: Marc Roca]
+[TRACE] 2019-11-28 18:11:45.738 [de.uni_mannheim.informatik.dws.winter.datafusion.DataFusionEvaluator] - Error in 'WageInEuro': [Player: Marc Roca] <> [Player: Marc Roca]
+[TRACE] 2019-11-28 18:11:45.739 [de.uni_mannheim.informatik.dws.winter.datafusion.DataFusionEvaluator] - Error in 'Transfers': [Player: Krzysztof Piatek] <> [Player: Krzysztof Piatek]
+[TRACE] 2019-11-28 18:11:45.739 [de.uni_mannheim.informatik.dws.winter.datafusion.DataFusionEvaluator] - Error in 'WageInEuro': [Player: Krzysztof Piatek] <> [Player: Krzysztof Piatek]
+[TRACE] 2019-11-28 18:11:45.740 [de.uni_mannheim.informatik.dws.winter.datafusion.DataFusionEvaluator] - Error in 'Transfers': [Player: Nicolo Barella] <> [Player: Nicolò Barella]
+[TRACE] 2019-11-28 18:11:45.740 [de.uni_mannheim.informatik.dws.winter.datafusion.DataFusionEvaluator] - Error in 'Speed': [Player: Nicolo Barella] <> [Player: Nicolò Barella]
+[TRACE] 2019-11-28 18:11:45.741 [de.uni_mannheim.informatik.dws.winter.datafusion.DataFusionEvaluator] - Error in 'WageInEuro': [Player: Nicolo Barella] <> [Player: Nicolò Barella]
+[TRACE] 2019-11-28 18:11:45.741 [de.uni_mannheim.informatik.dws.winter.datafusion.DataFusionEvaluator] - Error in 'Transfers': [Player: Allan Saint-Maximin] <> [Player: Allan Saint-Maximin]
+[TRACE] 2019-11-28 18:11:45.741 [de.uni_mannheim.informatik.dws.winter.datafusion.DataFusionEvaluator] - Error in 'WageInEuro': [Player: Allan Saint-Maximin] <> [Player: Allan Saint-Maximin]
+[TRACE] 2019-11-28 18:11:45.742 [de.uni_mannheim.informatik.dws.winter.datafusion.DataFusionEvaluator] - Error in 'CurrentPosition': [Player: Allan Saint-Maximin] <> [Player: Allan Saint-Maximin]
+[TRACE] 2019-11-28 18:11:45.743 [de.uni_mannheim.informatik.dws.winter.datafusion.DataFusionEvaluator] - Error in 'CurrentNumber': [Player: Piotr Tomasik] <> [Player: Piotr Tomasik]
+[TRACE] 2019-11-28 18:11:45.743 [de.uni_mannheim.informatik.dws.winter.datafusion.DataFusionEvaluator] - Error in 'CurrentClub': [Player: Piotr Tomasik] <> [Player: Piotr Tomasik]
+[TRACE] 2019-11-28 18:11:45.744 [de.uni_mannheim.informatik.dws.winter.datafusion.DataFusionEvaluator] - Error in 'Transfers': [Player: Piotr Tomasik] <> [Player: Piotr Tomasik]
+[TRACE] 2019-11-28 18:11:45.744 [de.uni_mannheim.informatik.dws.winter.datafusion.DataFusionEvaluator] - Error in 'Speed': [Player: Piotr Tomasik] <> [Player: Piotr Tomasik]
+[TRACE] 2019-11-28 18:11:45.745 [de.uni_mannheim.informatik.dws.winter.datafusion.DataFusionEvaluator] - Error in 'WageInEuro': [Player: Piotr Tomasik] <> [Player: Piotr Tomasik]
+[TRACE] 2019-11-28 18:11:45.745 [de.uni_mannheim.informatik.dws.winter.datafusion.DataFusionEvaluator] - Error in 'Weight': [Player: Harry Maguire] <> [Player: Harry Maguire]
+[TRACE] 2019-11-28 18:11:45.745 [de.uni_mannheim.informatik.dws.winter.datafusion.DataFusionEvaluator] - Error in 'Transfers': [Player: Harry Maguire] <> [Player: Harry Maguire]
+[TRACE] 2019-11-28 18:11:45.746 [de.uni_mannheim.informatik.dws.winter.datafusion.DataFusionEvaluator] - Error in 'WageInEuro': [Player: Harry Maguire] <> [Player: Harry Maguire]
+[TRACE] 2019-11-28 18:11:45.746 [de.uni_mannheim.informatik.dws.winter.datafusion.DataFusionEvaluator] - Error in 'CurrentPosition': [Player: Harry Maguire] <> [Player: Harry Maguire]
+[TRACE] 2019-11-28 18:11:45.747 [de.uni_mannheim.informatik.dws.winter.datafusion.DataFusionEvaluator] - Error in 'Weight': [Player: Andrej Kramaric] <> [Player: Andrej Kramaric]
+[TRACE] 2019-11-28 18:11:45.747 [de.uni_mannheim.informatik.dws.winter.datafusion.DataFusionEvaluator] - Error in 'Transfers': [Player: Andrej Kramaric] <> [Player: Andrej Kramaric]
+[TRACE] 2019-11-28 18:11:45.747 [de.uni_mannheim.informatik.dws.winter.datafusion.DataFusionEvaluator] - Error in 'WageInEuro': [Player: Andrej Kramaric] <> [Player: Andrej Kramaric]
+[TRACE] 2019-11-28 18:11:45.748 [de.uni_mannheim.informatik.dws.winter.datafusion.DataFusionEvaluator] - Error in 'CurrentPosition': [Player: Andrej Kramaric] <> [Player: Andrej Kramaric]
+[TRACE] 2019-11-28 18:11:45.748 [de.uni_mannheim.informatik.dws.winter.datafusion.DataFusionEvaluator] - Error in 'Transfers': [Player: Cristiano Ronaldo] <> [Player: Cristiano Ronaldo]
+[TRACE] 2019-11-28 18:11:45.749 [de.uni_mannheim.informatik.dws.winter.datafusion.DataFusionEvaluator] - Error in 'Foot': [Player: Cristiano Ronaldo] <> [Player: Cristiano Ronaldo]
+[TRACE] 2019-11-28 18:11:45.749 [de.uni_mannheim.informatik.dws.winter.datafusion.DataFusionEvaluator] - Error in 'WageInEuro': [Player: Cristiano Ronaldo] <> [Player: Cristiano Ronaldo]
+[TRACE] 2019-11-28 18:11:45.749 [de.uni_mannheim.informatik.dws.winter.datafusion.DataFusionEvaluator] - Error in 'CurrentPosition': [Player: Cristiano Ronaldo] <> [Player: Cristiano Ronaldo]
+[TRACE] 2019-11-28 18:11:45.750 [de.uni_mannheim.informatik.dws.winter.datafusion.DataFusionEvaluator] - Error in 'CurrentNumber': [Player: Timo Werner] <> [Player: Timo Werner]
+[TRACE] 2019-11-28 18:11:45.750 [de.uni_mannheim.informatik.dws.winter.datafusion.DataFusionEvaluator] - Error in 'Transfers': [Player: Timo Werner] <> [Player: Timo Werner]
+[TRACE] 2019-11-28 18:11:45.750 [de.uni_mannheim.informatik.dws.winter.datafusion.DataFusionEvaluator] - Error in 'WageInEuro': [Player: Timo Werner] <> [Player: Timo Werner]
+[TRACE] 2019-11-28 18:11:45.751 [de.uni_mannheim.informatik.dws.winter.datafusion.DataFusionEvaluator] - Error in 'CurrentPosition': [Player: Timo Werner] <> [Player: Timo Werner]
+[TRACE] 2019-11-28 18:11:45.751 [de.uni_mannheim.informatik.dws.winter.datafusion.DataFusionEvaluator] - Error in 'Weight': [Player: Julian Baumgartlinger] <> [Player: Julian Baumgartlinger]
+[TRACE] 2019-11-28 18:11:45.751 [de.uni_mannheim.informatik.dws.winter.datafusion.DataFusionEvaluator] - Error in 'Transfers': [Player: Julian Baumgartlinger] <> [Player: Julian Baumgartlinger]
+[TRACE] 2019-11-28 18:11:45.752 [de.uni_mannheim.informatik.dws.winter.datafusion.DataFusionEvaluator] - Error in 'WageInEuro': [Player: Julian Baumgartlinger] <> [Player: Julian Baumgartlinger]
+[TRACE] 2019-11-28 18:11:45.752 [de.uni_mannheim.informatik.dws.winter.datafusion.DataFusionEvaluator] - Error in 'CurrentClub': [Player: Niklas Moisander] <> [Player: Niklas Moisander]
+[TRACE] 2019-11-28 18:11:45.752 [de.uni_mannheim.informatik.dws.winter.datafusion.DataFusionEvaluator] - Error in 'Transfers': [Player: Niklas Moisander] <> [Player: Niklas Moisander]
+[TRACE] 2019-11-28 18:11:45.752 [de.uni_mannheim.informatik.dws.winter.datafusion.DataFusionEvaluator] - Error in 'Foot': [Player: Niklas Moisander] <> [Player: Niklas Moisander]
+[TRACE] 2019-11-28 18:11:45.753 [de.uni_mannheim.informatik.dws.winter.datafusion.DataFusionEvaluator] - Error in 'Speed': [Player: Niklas Moisander] <> [Player: Niklas Moisander]
+[TRACE] 2019-11-28 18:11:45.754 [de.uni_mannheim.informatik.dws.winter.datafusion.DataFusionEvaluator] - Error in 'Nationality': [Player: Niklas Moisander] <> [Player: Niklas Moisander]
+[TRACE] 2019-11-28 18:11:45.754 [de.uni_mannheim.informatik.dws.winter.datafusion.DataFusionEvaluator] - Error in 'WageInEuro': [Player: Niklas Moisander] <> [Player: Niklas Moisander]
+[TRACE] 2019-11-28 18:11:45.755 [de.uni_mannheim.informatik.dws.winter.datafusion.DataFusionEvaluator] - Error in 'Height': [Player: Aaron Cresswell] <> [Player: Aaron Cresswell]
+[TRACE] 2019-11-28 18:11:45.755 [de.uni_mannheim.informatik.dws.winter.datafusion.DataFusionEvaluator] - Error in 'Speed': [Player: Aaron Cresswell] <> [Player: Aaron Cresswell]
+[TRACE] 2019-11-28 18:11:45.755 [de.uni_mannheim.informatik.dws.winter.datafusion.DataFusionEvaluator] - Error in 'WageInEuro': [Player: Aaron Cresswell] <> [Player: Aaron Cresswell]
+[TRACE] 2019-11-28 18:11:45.756 [de.uni_mannheim.informatik.dws.winter.datafusion.DataFusionEvaluator] - Error in 'CurrentPosition': [Player: Aaron Cresswell] <> [Player: Aaron Cresswell]
+[TRACE] 2019-11-28 18:11:45.756 [de.uni_mannheim.informatik.dws.winter.datafusion.DataFusionEvaluator] - Error in 'Transfers': [Player: Joshua Brillante] <> [Player: Joshua Brillante]
+[TRACE] 2019-11-28 18:11:45.756 [de.uni_mannheim.informatik.dws.winter.datafusion.DataFusionEvaluator] - Error in 'WageInEuro': [Player: Joshua Brillante] <> [Player: Joshua Brillante]
+[TRACE] 2019-11-28 18:11:45.756 [de.uni_mannheim.informatik.dws.winter.datafusion.DataFusionEvaluator] - Attribute-specific Accuracy:
+[TRACE] 2019-11-28 18:11:45.757 [de.uni_mannheim.informatik.dws.winter.datafusion.DataFusionEvaluator] - 	Weight: 0,67
+[TRACE] 2019-11-28 18:11:45.757 [de.uni_mannheim.informatik.dws.winter.datafusion.DataFusionEvaluator] - 	DateOfBirth: 1,00
+[TRACE] 2019-11-28 18:11:45.757 [de.uni_mannheim.informatik.dws.winter.datafusion.DataFusionEvaluator] - 	Height: 0,93
+[TRACE] 2019-11-28 18:11:45.757 [de.uni_mannheim.informatik.dws.winter.datafusion.DataFusionEvaluator] - 	Photo: 1,00
+[TRACE] 2019-11-28 18:11:45.757 [de.uni_mannheim.informatik.dws.winter.datafusion.DataFusionEvaluator] - 	CurrentNumber: 0,80
+[TRACE] 2019-11-28 18:11:45.758 [de.uni_mannheim.informatik.dws.winter.datafusion.DataFusionEvaluator] - 	Developments: 1,00
+[TRACE] 2019-11-28 18:11:45.758 [de.uni_mannheim.informatik.dws.winter.datafusion.DataFusionEvaluator] - 	Name: 1,00
+[TRACE] 2019-11-28 18:11:45.758 [de.uni_mannheim.informatik.dws.winter.datafusion.DataFusionEvaluator] - 	CurrentClub: 0,87
+[TRACE] 2019-11-28 18:11:45.758 [de.uni_mannheim.informatik.dws.winter.datafusion.DataFusionEvaluator] - 	Transfers: 0,07
+[TRACE] 2019-11-28 18:11:45.758 [de.uni_mannheim.informatik.dws.winter.datafusion.DataFusionEvaluator] - 	Foot: 0,87
+[TRACE] 2019-11-28 18:11:45.759 [de.uni_mannheim.informatik.dws.winter.datafusion.DataFusionEvaluator] - 	Speed: 0,60
+[TRACE] 2019-11-28 18:11:45.759 [de.uni_mannheim.informatik.dws.winter.datafusion.DataFusionEvaluator] - 	Nationality: 0,93
+[TRACE] 2019-11-28 18:11:45.759 [de.uni_mannheim.informatik.dws.winter.datafusion.DataFusionEvaluator] - 	WageInEuro: 0,00
+[TRACE] 2019-11-28 18:11:45.759 [de.uni_mannheim.informatik.dws.winter.datafusion.DataFusionEvaluator] - 	CurrentPosition: 0,60
+[INFO ] 2019-11-28 18:16:27.078 [de.uni_mannheim.informatik.dws.winter.model.io.XMLMatchableReader] - Loading 12115 elements from transfer_csv.xml
+[INFO ] 2019-11-28 18:16:27.746 [de.uni_mannheim.informatik.dws.winter.model.FusibleHashedDataSet] - DataSet density: 0,21
+[INFO ] 2019-11-28 18:16:27.746 [de.uni_mannheim.informatik.dws.winter.model.FusibleHashedDataSet] - Attributes densities:
+[INFO ] 2019-11-28 18:16:27.776 [de.uni_mannheim.informatik.dws.winter.model.FusibleHashedDataSet] - 	Weight: 0,00
+[INFO ] 2019-11-28 18:16:27.776 [de.uni_mannheim.informatik.dws.winter.model.FusibleHashedDataSet] - 	DateOfBirth: 1,00
+[INFO ] 2019-11-28 18:16:27.777 [de.uni_mannheim.informatik.dws.winter.model.FusibleHashedDataSet] - 	Height: 0,00
+[INFO ] 2019-11-28 18:16:27.777 [de.uni_mannheim.informatik.dws.winter.model.FusibleHashedDataSet] - 	Photo: 0,00
+[INFO ] 2019-11-28 18:16:27.777 [de.uni_mannheim.informatik.dws.winter.model.FusibleHashedDataSet] - 	CurrentNumber: 0,00
+[INFO ] 2019-11-28 18:16:27.778 [de.uni_mannheim.informatik.dws.winter.model.FusibleHashedDataSet] - 	Developments: 0,00
+[INFO ] 2019-11-28 18:16:27.778 [de.uni_mannheim.informatik.dws.winter.model.FusibleHashedDataSet] - 	Name: 1,00
+[INFO ] 2019-11-28 18:16:27.778 [de.uni_mannheim.informatik.dws.winter.model.FusibleHashedDataSet] - 	CurrentClub: 0,00
+[INFO ] 2019-11-28 18:16:27.779 [de.uni_mannheim.informatik.dws.winter.model.FusibleHashedDataSet] - 	Transfers: 1,00
+[INFO ] 2019-11-28 18:16:27.779 [de.uni_mannheim.informatik.dws.winter.model.FusibleHashedDataSet] - 	Speed: 0,00
+[INFO ] 2019-11-28 18:16:27.779 [de.uni_mannheim.informatik.dws.winter.model.FusibleHashedDataSet] - 	Foot: 0,00
+[INFO ] 2019-11-28 18:16:27.780 [de.uni_mannheim.informatik.dws.winter.model.FusibleHashedDataSet] - 	Nationality: 0,00
+[INFO ] 2019-11-28 18:16:27.780 [de.uni_mannheim.informatik.dws.winter.model.FusibleHashedDataSet] - 	WageInEuro: 0,00
+[INFO ] 2019-11-28 18:16:27.780 [de.uni_mannheim.informatik.dws.winter.model.FusibleHashedDataSet] - 	CurrentPosition: 0,00
+[INFO ] 2019-11-28 18:16:28.451 [de.uni_mannheim.informatik.dws.winter.model.io.XMLMatchableReader] - Loading 10117 elements from PlayerAndTransfersAPI target schema.xml
+[INFO ] 2019-11-28 18:16:28.685 [de.uni_mannheim.informatik.dws.winter.model.FusibleHashedDataSet] - DataSet density: 0,42
+[INFO ] 2019-11-28 18:16:28.686 [de.uni_mannheim.informatik.dws.winter.model.FusibleHashedDataSet] - Attributes densities:
+[INFO ] 2019-11-28 18:16:28.742 [de.uni_mannheim.informatik.dws.winter.model.FusibleHashedDataSet] - 	Weight: 0,42
+[INFO ] 2019-11-28 18:16:28.742 [de.uni_mannheim.informatik.dws.winter.model.FusibleHashedDataSet] - 	DateOfBirth: 0,95
+[INFO ] 2019-11-28 18:16:28.742 [de.uni_mannheim.informatik.dws.winter.model.FusibleHashedDataSet] - 	Height: 0,79
+[INFO ] 2019-11-28 18:16:28.743 [de.uni_mannheim.informatik.dws.winter.model.FusibleHashedDataSet] - 	Photo: 0,69
+[INFO ] 2019-11-28 18:16:28.743 [de.uni_mannheim.informatik.dws.winter.model.FusibleHashedDataSet] - 	CurrentNumber: 0,80
+[INFO ] 2019-11-28 18:16:28.743 [de.uni_mannheim.informatik.dws.winter.model.FusibleHashedDataSet] - 	Developments: 0,00
+[INFO ] 2019-11-28 18:16:28.744 [de.uni_mannheim.informatik.dws.winter.model.FusibleHashedDataSet] - 	Name: 1,00
+[INFO ] 2019-11-28 18:16:28.744 [de.uni_mannheim.informatik.dws.winter.model.FusibleHashedDataSet] - 	CurrentClub: 0,00
+[INFO ] 2019-11-28 18:16:28.745 [de.uni_mannheim.informatik.dws.winter.model.FusibleHashedDataSet] - 	Transfers: 0,26
+[INFO ] 2019-11-28 18:16:28.745 [de.uni_mannheim.informatik.dws.winter.model.FusibleHashedDataSet] - 	Speed: 0,00
+[INFO ] 2019-11-28 18:16:28.745 [de.uni_mannheim.informatik.dws.winter.model.FusibleHashedDataSet] - 	Foot: 0,00
+[INFO ] 2019-11-28 18:16:28.746 [de.uni_mannheim.informatik.dws.winter.model.FusibleHashedDataSet] - 	Nationality: 0,00
+[INFO ] 2019-11-28 18:16:28.746 [de.uni_mannheim.informatik.dws.winter.model.FusibleHashedDataSet] - 	WageInEuro: 0,00
+[INFO ] 2019-11-28 18:16:28.746 [de.uni_mannheim.informatik.dws.winter.model.FusibleHashedDataSet] - 	CurrentPosition: 1,00
+[INFO ] 2019-11-28 18:16:29.427 [de.uni_mannheim.informatik.dws.winter.model.io.XMLMatchableReader] - Loading 9086 elements from EuropeanSoccerDB target schema.xml
+[INFO ] 2019-11-28 18:16:29.623 [de.uni_mannheim.informatik.dws.winter.model.FusibleHashedDataSet] - DataSet density: 0,43
+[INFO ] 2019-11-28 18:16:29.624 [de.uni_mannheim.informatik.dws.winter.model.FusibleHashedDataSet] - Attributes densities:
+[INFO ] 2019-11-28 18:16:29.642 [de.uni_mannheim.informatik.dws.winter.model.FusibleHashedDataSet] - 	Weight: 1,00
+[INFO ] 2019-11-28 18:16:29.642 [de.uni_mannheim.informatik.dws.winter.model.FusibleHashedDataSet] - 	DateOfBirth: 1,00
+[INFO ] 2019-11-28 18:16:29.642 [de.uni_mannheim.informatik.dws.winter.model.FusibleHashedDataSet] - 	Height: 1,00
+[INFO ] 2019-11-28 18:16:29.643 [de.uni_mannheim.informatik.dws.winter.model.FusibleHashedDataSet] - 	Photo: 0,00
+[INFO ] 2019-11-28 18:16:29.643 [de.uni_mannheim.informatik.dws.winter.model.FusibleHashedDataSet] - 	CurrentNumber: 0,00
+[INFO ] 2019-11-28 18:16:29.643 [de.uni_mannheim.informatik.dws.winter.model.FusibleHashedDataSet] - 	Developments: 1,00
+[INFO ] 2019-11-28 18:16:29.643 [de.uni_mannheim.informatik.dws.winter.model.FusibleHashedDataSet] - 	Name: 1,00
+[INFO ] 2019-11-28 18:16:29.644 [de.uni_mannheim.informatik.dws.winter.model.FusibleHashedDataSet] - 	CurrentClub: 0,00
+[INFO ] 2019-11-28 18:16:29.644 [de.uni_mannheim.informatik.dws.winter.model.FusibleHashedDataSet] - 	Transfers: 0,00
+[INFO ] 2019-11-28 18:16:29.644 [de.uni_mannheim.informatik.dws.winter.model.FusibleHashedDataSet] - 	Speed: 0,00
+[INFO ] 2019-11-28 18:16:29.644 [de.uni_mannheim.informatik.dws.winter.model.FusibleHashedDataSet] - 	Foot: 1,00
+[INFO ] 2019-11-28 18:16:29.645 [de.uni_mannheim.informatik.dws.winter.model.FusibleHashedDataSet] - 	Nationality: 0,00
+[INFO ] 2019-11-28 18:16:29.645 [de.uni_mannheim.informatik.dws.winter.model.FusibleHashedDataSet] - 	WageInEuro: 0,00
+[INFO ] 2019-11-28 18:16:29.645 [de.uni_mannheim.informatik.dws.winter.model.FusibleHashedDataSet] - 	CurrentPosition: 0,00
+[INFO ] 2019-11-28 18:16:30.585 [de.uni_mannheim.informatik.dws.winter.model.io.XMLMatchableReader] - Loading 18207 elements from FIFA19 target schema.xml
+[INFO ] 2019-11-28 18:16:30.693 [de.uni_mannheim.informatik.dws.winter.model.FusibleHashedDataSet] - DataSet density: 0,93
+[INFO ] 2019-11-28 18:16:30.693 [de.uni_mannheim.informatik.dws.winter.model.FusibleHashedDataSet] - Attributes densities:
+[INFO ] 2019-11-28 18:16:30.791 [de.uni_mannheim.informatik.dws.winter.model.FusibleHashedDataSet] - 	Weight: 1,00
+[INFO ] 2019-11-28 18:16:30.791 [de.uni_mannheim.informatik.dws.winter.model.FusibleHashedDataSet] - 	DateOfBirth: 1,00
+[INFO ] 2019-11-28 18:16:30.792 [de.uni_mannheim.informatik.dws.winter.model.FusibleHashedDataSet] - 	Height: 1,00
+[INFO ] 2019-11-28 18:16:30.792 [de.uni_mannheim.informatik.dws.winter.model.FusibleHashedDataSet] - 	Photo: 1,00
+[INFO ] 2019-11-28 18:16:30.792 [de.uni_mannheim.informatik.dws.winter.model.FusibleHashedDataSet] - 	CurrentNumber: 1,00
+[INFO ] 2019-11-28 18:16:30.793 [de.uni_mannheim.informatik.dws.winter.model.FusibleHashedDataSet] - 	Developments: 1,00
+[INFO ] 2019-11-28 18:16:30.793 [de.uni_mannheim.informatik.dws.winter.model.FusibleHashedDataSet] - 	Name: 1,00
+[INFO ] 2019-11-28 18:16:30.793 [de.uni_mannheim.informatik.dws.winter.model.FusibleHashedDataSet] - 	CurrentClub: 0,99
+[INFO ] 2019-11-28 18:16:30.793 [de.uni_mannheim.informatik.dws.winter.model.FusibleHashedDataSet] - 	Transfers: 0,00
+[INFO ] 2019-11-28 18:16:30.794 [de.uni_mannheim.informatik.dws.winter.model.FusibleHashedDataSet] - 	Speed: 1,00
+[INFO ] 2019-11-28 18:16:30.795 [de.uni_mannheim.informatik.dws.winter.model.FusibleHashedDataSet] - 	Foot: 1,00
+[INFO ] 2019-11-28 18:16:30.795 [de.uni_mannheim.informatik.dws.winter.model.FusibleHashedDataSet] - 	Nationality: 1,00
+[INFO ] 2019-11-28 18:16:30.796 [de.uni_mannheim.informatik.dws.winter.model.FusibleHashedDataSet] - 	WageInEuro: 0,99
+[INFO ] 2019-11-28 18:16:30.796 [de.uni_mannheim.informatik.dws.winter.model.FusibleHashedDataSet] - 	CurrentPosition: 1,00
+[INFO ] 2019-11-28 18:16:30.871 [de.uni_mannheim.informatik.dws.winter.datafusion.CorrespondenceSet] - Group Size Distribtion of 7042 groups:
+[INFO ] 2019-11-28 18:16:30.871 [de.uni_mannheim.informatik.dws.winter.datafusion.CorrespondenceSet] - 	Group Size 	| Frequency 
+[INFO ] 2019-11-28 18:16:30.871 [de.uni_mannheim.informatik.dws.winter.datafusion.CorrespondenceSet] - 	————————————————————————————
+[INFO ] 2019-11-28 18:16:30.873 [de.uni_mannheim.informatik.dws.winter.datafusion.CorrespondenceSet] - 		2	| 	4359
+[INFO ] 2019-11-28 18:16:30.873 [de.uni_mannheim.informatik.dws.winter.datafusion.CorrespondenceSet] - 		3	| 	1495
+[INFO ] 2019-11-28 18:16:30.874 [de.uni_mannheim.informatik.dws.winter.datafusion.CorrespondenceSet] - 		4	| 	1162
+[INFO ] 2019-11-28 18:16:30.874 [de.uni_mannheim.informatik.dws.winter.datafusion.CorrespondenceSet] - 		5	| 	17
+[INFO ] 2019-11-28 18:16:30.874 [de.uni_mannheim.informatik.dws.winter.datafusion.CorrespondenceSet] - 		6	| 	7
+[INFO ] 2019-11-28 18:16:30.874 [de.uni_mannheim.informatik.dws.winter.datafusion.CorrespondenceSet] - 		7	| 	1
+[INFO ] 2019-11-28 18:16:30.874 [de.uni_mannheim.informatik.dws.winter.datafusion.CorrespondenceSet] - 		9	| 	1
+[INFO ] 2019-11-28 18:16:30.881 [de.uni_mannheim.informatik.dws.winter.model.io.XMLMatchableReader] - Loading 15 elements from gs_datafusion.xml
+[INFO ] 2019-11-28 18:16:30.895 [de.uni_mannheim.informatik.dws.winter.datafusion.DataFusionEngine] - Attribute Consistencies:
+[INFO ] 2019-11-28 18:16:31.384 [de.uni_mannheim.informatik.dws.winter.datafusion.DataFusionEngine] - 	DateOfBirth: 0,06
+[INFO ] 2019-11-28 18:16:31.385 [de.uni_mannheim.informatik.dws.winter.datafusion.DataFusionEngine] - 	Speed: 1,00
+[INFO ] 2019-11-28 18:16:31.385 [de.uni_mannheim.informatik.dws.winter.datafusion.DataFusionEngine] - 	WageInEuro: 1,00
+[INFO ] 2019-11-28 18:16:31.385 [de.uni_mannheim.informatik.dws.winter.datafusion.DataFusionEngine] - 	Photo: 0,49
+[INFO ] 2019-11-28 18:16:31.386 [de.uni_mannheim.informatik.dws.winter.datafusion.DataFusionEngine] - 	Weight: 0,78
+[INFO ] 2019-11-28 18:16:31.386 [de.uni_mannheim.informatik.dws.winter.datafusion.DataFusionEngine] - 	Nationality: 1,00
+[INFO ] 2019-11-28 18:16:31.387 [de.uni_mannheim.informatik.dws.winter.datafusion.DataFusionEngine] - 	Name: 0,81
+[INFO ] 2019-11-28 18:16:31.387 [de.uni_mannheim.informatik.dws.winter.datafusion.DataFusionEngine] - 	Foot: 0,97
+[INFO ] 2019-11-28 18:16:31.388 [de.uni_mannheim.informatik.dws.winter.datafusion.DataFusionEngine] - 	CurrentPosition: 0,59
+[INFO ] 2019-11-28 18:16:31.388 [de.uni_mannheim.informatik.dws.winter.datafusion.DataFusionEngine] - 	CurrentClub: 1,00
+[INFO ] 2019-11-28 18:16:31.389 [de.uni_mannheim.informatik.dws.winter.datafusion.DataFusionEngine] - 	Transfers: 0,50
+[INFO ] 2019-11-28 18:16:31.389 [de.uni_mannheim.informatik.dws.winter.datafusion.DataFusionEngine] - 	Height: 0,79
+[INFO ] 2019-11-28 18:16:31.390 [de.uni_mannheim.informatik.dws.winter.datafusion.DataFusionEngine] - 	CurrentNumber: 0,77
+[INFO ] 2019-11-28 18:16:31.390 [de.uni_mannheim.informatik.dws.winter.datafusion.DataFusionEngine] - 	Developments: 0,44
+[INFO ] 2019-11-28 18:16:33.161 [de.uni_mannheim.informatik.dws.winter.datafusion.DataFusionStrategy] - Debug results written to file: data/output/debugResultsDatafusion.csv
+[TRACE] 2019-11-28 18:16:33.673 [de.uni_mannheim.informatik.dws.winter.datafusion.DataFusionEvaluator] - Error in 'Weight': [Player: Bernardo Silva] <> [Player: Bernardo Silva]
+[TRACE] 2019-11-28 18:16:33.674 [de.uni_mannheim.informatik.dws.winter.datafusion.DataFusionEvaluator] - Error in 'CurrentNumber': [Player: Bernardo Silva] <> [Player: Bernardo Silva]
+[TRACE] 2019-11-28 18:16:33.674 [de.uni_mannheim.informatik.dws.winter.datafusion.DataFusionEvaluator] - Error in 'Transfers': [Player: Bernardo Silva] <> [Player: Bernardo Silva]
+[TRACE] 2019-11-28 18:16:33.675 [de.uni_mannheim.informatik.dws.winter.datafusion.DataFusionEvaluator] - Error in 'Speed': [Player: Bernardo Silva] <> [Player: Bernardo Silva]
+[TRACE] 2019-11-28 18:16:33.675 [de.uni_mannheim.informatik.dws.winter.datafusion.DataFusionEvaluator] - Error in 'WageInEuro': [Player: Bernardo Silva] <> [Player: Bernardo Silva]
+[TRACE] 2019-11-28 18:16:33.675 [de.uni_mannheim.informatik.dws.winter.datafusion.DataFusionEvaluator] - Error in 'Weight': [Player: Jordan Botaka] <> [Player: Jordan Rolly Botaka]
+[TRACE] 2019-11-28 18:16:33.676 [de.uni_mannheim.informatik.dws.winter.datafusion.DataFusionEvaluator] - Error in 'Transfers': [Player: Jordan Botaka] <> [Player: Jordan Rolly Botaka]
+[TRACE] 2019-11-28 18:16:33.676 [de.uni_mannheim.informatik.dws.winter.datafusion.DataFusionEvaluator] - Error in 'Speed': [Player: Jordan Botaka] <> [Player: Jordan Rolly Botaka]
+[TRACE] 2019-11-28 18:16:33.676 [de.uni_mannheim.informatik.dws.winter.datafusion.DataFusionEvaluator] - Error in 'WageInEuro': [Player: Jordan Botaka] <> [Player: Jordan Rolly Botaka]
+[TRACE] 2019-11-28 18:16:33.676 [de.uni_mannheim.informatik.dws.winter.datafusion.DataFusionEvaluator] - Error in 'Transfers': [Player: Marc Roca] <> [Player: Marc Roca]
+[TRACE] 2019-11-28 18:16:33.677 [de.uni_mannheim.informatik.dws.winter.datafusion.DataFusionEvaluator] - Error in 'WageInEuro': [Player: Marc Roca] <> [Player: Marc Roca]
+[TRACE] 2019-11-28 18:16:33.677 [de.uni_mannheim.informatik.dws.winter.datafusion.DataFusionEvaluator] - Error in 'Transfers': [Player: Krzysztof Piatek] <> [Player: Krzysztof Piatek]
+[TRACE] 2019-11-28 18:16:33.677 [de.uni_mannheim.informatik.dws.winter.datafusion.DataFusionEvaluator] - Error in 'WageInEuro': [Player: Krzysztof Piatek] <> [Player: Krzysztof Piatek]
+[TRACE] 2019-11-28 18:16:33.678 [de.uni_mannheim.informatik.dws.winter.datafusion.DataFusionEvaluator] - Error in 'Transfers': [Player: Nicolo Barella] <> [Player: Nicolò Barella]
+[TRACE] 2019-11-28 18:16:33.678 [de.uni_mannheim.informatik.dws.winter.datafusion.DataFusionEvaluator] - Error in 'Speed': [Player: Nicolo Barella] <> [Player: Nicolò Barella]
+[TRACE] 2019-11-28 18:16:33.678 [de.uni_mannheim.informatik.dws.winter.datafusion.DataFusionEvaluator] - Error in 'WageInEuro': [Player: Nicolo Barella] <> [Player: Nicolò Barella]
+[TRACE] 2019-11-28 18:16:33.678 [de.uni_mannheim.informatik.dws.winter.datafusion.DataFusionEvaluator] - Error in 'Transfers': [Player: Allan Saint-Maximin] <> [Player: Allan Saint-Maximin]
+[TRACE] 2019-11-28 18:16:33.679 [de.uni_mannheim.informatik.dws.winter.datafusion.DataFusionEvaluator] - Error in 'WageInEuro': [Player: Allan Saint-Maximin] <> [Player: Allan Saint-Maximin]
+[TRACE] 2019-11-28 18:16:33.679 [de.uni_mannheim.informatik.dws.winter.datafusion.DataFusionEvaluator] - Error in 'CurrentPosition': [Player: Allan Saint-Maximin] <> [Player: Allan Saint-Maximin]
+[TRACE] 2019-11-28 18:16:33.679 [de.uni_mannheim.informatik.dws.winter.datafusion.DataFusionEvaluator] - Error in 'CurrentNumber': [Player: Piotr Tomasik] <> [Player: Piotr Tomasik]
+[TRACE] 2019-11-28 18:16:33.680 [de.uni_mannheim.informatik.dws.winter.datafusion.DataFusionEvaluator] - Error in 'CurrentClub': [Player: Piotr Tomasik] <> [Player: Piotr Tomasik]
+[TRACE] 2019-11-28 18:16:33.680 [de.uni_mannheim.informatik.dws.winter.datafusion.DataFusionEvaluator] - Error in 'Transfers': [Player: Piotr Tomasik] <> [Player: Piotr Tomasik]
+[TRACE] 2019-11-28 18:16:33.680 [de.uni_mannheim.informatik.dws.winter.datafusion.DataFusionEvaluator] - Error in 'Speed': [Player: Piotr Tomasik] <> [Player: Piotr Tomasik]
+[TRACE] 2019-11-28 18:16:33.680 [de.uni_mannheim.informatik.dws.winter.datafusion.DataFusionEvaluator] - Error in 'WageInEuro': [Player: Piotr Tomasik] <> [Player: Piotr Tomasik]
+[TRACE] 2019-11-28 18:16:33.681 [de.uni_mannheim.informatik.dws.winter.datafusion.DataFusionEvaluator] - Error in 'Weight': [Player: Harry Maguire] <> [Player: Harry Maguire]
+[TRACE] 2019-11-28 18:16:33.681 [de.uni_mannheim.informatik.dws.winter.datafusion.DataFusionEvaluator] - Error in 'Transfers': [Player: Harry Maguire] <> [Player: Harry Maguire]
+[TRACE] 2019-11-28 18:16:33.681 [de.uni_mannheim.informatik.dws.winter.datafusion.DataFusionEvaluator] - Error in 'WageInEuro': [Player: Harry Maguire] <> [Player: Harry Maguire]
+[TRACE] 2019-11-28 18:16:33.681 [de.uni_mannheim.informatik.dws.winter.datafusion.DataFusionEvaluator] - Error in 'CurrentPosition': [Player: Harry Maguire] <> [Player: Harry Maguire]
+[TRACE] 2019-11-28 18:16:33.681 [de.uni_mannheim.informatik.dws.winter.datafusion.DataFusionEvaluator] - Error in 'Weight': [Player: Andrej Kramaric] <> [Player: Andrej Kramaric]
+[TRACE] 2019-11-28 18:16:33.682 [de.uni_mannheim.informatik.dws.winter.datafusion.DataFusionEvaluator] - Error in 'Transfers': [Player: Andrej Kramaric] <> [Player: Andrej Kramaric]
+[TRACE] 2019-11-28 18:16:33.682 [de.uni_mannheim.informatik.dws.winter.datafusion.DataFusionEvaluator] - Error in 'WageInEuro': [Player: Andrej Kramaric] <> [Player: Andrej Kramaric]
+[TRACE] 2019-11-28 18:16:33.683 [de.uni_mannheim.informatik.dws.winter.datafusion.DataFusionEvaluator] - Error in 'CurrentPosition': [Player: Andrej Kramaric] <> [Player: Andrej Kramaric]
+[TRACE] 2019-11-28 18:16:33.683 [de.uni_mannheim.informatik.dws.winter.datafusion.DataFusionEvaluator] - Error in 'Transfers': [Player: Cristiano Ronaldo] <> [Player: Cristiano Ronaldo]
+[TRACE] 2019-11-28 18:16:33.683 [de.uni_mannheim.informatik.dws.winter.datafusion.DataFusionEvaluator] - Error in 'Foot': [Player: Cristiano Ronaldo] <> [Player: Cristiano Ronaldo]
+[TRACE] 2019-11-28 18:16:33.684 [de.uni_mannheim.informatik.dws.winter.datafusion.DataFusionEvaluator] - Error in 'WageInEuro': [Player: Cristiano Ronaldo] <> [Player: Cristiano Ronaldo]
+[TRACE] 2019-11-28 18:16:33.684 [de.uni_mannheim.informatik.dws.winter.datafusion.DataFusionEvaluator] - Error in 'CurrentPosition': [Player: Cristiano Ronaldo] <> [Player: Cristiano Ronaldo]
+[TRACE] 2019-11-28 18:16:33.684 [de.uni_mannheim.informatik.dws.winter.datafusion.DataFusionEvaluator] - Error in 'CurrentNumber': [Player: Timo Werner] <> [Player: Timo Werner]
+[TRACE] 2019-11-28 18:16:33.685 [de.uni_mannheim.informatik.dws.winter.datafusion.DataFusionEvaluator] - Error in 'Transfers': [Player: Timo Werner] <> [Player: Timo Werner]
+[TRACE] 2019-11-28 18:16:33.685 [de.uni_mannheim.informatik.dws.winter.datafusion.DataFusionEvaluator] - Error in 'WageInEuro': [Player: Timo Werner] <> [Player: Timo Werner]
+[TRACE] 2019-11-28 18:16:33.685 [de.uni_mannheim.informatik.dws.winter.datafusion.DataFusionEvaluator] - Error in 'CurrentPosition': [Player: Timo Werner] <> [Player: Timo Werner]
+[TRACE] 2019-11-28 18:16:33.685 [de.uni_mannheim.informatik.dws.winter.datafusion.DataFusionEvaluator] - Error in 'Weight': [Player: Julian Baumgartlinger] <> [Player: Julian Baumgartlinger]
+[TRACE] 2019-11-28 18:16:33.685 [de.uni_mannheim.informatik.dws.winter.datafusion.DataFusionEvaluator] - Error in 'Transfers': [Player: Julian Baumgartlinger] <> [Player: Julian Baumgartlinger]
+[TRACE] 2019-11-28 18:16:33.685 [de.uni_mannheim.informatik.dws.winter.datafusion.DataFusionEvaluator] - Error in 'WageInEuro': [Player: Julian Baumgartlinger] <> [Player: Julian Baumgartlinger]
+[TRACE] 2019-11-28 18:16:33.686 [de.uni_mannheim.informatik.dws.winter.datafusion.DataFusionEvaluator] - Error in 'CurrentClub': [Player: Niklas Moisander] <> [Player: Niklas Moisander]
+[TRACE] 2019-11-28 18:16:33.686 [de.uni_mannheim.informatik.dws.winter.datafusion.DataFusionEvaluator] - Error in 'Transfers': [Player: Niklas Moisander] <> [Player: Niklas Moisander]
+[TRACE] 2019-11-28 18:16:33.686 [de.uni_mannheim.informatik.dws.winter.datafusion.DataFusionEvaluator] - Error in 'Foot': [Player: Niklas Moisander] <> [Player: Niklas Moisander]
+[TRACE] 2019-11-28 18:16:33.686 [de.uni_mannheim.informatik.dws.winter.datafusion.DataFusionEvaluator] - Error in 'Speed': [Player: Niklas Moisander] <> [Player: Niklas Moisander]
+[TRACE] 2019-11-28 18:16:33.686 [de.uni_mannheim.informatik.dws.winter.datafusion.DataFusionEvaluator] - Error in 'Nationality': [Player: Niklas Moisander] <> [Player: Niklas Moisander]
+[TRACE] 2019-11-28 18:16:33.687 [de.uni_mannheim.informatik.dws.winter.datafusion.DataFusionEvaluator] - Error in 'WageInEuro': [Player: Niklas Moisander] <> [Player: Niklas Moisander]
+[TRACE] 2019-11-28 18:16:33.687 [de.uni_mannheim.informatik.dws.winter.datafusion.DataFusionEvaluator] - Error in 'Height': [Player: Aaron Cresswell] <> [Player: Aaron Cresswell]
+[TRACE] 2019-11-28 18:16:33.687 [de.uni_mannheim.informatik.dws.winter.datafusion.DataFusionEvaluator] - Error in 'Speed': [Player: Aaron Cresswell] <> [Player: Aaron Cresswell]
+[TRACE] 2019-11-28 18:16:33.687 [de.uni_mannheim.informatik.dws.winter.datafusion.DataFusionEvaluator] - Error in 'WageInEuro': [Player: Aaron Cresswell] <> [Player: Aaron Cresswell]
+[TRACE] 2019-11-28 18:16:33.688 [de.uni_mannheim.informatik.dws.winter.datafusion.DataFusionEvaluator] - Error in 'CurrentPosition': [Player: Aaron Cresswell] <> [Player: Aaron Cresswell]
+[TRACE] 2019-11-28 18:16:33.688 [de.uni_mannheim.informatik.dws.winter.datafusion.DataFusionEvaluator] - Error in 'Transfers': [Player: Joshua Brillante] <> [Player: Joshua Brillante]
+[TRACE] 2019-11-28 18:16:33.688 [de.uni_mannheim.informatik.dws.winter.datafusion.DataFusionEvaluator] - Error in 'WageInEuro': [Player: Joshua Brillante] <> [Player: Joshua Brillante]
+[TRACE] 2019-11-28 18:16:33.688 [de.uni_mannheim.informatik.dws.winter.datafusion.DataFusionEvaluator] - Attribute-specific Accuracy:
+[TRACE] 2019-11-28 18:16:33.689 [de.uni_mannheim.informatik.dws.winter.datafusion.DataFusionEvaluator] - 	Weight: 0,67
+[TRACE] 2019-11-28 18:16:33.689 [de.uni_mannheim.informatik.dws.winter.datafusion.DataFusionEvaluator] - 	DateOfBirth: 1,00
+[TRACE] 2019-11-28 18:16:33.689 [de.uni_mannheim.informatik.dws.winter.datafusion.DataFusionEvaluator] - 	Height: 0,93
+[TRACE] 2019-11-28 18:16:33.689 [de.uni_mannheim.informatik.dws.winter.datafusion.DataFusionEvaluator] - 	Photo: 1,00
+[TRACE] 2019-11-28 18:16:33.690 [de.uni_mannheim.informatik.dws.winter.datafusion.DataFusionEvaluator] - 	CurrentNumber: 0,80
+[TRACE] 2019-11-28 18:16:33.690 [de.uni_mannheim.informatik.dws.winter.datafusion.DataFusionEvaluator] - 	Developments: 1,00
+[TRACE] 2019-11-28 18:16:33.690 [de.uni_mannheim.informatik.dws.winter.datafusion.DataFusionEvaluator] - 	Name: 1,00
+[TRACE] 2019-11-28 18:16:33.690 [de.uni_mannheim.informatik.dws.winter.datafusion.DataFusionEvaluator] - 	CurrentClub: 0,87
+[TRACE] 2019-11-28 18:16:33.691 [de.uni_mannheim.informatik.dws.winter.datafusion.DataFusionEvaluator] - 	Transfers: 0,07
+[TRACE] 2019-11-28 18:16:33.691 [de.uni_mannheim.informatik.dws.winter.datafusion.DataFusionEvaluator] - 	Foot: 0,87
+[TRACE] 2019-11-28 18:16:33.691 [de.uni_mannheim.informatik.dws.winter.datafusion.DataFusionEvaluator] - 	Speed: 0,60
+[TRACE] 2019-11-28 18:16:33.692 [de.uni_mannheim.informatik.dws.winter.datafusion.DataFusionEvaluator] - 	Nationality: 0,93
+[TRACE] 2019-11-28 18:16:33.692 [de.uni_mannheim.informatik.dws.winter.datafusion.DataFusionEvaluator] - 	WageInEuro: 0,00
+[TRACE] 2019-11-28 18:16:33.692 [de.uni_mannheim.informatik.dws.winter.datafusion.DataFusionEvaluator] - 	CurrentPosition: 0,60
+[INFO ] 2019-11-28 18:16:48.631 [de.uni_mannheim.informatik.dws.winter.model.io.XMLMatchableReader] - Loading 12115 elements from transfer_csv.xml
+[INFO ] 2019-11-28 18:16:49.134 [de.uni_mannheim.informatik.dws.winter.model.FusibleHashedDataSet] - DataSet density: 0,21
+[INFO ] 2019-11-28 18:16:49.134 [de.uni_mannheim.informatik.dws.winter.model.FusibleHashedDataSet] - Attributes densities:
+[INFO ] 2019-11-28 18:16:49.161 [de.uni_mannheim.informatik.dws.winter.model.FusibleHashedDataSet] - 	Weight: 0,00
+[INFO ] 2019-11-28 18:16:49.162 [de.uni_mannheim.informatik.dws.winter.model.FusibleHashedDataSet] - 	DateOfBirth: 1,00
+[INFO ] 2019-11-28 18:16:49.162 [de.uni_mannheim.informatik.dws.winter.model.FusibleHashedDataSet] - 	Height: 0,00
+[INFO ] 2019-11-28 18:16:49.162 [de.uni_mannheim.informatik.dws.winter.model.FusibleHashedDataSet] - 	Photo: 0,00
+[INFO ] 2019-11-28 18:16:49.163 [de.uni_mannheim.informatik.dws.winter.model.FusibleHashedDataSet] - 	CurrentNumber: 0,00
+[INFO ] 2019-11-28 18:16:49.163 [de.uni_mannheim.informatik.dws.winter.model.FusibleHashedDataSet] - 	Developments: 0,00
+[INFO ] 2019-11-28 18:16:49.163 [de.uni_mannheim.informatik.dws.winter.model.FusibleHashedDataSet] - 	Name: 1,00
+[INFO ] 2019-11-28 18:16:49.164 [de.uni_mannheim.informatik.dws.winter.model.FusibleHashedDataSet] - 	CurrentClub: 0,00
+[INFO ] 2019-11-28 18:16:49.164 [de.uni_mannheim.informatik.dws.winter.model.FusibleHashedDataSet] - 	Transfers: 1,00
+[INFO ] 2019-11-28 18:16:49.165 [de.uni_mannheim.informatik.dws.winter.model.FusibleHashedDataSet] - 	Speed: 0,00
+[INFO ] 2019-11-28 18:16:49.165 [de.uni_mannheim.informatik.dws.winter.model.FusibleHashedDataSet] - 	Foot: 0,00
+[INFO ] 2019-11-28 18:16:49.165 [de.uni_mannheim.informatik.dws.winter.model.FusibleHashedDataSet] - 	Nationality: 0,00
+[INFO ] 2019-11-28 18:16:49.166 [de.uni_mannheim.informatik.dws.winter.model.FusibleHashedDataSet] - 	WageInEuro: 0,00
+[INFO ] 2019-11-28 18:16:49.166 [de.uni_mannheim.informatik.dws.winter.model.FusibleHashedDataSet] - 	CurrentPosition: 0,00
+[INFO ] 2019-11-28 18:16:49.867 [de.uni_mannheim.informatik.dws.winter.model.io.XMLMatchableReader] - Loading 10117 elements from PlayerAndTransfersAPI target schema.xml
+[INFO ] 2019-11-28 18:16:50.215 [de.uni_mannheim.informatik.dws.winter.model.FusibleHashedDataSet] - DataSet density: 0,42
+[INFO ] 2019-11-28 18:16:50.215 [de.uni_mannheim.informatik.dws.winter.model.FusibleHashedDataSet] - Attributes densities:
+[INFO ] 2019-11-28 18:16:50.289 [de.uni_mannheim.informatik.dws.winter.model.FusibleHashedDataSet] - 	Weight: 0,42
+[INFO ] 2019-11-28 18:16:50.290 [de.uni_mannheim.informatik.dws.winter.model.FusibleHashedDataSet] - 	DateOfBirth: 0,95
+[INFO ] 2019-11-28 18:16:50.291 [de.uni_mannheim.informatik.dws.winter.model.FusibleHashedDataSet] - 	Height: 0,79
+[INFO ] 2019-11-28 18:16:50.291 [de.uni_mannheim.informatik.dws.winter.model.FusibleHashedDataSet] - 	Photo: 0,69
+[INFO ] 2019-11-28 18:16:50.291 [de.uni_mannheim.informatik.dws.winter.model.FusibleHashedDataSet] - 	CurrentNumber: 0,80
+[INFO ] 2019-11-28 18:16:50.292 [de.uni_mannheim.informatik.dws.winter.model.FusibleHashedDataSet] - 	Developments: 0,00
+[INFO ] 2019-11-28 18:16:50.292 [de.uni_mannheim.informatik.dws.winter.model.FusibleHashedDataSet] - 	Name: 1,00
+[INFO ] 2019-11-28 18:16:50.293 [de.uni_mannheim.informatik.dws.winter.model.FusibleHashedDataSet] - 	CurrentClub: 0,00
+[INFO ] 2019-11-28 18:16:50.293 [de.uni_mannheim.informatik.dws.winter.model.FusibleHashedDataSet] - 	Transfers: 0,26
+[INFO ] 2019-11-28 18:16:50.293 [de.uni_mannheim.informatik.dws.winter.model.FusibleHashedDataSet] - 	Speed: 0,00
+[INFO ] 2019-11-28 18:16:50.293 [de.uni_mannheim.informatik.dws.winter.model.FusibleHashedDataSet] - 	Foot: 0,00
+[INFO ] 2019-11-28 18:16:50.294 [de.uni_mannheim.informatik.dws.winter.model.FusibleHashedDataSet] - 	Nationality: 0,00
+[INFO ] 2019-11-28 18:16:50.294 [de.uni_mannheim.informatik.dws.winter.model.FusibleHashedDataSet] - 	WageInEuro: 0,00
+[INFO ] 2019-11-28 18:16:50.295 [de.uni_mannheim.informatik.dws.winter.model.FusibleHashedDataSet] - 	CurrentPosition: 1,00
+[INFO ] 2019-11-28 18:16:51.029 [de.uni_mannheim.informatik.dws.winter.model.io.XMLMatchableReader] - Loading 9086 elements from EuropeanSoccerDB target schema.xml
+[INFO ] 2019-11-28 18:16:51.287 [de.uni_mannheim.informatik.dws.winter.model.FusibleHashedDataSet] - DataSet density: 0,43
+[INFO ] 2019-11-28 18:16:51.287 [de.uni_mannheim.informatik.dws.winter.model.FusibleHashedDataSet] - Attributes densities:
+[INFO ] 2019-11-28 18:16:51.313 [de.uni_mannheim.informatik.dws.winter.model.FusibleHashedDataSet] - 	Weight: 1,00
+[INFO ] 2019-11-28 18:16:51.313 [de.uni_mannheim.informatik.dws.winter.model.FusibleHashedDataSet] - 	DateOfBirth: 1,00
+[INFO ] 2019-11-28 18:16:51.314 [de.uni_mannheim.informatik.dws.winter.model.FusibleHashedDataSet] - 	Height: 1,00
+[INFO ] 2019-11-28 18:16:51.314 [de.uni_mannheim.informatik.dws.winter.model.FusibleHashedDataSet] - 	Photo: 0,00
+[INFO ] 2019-11-28 18:16:51.315 [de.uni_mannheim.informatik.dws.winter.model.FusibleHashedDataSet] - 	CurrentNumber: 0,00
+[INFO ] 2019-11-28 18:16:51.315 [de.uni_mannheim.informatik.dws.winter.model.FusibleHashedDataSet] - 	Developments: 1,00
+[INFO ] 2019-11-28 18:16:51.316 [de.uni_mannheim.informatik.dws.winter.model.FusibleHashedDataSet] - 	Name: 1,00
+[INFO ] 2019-11-28 18:16:51.316 [de.uni_mannheim.informatik.dws.winter.model.FusibleHashedDataSet] - 	CurrentClub: 0,00
+[INFO ] 2019-11-28 18:16:51.317 [de.uni_mannheim.informatik.dws.winter.model.FusibleHashedDataSet] - 	Transfers: 0,00
+[INFO ] 2019-11-28 18:16:51.317 [de.uni_mannheim.informatik.dws.winter.model.FusibleHashedDataSet] - 	Speed: 0,00
+[INFO ] 2019-11-28 18:16:51.317 [de.uni_mannheim.informatik.dws.winter.model.FusibleHashedDataSet] - 	Foot: 1,00
+[INFO ] 2019-11-28 18:16:51.318 [de.uni_mannheim.informatik.dws.winter.model.FusibleHashedDataSet] - 	Nationality: 0,00
+[INFO ] 2019-11-28 18:16:51.318 [de.uni_mannheim.informatik.dws.winter.model.FusibleHashedDataSet] - 	WageInEuro: 0,00
+[INFO ] 2019-11-28 18:16:51.318 [de.uni_mannheim.informatik.dws.winter.model.FusibleHashedDataSet] - 	CurrentPosition: 0,00
+[INFO ] 2019-11-28 18:16:52.409 [de.uni_mannheim.informatik.dws.winter.model.io.XMLMatchableReader] - Loading 18207 elements from FIFA19 target schema.xml
+[INFO ] 2019-11-28 18:16:52.535 [de.uni_mannheim.informatik.dws.winter.model.FusibleHashedDataSet] - DataSet density: 0,93
+[INFO ] 2019-11-28 18:16:52.535 [de.uni_mannheim.informatik.dws.winter.model.FusibleHashedDataSet] - Attributes densities:
+[INFO ] 2019-11-28 18:16:52.638 [de.uni_mannheim.informatik.dws.winter.model.FusibleHashedDataSet] - 	Weight: 1,00
+[INFO ] 2019-11-28 18:16:52.639 [de.uni_mannheim.informatik.dws.winter.model.FusibleHashedDataSet] - 	DateOfBirth: 1,00
+[INFO ] 2019-11-28 18:16:52.640 [de.uni_mannheim.informatik.dws.winter.model.FusibleHashedDataSet] - 	Height: 1,00
+[INFO ] 2019-11-28 18:16:52.640 [de.uni_mannheim.informatik.dws.winter.model.FusibleHashedDataSet] - 	Photo: 1,00
+[INFO ] 2019-11-28 18:16:52.641 [de.uni_mannheim.informatik.dws.winter.model.FusibleHashedDataSet] - 	CurrentNumber: 1,00
+[INFO ] 2019-11-28 18:16:52.641 [de.uni_mannheim.informatik.dws.winter.model.FusibleHashedDataSet] - 	Developments: 1,00
+[INFO ] 2019-11-28 18:16:52.642 [de.uni_mannheim.informatik.dws.winter.model.FusibleHashedDataSet] - 	Name: 1,00
+[INFO ] 2019-11-28 18:16:52.642 [de.uni_mannheim.informatik.dws.winter.model.FusibleHashedDataSet] - 	CurrentClub: 0,99
+[INFO ] 2019-11-28 18:16:52.642 [de.uni_mannheim.informatik.dws.winter.model.FusibleHashedDataSet] - 	Transfers: 0,00
+[INFO ] 2019-11-28 18:16:52.643 [de.uni_mannheim.informatik.dws.winter.model.FusibleHashedDataSet] - 	Speed: 1,00
+[INFO ] 2019-11-28 18:16:52.643 [de.uni_mannheim.informatik.dws.winter.model.FusibleHashedDataSet] - 	Foot: 1,00
+[INFO ] 2019-11-28 18:16:52.643 [de.uni_mannheim.informatik.dws.winter.model.FusibleHashedDataSet] - 	Nationality: 1,00
+[INFO ] 2019-11-28 18:16:52.643 [de.uni_mannheim.informatik.dws.winter.model.FusibleHashedDataSet] - 	WageInEuro: 0,99
+[INFO ] 2019-11-28 18:16:52.644 [de.uni_mannheim.informatik.dws.winter.model.FusibleHashedDataSet] - 	CurrentPosition: 1,00
+[INFO ] 2019-11-28 18:16:52.712 [de.uni_mannheim.informatik.dws.winter.datafusion.CorrespondenceSet] - Group Size Distribtion of 7042 groups:
+[INFO ] 2019-11-28 18:16:52.712 [de.uni_mannheim.informatik.dws.winter.datafusion.CorrespondenceSet] - 	Group Size 	| Frequency 
+[INFO ] 2019-11-28 18:16:52.713 [de.uni_mannheim.informatik.dws.winter.datafusion.CorrespondenceSet] - 	————————————————————————————
+[INFO ] 2019-11-28 18:16:52.714 [de.uni_mannheim.informatik.dws.winter.datafusion.CorrespondenceSet] - 		2	| 	4359
+[INFO ] 2019-11-28 18:16:52.714 [de.uni_mannheim.informatik.dws.winter.datafusion.CorrespondenceSet] - 		3	| 	1495
+[INFO ] 2019-11-28 18:16:52.714 [de.uni_mannheim.informatik.dws.winter.datafusion.CorrespondenceSet] - 		4	| 	1162
+[INFO ] 2019-11-28 18:16:52.714 [de.uni_mannheim.informatik.dws.winter.datafusion.CorrespondenceSet] - 		5	| 	17
+[INFO ] 2019-11-28 18:16:52.714 [de.uni_mannheim.informatik.dws.winter.datafusion.CorrespondenceSet] - 		6	| 	7
+[INFO ] 2019-11-28 18:16:52.715 [de.uni_mannheim.informatik.dws.winter.datafusion.CorrespondenceSet] - 		7	| 	1
+[INFO ] 2019-11-28 18:16:52.715 [de.uni_mannheim.informatik.dws.winter.datafusion.CorrespondenceSet] - 		9	| 	1
+[INFO ] 2019-11-28 18:16:52.720 [de.uni_mannheim.informatik.dws.winter.model.io.XMLMatchableReader] - Loading 15 elements from gs_datafusion.xml
+[INFO ] 2019-11-28 18:16:52.733 [de.uni_mannheim.informatik.dws.winter.datafusion.DataFusionEngine] - Attribute Consistencies:
+[INFO ] 2019-11-28 18:16:53.267 [de.uni_mannheim.informatik.dws.winter.datafusion.DataFusionEngine] - 	DateOfBirth: 0,06
+[INFO ] 2019-11-28 18:16:53.268 [de.uni_mannheim.informatik.dws.winter.datafusion.DataFusionEngine] - 	Speed: 1,00
+[INFO ] 2019-11-28 18:16:53.268 [de.uni_mannheim.informatik.dws.winter.datafusion.DataFusionEngine] - 	WageInEuro: 1,00
+[INFO ] 2019-11-28 18:16:53.268 [de.uni_mannheim.informatik.dws.winter.datafusion.DataFusionEngine] - 	Photo: 0,49
+[INFO ] 2019-11-28 18:16:53.269 [de.uni_mannheim.informatik.dws.winter.datafusion.DataFusionEngine] - 	Weight: 0,78
+[INFO ] 2019-11-28 18:16:53.269 [de.uni_mannheim.informatik.dws.winter.datafusion.DataFusionEngine] - 	Nationality: 1,00
+[INFO ] 2019-11-28 18:16:53.270 [de.uni_mannheim.informatik.dws.winter.datafusion.DataFusionEngine] - 	Name: 0,81
+[INFO ] 2019-11-28 18:16:53.270 [de.uni_mannheim.informatik.dws.winter.datafusion.DataFusionEngine] - 	Foot: 0,97
+[INFO ] 2019-11-28 18:16:53.270 [de.uni_mannheim.informatik.dws.winter.datafusion.DataFusionEngine] - 	CurrentPosition: 0,59
+[INFO ] 2019-11-28 18:16:53.271 [de.uni_mannheim.informatik.dws.winter.datafusion.DataFusionEngine] - 	CurrentClub: 1,00
+[INFO ] 2019-11-28 18:16:53.271 [de.uni_mannheim.informatik.dws.winter.datafusion.DataFusionEngine] - 	Transfers: 0,50
+[INFO ] 2019-11-28 18:16:53.272 [de.uni_mannheim.informatik.dws.winter.datafusion.DataFusionEngine] - 	Height: 0,79
+[INFO ] 2019-11-28 18:16:53.272 [de.uni_mannheim.informatik.dws.winter.datafusion.DataFusionEngine] - 	CurrentNumber: 0,77
+[INFO ] 2019-11-28 18:16:53.273 [de.uni_mannheim.informatik.dws.winter.datafusion.DataFusionEngine] - 	Developments: 0,44
+[INFO ] 2019-11-28 18:16:55.267 [de.uni_mannheim.informatik.dws.winter.datafusion.DataFusionStrategy] - Debug results written to file: data/output/debugResultsDatafusion.csv
+[TRACE] 2019-11-28 18:16:55.789 [de.uni_mannheim.informatik.dws.winter.datafusion.DataFusionEvaluator] - Error in 'Weight': [Player: Bernardo Silva] <> [Player: Bernardo Silva]
+[TRACE] 2019-11-28 18:16:55.789 [de.uni_mannheim.informatik.dws.winter.datafusion.DataFusionEvaluator] - Error in 'CurrentNumber': [Player: Bernardo Silva] <> [Player: Bernardo Silva]
+[TRACE] 2019-11-28 18:16:55.790 [de.uni_mannheim.informatik.dws.winter.datafusion.DataFusionEvaluator] - Error in 'Transfers': [Player: Bernardo Silva] <> [Player: Bernardo Silva]
+[TRACE] 2019-11-28 18:16:55.790 [de.uni_mannheim.informatik.dws.winter.datafusion.DataFusionEvaluator] - Error in 'Speed': [Player: Bernardo Silva] <> [Player: Bernardo Silva]
+[TRACE] 2019-11-28 18:16:55.790 [de.uni_mannheim.informatik.dws.winter.datafusion.DataFusionEvaluator] - Error in 'WageInEuro': [Player: Bernardo Silva] <> [Player: Bernardo Silva]
+[TRACE] 2019-11-28 18:16:55.790 [de.uni_mannheim.informatik.dws.winter.datafusion.DataFusionEvaluator] - Error in 'Weight': [Player: Jordan Botaka] <> [Player: Jordan Rolly Botaka]
+[TRACE] 2019-11-28 18:16:55.791 [de.uni_mannheim.informatik.dws.winter.datafusion.DataFusionEvaluator] - Error in 'Transfers': [Player: Jordan Botaka] <> [Player: Jordan Rolly Botaka]
+[TRACE] 2019-11-28 18:16:55.791 [de.uni_mannheim.informatik.dws.winter.datafusion.DataFusionEvaluator] - Error in 'Speed': [Player: Jordan Botaka] <> [Player: Jordan Rolly Botaka]
+[TRACE] 2019-11-28 18:16:55.791 [de.uni_mannheim.informatik.dws.winter.datafusion.DataFusionEvaluator] - Error in 'WageInEuro': [Player: Jordan Botaka] <> [Player: Jordan Rolly Botaka]
+[TRACE] 2019-11-28 18:16:55.792 [de.uni_mannheim.informatik.dws.winter.datafusion.DataFusionEvaluator] - Error in 'Transfers': [Player: Marc Roca] <> [Player: Marc Roca]
+[TRACE] 2019-11-28 18:16:55.792 [de.uni_mannheim.informatik.dws.winter.datafusion.DataFusionEvaluator] - Error in 'WageInEuro': [Player: Marc Roca] <> [Player: Marc Roca]
+[TRACE] 2019-11-28 18:16:55.792 [de.uni_mannheim.informatik.dws.winter.datafusion.DataFusionEvaluator] - Error in 'Transfers': [Player: Krzysztof Piatek] <> [Player: Krzysztof Piatek]
+[TRACE] 2019-11-28 18:16:55.792 [de.uni_mannheim.informatik.dws.winter.datafusion.DataFusionEvaluator] - Error in 'WageInEuro': [Player: Krzysztof Piatek] <> [Player: Krzysztof Piatek]
+[TRACE] 2019-11-28 18:16:55.793 [de.uni_mannheim.informatik.dws.winter.datafusion.DataFusionEvaluator] - Error in 'Transfers': [Player: Nicolo Barella] <> [Player: Nicolò Barella]
+[TRACE] 2019-11-28 18:16:55.793 [de.uni_mannheim.informatik.dws.winter.datafusion.DataFusionEvaluator] - Error in 'Speed': [Player: Nicolo Barella] <> [Player: Nicolò Barella]
+[TRACE] 2019-11-28 18:16:55.793 [de.uni_mannheim.informatik.dws.winter.datafusion.DataFusionEvaluator] - Error in 'WageInEuro': [Player: Nicolo Barella] <> [Player: Nicolò Barella]
+[TRACE] 2019-11-28 18:16:55.794 [de.uni_mannheim.informatik.dws.winter.datafusion.DataFusionEvaluator] - Error in 'Transfers': [Player: Allan Saint-Maximin] <> [Player: Allan Saint-Maximin]
+[TRACE] 2019-11-28 18:16:55.794 [de.uni_mannheim.informatik.dws.winter.datafusion.DataFusionEvaluator] - Error in 'WageInEuro': [Player: Allan Saint-Maximin] <> [Player: Allan Saint-Maximin]
+[TRACE] 2019-11-28 18:16:55.794 [de.uni_mannheim.informatik.dws.winter.datafusion.DataFusionEvaluator] - Error in 'CurrentPosition': [Player: Allan Saint-Maximin] <> [Player: Allan Saint-Maximin]
+[TRACE] 2019-11-28 18:16:55.794 [de.uni_mannheim.informatik.dws.winter.datafusion.DataFusionEvaluator] - Error in 'CurrentNumber': [Player: Piotr Tomasik] <> [Player: Piotr Tomasik]
+[TRACE] 2019-11-28 18:16:55.795 [de.uni_mannheim.informatik.dws.winter.datafusion.DataFusionEvaluator] - Error in 'CurrentClub': [Player: Piotr Tomasik] <> [Player: Piotr Tomasik]
+[TRACE] 2019-11-28 18:16:55.795 [de.uni_mannheim.informatik.dws.winter.datafusion.DataFusionEvaluator] - Error in 'Transfers': [Player: Piotr Tomasik] <> [Player: Piotr Tomasik]
+[TRACE] 2019-11-28 18:16:55.795 [de.uni_mannheim.informatik.dws.winter.datafusion.DataFusionEvaluator] - Error in 'Speed': [Player: Piotr Tomasik] <> [Player: Piotr Tomasik]
+[TRACE] 2019-11-28 18:16:55.795 [de.uni_mannheim.informatik.dws.winter.datafusion.DataFusionEvaluator] - Error in 'WageInEuro': [Player: Piotr Tomasik] <> [Player: Piotr Tomasik]
+[TRACE] 2019-11-28 18:16:55.795 [de.uni_mannheim.informatik.dws.winter.datafusion.DataFusionEvaluator] - Error in 'Weight': [Player: Harry Maguire] <> [Player: Harry Maguire]
+[TRACE] 2019-11-28 18:16:55.796 [de.uni_mannheim.informatik.dws.winter.datafusion.DataFusionEvaluator] - Error in 'Transfers': [Player: Harry Maguire] <> [Player: Harry Maguire]
+[TRACE] 2019-11-28 18:16:55.796 [de.uni_mannheim.informatik.dws.winter.datafusion.DataFusionEvaluator] - Error in 'WageInEuro': [Player: Harry Maguire] <> [Player: Harry Maguire]
+[TRACE] 2019-11-28 18:16:55.796 [de.uni_mannheim.informatik.dws.winter.datafusion.DataFusionEvaluator] - Error in 'CurrentPosition': [Player: Harry Maguire] <> [Player: Harry Maguire]
+[TRACE] 2019-11-28 18:16:55.796 [de.uni_mannheim.informatik.dws.winter.datafusion.DataFusionEvaluator] - Error in 'Weight': [Player: Andrej Kramaric] <> [Player: Andrej Kramaric]
+[TRACE] 2019-11-28 18:16:55.796 [de.uni_mannheim.informatik.dws.winter.datafusion.DataFusionEvaluator] - Error in 'Transfers': [Player: Andrej Kramaric] <> [Player: Andrej Kramaric]
+[TRACE] 2019-11-28 18:16:55.796 [de.uni_mannheim.informatik.dws.winter.datafusion.DataFusionEvaluator] - Error in 'WageInEuro': [Player: Andrej Kramaric] <> [Player: Andrej Kramaric]
+[TRACE] 2019-11-28 18:16:55.796 [de.uni_mannheim.informatik.dws.winter.datafusion.DataFusionEvaluator] - Error in 'CurrentPosition': [Player: Andrej Kramaric] <> [Player: Andrej Kramaric]
+[TRACE] 2019-11-28 18:16:55.797 [de.uni_mannheim.informatik.dws.winter.datafusion.DataFusionEvaluator] - Error in 'Transfers': [Player: Cristiano Ronaldo] <> [Player: Cristiano Ronaldo]
+[TRACE] 2019-11-28 18:16:55.797 [de.uni_mannheim.informatik.dws.winter.datafusion.DataFusionEvaluator] - Error in 'Foot': [Player: Cristiano Ronaldo] <> [Player: Cristiano Ronaldo]
+[TRACE] 2019-11-28 18:16:55.797 [de.uni_mannheim.informatik.dws.winter.datafusion.DataFusionEvaluator] - Error in 'WageInEuro': [Player: Cristiano Ronaldo] <> [Player: Cristiano Ronaldo]
+[TRACE] 2019-11-28 18:16:55.798 [de.uni_mannheim.informatik.dws.winter.datafusion.DataFusionEvaluator] - Error in 'CurrentPosition': [Player: Cristiano Ronaldo] <> [Player: Cristiano Ronaldo]
+[TRACE] 2019-11-28 18:16:55.798 [de.uni_mannheim.informatik.dws.winter.datafusion.DataFusionEvaluator] - Error in 'CurrentNumber': [Player: Timo Werner] <> [Player: Timo Werner]
+[TRACE] 2019-11-28 18:16:55.798 [de.uni_mannheim.informatik.dws.winter.datafusion.DataFusionEvaluator] - Error in 'Transfers': [Player: Timo Werner] <> [Player: Timo Werner]
+[TRACE] 2019-11-28 18:16:55.798 [de.uni_mannheim.informatik.dws.winter.datafusion.DataFusionEvaluator] - Error in 'WageInEuro': [Player: Timo Werner] <> [Player: Timo Werner]
+[TRACE] 2019-11-28 18:16:55.799 [de.uni_mannheim.informatik.dws.winter.datafusion.DataFusionEvaluator] - Error in 'CurrentPosition': [Player: Timo Werner] <> [Player: Timo Werner]
+[TRACE] 2019-11-28 18:16:55.799 [de.uni_mannheim.informatik.dws.winter.datafusion.DataFusionEvaluator] - Error in 'Weight': [Player: Julian Baumgartlinger] <> [Player: Julian Baumgartlinger]
+[TRACE] 2019-11-28 18:16:55.799 [de.uni_mannheim.informatik.dws.winter.datafusion.DataFusionEvaluator] - Error in 'Transfers': [Player: Julian Baumgartlinger] <> [Player: Julian Baumgartlinger]
+[TRACE] 2019-11-28 18:16:55.799 [de.uni_mannheim.informatik.dws.winter.datafusion.DataFusionEvaluator] - Error in 'WageInEuro': [Player: Julian Baumgartlinger] <> [Player: Julian Baumgartlinger]
+[TRACE] 2019-11-28 18:16:55.799 [de.uni_mannheim.informatik.dws.winter.datafusion.DataFusionEvaluator] - Error in 'CurrentClub': [Player: Niklas Moisander] <> [Player: Niklas Moisander]
+[TRACE] 2019-11-28 18:16:55.800 [de.uni_mannheim.informatik.dws.winter.datafusion.DataFusionEvaluator] - Error in 'Transfers': [Player: Niklas Moisander] <> [Player: Niklas Moisander]
+[TRACE] 2019-11-28 18:16:55.800 [de.uni_mannheim.informatik.dws.winter.datafusion.DataFusionEvaluator] - Error in 'Foot': [Player: Niklas Moisander] <> [Player: Niklas Moisander]
+[TRACE] 2019-11-28 18:16:55.800 [de.uni_mannheim.informatik.dws.winter.datafusion.DataFusionEvaluator] - Error in 'Speed': [Player: Niklas Moisander] <> [Player: Niklas Moisander]
+[TRACE] 2019-11-28 18:16:55.800 [de.uni_mannheim.informatik.dws.winter.datafusion.DataFusionEvaluator] - Error in 'Nationality': [Player: Niklas Moisander] <> [Player: Niklas Moisander]
+[TRACE] 2019-11-28 18:16:55.800 [de.uni_mannheim.informatik.dws.winter.datafusion.DataFusionEvaluator] - Error in 'WageInEuro': [Player: Niklas Moisander] <> [Player: Niklas Moisander]
+[TRACE] 2019-11-28 18:16:55.801 [de.uni_mannheim.informatik.dws.winter.datafusion.DataFusionEvaluator] - Error in 'Height': [Player: Aaron Cresswell] <> [Player: Aaron Cresswell]
+[TRACE] 2019-11-28 18:16:55.801 [de.uni_mannheim.informatik.dws.winter.datafusion.DataFusionEvaluator] - Error in 'Speed': [Player: Aaron Cresswell] <> [Player: Aaron Cresswell]
+[TRACE] 2019-11-28 18:16:55.801 [de.uni_mannheim.informatik.dws.winter.datafusion.DataFusionEvaluator] - Error in 'WageInEuro': [Player: Aaron Cresswell] <> [Player: Aaron Cresswell]
+[TRACE] 2019-11-28 18:16:55.801 [de.uni_mannheim.informatik.dws.winter.datafusion.DataFusionEvaluator] - Error in 'CurrentPosition': [Player: Aaron Cresswell] <> [Player: Aaron Cresswell]
+[TRACE] 2019-11-28 18:16:55.801 [de.uni_mannheim.informatik.dws.winter.datafusion.DataFusionEvaluator] - Error in 'Transfers': [Player: Joshua Brillante] <> [Player: Joshua Brillante]
+[TRACE] 2019-11-28 18:16:55.802 [de.uni_mannheim.informatik.dws.winter.datafusion.DataFusionEvaluator] - Error in 'WageInEuro': [Player: Joshua Brillante] <> [Player: Joshua Brillante]
+[TRACE] 2019-11-28 18:16:55.802 [de.uni_mannheim.informatik.dws.winter.datafusion.DataFusionEvaluator] - Attribute-specific Accuracy:
+[TRACE] 2019-11-28 18:16:55.802 [de.uni_mannheim.informatik.dws.winter.datafusion.DataFusionEvaluator] - 	Weight: 0,67
+[TRACE] 2019-11-28 18:16:55.802 [de.uni_mannheim.informatik.dws.winter.datafusion.DataFusionEvaluator] - 	DateOfBirth: 1,00
+[TRACE] 2019-11-28 18:16:55.802 [de.uni_mannheim.informatik.dws.winter.datafusion.DataFusionEvaluator] - 	Height: 0,93
+[TRACE] 2019-11-28 18:16:55.802 [de.uni_mannheim.informatik.dws.winter.datafusion.DataFusionEvaluator] - 	Photo: 1,00
+[TRACE] 2019-11-28 18:16:55.803 [de.uni_mannheim.informatik.dws.winter.datafusion.DataFusionEvaluator] - 	CurrentNumber: 0,80
+[TRACE] 2019-11-28 18:16:55.803 [de.uni_mannheim.informatik.dws.winter.datafusion.DataFusionEvaluator] - 	Developments: 1,00
+[TRACE] 2019-11-28 18:16:55.803 [de.uni_mannheim.informatik.dws.winter.datafusion.DataFusionEvaluator] - 	Name: 1,00
+[TRACE] 2019-11-28 18:16:55.803 [de.uni_mannheim.informatik.dws.winter.datafusion.DataFusionEvaluator] - 	CurrentClub: 0,87
+[TRACE] 2019-11-28 18:16:55.803 [de.uni_mannheim.informatik.dws.winter.datafusion.DataFusionEvaluator] - 	Transfers: 0,07
+[TRACE] 2019-11-28 18:16:55.803 [de.uni_mannheim.informatik.dws.winter.datafusion.DataFusionEvaluator] - 	Foot: 0,87
+[TRACE] 2019-11-28 18:16:55.803 [de.uni_mannheim.informatik.dws.winter.datafusion.DataFusionEvaluator] - 	Speed: 0,60
+[TRACE] 2019-11-28 18:16:55.804 [de.uni_mannheim.informatik.dws.winter.datafusion.DataFusionEvaluator] - 	Nationality: 0,93
+[TRACE] 2019-11-28 18:16:55.804 [de.uni_mannheim.informatik.dws.winter.datafusion.DataFusionEvaluator] - 	WageInEuro: 0,00
+[TRACE] 2019-11-28 18:16:55.804 [de.uni_mannheim.informatik.dws.winter.datafusion.DataFusionEvaluator] - 	CurrentPosition: 0,60
