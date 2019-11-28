@@ -21,7 +21,7 @@ public class CurrentNumberEvaluationRule extends EvaluationRule<Player, Attribut
 
 	@Override
 	public boolean isEqual(Player record1, Player record2, Correspondence<Attribute, Matchable> schemaCorrespondence) {
-		return record1.getCurrentNumber() == record2.getCurrentNumber();
+		return isEqual(record1, record2, (Attribute)null);
 	}
 
 }

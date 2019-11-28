@@ -34,7 +34,7 @@ public class TransfersEvaluationRule extends EvaluationRule<Player, Attribute> {
 			String s2 = Normalizer.normalize(t.getClubOutName(), Normalizer.Form.NFD);
 			transfers2.add(t.getYear()+" "+ s1 +" "+ s2 );
 		}
-
+		
 		return transfers1.containsAll(transfers2) && transfers2.containsAll(transfers1);
 	}
 

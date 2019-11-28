@@ -14,6 +14,8 @@ import models.Player;
  */
 public class HeightFIFAAPIPercentageSimilarity implements Comparator<Player, Attribute>{
 
+	private static final long serialVersionUID = 1L;
+
 	//similarity measure test
 	public static void main( String[] args ) throws Exception{
 		System.out.println(sim.calculate(170.76, 165.98));

@@ -30,6 +30,7 @@ import fusion_evaluation.NameEvaluationRule;
 import fusion_evaluation.NationalityEvaluationRule;
 import fusion_evaluation.PhotoEvaluationRule;
 import fusion_evaluation.SpeedEvaluationRule;
+import fusion_evaluation.TransferEvaluationRule;
 import fusion_evaluation.TransfersEvaluationRule;
 import fusion_evaluation.WageEvaluationRule;
 import fusion_evaluation.WeightEvaluationRule;
@@ -44,6 +45,7 @@ import fusion_fusers.DevelopmentsFuserUnion;
 import fusion_fusers.FootFuserMostRecent;
 import fusion_fusers.HeightFuserAverage;
 import fusion_fusers.HeightMedianFuser;
+import fusion_fusers.NameFavourSourceFuser;
 import fusion_fusers.NameFuserByVoting;
 import fusion_fusers.NameLongestString;
 import fusion_fusers.NationalityFavourSource;
@@ -84,10 +86,10 @@ public class DataFusion_Main {
 
 		// Maintain Provenance
 		// Scores (are later on sometimes adapted since the data quality varies for different attributes)
-		dataAPI.setScore(1.0);
-		dataESD.setScore(2.0);
-		dataFIFA.setScore(3.0);
-		dataTransfer.setScore(4.0);
+		dataAPI.setScore(4.0);
+		dataESD.setScore(3.0);
+		dataFIFA.setScore(2.0);
+		dataTransfer.setScore(1.0);
 
 		// Date (last update)
 		DateTimeFormatter formatter = new DateTimeFormatterBuilder()
@@ -127,30 +129,18 @@ public class DataFusion_Main {
 		strategy.activateDebugReport("data/output/debugResultsDatafusion.csv", -1, gs);
 
 		// add attribute fusers
-		strategy.addAttributeFuser(Player.NAME, new NameLongestString(), new NameEvaluationRule());
+		// fuse date of birth, we prefer data sources that contain the accurate date of birth (API and ESD)
+		strategy.addAttributeFuser(Player.DATEOFBIRTH, new DateOfBirthFuserFavourSource(), new DateOfBirthEvaluationRule());
+		//strategy.addAttributeFuser(Player.DATEOFBIRTH, new DateOfBirthVotingFuser(), new DateOfBirthEvaluationRule());
+		// fuse namd
+		strategy.addAttributeFuser(Player.NAME, new NameFavourSourceFuser(), new NameEvaluationRule());
+		//strategy.addAttributeFuser(Player.NAME, new NameLongestString(), new NameEvaluationRule());
 		// fuse photos, we prefer the API photos because they have a higher resolution
-		dataAPI.setScore(4.0);
-		dataESD.setScore(2.0);
-		dataFIFA.setScore(3.0);
-		dataTransfer.setScore(1.0);
 		strategy.addAttributeFuser(Player.PHOTO, new PhotoFuserFavourSource(), new PhotoEvaluationRule());
-		// fuse nationality
-		dataAPI.setScore(0.0);
-		dataESD.setScore(0.0);
-		dataFIFA.setScore(4.0);
-		dataTransfer.setScore(0.0);
+		// fuse nationality, it is only contained in FIFA19
 		//strategy.addAttributeFuser(Player.NATIONALITY, new NationalityFavourSource(), new NationalityEvaluationRule());
 		strategy.addAttributeFuser(Player.NATIONALITY, new NationalityLongestString(), new NationalityEvaluationRule());
-		// fuse date of birth, we prefer data sources that contain the accurate date of birth
-		dataAPI.setScore(4.0);
-		dataESD.setScore(3.0);
-		dataFIFA.setScore(0.0);
-		dataTransfer.setScore(0.0);
-		//strategy.addAttributeFuser(Player.DATEOFBIRTH, new DateOfBirthFuserFavourSource(), new DateOfBirthEvaluationRule());
-		strategy.addAttributeFuser(Player.DATEOFBIRTH, new DateOfBirthFuserFavourSource(), new DateOfBirthEvaluationRule());
 		// only FIFAS contains the current club & wages
-		dataFIFA.setScore(4.0);
-		dataAPI.setScore(1.0);
 		// doesn't matter which fuser we use, same result
 		//strategy.addAttributeFuser(Player.CURRENTCLUB, new CurrentClubFavourSourceFuser(), new CurrentClubEvaluationRule());
 		strategy.addAttributeFuser(Player.CURRENTCLUB, new CurrentClubMostRecentFuser(), new CurrentClubEvaluationRule());
@@ -159,7 +149,7 @@ public class DataFusion_Main {
 		//strategy.addAttributeFuser(Player.WEIGHT, new WeightFuserMostRecent(), new WeightEvaluationRule());
 		strategy.addAttributeFuser(Player.WEIGHT, new WeightMedianFuser(), new WeightEvaluationRule());
 		//fuse transfers which are only in API and transfers
-		strategy.addAttributeFuser(Player.TRANSFERS, new TransfersFuserUnion(), new TransfersEvaluationRule());
+		strategy.addAttributeFuser(Player.TRANSFERS, new TransfersFuserUnion(), new TransferEvaluationRule());
 		//fuse foot
 		strategy.addAttributeFuser(Player.FOOT, new FootFuserMostRecent(), new FootEvaluationRule());
 		//fuse current number (in FIFA19 and API)
@@ -198,6 +188,11 @@ public class DataFusion_Main {
 		double accuracy = evaluator.evaluate(fusedDataSet, gs, null);
 
 		System.out.println(String.format("Accuracy: %.2f", accuracy));
+		
+		// print density of final fused data set
+		FusibleDataSet<Player, Attribute> dataFused = new FusibleHashedDataSet<>();
+		new PlayerXMLReader_Fusion().loadFromXML(new File("data/output/fused.xml"), "/Players/Player", dataFused);
+		dataFused.printDataSetDensityReport();
 	}
 
 }

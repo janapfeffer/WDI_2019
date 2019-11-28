@@ -118,7 +118,7 @@ public class PlayerXMLReader_Fusion extends XMLMatchableReader<Player, Attribute
 
 		// convert the date string into a DateTime object
 		try {
-			String date = getValueFromChildElement(node, "dateOfBirth");
+			String date = getValueFromChildElement(node, "dateOfBirth").split("T")[0];
 			if (date != null && date != "") {
 				DateTimeFormatter formatter = new DateTimeFormatterBuilder()
 						.appendPattern("yyyy-MM-dd")

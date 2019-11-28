@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+	<xs:element name="Players">
+		<xs:complexType>
+			<xs:sequence>
+				<xs:element name="Player" maxOccurs="unbounded">
+					<xs:complexType>
+						<xs:sequence>
+							<xs:element name="id" type="xs:short"/>
+							<xs:element name="Name" type="xs:string"/>
+							<xs:element name="dateOfBirth" type="xs:string"/>
+							<xs:element name="Nationality" type="xs:string"/>
+							<xs:element name="Photo" type="xs:anyURI"/>
+							<xs:element name="CurrentClub" type="xs:string"/>
+							<xs:element name="CurrentPosition" type="xs:string"/>
+							<xs:element name="CurrentNumber" type="xs:byte"/>
+							<xs:element name="WageInEuro" type="xs:int"/>
+							<xs:element name="Weight" type="xs:decimal"/>
+							<xs:element name="Height" type="xs:decimal"/>
+							<xs:element name="Foot" type="xs:string"/>
+							<xs:element name="Speed" type="xs:byte"/>
+							<xs:element name="Developments">
+								<xs:complexType>
+									<xs:sequence>
+										<xs:element name="Year" type="xs:short"/>
+										<xs:element name="Rating" type="xs:byte"/>
+										<xs:element name="Potential" type="xs:byte"/>
+										<xs:element name="DefensiveWorkRate" type="xs:string"/>
+										<xs:element name="AttackingWorkRate" type="xs:string"/>
+									</xs:sequence>
+								</xs:complexType>
+							</xs:element>
+							<xs:element name="Transfers">
+								<xs:complexType>
+									<xs:sequence>
+										<xs:element name="Transfer">
+											<xs:complexType>
+												<xs:sequence>
+													<xs:element name="ClubOut" type="xs:string"/>
+													<xs:element name="ClubIn" type="xs:string"/>
+													<xs:element name="Year" type="xs:short"/>
+												</xs:sequence>
+											</xs:complexType>
+										</xs:element>
+									</xs:sequence>
+								</xs:complexType>
+							</xs:element>
+						</xs:sequence>
+					</xs:complexType>
+				</xs:element>
+			</xs:sequence>
+		</xs:complexType>
+	</xs:element>
+</xs:schema>

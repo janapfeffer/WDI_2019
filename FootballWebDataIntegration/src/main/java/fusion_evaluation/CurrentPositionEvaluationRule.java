@@ -23,7 +23,7 @@ public class CurrentPositionEvaluationRule extends EvaluationRule<Player, Attrib
 	@Override
 	public boolean isEqual(Player record1, Player record2, Correspondence<Attribute, Matchable> schemaCorrespondence) {
 		// only  FIFA19 has the current Position
-		return sim.calculate(record1.getCurrentPosition(), record2.getCurrentPosition()) == 1;
+		return isEqual(record1, record2, (Attribute)null);
 	}
 
 }
