@@ -33,9 +33,6 @@ public class TransfersEvaluationRule extends EvaluationRule<Player, Attribute> {
 		return transfers1.containsAll(transfers2) && transfers2.containsAll(transfers1);
 	}
 
-	/* (non-Javadoc)
-	 * @see de.uni_mannheim.informatik.wdi.datafusion.EvaluationRule#isEqual(java.lang.Object, java.lang.Object, de.uni_mannheim.informatik.wdi.model.Correspondence)
-	 */
 	@Override
 	public boolean isEqual(Player record1, Player record2,
 			Correspondence<Attribute, Matchable> schemaCorrespondence) {

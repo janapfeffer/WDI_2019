@@ -15,14 +15,14 @@ public class PhotoEvaluationRule extends EvaluationRule<Player, Attribute>  {
 
 	@Override
 	public boolean isEqual(Player record1, Player record2, Attribute schemaElement) {
-		// only API and FIFA19 have photos, they are never the same
-		return record1.getPhoto() == record2.getPhoto();
+		// either the player has a picture or not, there is no gold standard value we need to compare
+		return true;
 	}
 
 	@Override
 	public boolean isEqual(Player record1, Player record2, Correspondence<Attribute, Matchable> schemaCorrespondence) {
-		// either the player has a picture or not, there is no gold standard value we need to compare
-		return true;
+		// only API and FIFA19 have photos, they are never the same
+		return record1.getPhoto() == record2.getPhoto();
 	}
 
 }

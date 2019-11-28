@@ -33,6 +33,7 @@ import fusion_evaluation.TransfersEvaluationRule;
 import fusion_evaluation.WageEvaluationRule;
 import fusion_evaluation.WeightEvaluationRule;
 import fusion_fusers.CurrentClubFavourSourceFuser;
+import fusion_fusers.CurrentClubMostRecentFuser;
 import fusion_fusers.CurrentNumberFavourSource;
 import fusion_fusers.CurrentNumberMostRecentFuser;
 import fusion_fusers.DateOfBirthFuserFavourSource;
@@ -44,6 +45,7 @@ import fusion_fusers.HeightMedianFuser;
 import fusion_fusers.NameFuserByVoting;
 import fusion_fusers.NameLongestString;
 import fusion_fusers.NationalityFavourSource;
+import fusion_fusers.NationalityLongestString;
 import fusion_fusers.PhotoFuserFavourSource;
 import fusion_fusers.SpeedFavourSourceFuser;
 import fusion_fusers.TransfersFuserUnion;
@@ -136,7 +138,8 @@ public class DataFusion_Main {
 		dataESD.setScore(0.0);
 		dataFIFA.setScore(4.0);
 		dataTransfer.setScore(0.0);
-		strategy.addAttributeFuser(Player.NATIONALITY, new NationalityFavourSource(), new NationalityEvaluationRule());
+		//strategy.addAttributeFuser(Player.NATIONALITY, new NationalityFavourSource(), new NationalityEvaluationRule());
+		strategy.addAttributeFuser(Player.NATIONALITY, new NationalityLongestString(), new NationalityEvaluationRule());
 		// fuse date of birth, we prefer data sources that contain the accurate date of birth
 		dataAPI.setScore(4.0);
 		dataESD.setScore(3.0);
@@ -147,7 +150,9 @@ public class DataFusion_Main {
 		// only FIFAS contains the current club & wages
 		dataFIFA.setScore(4.0);
 		dataAPI.setScore(1.0);
-		strategy.addAttributeFuser(Player.CURRENTCLUB, new CurrentClubFavourSourceFuser(), new CurrentClubEvaluationRule());
+		// doesn't matter which fuser we use, same result
+		//strategy.addAttributeFuser(Player.CURRENTCLUB, new CurrentClubFavourSourceFuser(), new CurrentClubEvaluationRule());
+		strategy.addAttributeFuser(Player.CURRENTCLUB, new CurrentClubMostRecentFuser(), new CurrentClubEvaluationRule());
 		strategy.addAttributeFuser(Player.WAGE, new WageInEuroFavourSourceFuser(), new WageEvaluationRule());
 		// for weight we prefer the most recent values
 		//strategy.addAttributeFuser(Player.WEIGHT, new WeightFuserMostRecent(), new WeightEvaluationRule());

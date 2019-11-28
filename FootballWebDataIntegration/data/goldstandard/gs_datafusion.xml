@@ -5,7 +5,7 @@
         <Name>Allan Saint-Maximin</Name>
         <dateOfBirth>1997-03-12</dateOfBirth>
         <Nationality>France</Nationality>
-        <Photo></Photo>
+        <Photo>dummy</Photo>
         <CurrentClub>Newcastle United</CurrentClub>
         <CurrentPosition>Midfielder</CurrentPosition>
         <CurrentNumber>10</CurrentNumber>
@@ -66,7 +66,7 @@
         <Name>Niklas Moisander</Name>
         <dateOfBirth>1985-09-29</dateOfBirth>
         <Nationality>Finland</Nationality>
-        <Photo></Photo>
+        <Photo>dummy</Photo>
         <CurrentClub>Werder Bremen</CurrentClub>
         <CurrentPosition>Defender</CurrentPosition>
         <CurrentNumber>18</CurrentNumber>
@@ -107,7 +107,7 @@
         <Name>Aaron Cresswell</Name>
         <dateOfBirth>1989-12-15</dateOfBirth>
         <Nationality>England</Nationality>
-        <Photo></Photo>
+        <Photo>dummy</Photo>
         <CurrentClub>West Ham United</CurrentClub>
         <CurrentPosition>Defender</CurrentPosition>
         <CurrentNumber>3</CurrentNumber>
@@ -138,7 +138,7 @@
         <Name>Julian Baumgartlinger</Name>
         <dateOfBirth>1988-01-02</dateOfBirth>
         <Nationality>Austria</Nationality>
-        <Photo></Photo>
+        <Photo>dummy</Photo>
         <CurrentClub>Bayer 04 Leverkusen</CurrentClub>
         <CurrentPosition>Midfielder</CurrentPosition>
         <CurrentNumber>15</CurrentNumber>
@@ -169,7 +169,7 @@
         <Name>Joshua Brillante</Name>
         <dateOfBirth>1993-03-25</dateOfBirth>
         <Nationality>Australia</Nationality>
-        <Photo></Photo>
+        <Photo>dummy</Photo>
         <CurrentClub>Melbourne City</CurrentClub>
         <CurrentPosition>Midfielder</CurrentPosition>
         <CurrentNumber>6</CurrentNumber>
@@ -230,7 +230,7 @@
         <Name>Piotr Tomasik</Name>
         <dateOfBirth>1987-10-31</dateOfBirth>
         <Nationality>Poland</Nationality>
-        <Photo></Photo>
+        <Photo>dummy</Photo>
         <CurrentClub>Wisła Płock SA</CurrentClub>
         <CurrentPosition>Defender</CurrentPosition>
         <CurrentNumber>7</CurrentNumber>
@@ -261,7 +261,7 @@
         <Name>Jordan Rolly Botaka</Name>
         <dateOfBirth>1993-06-24</dateOfBirth>
         <Nationality>Congo DR</Nationality>
-        <Photo></Photo>
+        <Photo>dummy</Photo>
         <CurrentClub>Sint-Truiden VV</CurrentClub>
         <CurrentPosition>Midfielder</CurrentPosition>
         <CurrentNumber></CurrentNumber>
@@ -318,7 +318,7 @@
         <Name>Harry Maguire</Name>
         <dateOfBirth>1993-03-05</dateOfBirth>
         <Nationality>England</Nationality>
-        <Photo></Photo>
+        <Photo>dummy</Photo>
         <CurrentClub>Manchester United</CurrentClub>
         <CurrentPosition>Centre Back</CurrentPosition>
         <CurrentNumber>5</CurrentNumber>
@@ -376,9 +376,9 @@
         <Name>Timo Werner</Name>
         <dateOfBirth>1996-03-06</dateOfBirth>
         <Nationality>Germany</Nationality>
-        <Photo></Photo>
+        <Photo>dummy</Photo>
         <CurrentClub>RB Leipzig</CurrentClub>
-        <CurrentPosition> Centre Forward</CurrentPosition>
+        <CurrentPosition>Centre Forward</CurrentPosition>
         <CurrentNumber>11</CurrentNumber>
         <WageInEuro>575000</WageInEuro>
         <Weight>75</Weight>
@@ -428,7 +428,7 @@
         <Name>Marc Roca</Name>
         <dateOfBirth>1996-11-26</dateOfBirth>
         <Nationality>Spain</Nationality>
-        <Photo></Photo>
+        <Photo>dummy</Photo>
         <CurrentClub>RCD Espanyol Barcelona</CurrentClub>
         <CurrentPosition>Defensive Midfield</CurrentPosition>
         <CurrentNumber>21</CurrentNumber>
@@ -470,7 +470,7 @@
         <Name>Krzysztof Piatek</Name>
         <dateOfBirth>1995-07-01</dateOfBirth>
         <Nationality>Poland</Nationality>
-        <Photo></Photo>
+        <Photo>dummy</Photo>
         <CurrentClub>AC Milan</CurrentClub>
         <CurrentPosition>Centre Forward</CurrentPosition>
         <CurrentNumber>9</CurrentNumber>
@@ -527,9 +527,9 @@
         <Name>Bernardo Silva</Name>
         <dateOfBirth>1994-08-10</dateOfBirth>
         <Nationality>Portugal</Nationality>
-        <Photo></Photo>
+        <Photo>dummy</Photo>
         <CurrentClub>Manchester City</CurrentClub>
-        <CurrentPosition>Right Winger</CurrentPosition>
+        <CurrentPosition>Right Wing</CurrentPosition>
         <CurrentNumber>20</CurrentNumber>
         <WageInEuro>175000</WageInEuro>
         <weight>65</weight>
@@ -598,7 +598,7 @@
         <Name>Andrej Kramaric</Name>
         <dateOfBirth>1991-06-19</dateOfBirth>
         <Nationality>Croatia</Nationality>
-        <Photo></Photo>
+        <Photo>dummy</Photo>
         <CurrentClub>TSG 1899 Hoffenheim</CurrentClub>
         <CurrentPosition>Centre Forward</CurrentPosition>
         <CurrentNumber>27</CurrentNumber>
@@ -670,9 +670,9 @@
         <Name>Nicolò Barella</Name>
         <dateOfBirth>1997-02-07</dateOfBirth>
         <Nationality>Italy</Nationality>
-        <Photo></Photo>
+        <Photo>dummy</Photo>
         <CurrentClub>Inter Milan</CurrentClub>
-        <CurrentPosition>Central Midfiel</CurrentPosition>
+        <CurrentPosition>Center Midfield</CurrentPosition>
         <CurrentNumber>23</CurrentNumber>
         <WageInEuro></WageInEuro>
         <Weight>68</Weight>
@@ -722,9 +722,9 @@
         <Name>Cristiano Ronaldo</Name>
         <dateOfBirth>1985-02-05</dateOfBirth>
         <Nationality>Portugal</Nationality>
-        <Photo></Photo>
+        <Photo>dummy</Photo>
         <CurrentClub>Juventus FC</CurrentClub>
-        <CurrentPosition> Left Winge</CurrentPosition>
+        <CurrentPosition>Left Wing</CurrentPosition>
         <CurrentNumber>7</CurrentNumber>
         <WageInEuro>11000000</WageInEuro>
         <Weight>83</Weight>

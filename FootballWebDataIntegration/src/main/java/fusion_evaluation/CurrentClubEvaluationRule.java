@@ -18,14 +18,14 @@ public class CurrentClubEvaluationRule extends EvaluationRule<Player, Attribute>
 
 	@Override
 	public boolean isEqual(Player record1, Player record2, Attribute schemaElement) {
-		// only  FIFA19 has the current club
-		return record1.getCurrentClub() == record2.getCurrentClub();
+		// the current club can be written slightly differently
+		return sim.calculate(record1.getCurrentClub(), record2.getCurrentClub()) > 0.7;
 	}
 
 	@Override
 	public boolean isEqual(Player record1, Player record2, Correspondence<Attribute, Matchable> schemaCorrespondence) {
-		// the current club can be written slightly differently
-		return sim.calculate(record1.getCurrentClub(), record2.getCurrentClub()) > 0.8;
+		// only  FIFA19 has the current club
+		return record1.getCurrentClub() == record2.getCurrentClub();
 	}
 
 }

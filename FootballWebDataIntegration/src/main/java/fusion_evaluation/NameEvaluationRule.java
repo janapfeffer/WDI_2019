@@ -5,6 +5,7 @@ import de.uni_mannheim.informatik.dws.winter.model.Correspondence;
 import de.uni_mannheim.informatik.dws.winter.model.Matchable;
 import de.uni_mannheim.informatik.dws.winter.model.defaultmodel.Attribute;
 import de.uni_mannheim.informatik.dws.winter.similarity.SimilarityMeasure;
+import de.uni_mannheim.informatik.dws.winter.similarity.string.MaximumOfTokenContainment;
 import de.uni_mannheim.informatik.dws.winter.similarity.string.TokenizingJaccardSimilarity;
 import models.Player;
 /**
@@ -13,7 +14,7 @@ import models.Player;
  * Evaluation of the fusion of the name. 
  */
 public class NameEvaluationRule extends EvaluationRule<Player, Attribute> {
-	SimilarityMeasure<String> sim = new TokenizingJaccardSimilarity();
+	private static MaximumOfTokenContainment sim = new MaximumOfTokenContainment();
 
 	@Override
 	public boolean isEqual(Player record1, Player record2, Attribute schemaElement) {
