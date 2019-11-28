@@ -51,23 +51,24 @@ public class PlayerXMLReader_Fusion extends XMLMatchableReader<Player, Attribute
 		String id = getValueFromChildElement(node, "id");
 
 		Player player = new Player(id, provenanceInfo);
-		// fill the attributes
+		// fill the attributes, if it cannot be filled it is null 
+		// and nothing has to be done, it is left empty
 		player.setName(getValueFromChildElement(node, "Name"));
 		try {
 			player.setCurrentClub(getValueFromChildElement(node, "CurrentClub"));
 		} catch (Exception e) {
-			// TODO: nothing
+
 		}
 		try {
 			player.setCurrentNumber(Integer.valueOf(getValueFromChildElement(node, "CurrentNumber")));
 		} catch (Exception e) {
-			// TODO: handle exception
+
 		}
 
 		try {
 			player.setCurrentPosition(getValueFromChildElement(node, "CurrentPosition"));
 		} catch (Exception e) {
-			// TODO: handle exception
+
 		}
 		try {
 			player.setHeight(Float.valueOf(getValueFromChildElement(node, "Height")));
@@ -77,36 +78,34 @@ public class PlayerXMLReader_Fusion extends XMLMatchableReader<Player, Attribute
 		try {
 			player.setWage(Float.valueOf(getValueFromChildElement(node, "WageInEuro")));
 		} catch (Exception e) {
-			// TODO: handle exception
+
 		}
 		try {
 			player.setWeight(Float.valueOf(getValueFromChildElement(node, "Weight")));
 		} catch (Exception e) {
-			// TODO: handle exception
+
 		}
 		try {
 			player.setSpeed(Integer.valueOf(getValueFromChildElement(node, "Speed")));
 		} catch (Exception e) {
-			// TODO: handle exception
+
 		}
 		try {
 			player.setFoot(getValueFromChildElement(node, "Foot"));
 		} catch (Exception e) {
-			// TODO: handle exception
+
 		}
 		try {
 			player.setPhoto(getValueFromChildElement(node, "Photo"));
 		} catch (Exception e) {
-			// TODO: handle exception
+
 		}
 		try {
 			player.setNationality(getValueFromChildElement(node, "Nationality"));
 
 		} catch (Exception e) {
-			// TODO: handle exception
+			;
 		}
-
-		// TODO add list attributes: transfers and developments (see MovieXMLReader)
 
 		List<Transfer> transfers = getObjectListFromChildElement(node, "Transfers",
 				"Transfer", new TransferXMLReader(), provenanceInfo);
