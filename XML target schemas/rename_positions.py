@@ -40,7 +40,7 @@ prefix_replace = r"\1"
 suffix_replace = r"\2"
 # re.sub(r'(Position>)ST(</)', r'\1Striker\2', <CurrentNumber>15</CurrentNumber>)
 
-fifa = "Documents/Uni/Master/1. Semester/Web Data Integration/WDI_2019/XML target schemas/FIFA19 target schema.xml"
+fifa = "Documents/Uni/Master/1. Semester/Web Data Integration/WDI_2019/ExerciseIdentityResolution/data/FIFA19 target schema.xml"
 tmp_fifa = "Documents/Uni/Master/1. Semester/Web Data Integration/WDI_2019/XML target schemas/FIFA19 target schema temp.xml"
 
 
