@@ -1759,3 +1759,100 @@
 [TRACE] 2019-11-28 09:47:24.120 [de.uni_mannheim.informatik.dws.winter.datafusion.DataFusionEvaluator] - 	CurrentNumber: 0,11
 [TRACE] 2019-11-28 09:47:24.120 [de.uni_mannheim.informatik.dws.winter.datafusion.DataFusionEvaluator] - 	Photo: 0,00
 [TRACE] 2019-11-28 09:47:24.120 [de.uni_mannheim.informatik.dws.winter.datafusion.DataFusionEvaluator] - 	Developments: 0,00
+[INFO ] 2019-11-28 09:51:33.566 [de.uni_mannheim.informatik.dws.winter.model.io.XMLMatchableReader] - Loading 12115 elements from transfer_csv.xml
+[INFO ] 2019-11-28 09:51:34.130 [de.uni_mannheim.informatik.dws.winter.model.FusibleHashedDataSet] - DataSet density: 0,21
+[INFO ] 2019-11-28 09:51:34.130 [de.uni_mannheim.informatik.dws.winter.model.FusibleHashedDataSet] - Attributes densities:
+[INFO ] 2019-11-28 09:51:34.190 [de.uni_mannheim.informatik.dws.winter.model.FusibleHashedDataSet] - 	Nationality: 0,00
+[INFO ] 2019-11-28 09:51:34.191 [de.uni_mannheim.informatik.dws.winter.model.FusibleHashedDataSet] - 	WageInEuro: 0,00
+[INFO ] 2019-11-28 09:51:34.191 [de.uni_mannheim.informatik.dws.winter.model.FusibleHashedDataSet] - 	Speed: 0,00
+[INFO ] 2019-11-28 09:51:34.192 [de.uni_mannheim.informatik.dws.winter.model.FusibleHashedDataSet] - 	Weight: 0,00
+[INFO ] 2019-11-28 09:51:34.192 [de.uni_mannheim.informatik.dws.winter.model.FusibleHashedDataSet] - 	Foot: 0,00
+[INFO ] 2019-11-28 09:51:34.193 [de.uni_mannheim.informatik.dws.winter.model.FusibleHashedDataSet] - 	CurrentPosition: 0,00
+[INFO ] 2019-11-28 09:51:34.193 [de.uni_mannheim.informatik.dws.winter.model.FusibleHashedDataSet] - 	CurrentClub: 0,00
+[INFO ] 2019-11-28 09:51:34.193 [de.uni_mannheim.informatik.dws.winter.model.FusibleHashedDataSet] - 	Name: 1,00
+[INFO ] 2019-11-28 09:51:34.194 [de.uni_mannheim.informatik.dws.winter.model.FusibleHashedDataSet] - 	Transfers: 1,00
+[INFO ] 2019-11-28 09:51:34.194 [de.uni_mannheim.informatik.dws.winter.model.FusibleHashedDataSet] - 	DateOfBirth: 1,00
+[INFO ] 2019-11-28 09:51:34.194 [de.uni_mannheim.informatik.dws.winter.model.FusibleHashedDataSet] - 	Height: 0,00
+[INFO ] 2019-11-28 09:51:34.195 [de.uni_mannheim.informatik.dws.winter.model.FusibleHashedDataSet] - 	CurrentNumber: 0,00
+[INFO ] 2019-11-28 09:51:34.195 [de.uni_mannheim.informatik.dws.winter.model.FusibleHashedDataSet] - 	Photo: 0,00
+[INFO ] 2019-11-28 09:51:34.196 [de.uni_mannheim.informatik.dws.winter.model.FusibleHashedDataSet] - 	Developments: 0,00
+[INFO ] 2019-11-28 09:51:34.669 [de.uni_mannheim.informatik.dws.winter.model.io.XMLMatchableReader] - Loading 10117 elements from PlayerAndTransfersAPI target schema.xml
+[INFO ] 2019-11-28 09:51:35.032 [de.uni_mannheim.informatik.dws.winter.model.FusibleHashedDataSet] - DataSet density: 0,44
+[INFO ] 2019-11-28 09:51:35.032 [de.uni_mannheim.informatik.dws.winter.model.FusibleHashedDataSet] - Attributes densities:
+[INFO ] 2019-11-28 09:51:35.095 [de.uni_mannheim.informatik.dws.winter.model.FusibleHashedDataSet] - 	Nationality: 0,00
+[INFO ] 2019-11-28 09:51:35.095 [de.uni_mannheim.informatik.dws.winter.model.FusibleHashedDataSet] - 	WageInEuro: 0,00
+[INFO ] 2019-11-28 09:51:35.096 [de.uni_mannheim.informatik.dws.winter.model.FusibleHashedDataSet] - 	Speed: 0,00
+[INFO ] 2019-11-28 09:51:35.096 [de.uni_mannheim.informatik.dws.winter.model.FusibleHashedDataSet] - 	Weight: 0,42
+[INFO ] 2019-11-28 09:51:35.096 [de.uni_mannheim.informatik.dws.winter.model.FusibleHashedDataSet] - 	Foot: 0,00
+[INFO ] 2019-11-28 09:51:35.097 [de.uni_mannheim.informatik.dws.winter.model.FusibleHashedDataSet] - 	CurrentPosition: 1,00
+[INFO ] 2019-11-28 09:51:35.097 [de.uni_mannheim.informatik.dws.winter.model.FusibleHashedDataSet] - 	CurrentClub: 0,00
+[INFO ] 2019-11-28 09:51:35.097 [de.uni_mannheim.informatik.dws.winter.model.FusibleHashedDataSet] - 	Name: 1,00
+[INFO ] 2019-11-28 09:51:35.098 [de.uni_mannheim.informatik.dws.winter.model.FusibleHashedDataSet] - 	Transfers: 0,26
+[INFO ] 2019-11-28 09:51:35.098 [de.uni_mannheim.informatik.dws.winter.model.FusibleHashedDataSet] - 	DateOfBirth: 0,95
+[INFO ] 2019-11-28 09:51:35.099 [de.uni_mannheim.informatik.dws.winter.model.FusibleHashedDataSet] - 	Height: 0,79
+[INFO ] 2019-11-28 09:51:35.099 [de.uni_mannheim.informatik.dws.winter.model.FusibleHashedDataSet] - 	CurrentNumber: 0,80
+[INFO ] 2019-11-28 09:51:35.099 [de.uni_mannheim.informatik.dws.winter.model.FusibleHashedDataSet] - 	Photo: 1,00
+[INFO ] 2019-11-28 09:51:35.100 [de.uni_mannheim.informatik.dws.winter.model.FusibleHashedDataSet] - 	Developments: 0,00
+[INFO ] 2019-11-28 09:51:35.530 [de.uni_mannheim.informatik.dws.winter.model.io.XMLMatchableReader] - Loading 9086 elements from EuropeanSoccerDB target schema.xml
+[INFO ] 2019-11-28 09:51:35.823 [de.uni_mannheim.informatik.dws.winter.model.FusibleHashedDataSet] - DataSet density: 0,43
+[INFO ] 2019-11-28 09:51:35.823 [de.uni_mannheim.informatik.dws.winter.model.FusibleHashedDataSet] - Attributes densities:
+[INFO ] 2019-11-28 09:51:35.857 [de.uni_mannheim.informatik.dws.winter.model.FusibleHashedDataSet] - 	Nationality: 0,00
+[INFO ] 2019-11-28 09:51:35.857 [de.uni_mannheim.informatik.dws.winter.model.FusibleHashedDataSet] - 	WageInEuro: 0,00
+[INFO ] 2019-11-28 09:51:35.858 [de.uni_mannheim.informatik.dws.winter.model.FusibleHashedDataSet] - 	Speed: 0,00
+[INFO ] 2019-11-28 09:51:35.858 [de.uni_mannheim.informatik.dws.winter.model.FusibleHashedDataSet] - 	Weight: 1,00
+[INFO ] 2019-11-28 09:51:35.859 [de.uni_mannheim.informatik.dws.winter.model.FusibleHashedDataSet] - 	Foot: 1,00
+[INFO ] 2019-11-28 09:51:35.859 [de.uni_mannheim.informatik.dws.winter.model.FusibleHashedDataSet] - 	CurrentPosition: 0,00
+[INFO ] 2019-11-28 09:51:35.860 [de.uni_mannheim.informatik.dws.winter.model.FusibleHashedDataSet] - 	CurrentClub: 0,00
+[INFO ] 2019-11-28 09:51:35.860 [de.uni_mannheim.informatik.dws.winter.model.FusibleHashedDataSet] - 	Name: 1,00
+[INFO ] 2019-11-28 09:51:35.861 [de.uni_mannheim.informatik.dws.winter.model.FusibleHashedDataSet] - 	Transfers: 0,00
+[INFO ] 2019-11-28 09:51:35.861 [de.uni_mannheim.informatik.dws.winter.model.FusibleHashedDataSet] - 	DateOfBirth: 1,00
+[INFO ] 2019-11-28 09:51:35.862 [de.uni_mannheim.informatik.dws.winter.model.FusibleHashedDataSet] - 	Height: 1,00
+[INFO ] 2019-11-28 09:51:35.862 [de.uni_mannheim.informatik.dws.winter.model.FusibleHashedDataSet] - 	CurrentNumber: 0,00
+[INFO ] 2019-11-28 09:51:35.863 [de.uni_mannheim.informatik.dws.winter.model.FusibleHashedDataSet] - 	Photo: 0,00
+[INFO ] 2019-11-28 09:51:35.863 [de.uni_mannheim.informatik.dws.winter.model.FusibleHashedDataSet] - 	Developments: 1,00
+[INFO ] 2019-11-28 09:51:36.668 [de.uni_mannheim.informatik.dws.winter.model.io.XMLMatchableReader] - Loading 18207 elements from FIFA19 target schema.xml
+[INFO ] 2019-11-28 09:51:36.905 [de.uni_mannheim.informatik.dws.winter.model.FusibleHashedDataSet] - DataSet density: 0,93
+[INFO ] 2019-11-28 09:51:36.905 [de.uni_mannheim.informatik.dws.winter.model.FusibleHashedDataSet] - Attributes densities:
+[INFO ] 2019-11-28 09:51:37.021 [de.uni_mannheim.informatik.dws.winter.model.FusibleHashedDataSet] - 	Nationality: 1,00
+[INFO ] 2019-11-28 09:51:37.021 [de.uni_mannheim.informatik.dws.winter.model.FusibleHashedDataSet] - 	WageInEuro: 0,99
+[INFO ] 2019-11-28 09:51:37.022 [de.uni_mannheim.informatik.dws.winter.model.FusibleHashedDataSet] - 	Speed: 1,00
+[INFO ] 2019-11-28 09:51:37.022 [de.uni_mannheim.informatik.dws.winter.model.FusibleHashedDataSet] - 	Weight: 1,00
+[INFO ] 2019-11-28 09:51:37.022 [de.uni_mannheim.informatik.dws.winter.model.FusibleHashedDataSet] - 	Foot: 1,00
+[INFO ] 2019-11-28 09:51:37.022 [de.uni_mannheim.informatik.dws.winter.model.FusibleHashedDataSet] - 	CurrentPosition: 1,00
+[INFO ] 2019-11-28 09:51:37.023 [de.uni_mannheim.informatik.dws.winter.model.FusibleHashedDataSet] - 	CurrentClub: 0,99
+[INFO ] 2019-11-28 09:51:37.024 [de.uni_mannheim.informatik.dws.winter.model.FusibleHashedDataSet] - 	Name: 1,00
+[INFO ] 2019-11-28 09:51:37.024 [de.uni_mannheim.informatik.dws.winter.model.FusibleHashedDataSet] - 	Transfers: 0,00
+[INFO ] 2019-11-28 09:51:37.024 [de.uni_mannheim.informatik.dws.winter.model.FusibleHashedDataSet] - 	DateOfBirth: 1,00
+[INFO ] 2019-11-28 09:51:37.024 [de.uni_mannheim.informatik.dws.winter.model.FusibleHashedDataSet] - 	Height: 1,00
+[INFO ] 2019-11-28 09:51:37.024 [de.uni_mannheim.informatik.dws.winter.model.FusibleHashedDataSet] - 	CurrentNumber: 1,00
+[INFO ] 2019-11-28 09:51:37.025 [de.uni_mannheim.informatik.dws.winter.model.FusibleHashedDataSet] - 	Photo: 1,00
+[INFO ] 2019-11-28 09:51:37.025 [de.uni_mannheim.informatik.dws.winter.model.FusibleHashedDataSet] - 	Developments: 1,00
+[INFO ] 2019-11-28 09:51:37.049 [de.uni_mannheim.informatik.dws.winter.datafusion.CorrespondenceSet] - Group Size Distribtion of 2899 groups:
+[INFO ] 2019-11-28 09:51:37.049 [de.uni_mannheim.informatik.dws.winter.datafusion.CorrespondenceSet] - 	Group Size 	| Frequency 
+[INFO ] 2019-11-28 09:51:37.049 [de.uni_mannheim.informatik.dws.winter.datafusion.CorrespondenceSet] - 	————————————————————————————
+[INFO ] 2019-11-28 09:51:37.050 [de.uni_mannheim.informatik.dws.winter.datafusion.CorrespondenceSet] - 		2	| 	2883
+[INFO ] 2019-11-28 09:51:37.050 [de.uni_mannheim.informatik.dws.winter.datafusion.CorrespondenceSet] - 		3	| 	16
+[INFO ] 2019-11-28 09:51:37.056 [de.uni_mannheim.informatik.dws.winter.model.io.XMLMatchableReader] - Loading 18 elements from gs_datafusion.xml
+[INFO ] 2019-11-28 09:51:37.065 [de.uni_mannheim.informatik.dws.winter.datafusion.DataFusionEngine] - Attribute Consistencies:
+[INFO ] 2019-11-28 09:51:37.242 [de.uni_mannheim.informatik.dws.winter.datafusion.DataFusionEngine] - 	DateOfBirth: 0,58
+[INFO ] 2019-11-28 09:51:37.243 [de.uni_mannheim.informatik.dws.winter.datafusion.DataFusionEngine] - 	Transfers: 0,43
+[INFO ] 2019-11-28 09:51:37.243 [de.uni_mannheim.informatik.dws.winter.datafusion.DataFusionEngine] - 	Height: 1,00
+[INFO ] 2019-11-28 09:51:37.243 [de.uni_mannheim.informatik.dws.winter.datafusion.DataFusionEngine] - 	CurrentNumber: 1,00
+[INFO ] 2019-11-28 09:51:37.244 [de.uni_mannheim.informatik.dws.winter.datafusion.DataFusionEngine] - 	Photo: 1,00
+[INFO ] 2019-11-28 09:51:37.244 [de.uni_mannheim.informatik.dws.winter.datafusion.DataFusionEngine] - 	Weight: 1,00
+[INFO ] 2019-11-28 09:51:37.244 [de.uni_mannheim.informatik.dws.winter.datafusion.DataFusionEngine] - 	Name: 0,44
+[INFO ] 2019-11-28 09:51:37.948 [de.uni_mannheim.informatik.dws.winter.datafusion.DataFusionStrategy] - Debug results written to file: data/output/debugResultsDatafusion.csv
+[TRACE] 2019-11-28 09:51:38.274 [de.uni_mannheim.informatik.dws.winter.datafusion.DataFusionEvaluator] - Attribute-specific Accuracy:
+[TRACE] 2019-11-28 09:51:38.275 [de.uni_mannheim.informatik.dws.winter.datafusion.DataFusionEvaluator] - 	Nationality: 0,00
+[TRACE] 2019-11-28 09:51:38.275 [de.uni_mannheim.informatik.dws.winter.datafusion.DataFusionEvaluator] - 	WageInEuro: 0,00
+[TRACE] 2019-11-28 09:51:38.275 [de.uni_mannheim.informatik.dws.winter.datafusion.DataFusionEvaluator] - 	Speed: 0,00
+[TRACE] 2019-11-28 09:51:38.275 [de.uni_mannheim.informatik.dws.winter.datafusion.DataFusionEvaluator] - 	CurrentClub: 0,00
+[TRACE] 2019-11-28 09:51:38.275 [de.uni_mannheim.informatik.dws.winter.datafusion.DataFusionEvaluator] - 	Weight: 0,00
+[TRACE] 2019-11-28 09:51:38.276 [de.uni_mannheim.informatik.dws.winter.datafusion.DataFusionEvaluator] - 	Foot: 0,00
+[TRACE] 2019-11-28 09:51:38.277 [de.uni_mannheim.informatik.dws.winter.datafusion.DataFusionEvaluator] - 	Name: 0,00
+[TRACE] 2019-11-28 09:51:38.277 [de.uni_mannheim.informatik.dws.winter.datafusion.DataFusionEvaluator] - 	Transfers: 0,00
+[TRACE] 2019-11-28 09:51:38.277 [de.uni_mannheim.informatik.dws.winter.datafusion.DataFusionEvaluator] - 	DateOfBirth: 0,00
+[TRACE] 2019-11-28 09:51:38.277 [de.uni_mannheim.informatik.dws.winter.datafusion.DataFusionEvaluator] - 	Height: 0,00
+[TRACE] 2019-11-28 09:51:38.277 [de.uni_mannheim.informatik.dws.winter.datafusion.DataFusionEvaluator] - 	CurrentNumber: 0,00
+[TRACE] 2019-11-28 09:51:38.277 [de.uni_mannheim.informatik.dws.winter.datafusion.DataFusionEvaluator] - 	Photo: 0,00
+[TRACE] 2019-11-28 09:51:38.278 [de.uni_mannheim.informatik.dws.winter.datafusion.DataFusionEvaluator] - 	Developments: 0,00
