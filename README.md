@@ -17,5 +17,7 @@ November 2019
 <b>What can be found where:</b>  
 - Phase 1 - Schema Mapping: folder SchemaMapping
 - Phase 2 - Identity Resolution: folder IdentityResolutionResults (Java Project)
+Executed by runnin IR_API_TRANSFERS.java, IR_FIFA_API.java and IR_FIFA_ESD.java
 - Phase 3 - Fusion: folder IdentityResolutionResults (Java Project)
+Executed by running DataFusion_Main.java
    
