@@ -67,9 +67,9 @@ public class Transfer extends AbstractRecord<Attribute> implements Serializable{
 		this.year = year;
 	}
 
-	public static final Attribute CLUBINNAME = new Attribute("clubInName");
-	public static final Attribute CLUBOUTNAME = new Attribute("clubOutName");
-	public static final Attribute YEAR = new Attribute("year");
+	public static final Attribute CLUBINNAME = new Attribute("ClubIn");
+	public static final Attribute CLUBOUTNAME = new Attribute("ClubOut");
+	public static final Attribute YEAR = new Attribute("Year");
 
 	@Override
 	public boolean hasValue(Attribute attribute) {

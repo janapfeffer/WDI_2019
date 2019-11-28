@@ -30,6 +30,7 @@ import fusion_evaluation.NameEvaluationRule;
 import fusion_evaluation.NationalityEvaluationRule;
 import fusion_evaluation.PhotoEvaluationRule;
 import fusion_evaluation.SpeedEvaluationRule;
+import fusion_evaluation.TransferEvaluationRule;
 import fusion_evaluation.TransfersEvaluationRule;
 import fusion_evaluation.WageEvaluationRule;
 import fusion_evaluation.WeightEvaluationRule;
@@ -44,6 +45,7 @@ import fusion_fusers.DevelopmentsFuserUnion;
 import fusion_fusers.FootFuserMostRecent;
 import fusion_fusers.HeightFuserAverage;
 import fusion_fusers.HeightMedianFuser;
+import fusion_fusers.NameFavourSourceFuser;
 import fusion_fusers.NameFuserByVoting;
 import fusion_fusers.NameLongestString;
 import fusion_fusers.NationalityFavourSource;
@@ -130,7 +132,9 @@ public class DataFusion_Main {
 		// fuse date of birth, we prefer data sources that contain the accurate date of birth (API and ESD)
 		strategy.addAttributeFuser(Player.DATEOFBIRTH, new DateOfBirthFuserFavourSource(), new DateOfBirthEvaluationRule());
 		//strategy.addAttributeFuser(Player.DATEOFBIRTH, new DateOfBirthVotingFuser(), new DateOfBirthEvaluationRule());
-		strategy.addAttributeFuser(Player.NAME, new NameLongestString(), new NameEvaluationRule());
+		// fuse namd
+		strategy.addAttributeFuser(Player.NAME, new NameFavourSourceFuser(), new NameEvaluationRule());
+		//strategy.addAttributeFuser(Player.NAME, new NameLongestString(), new NameEvaluationRule());
 		// fuse photos, we prefer the API photos because they have a higher resolution
 		strategy.addAttributeFuser(Player.PHOTO, new PhotoFuserFavourSource(), new PhotoEvaluationRule());
 		// fuse nationality, it is only contained in FIFA19
@@ -145,7 +149,7 @@ public class DataFusion_Main {
 		//strategy.addAttributeFuser(Player.WEIGHT, new WeightFuserMostRecent(), new WeightEvaluationRule());
 		strategy.addAttributeFuser(Player.WEIGHT, new WeightMedianFuser(), new WeightEvaluationRule());
 		//fuse transfers which are only in API and transfers
-		strategy.addAttributeFuser(Player.TRANSFERS, new TransfersFuserUnion(), new TransfersEvaluationRule());
+		strategy.addAttributeFuser(Player.TRANSFERS, new TransfersFuserUnion(), new TransferEvaluationRule());
 		//fuse foot
 		strategy.addAttributeFuser(Player.FOOT, new FootFuserMostRecent(), new FootEvaluationRule());
 		//fuse current number (in FIFA19 and API)
