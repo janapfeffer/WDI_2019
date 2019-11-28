@@ -1,4 +1,4 @@
-##  Web Data Integration Project: Football Player Information
+###  Web Data Integration Project: Football Player Information
 
 presented by Group 3:  
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Eliana Ruslanova   
