@@ -17,7 +17,6 @@ section 5:
 Repository:
 - delete to do comments "nothing has to be done" (in catch blocks)
 - delete unnecessary imports where it makes sense (all classes except identity resolution and fusion)
-- set identity resolution (non ml) to optimal settings (currently non ml leads to weird results)
 - markdown: order of classes to execute?
 - run identity resolution + fusion with optimal settings 
 - delete hechen.csv
