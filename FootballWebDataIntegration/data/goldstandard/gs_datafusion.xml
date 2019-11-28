@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Players>
     <Player>
-        <id>1</id>
+        <id>590</id>
         <Name>Allan Saint-Maximin</Name>
         <dateOfBirth>1997-03-12</dateOfBirth>
         <Nationality>France</Nationality>
@@ -62,7 +62,7 @@
         </Transfers>
     </Player>
     <Player>
-        <id>2</id>
+        <id>3003599</id>
         <Name>Niklas Moisander</Name>
         <dateOfBirth>1985-09-29</dateOfBirth>
         <Nationality>Finland</Nationality>
@@ -103,7 +103,7 @@
         </Transfers>
     </Player>
     <Player>
-        <id>3</id>
+        <id>1463</id>
         <Name>Aaron Cresswell</Name>
         <dateOfBirth>1989-12-15</dateOfBirth>
         <Nationality>England</Nationality>
@@ -134,7 +134,7 @@
         </Transfers>
     </Player>
     <Player>
-        <id>4</id>
+        <id>862</id>
         <Name>Julian Baumgartlinger</Name>
         <dateOfBirth>1988-01-02</dateOfBirth>
         <Nationality>Austria</Nationality>
@@ -165,63 +165,7 @@
         </Transfers>
     </Player>
     <Player>
-        <id>5</id>
-        <Name>Juan Cuadrado</Name>
-        <dateOfBirth>1988-05-26</dateOfBirth>
-        <Nationality>Colombia</Nationality>
-        <Photo></Photo>
-        <CurrentClub>Juventus Turin</CurrentClub>
-        <CurrentPosition>Right Wing</CurrentPosition>
-        <CurrentNumber>16</CurrentNumber>
-        <WageInEuro></WageInEuro>
-        <Weight>72</Weight>
-        <Height>179</Height>
-        <Foot>right</Foot>
-        <Speed>92</Speed>
-        <Developments>
-            <Development>
-                <Year>2019</Year>
-                <Rating>1</Rating>
-                <Potential>1</Potential>
-                <DefensiveWorkRate>high</DefensiveWorkRate>
-                <AttackingWorkRate>high</AttackingWorkRate>
-            </Development>
-        </Developments>
-        <Transfers>
-            <Transfer>
-                <ClubOut>FC Chelsea</ClubOut>
-                <ClubIn>Juventus Turin</ClubIn>
-                <Year>2017</Year>
-            </Transfer>
-            <Transfer>
-                <ClubOut>FC Chelsea</ClubOut>
-                <ClubIn>Juventus Turin</ClubIn>
-                <Year>2016</Year>
-            </Transfer>
-            <Transfer>
-                <ClubOut>Juventus Turin</ClubOut>
-                <ClubIn>FC Chelsea</ClubIn>
-                <Year>2016</Year>
-            </Transfer>
-            <Transfer>
-                <ClubOut>FC Chelsea</ClubOut>
-                <ClubIn>Juventus Turin</ClubIn>
-                <Year>2015</Year>
-            </Transfer>
-            <Transfer>
-                <ClubOut>AC Florenz</ClubOut>
-                <ClubIn>FC Chelsea</ClubIn>
-                <Year>2015</Year>
-            </Transfer>
-            <Transfer>
-                <ClubOut>Udinese Calcio</ClubOut>
-                <ClubIn> US Lecce></ClubIn>
-                <Year>2011</Year>
-            </Transfer>
-        </Transfers>
-    </Player>
-    <Player>
-        <id>6</id>
+        <id>5801</id>
         <Name>Joshua Brillante</Name>
         <dateOfBirth>1993-03-25</dateOfBirth>
         <Nationality>Australia</Nationality>
@@ -282,7 +226,7 @@
         </Transfers>
     </Player>
     <Player>
-        <id>7</id>
+        <id>9054</id>
         <Name>Piotr Tomasik</Name>
         <dateOfBirth>1987-10-31</dateOfBirth>
         <Nationality>Poland</Nationality>
@@ -313,7 +257,7 @@
         </Transfers>
     </Player>
     <Player>
-        <id>8</id>
+        <id>4750</id>
         <Name>Jordan Rolly Botaka</Name>
         <dateOfBirth>1993-06-24</dateOfBirth>
         <Nationality>Congo DR</Nationality>
@@ -368,50 +312,9 @@
             </Transfer>
         </Transfers>
     </Player>
-    <Player>
-        <id>11</id>
-        <Name>Neymar</Name>
-        <dateOfBirth>1992-05-02</dateOfBirth>
-        <Nationality>Brazil</Nationality>
-        <Photo></Photo>
-        <CurrentClub>Paris Saint-Germain</CurrentClub>
-        <CurrentPosition>Left Winger</CurrentPosition>
-        <CurrentNumber>10</CurrentNumber>
-        <WageInEuro>705k</WageInEuro>
-        <Weight>68</Weight>
-        <Height>175</Height>
-        <Foot>right</Foot>
-        <Speed>89</Speed>
-        <Developments>
-            <Development>
-                <Year>2019</Year>
-                <Rating>1</Rating>
-                <Potential>1</Potential>
-                <DefensiveWorkRate>high</DefensiveWorkRate>
-                <AttackingWorkRate>high</AttackingWorkRate>
-            </Development>
-        </Developments>
-        <Transfers>
-            <Transfer>
-                <ClubOut>FC Barcelona</ClubOut>
-                <ClubIn>Paris Saint-Germain</ClubIn>
-                <Year>2017</Year>
-            </Transfer>
-            <Transfer>
-                <ClubOut>Santos FC</ClubOut>
-                <ClubIn>FC Barcelona</ClubIn>
-                <Year>2013</Year>
-            </Transfer>
-            <Transfer>
-                <ClubOut>Santos FC U20</ClubOut>
-                <ClubIn>Santos FC</ClubIn>
-                <Year>2009</Year>
-            </Transfer>
-        </Transfers>
-    </Player>
 
     <Player>
-        <id>12</id>
+        <id>260</id>
         <Name>Harry Maguire</Name>
         <dateOfBirth>1993-03-05</dateOfBirth>
         <Nationality>England</Nationality>
@@ -469,7 +372,7 @@
 
 
     <Player>
-        <id>13</id>
+        <id>168</id>
         <Name>Timo Werner</Name>
         <dateOfBirth>1996-03-06</dateOfBirth>
         <Nationality>Germany</Nationality>
@@ -477,7 +380,7 @@
         <CurrentClub>RB Leipzig</CurrentClub>
         <CurrentPosition> Centre Forward</CurrentPosition>
         <CurrentNumber>11</CurrentNumber>
-        <WageInEuro>57.5k</WageInEuro>
+        <WageInEuro>575000</WageInEuro>
         <Weight>75</Weight>
         <Height>180</Height>
         <Foot>right</Foot>
@@ -521,7 +424,7 @@
     </Player>
 
     <Player>
-        <id>14</id>
+        <id>1451</id>
         <Name>Marc Roca</Name>
         <dateOfBirth>1996-11-26</dateOfBirth>
         <Nationality>Spain</Nationality>
@@ -529,7 +432,7 @@
         <CurrentClub>RCD Espanyol Barcelona</CurrentClub>
         <CurrentPosition>Defensive Midfield</CurrentPosition>
         <CurrentNumber>21</CurrentNumber>
-        <WageInEuro>22k</WageInEuro>
+        <WageInEuro>22000</WageInEuro>
         <Weight>74</Weight>
         <Height>184</Height>
         <Speed>62</Speed>
@@ -563,74 +466,7 @@
     </Player>
 
     <Player>
-        <id>15</id>
-        <Name>Kepa</Name>
-        <dateOfBirth>1994-10-03</dateOfBirth>
-        <Nationality>Spain</Nationality>
-        <Photo></Photo>
-        <CurrentClub>Chelsea FC</CurrentClub>
-        <CurrentPosition> Goalkeeper</CurrentPosition>
-        <CurrentNumber>1</CurrentNumber>
-        <WageInEuro>170k</WageInEuro>
-        <Weight>86</Weight>
-        <Height>186</Height>
-        <Speed>33</Speed>
-        <Foot>right</Foot>
-        <Developments>
-            <Development>
-                <Year>2019</Year>
-                <Rating>1</Rating>
-                <Potential>1</Potential>
-                <DefensiveWorkRate>high</DefensiveWorkRate>
-                <AttackingWorkRate>high</AttackingWorkRate>
-            </Development>
-        </Developments>
-        <Transfers>
-            <Transfer>
-                <ClubOut>Athletic Bilbao</ClubOut>
-                <ClubIn>Chelsea FC</ClubIn>
-                <Year>2018</Year>
-            </Transfer>
-            <Transfer>
-                <ClubOut>Real Valladolid CF</ClubOut>
-                <ClubIn>Athletic Bilbao</ClubIn>
-                <Year>2016</Year>
-            </Transfer>
-            <Transfer>
-                <ClubOut>Athletic Bilbao</ClubOut>
-                <ClubIn>Real Valladolid CF</ClubIn>
-                <Year>2015</Year>
-            </Transfer>
-            <Transfer>
-                <ClubOut>SD Ponferradina</ClubOut>
-                <ClubIn>Athletic Bilbao</ClubIn>
-                <Year>2015</Year>
-            </Transfer>
-            <Transfer>
-                <ClubOut>Athletic Bilbao</ClubOut>
-                <ClubIn>SD Ponferradina</ClubIn>
-                <Year>2015</Year>
-            </Transfer>
-            <Transfer>
-                <ClubOut>Bilbao Athletic</ClubOut>
-                <ClubIn>Athletic Bilbao</ClubIn>
-                <Year>2014</Year>
-            </Transfer>
-            <Transfer>
-                <ClubOut>CD Basconia</ClubOut>
-                <ClubIn>Bilbao Athletic</ClubIn>
-                <Year>2013</Year>
-            </Transfer>
-            <Transfer>
-                <ClubOut>Athletic Bilbao U19</ClubOut>
-                <ClubIn>CD Basconia</ClubIn>
-                <Year>2012</Year>
-            </Transfer>
-        </Transfers>
-    </Player>
-
-    <Player>
-        <id>16</id>
+        <id>2351</id>
         <Name>Krzysztof Piatek</Name>
         <dateOfBirth>1995-07-01</dateOfBirth>
         <Nationality>Poland</Nationality>
@@ -638,7 +474,7 @@
         <CurrentClub>AC Milan</CurrentClub>
         <CurrentPosition>Centre Forward</CurrentPosition>
         <CurrentNumber>9</CurrentNumber>
-        <WageInEuro>71.2k</WageInEuro>
+        <WageInEuro>712000</WageInEuro>
         <Weight>77</Weight>
         <Height>183</Height>
         <Speed>75</Speed>
@@ -687,7 +523,7 @@
     </Player>
 
     <Player>
-        <id>17</id>
+        <id>57</id>
         <Name>Bernardo Silva</Name>
         <dateOfBirth>1994-08-10</dateOfBirth>
         <Nationality>Portugal</Nationality>
@@ -695,7 +531,7 @@
         <CurrentClub>Manchester City</CurrentClub>
         <CurrentPosition>Right Winger</CurrentPosition>
         <CurrentNumber>20</CurrentNumber>
-        <WageInEuro>175k</WageInEuro>
+        <WageInEuro>175000</WageInEuro>
         <weight>65</weight>
         <Height>173</Height>
         <Speed>78</Speed>
@@ -758,7 +594,7 @@
     </Player>
 
     <Player>
-        <id>18</id>
+        <id>2000630</id>
         <Name>Andrej Kramaric</Name>
         <dateOfBirth>1991-06-19</dateOfBirth>
         <Nationality>Croatia</Nationality>
@@ -766,7 +602,7 @@
         <CurrentClub>TSG 1899 Hoffenheim</CurrentClub>
         <CurrentPosition>Centre Forward</CurrentPosition>
         <CurrentNumber>27</CurrentNumber>
-        <WageInEuro>58.1k</WageInEuro>
+        <WageInEuro>581000</WageInEuro>
         <weight>73</weight>
         <Height>177</Height>
         <Speed>70</Speed>
@@ -830,7 +666,7 @@
     </Player>
 
     <Player>
-        <id>19</id>
+        <id>1173</id>
         <Name>Nicolò Barella</Name>
         <dateOfBirth>1997-02-07</dateOfBirth>
         <Nationality>Italy</Nationality>
@@ -882,7 +718,7 @@
     </Player>
 
     <Player>
-        <id>20</id>
+        <id>2</id>
         <Name>Cristiano Ronaldo</Name>
         <dateOfBirth>1985-02-05</dateOfBirth>
         <Nationality>Portugal</Nationality>
@@ -890,7 +726,7 @@
         <CurrentClub>Juventus FC</CurrentClub>
         <CurrentPosition> Left Winge</CurrentPosition>
         <CurrentNumber>7</CurrentNumber>
-        <WageInEuro>1.1M</WageInEuro>
+        <WageInEuro>11000000</WageInEuro>
         <Weight>83</Weight>
         <Height>185</Height>
         <Speed>91</Speed>

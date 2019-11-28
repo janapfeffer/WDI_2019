@@ -49,6 +49,7 @@ import fusion_fusers.SpeedFavourSourceFuser;
 import fusion_fusers.TransfersFuserUnion;
 import fusion_fusers.WageInEuroFavourSourceFuser;
 import fusion_fusers.WeightFuserMostRecent;
+import fusion_fusers.WeightMedianFuser;
 import models.Player;
 import models.PlayerXMLFormatter;
 import models.PlayerXMLFormatter_Fusion;
@@ -101,8 +102,8 @@ public class DataFusion_Main {
 		System.out.println("*\n*\tLoading correspondences\n*");
 		CorrespondenceSet<Player, Attribute> correspondences = new CorrespondenceSet<>();
 		correspondences.loadCorrespondences(new File("data/output/API_2_Transfer_correspondences.csv"),dataAPI, dataTransfer);
-		//correspondences.loadCorrespondences(new File("data/output/FIFA19_2_API_correspondences.csv"),dataFIFA, dataAPI);
-		//correspondences.loadCorrespondences(new File("data/output/FIFA19_2_ESD_correspondences.csv"),dataFIFA, dataESD);
+		correspondences.loadCorrespondences(new File("data/output/FIFA19_2_API_correspondences.csv"),dataFIFA, dataAPI);
+		correspondences.loadCorrespondences(new File("data/output/FIFA19_2_ESD_correspondences.csv"),dataFIFA, dataESD);
 
 		// write group size distribution
 		correspondences.printGroupSizeDistribution();
@@ -123,7 +124,7 @@ public class DataFusion_Main {
 
 		// add attribute fusers
 		// TODO: currentposition
-		strategy.addAttributeFuser(Player.NAME, new NameFuserByVoting(), new NameEvaluationRule());
+		strategy.addAttributeFuser(Player.NAME, new NameLongestString(), new NameEvaluationRule());
 		// fuse photos, we prefer the API photos because they have a higher resolution
 		dataAPI.setScore(4.0);
 		dataESD.setScore(2.0);
@@ -131,25 +132,26 @@ public class DataFusion_Main {
 		dataTransfer.setScore(1.0);
 		strategy.addAttributeFuser(Player.PHOTO, new PhotoFuserFavourSource(), new PhotoEvaluationRule());
 		// fuse nationality
-		dataAPI.setScore(2.0);
-		dataESD.setScore(3.0);
-		dataFIFA.setScore(1.0);
-		dataTransfer.setScore(4.0);
+		dataAPI.setScore(0.0);
+		dataESD.setScore(0.0);
+		dataFIFA.setScore(4.0);
+		dataTransfer.setScore(0.0);
 		strategy.addAttributeFuser(Player.NATIONALITY, new NationalityFavourSource(), new NationalityEvaluationRule());
 		// fuse date of birth, we prefer data sources that contain the accurate date of birth
 		dataAPI.setScore(4.0);
 		dataESD.setScore(3.0);
-		dataFIFA.setScore(1.0);
-		dataTransfer.setScore(2.0);
+		dataFIFA.setScore(0.0);
+		dataTransfer.setScore(0.0);
 		//strategy.addAttributeFuser(Player.DATEOFBIRTH, new DateOfBirthFuserFavourSource(), new DateOfBirthEvaluationRule());
-		strategy.addAttributeFuser(Player.DATEOFBIRTH, new DateOfBirthVotingFuser(), new DateOfBirthEvaluationRule());
+		strategy.addAttributeFuser(Player.DATEOFBIRTH, new DateOfBirthFuserFavourSource(), new DateOfBirthEvaluationRule());
 		// only FIFAS contains the current club & wages
 		dataFIFA.setScore(4.0);
 		dataAPI.setScore(1.0);
 		strategy.addAttributeFuser(Player.CURRENTCLUB, new CurrentClubFavourSourceFuser(), new CurrentClubEvaluationRule());
 		strategy.addAttributeFuser(Player.WAGE, new WageInEuroFavourSourceFuser(), new WageEvaluationRule());
 		// for weight we prefer the most recent values
-		strategy.addAttributeFuser(Player.WEIGHT, new WeightFuserMostRecent(), new WeightEvaluationRule());
+		//strategy.addAttributeFuser(Player.WEIGHT, new WeightFuserMostRecent(), new WeightEvaluationRule());
+		strategy.addAttributeFuser(Player.WEIGHT, new WeightMedianFuser(), new WeightEvaluationRule());
 		//fuse transfers which are only in API and transfers
 		strategy.addAttributeFuser(Player.TRANSFERS, new TransfersFuserUnion(), new TransfersEvaluationRule());
 		//fuse foot

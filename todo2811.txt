@@ -1,0 +1,38 @@
+Report:
+section 2:
+- take information from the current full text and put it into sub sections of 2
+- delete/comment out tables & (then) old full text
+section 3:
+- overview table with comparators + results
+- overview table with blockers + results
+- some full text description of what we did
+- final chosen method(s)
+- distribution of results (correspondences): create bar plot like in the slides
+section 4:
+- as described in short notes in overleaf
+section 5:
+- as described in short notes in overleaf
+- comparison what we achieved compared to before (density etc without WDI -> what benefit was gained?)
+
+
+Repository:
+- Fusion of current position
+(idea: use a file with shortcut + long version & make a dictionary (short key, long value)
+-> check whether position is dictionary (get) if yes: use value, if no use original value)
+- transferxmlreader_fusion: is empty -> delete?
+- delete to do comments "nothing has to be done" (in catch blocks)
+- delete unnecessary imports where it makes sense (all classes except identity resolution and fusion)
+- serialuid in serializable classes
+- set identity resolution (non ml) to optimal settings (currently non ml leads to weird results)
+- markdown: order of classes to execute?
+- run identity resolution + fusion with optimal settings 
+- delete hechen.csv
+- delete gs datafusion no developments & hechen
+- goldstandard folder (outside of java project)
+- gs botaka transfers
+
+Excel:
+- write down who did what in the last phases
+
+Presentation:
+- make a presentation (Hechen already started)
