@@ -20,7 +20,7 @@ public class DevelopmentsEvaluationRule extends EvaluationRule<Player, Attribute
 	@Override
 	public boolean isEqual(Player record1, Player record2, Attribute schemaElement) {
 		// since the developments in the gold standard are dummy values
-		return true;
+		return record1.hasValue(Player.DEVELOPMENTS) && record2.hasValue(Player.DEVELOPMENTS);
 	}
 
 	@Override

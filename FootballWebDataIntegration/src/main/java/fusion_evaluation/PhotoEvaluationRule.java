@@ -16,7 +16,7 @@ public class PhotoEvaluationRule extends EvaluationRule<Player, Attribute>  {
 	@Override
 	public boolean isEqual(Player record1, Player record2, Attribute schemaElement) {
 		// either the player has a picture or not, there is no gold standard value we need to compare
-		return true;
+		return record1.hasValue(Player.PHOTO) && record1.hasValue(Player.PHOTO);
 	}
 
 	@Override
