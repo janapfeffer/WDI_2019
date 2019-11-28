@@ -110,7 +110,7 @@ public class DataFusion_Main {
 		// load the gold standard
 		System.out.println("*\n*\tEvaluating results\n*");
 		DataSet<Player, Attribute> gs = new FusibleHashedDataSet<>();
-		new PlayerXMLReader_Fusion().loadFromXML(new File("data/goldstandard/gs_datafusion_hechen.xml"), "/Players/Player", gs);
+		new PlayerXMLReader_Fusion().loadFromXML(new File("data/goldstandard/gs_datafusion.xml"), "/Players/Player", gs);
 
 		for(Player m : gs.get()) {
 			System.out.println(String.format("gs: %s", m.getIdentifier()));
