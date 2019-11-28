@@ -11,24 +11,21 @@ import models.Player;
 /**
  * @author group3
  * 
- * Evaluation of the fusion of the current club. 
+ * Evaluation of the fusion of the current Position. 
  * It can be spelled slightly differently.
  */
-public class CurrentClubEvaluationRule extends EvaluationRule<Player, Attribute>  {
+public class CurrentPositionEvaluationRule extends EvaluationRule<Player, Attribute>  {
 	private static MaximumOfTokenContainment sim = new MaximumOfTokenContainment();
 	@Override
 	public boolean isEqual(Player record1, Player record2, Attribute schemaElement) {
-		// the current club can be written slightly differently
-		if (record1.hasValue(Player.CURRENTCLUB) && record2.hasValue(Player.CURRENTCLUB))
-			return sim.calculate(record1.getCurrentClub(), record2.getCurrentClub()) == 1;
-		else
-			return false;
+		// the current Position can be written slightly differently
+		return sim.calculate(record1.getCurrentPosition(), record2.getCurrentPosition()) == 1;
 	}
 
 	@Override
 	public boolean isEqual(Player record1, Player record2, Correspondence<Attribute, Matchable> schemaCorrespondence) {
-		// only  FIFA19 has the current club
-		return sim.calculate(record1.getCurrentClub(), record2.getCurrentClub()) == 1;
+		// only  FIFA19 has the current Position
+		return sim.calculate(record1.getCurrentPosition(), record2.getCurrentPosition()) == 1;
 	}
 
 }

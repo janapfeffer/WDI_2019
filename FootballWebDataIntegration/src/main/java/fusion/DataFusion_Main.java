@@ -21,6 +21,7 @@ import de.uni_mannheim.informatik.dws.winter.model.defaultmodel.Attribute;
 import de.uni_mannheim.informatik.dws.winter.utils.WinterLogManager;
 import fusion_evaluation.CurrentClubEvaluationRule;
 import fusion_evaluation.CurrentNumberEvaluationRule;
+import fusion_evaluation.CurrentPositionEvaluationRule;
 import fusion_evaluation.DateOfBirthEvaluationRule;
 import fusion_evaluation.DevelopmentsEvaluationRule;
 import fusion_evaluation.FootEvaluationRule;
@@ -36,6 +37,7 @@ import fusion_fusers.CurrentClubFavourSourceFuser;
 import fusion_fusers.CurrentClubMostRecentFuser;
 import fusion_fusers.CurrentNumberFavourSource;
 import fusion_fusers.CurrentNumberMostRecentFuser;
+import fusion_fusers.CurrentPositionLongestString;
 import fusion_fusers.DateOfBirthFuserFavourSource;
 import fusion_fusers.DateOfBirthVotingFuser;
 import fusion_fusers.DevelopmentsFuserUnion;
@@ -172,6 +174,8 @@ public class DataFusion_Main {
 		strategy.addAttributeFuser(Player.DEVELOPMENTS, new DevelopmentsFuserUnion(), new DevelopmentsEvaluationRule());
 		//fuse speed
 		strategy.addAttributeFuser(Player.SPEED, new SpeedFavourSourceFuser(), new SpeedEvaluationRule());
+		// fuse current position
+		strategy.addAttributeFuser(Player.CURRENTPOSITION, new CurrentPositionLongestString(), new CurrentPositionEvaluationRule());
 
 		// create the fusion engine
 		DataFusionEngine<Player, Attribute> engine = new DataFusionEngine<>(strategy);

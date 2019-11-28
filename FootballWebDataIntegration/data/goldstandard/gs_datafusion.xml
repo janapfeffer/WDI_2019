@@ -7,7 +7,7 @@
         <Nationality>France</Nationality>
         <Photo>dummy</Photo>
         <CurrentClub>Newcastle United</CurrentClub>
-        <CurrentPosition>Midfielder</CurrentPosition>
+        <CurrentPosition>Right Wing</CurrentPosition>
         <CurrentNumber>10</CurrentNumber>
         <WageInEuro></WageInEuro>
         <Weight>67</Weight>
@@ -68,7 +68,7 @@
         <Nationality>Finland</Nationality>
         <Photo>dummy</Photo>
         <CurrentClub>Werder Bremen</CurrentClub>
-        <CurrentPosition>Defender</CurrentPosition>
+        <CurrentPosition>Centre Back</CurrentPosition>
         <CurrentNumber>18</CurrentNumber>
         <WageInEuro></WageInEuro>
         <Weight>75</Weight>
@@ -140,7 +140,7 @@
         <Nationality>Austria</Nationality>
         <Photo>dummy</Photo>
         <CurrentClub>Bayer 04 Leverkusen</CurrentClub>
-        <CurrentPosition>Midfielder</CurrentPosition>
+        <CurrentPosition>Defensive Midfield</CurrentPosition>
         <CurrentNumber>15</CurrentNumber>
         <WageInEuro></WageInEuro>
         <Weight>86</Weight>
@@ -171,7 +171,7 @@
         <Nationality>Australia</Nationality>
         <Photo>dummy</Photo>
         <CurrentClub>Melbourne City</CurrentClub>
-        <CurrentPosition>Midfielder</CurrentPosition>
+        <CurrentPosition>Right Center Midfield</CurrentPosition>
         <CurrentNumber>6</CurrentNumber>
         <WageInEuro></WageInEuro>
         <Weight>73</Weight>
@@ -232,7 +232,7 @@
         <Nationality>Poland</Nationality>
         <Photo>dummy</Photo>
         <CurrentClub>Wisła Płock SA</CurrentClub>
-        <CurrentPosition>Defender</CurrentPosition>
+        <CurrentPosition>Left Back</CurrentPosition>
         <CurrentNumber>7</CurrentNumber>
         <WageInEuro></WageInEuro>
         <Weight>72</Weight>
@@ -263,7 +263,7 @@
         <Nationality>Congo DR</Nationality>
         <Photo>dummy</Photo>
         <CurrentClub>Sint-Truiden VV</CurrentClub>
-        <CurrentPosition>Midfielder</CurrentPosition>
+        <CurrentPosition>Right Midfield</CurrentPosition>
         <CurrentNumber></CurrentNumber>
         <WageInEuro></WageInEuro>
         <Weight>73</Weight>
@@ -369,8 +369,6 @@
             </Transfer>
         </Transfers>
     </Player>
-
-
     <Player>
         <id>168</id>
         <Name>Timo Werner</Name>
