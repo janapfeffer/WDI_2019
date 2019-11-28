@@ -54,13 +54,13 @@ public class IR_FIFA_API {
 
 		// create a matching rule
 		LinearCombinationMatchingRule<Player, Attribute> matchingRule = new LinearCombinationMatchingRule<>(
-				0.75);
+				0.8);
 		matchingRule.activateDebugReport("data/output/debugResultsMatchingRule.csv", 1000, gsTest);
 
 		// add comparators
 		//matchingRule.addComparator(new PlayerNameFIFAAPIComparator(), 0.35);
-		matchingRule.addComparator(new PlayerNameFIFAAPIComparatorJaccard(), 0.2);
-		matchingRule.addComparator(new PlayerNameFIFAESDComparatorMaximumTokenContainment(), 0.2);
+		matchingRule.addComparator(new PlayerNameFIFAAPIComparatorJaccard(), 0.4);
+		//matchingRule.addComparator(new PlayerNameFIFAESDComparatorMaximumTokenContainment(), 0.2);
 		matchingRule.addComparator(new HeightFIFAAPIPercentageSimilarity(), 0.3);
 		matchingRule.addComparator(new DateFIFAESDComparator2Year(), 0.3);
 
