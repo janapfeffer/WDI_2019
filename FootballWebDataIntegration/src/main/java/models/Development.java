@@ -11,6 +11,10 @@ import de.uni_mannheim.informatik.dws.winter.model.defaultmodel.Attribute;
  */
 public class Development extends AbstractRecord<Attribute> implements Serializable{
 
+	/**
+	 * 
+	 */
+	private static final long serialVersionUID = 1L;
 	private int year;
 	private int rating;
 	private int potential;
