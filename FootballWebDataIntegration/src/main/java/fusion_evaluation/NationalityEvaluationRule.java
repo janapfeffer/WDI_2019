@@ -4,10 +4,13 @@ import de.uni_mannheim.informatik.dws.winter.datafusion.EvaluationRule;
 import de.uni_mannheim.informatik.dws.winter.model.Correspondence;
 import de.uni_mannheim.informatik.dws.winter.model.Matchable;
 import de.uni_mannheim.informatik.dws.winter.model.defaultmodel.Attribute;
-import de.uni_mannheim.informatik.dws.winter.similarity.string.LevenshteinEditDistance;
 import de.uni_mannheim.informatik.dws.winter.similarity.string.LevenshteinSimilarity;
-import identityresolution_models.Player;
-
+import models.Player;
+/**
+ * @author group3
+ * 
+ * Evaluation of the fusion of the nationality. 
+ */
 public class NationalityEvaluationRule extends EvaluationRule<Player, Attribute>  {
 
 	private static LevenshteinSimilarity sim = new LevenshteinSimilarity();

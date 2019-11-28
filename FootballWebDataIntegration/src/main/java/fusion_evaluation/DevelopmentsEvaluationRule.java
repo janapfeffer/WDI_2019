@@ -7,9 +7,14 @@ import de.uni_mannheim.informatik.dws.winter.datafusion.EvaluationRule;
 import de.uni_mannheim.informatik.dws.winter.model.Correspondence;
 import de.uni_mannheim.informatik.dws.winter.model.Matchable;
 import de.uni_mannheim.informatik.dws.winter.model.defaultmodel.Attribute;
-import identityresolution_models.Player;
-import identityresolution_models.Development;
-
+import models.Development;
+import models.Player;
+/**
+ * @author group3
+ * 
+ * Evaluation of the fusion of the developments. 
+ * There was no other sufficient external datasource for developments in the goldstandard.
+ */
 public class DevelopmentsEvaluationRule extends EvaluationRule<Player, Attribute>{
 
 	@Override
@@ -45,7 +50,7 @@ public class DevelopmentsEvaluationRule extends EvaluationRule<Player, Attribute
 
 	@Override
 	public boolean isEqual(Player record1, Player record2, Correspondence<Attribute, Matchable> schemaCorrespondence) {
-
+		
 		return isEqual(record1, record2, (Attribute)null);
 	}
 

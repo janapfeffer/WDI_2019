@@ -9,8 +9,12 @@ import de.uni_mannheim.informatik.dws.winter.model.Matchable;
 import de.uni_mannheim.informatik.dws.winter.model.RecordGroup;
 import de.uni_mannheim.informatik.dws.winter.model.defaultmodel.Attribute;
 import de.uni_mannheim.informatik.dws.winter.processing.Processable;
-import identityresolution_models.Player;
-
+import models.Player;
+/**
+ * @author group3
+ * 
+ * Fusion of the date of birth by voting.
+ */
 public class DateOfBirthVotingFuser extends AttributeValueFuser<LocalDateTime, Player, Attribute>{
 
 	public DateOfBirthVotingFuser() {

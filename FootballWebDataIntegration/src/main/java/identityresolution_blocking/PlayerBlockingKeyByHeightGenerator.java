@@ -8,10 +8,13 @@ import de.uni_mannheim.informatik.dws.winter.model.Pair;
 import de.uni_mannheim.informatik.dws.winter.model.defaultmodel.Attribute;
 import de.uni_mannheim.informatik.dws.winter.processing.DataIterator;
 import de.uni_mannheim.informatik.dws.winter.processing.Processable;
-import identityresolution_models.Player;
-
-public class PlayerBlockingKeyByHeightGenerator extends
-RecordBlockingKeyGenerator<Player, Attribute>{
+import models.Player;
+/**
+ * @author group3
+ * 
+ * Blocking based on a players height in 2cm intervals.
+ */
+public class PlayerBlockingKeyByHeightGenerator extends RecordBlockingKeyGenerator<Player, Attribute>{
 
 	@Override
 	public void generateBlockingKeys(Player record, Processable<Correspondence<Attribute, Matchable>> correspondences,

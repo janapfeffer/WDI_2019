@@ -6,8 +6,12 @@ import de.uni_mannheim.informatik.dws.winter.model.Correspondence;
 import de.uni_mannheim.informatik.dws.winter.model.Matchable;
 import de.uni_mannheim.informatik.dws.winter.model.defaultmodel.Attribute;
 import de.uni_mannheim.informatik.dws.winter.similarity.numeric.AbsoluteDifferenceSimilarity;
-import identityresolution_models.Player;
-
+import models.Player;
+/**
+ * @author group3
+ * 
+ * Comparator for the height of the iSports API and the European Soccer Database data set using absolute difference.
+ */
 public class HeightFIFAESDAbsoluteDifferences implements Comparator<Player, Attribute>{
 
 	//similarity measure test

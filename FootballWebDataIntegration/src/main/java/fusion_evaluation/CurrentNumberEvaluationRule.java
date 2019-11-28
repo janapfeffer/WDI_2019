@@ -4,8 +4,13 @@ import de.uni_mannheim.informatik.dws.winter.datafusion.EvaluationRule;
 import de.uni_mannheim.informatik.dws.winter.model.Correspondence;
 import de.uni_mannheim.informatik.dws.winter.model.Matchable;
 import de.uni_mannheim.informatik.dws.winter.model.defaultmodel.Attribute;
-import identityresolution_models.Player;
-
+import models.Player;
+/**
+ * @author group3
+ * 
+ * Evaluation of the fusion of the current jersey number.
+ * It is only the same if it is identical. 
+ */
 public class CurrentNumberEvaluationRule extends EvaluationRule<Player, Attribute>  {
 
 	// the current number is equal if it is exactly the same

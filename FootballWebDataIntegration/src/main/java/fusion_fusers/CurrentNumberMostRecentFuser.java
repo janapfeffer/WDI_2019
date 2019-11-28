@@ -8,8 +8,12 @@ import de.uni_mannheim.informatik.dws.winter.model.Matchable;
 import de.uni_mannheim.informatik.dws.winter.model.RecordGroup;
 import de.uni_mannheim.informatik.dws.winter.model.defaultmodel.Attribute;
 import de.uni_mannheim.informatik.dws.winter.processing.Processable;
-import identityresolution_models.Player;
-
+import models.Player;
+/**
+ * @author group3
+ * 
+ * Fusion of the current jersey number fvouring the most recent source.
+ */
 public class CurrentNumberMostRecentFuser extends
 AttributeValueFuser<Integer, Player, Attribute> {
 

@@ -7,7 +7,7 @@ import java.time.format.DateTimeFormatterBuilder;
 import java.time.temporal.ChronoField;
 import java.util.Locale;
 
-import org.apache.logging.log4j.Logger;
+import org.slf4j.Logger;
 
 import de.uni_mannheim.informatik.dws.winter.datafusion.CorrespondenceSet;
 import de.uni_mannheim.informatik.dws.winter.datafusion.DataFusionEngine;
@@ -49,14 +49,14 @@ import fusion_fusers.SpeedFavourSourceFuser;
 import fusion_fusers.TransfersFuserUnion;
 import fusion_fusers.WageInEuroFavourSourceFuser;
 import fusion_fusers.WeightFuserMostRecent;
-import fusion_models.PlayerXMLFormatter_Fusion;
-import fusion_models.PlayerXMLReader_Fusion;
-import identityresolution_models.Player;
-import identityresolution_models.PlayerXMLFormatter;
+import models.Player;
+import models.PlayerXMLFormatter;
+import models.PlayerXMLFormatter_Fusion;
+import models.PlayerXMLReader_Fusion;
 
 public class DataFusion_Main {
 
-	//private static final Logger logger = WinterLogManager.activateLogger("traceFile");
+	private static final Logger logger = WinterLogManager.activateLogger("traceFile");
 
 	public static void main( String[] args ) throws Exception{
 		// Load the Data into FusibleDataSet
@@ -78,13 +78,13 @@ public class DataFusion_Main {
 		dataFIFA.printDataSetDensityReport();
 
 		// Maintain Provenance
-		// Scores (e.g. from rating)
+		// Scores (are later on sometimes adapted since the data quality varies for different attributes)
 		dataAPI.setScore(1.0);
 		dataESD.setScore(2.0);
 		dataFIFA.setScore(3.0);
 		dataTransfer.setScore(4.0);
 
-		// Date (e.g. last update)
+		// Date (last update)
 		DateTimeFormatter formatter = new DateTimeFormatterBuilder()
 				.appendPattern("yyyy-MM-dd")
 				.parseDefaulting(ChronoField.CLOCK_HOUR_OF_DAY, 0)
@@ -92,7 +92,7 @@ public class DataFusion_Main {
 				.parseDefaulting(ChronoField.SECOND_OF_MINUTE, 0)
 				.toFormatter(Locale.ENGLISH);
 
-		dataAPI.setDate(LocalDateTime.parse("2019-09-29", formatter));
+		dataAPI.setDate(LocalDateTime.parse("2019-09-29", formatter)); // date of last download since it has live data
 		dataESD.setDate(LocalDateTime.parse("2016-10-24", formatter));
 		dataFIFA.setDate(LocalDateTime.parse("2018-12-21", formatter));
 		dataTransfer.setDate(LocalDateTime.parse("2019-01-01", formatter));
@@ -124,7 +124,7 @@ public class DataFusion_Main {
 		// add attribute fusers
 		// TODO: currentposition
 		strategy.addAttributeFuser(Player.NAME, new NameFuserByVoting(), new NameEvaluationRule());
-		// fuse photos, we prefer the API photos becuase they have a higher resolution
+		// fuse photos, we prefer the API photos because they have a higher resolution
 		dataAPI.setScore(4.0);
 		dataESD.setScore(2.0);
 		dataFIFA.setScore(3.0);

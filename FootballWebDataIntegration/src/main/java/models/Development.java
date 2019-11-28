@@ -1,10 +1,14 @@
-package identityresolution_models;
+package models;
 
 import java.io.Serializable;
 
 import de.uni_mannheim.informatik.dws.winter.model.AbstractRecord;
 import de.uni_mannheim.informatik.dws.winter.model.defaultmodel.Attribute;
-
+/**
+ * @author group3
+ * 
+ * A {@link AbstractRecord} which represents a development.
+ */
 public class Development extends AbstractRecord<Attribute> implements Serializable{
 
 	private int year;

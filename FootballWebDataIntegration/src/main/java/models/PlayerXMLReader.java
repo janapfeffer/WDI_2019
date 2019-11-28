@@ -1,54 +1,41 @@
-package fusion_models;
+package models;
 
-import de.uni_mannheim.informatik.dws.winter.model.io.XMLMatchableReader;
-import identityresolution_models.Player;
 
 import java.time.LocalDateTime;
 import java.time.format.DateTimeFormatter;
 import java.time.format.DateTimeFormatterBuilder;
 import java.time.temporal.ChronoField;
-import java.util.Locale;
-import java.util.Collections;
-import java.util.LinkedList;
 import java.util.List;
-import org.apache.commons.lang3.StringUtils;
+import java.util.Locale;
 
 import org.w3c.dom.Node;
+import org.w3c.dom.Document;
+import org.w3c.dom.Element;
 
-import de.uni_mannheim.informatik.dws.winter.model.DataSet;
-import de.uni_mannheim.informatik.dws.winter.model.FusibleFactory;
-import de.uni_mannheim.informatik.dws.winter.model.RecordGroup;
 import de.uni_mannheim.informatik.dws.winter.model.defaultmodel.Attribute;
+import de.uni_mannheim.informatik.dws.winter.model.io.XMLMatchableReader;
 
-public class DevelopmentsXMLReader_Fusion extends XMLMatchableReader<Player, Attribute> implements
-FusibleFactory<Player, Attribute>{
+/**
+ * @author group3
+ * A {@link XMLMatchableReader} for {@link Player}s.
+ */
+public class PlayerXMLReader extends XMLMatchableReader<Player, Attribute> {
 
-	@Override
-	protected void initialiseDataset(DataSet<Player, Attribute> dataset) {
-		super.initialiseDataset(dataset);
-
-		dataset.addAttribute(Player.CURRENTCLUB);
-		dataset.addAttribute(Player.CURRENTNUMBER);
-		dataset.addAttribute(Player.CURRENTPOSITION);
-		dataset.addAttribute(Player.DATEOFBIRTH);
-		dataset.addAttribute(Player.DEVELOPMENTS);
-		dataset.addAttribute(Player.FOOT);
-		dataset.addAttribute(Player.HEIGHT);
-		dataset.addAttribute(Player.NAME);
-		dataset.addAttribute(Player.NATIONALITY);
-		dataset.addAttribute(Player.PHOTO);
-		dataset.addAttribute(Player.SPEED);
-		dataset.addAttribute(Player.TRANSFERS);
-		dataset.addAttribute(Player.WAGE);
-		dataset.addAttribute(Player.WEIGHT);
-
+	protected Element createFloatElement(String name, Float value, Document doc) {
+		Element elem = doc.createElement(name);
+		if (value != null) {
+			elem.appendChild(doc.createTextNode(String.valueOf(value)));
+		}
+		return elem;
 	}
 
 	@Override
 	public Player createModelFromElement(Node node, String provenanceInfo) {
 		String id = getValueFromChildElement(node, "id");
 
+		// create the object with id and provenance information
 		Player player = new Player(id, provenanceInfo);
+
 		// fill the attributes
 		player.setName(getValueFromChildElement(node, "Name"));
 		try {
@@ -70,10 +57,10 @@ FusibleFactory<Player, Attribute>{
 		try {
 			player.setHeight(Float.valueOf(getValueFromChildElement(node, "Height")));
 		} catch (Exception e) {
-
+			// TODO: handle exception
 		}
 		try {
-			player.setWage(Float.valueOf(getValueFromChildElement(node, "Wage")));
+			player.setWage(Float.valueOf(getValueFromChildElement(node, "WageInEuro")));
 		} catch (Exception e) {
 			// TODO: handle exception
 		}
@@ -126,19 +113,5 @@ FusibleFactory<Player, Attribute>{
 		return player;
 	}
 
-	@Override
-	public Player createInstanceForFusion(RecordGroup<Player, Attribute> cluster) {
-		List<String> ids = new LinkedList<>();
-
-		for (Player p : cluster.getRecords()) {
-			ids.add(p.getIdentifier());
-		}
-
-		Collections.sort(ids);
-
-		String mergedId = StringUtils.join(ids, '+');
-
-		return new Player(mergedId, "fused");
-	}
-
 }
+

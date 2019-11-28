@@ -11,9 +11,13 @@ import de.uni_mannheim.informatik.dws.winter.model.Matchable;
 import de.uni_mannheim.informatik.dws.winter.model.RecordGroup;
 import de.uni_mannheim.informatik.dws.winter.model.defaultmodel.Attribute;
 import de.uni_mannheim.informatik.dws.winter.processing.Processable;
-import identityresolution_models.Player;
-import identityresolution_models.Transfer;
-
+import models.Player;
+import models.Transfer;
+/**
+ * @author group3
+ * 
+ * Fusion of the transfers using intersection.
+ */
 public class TransfersFuserIntersection extends AttributeValueFuser<List<Transfer>, Player, Attribute> {
 
 	public TransfersFuserIntersection() {

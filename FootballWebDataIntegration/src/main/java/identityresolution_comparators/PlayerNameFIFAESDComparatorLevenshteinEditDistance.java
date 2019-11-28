@@ -8,8 +8,13 @@ import de.uni_mannheim.informatik.dws.winter.model.Correspondence;
 import de.uni_mannheim.informatik.dws.winter.model.Matchable;
 import de.uni_mannheim.informatik.dws.winter.model.defaultmodel.Attribute;
 import de.uni_mannheim.informatik.dws.winter.similarity.string.LevenshteinEditDistance;
-import identityresolution_models.Player;
-
+import models.Player;
+/**
+ * @author group3
+ * 
+ * Comparator for the name of the European Soccer Database and FIFA19 data sets 
+ * using the levenshtein edit distance.
+ */
 public class PlayerNameFIFAESDComparatorLevenshteinEditDistance implements Comparator<Player, Attribute>{
 
 	private static LevenshteinEditDistance sim = new LevenshteinEditDistance();

@@ -1,10 +1,15 @@
-package identityresolution_models;
+package models;
 
 import org.w3c.dom.Document;
 import org.w3c.dom.Element;
 
 import de.uni_mannheim.informatik.dws.winter.model.io.XMLFormatter;
-
+/**
+ * {@link XMLFormatter} for {@link Transfer}s.
+ * 
+ * @author Group3
+ * 
+ */
 public class TransferXMLFormatter extends XMLFormatter<Transfer> {
 
 	@Override

@@ -10,8 +10,13 @@ import de.uni_mannheim.informatik.dws.winter.model.defaultmodel.Attribute;
 import de.uni_mannheim.informatik.dws.winter.similarity.string.JaccardOnNGramsSimilarity;
 import de.uni_mannheim.informatik.dws.winter.similarity.string.MaximumOfTokenContainment;
 import de.uni_mannheim.informatik.dws.winter.similarity.string.TokenizingJaccardSimilarity;
-import identityresolution_models.Player;
-
+import models.Player;
+/**
+ * @author group3
+ * 
+ * Comparator for the name of the European Soccer Database and FIFA19 data sets using 
+ * maximum token containment.
+ */
 public class PlayerNameFIFAESDComparatorMaximumTokenContainment implements Comparator<Player, Attribute>{
 
 	private static MaximumOfTokenContainment sim = new MaximumOfTokenContainment();

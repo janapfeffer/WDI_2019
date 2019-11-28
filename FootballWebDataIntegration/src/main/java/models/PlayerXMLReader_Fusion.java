@@ -1,11 +1,6 @@
-package fusion_models;
+package models;
 
 import de.uni_mannheim.informatik.dws.winter.model.io.XMLMatchableReader;
-import identityresolution_models.Development;
-import identityresolution_models.DevelopmentXMLReader;
-import identityresolution_models.Player;
-import identityresolution_models.Transfer;
-import identityresolution_models.TransferXMLReader;
 
 import java.time.LocalDateTime;
 import java.time.format.DateTimeFormatter;
@@ -23,9 +18,12 @@ import de.uni_mannheim.informatik.dws.winter.model.DataSet;
 import de.uni_mannheim.informatik.dws.winter.model.FusibleFactory;
 import de.uni_mannheim.informatik.dws.winter.model.RecordGroup;
 import de.uni_mannheim.informatik.dws.winter.model.defaultmodel.Attribute;
-
-public class PlayerXMLReader_Fusion extends XMLMatchableReader<Player, Attribute> implements
-FusibleFactory<Player, Attribute>{
+/**
+ * @author group3
+ * 
+ * Player XML reader, reads the player files.
+ */
+public class PlayerXMLReader_Fusion extends XMLMatchableReader<Player, Attribute> implements FusibleFactory<Player, Attribute>{
 
 	@Override
 	protected void initialiseDataset(DataSet<Player, Attribute> dataset) {

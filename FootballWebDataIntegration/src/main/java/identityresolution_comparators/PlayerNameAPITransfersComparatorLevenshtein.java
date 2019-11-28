@@ -1,7 +1,11 @@
 package identityresolution_comparators;
 
 import java.text.Normalizer;
-
+/**
+ * @author group3
+ * 
+ * Comparator for the name of the iSports API and transfers data set using levenshtein similarity.
+ */
 import de.uni_mannheim.informatik.dws.winter.matching.rules.Comparator;
 import de.uni_mannheim.informatik.dws.winter.matching.rules.ComparatorLogger;
 import de.uni_mannheim.informatik.dws.winter.model.Correspondence;
@@ -10,7 +14,7 @@ import de.uni_mannheim.informatik.dws.winter.model.defaultmodel.Attribute;
 import de.uni_mannheim.informatik.dws.winter.similarity.string.LevenshteinSimilarity;
 import de.uni_mannheim.informatik.dws.winter.similarity.string.MaximumOfTokenContainment;
 import de.uni_mannheim.informatik.dws.winter.similarity.string.TokenizingJaccardSimilarity;
-import identityresolution_models.Player;
+import models.Player;
 
 public class PlayerNameAPITransfersComparatorLevenshtein implements Comparator<Player, Attribute>{
 
@@ -21,7 +25,6 @@ public class PlayerNameAPITransfersComparatorLevenshtein implements Comparator<P
 		String[] myList;
 		myList = Normalizer.normalize("nospace, pls", Normalizer.Form.NFD).
 				replaceAll("[^\\p{ASCII}]", "").replace("'", "").replace(".", "").toLowerCase().replaceAll("\\s+", " ").trim().split("\\s");
-		//myList[0] = myList[0].substring(0, 1);
 
 		MaximumOfTokenContainment sim = new MaximumOfTokenContainment();
 		LevenshteinSimilarity sim2 = new LevenshteinSimilarity();

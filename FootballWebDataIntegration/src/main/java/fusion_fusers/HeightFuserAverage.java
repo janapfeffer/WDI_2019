@@ -8,8 +8,12 @@ import de.uni_mannheim.informatik.dws.winter.model.Matchable;
 import de.uni_mannheim.informatik.dws.winter.model.RecordGroup;
 import de.uni_mannheim.informatik.dws.winter.model.defaultmodel.Attribute;
 import de.uni_mannheim.informatik.dws.winter.processing.Processable;
-import identityresolution_models.Player;
-
+import models.Player;
+/**
+ * @author group3
+ * 
+ * Fusion of the height using average.
+ */
 public class HeightFuserAverage extends AttributeValueFuser<Double, Player, Attribute>{
 
 	public HeightFuserAverage() {
