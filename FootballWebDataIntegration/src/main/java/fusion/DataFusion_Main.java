@@ -31,7 +31,6 @@ import fusion_evaluation.NationalityEvaluationRule;
 import fusion_evaluation.PhotoEvaluationRule;
 import fusion_evaluation.SpeedEvaluationRule;
 import fusion_evaluation.TransferEvaluationRule;
-import fusion_evaluation.TransfersEvaluationRule;
 import fusion_evaluation.WageEvaluationRule;
 import fusion_evaluation.WeightEvaluationRule;
 import fusion_fusers.CurrentClubFavourSourceFuser;
@@ -131,22 +130,17 @@ public class DataFusion_Main {
 		// add attribute fusers
 		// fuse date of birth, we prefer data sources that contain the accurate date of birth (API and ESD)
 		strategy.addAttributeFuser(Player.DATEOFBIRTH, new DateOfBirthFuserFavourSource(), new DateOfBirthEvaluationRule());
-		//strategy.addAttributeFuser(Player.DATEOFBIRTH, new DateOfBirthVotingFuser(), new DateOfBirthEvaluationRule());
-		// fuse namd
+		// fuse name
 		strategy.addAttributeFuser(Player.NAME, new NameFavourSourceFuser(), new NameEvaluationRule());
 		//strategy.addAttributeFuser(Player.NAME, new NameLongestString(), new NameEvaluationRule());
 		// fuse photos, we prefer the API photos because they have a higher resolution
 		strategy.addAttributeFuser(Player.PHOTO, new PhotoFuserFavourSource(), new PhotoEvaluationRule());
 		// fuse nationality, it is only contained in FIFA19
-		//strategy.addAttributeFuser(Player.NATIONALITY, new NationalityFavourSource(), new NationalityEvaluationRule());
 		strategy.addAttributeFuser(Player.NATIONALITY, new NationalityLongestString(), new NationalityEvaluationRule());
 		// only FIFAS contains the current club & wages
-		// doesn't matter which fuser we use, same result
-		//strategy.addAttributeFuser(Player.CURRENTCLUB, new CurrentClubFavourSourceFuser(), new CurrentClubEvaluationRule());
 		strategy.addAttributeFuser(Player.CURRENTCLUB, new CurrentClubMostRecentFuser(), new CurrentClubEvaluationRule());
 		strategy.addAttributeFuser(Player.WAGE, new WageInEuroFavourSourceFuser(), new WageEvaluationRule());
-		// for weight we prefer the most recent values
-		//strategy.addAttributeFuser(Player.WEIGHT, new WeightFuserMostRecent(), new WeightEvaluationRule());
+		// for weight we prefer the median values
 		strategy.addAttributeFuser(Player.WEIGHT, new WeightMedianFuser(), new WeightEvaluationRule());
 		//fuse transfers which are only in API and transfers
 		strategy.addAttributeFuser(Player.TRANSFERS, new TransfersFuserUnion(), new TransferEvaluationRule());
@@ -154,10 +148,7 @@ public class DataFusion_Main {
 		strategy.addAttributeFuser(Player.FOOT, new FootFuserMostRecent(), new FootEvaluationRule());
 		//fuse current number (in FIFA19 and API)
 		strategy.addAttributeFuser(Player.CURRENTNUMBER, new CurrentNumberMostRecentFuser(), new CurrentNumberEvaluationRule());
-		//favour source with the same priorities as current club
-		//strategy.addAttributeFuser(Player.CURRENTNUMBER, new CurrentNumberFavourSource(), new CurrentNumberEvaluationRule());
 		//fuse height (in ESD, FIFA and API)
-		//strategy.addAttributeFuser(Player.HEIGHT, new HeightFuserAverage(), new HeightEvaluationRule());
 		strategy.addAttributeFuser(Player.HEIGHT, new HeightMedianFuser(), new HeightEvaluationRule());
 		//fuse developments
 		strategy.addAttributeFuser(Player.DEVELOPMENTS, new DevelopmentsFuserUnion(), new DevelopmentsEvaluationRule());
